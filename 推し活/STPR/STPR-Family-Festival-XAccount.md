@@ -1,14 +1,15 @@
 ---
 title: 怪しいXアカウントの調査結果
-description: 
-lead: 
+description: イベントを悪用したアカウントを調査しました。
+lead: 調査結果 - 危険！！
 tags:
   - 調査
   - 危険
+  - 自己啓発
 aliases: 
 date: 2025-04-03 20:44:39
 lastmod: 2025-04-03 20:44:39
-draft: true
+draft: false
 ---
 ## 結論：調査結果
 
