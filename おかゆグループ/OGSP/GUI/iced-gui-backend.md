@@ -3,7 +3,7 @@ title: icedのバックエンドの特性
 description: icedの描画ライブラリの使い方にクセがある
 lead: 
 tags:
-  - graphics
+  - グラフィック
 aliases: 
 lastmod: 2025-04-01 21:20:37
 date: 2025-04-01 21:20:37
