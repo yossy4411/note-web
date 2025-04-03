@@ -1,0 +1,229 @@
+{
+  "main": {
+    "id": "59e84148241f05bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "cb87f28128d468f8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68a977f3992a34b3",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "グラフビュー"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a904ce63756bd93d",
+    "type": "split",
+    "children": [
+      {
+        "id": "7f69069f6acae2fc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4da48631f3511faa",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "ファイルエクスプローラ"
+            }
+          },
+          {
+            "id": "3bec53fca2ba1258",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "検索"
+            }
+          },
+          {
+            "id": "294681a6baaa8a02",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "ブックマーク"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b1ed9083b77f9995",
+    "type": "split",
+    "children": [
+      {
+        "id": "970ba0827fe8bd4b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "df83a5a3fe35458d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "おかゆグループ/OGSP/GUI/iced-gui-backend.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "iced-gui-backendへのバックリンク"
+            }
+          },
+          {
+            "id": "b3645b48179e21bf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "タグ"
+            }
+          },
+          {
+            "id": "0a222f3f4b69a68e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "おかゆグループ/OGSP/GUI/WebGPUの利活用について.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "WebGPUの利活用についてのアウトライン"
+            }
+          },
+          {
+            "id": "c8726db356facea2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "アウトゴーイングリンク"
+            }
+          },
+          {
+            "id": "647123cb1a158177",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "2eb62e1df3ed96ce",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a14d98652aab1c0d",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 494.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "canvas:新規キャンバスを作成": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false,
+      "obsidian-kanban:カンバンボードを新規作成": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "68a977f3992a34b3",
+  "lastOpenFiles": [
+    "TODO/index.md",
+    "開発/JourneyStreetMap/index.md",
+    "開発/JourneyStreetMap",
+    "開発",
+    "日記/2025-04-03.md",
+    "日記",
+    "推し活/おかゆの切り抜き.md",
+    "推し活",
+    "その他/政治関係/index.md",
+    "その他/政治関係/無題のファイル.md",
+    "その他/政治関係",
+    "その他",
+    "おかゆグループ/OGSP/GUI/using-webgpu.md",
+    "おかゆグループ/OGSP/GUI/iced-gui-backend.md",
+    "おかゆグループ/OGSP/index.md",
+    "おかゆグループ/OGSP/GUI",
+    "おかゆグループ/OGSP",
+    "おかゆグループ",
+    "templates/post.md",
+    "templates/index.md",
+    "templates/diary.md",
+    "templates",
+    "Excalidraw/Drawing 2025-04-01 18.43.19.excalidraw.md",
+    "README.md",
+    "TODO/無題のファイル.md",
+    "TODO/やることリスト.md",
+    "推し活/無題のファイル.md",
+    "推し活/Untitled無題のファイル.md",
+    "2025-04-03.md",
+    "2025-04-01.md"
+  ]
+}
