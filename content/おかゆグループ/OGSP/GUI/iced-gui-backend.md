@@ -10,7 +10,7 @@ date: 2025-04-01 21:20:37
 draft: true
 ---
 ## `tiny-skia`を使うとどうなるか
-tiny-skiaはSkiaの[[開発/Knowledge/lang/Rust/index|Rust]]バインドです。
+tiny-skiaはSkiaの[[開発/Knowledge/lang/Rust/_index|Rust]]バインドです。
 
 まずこいつ、遅いです。
 

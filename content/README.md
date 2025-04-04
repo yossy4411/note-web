@@ -22,6 +22,7 @@ aliases: エイリアス（リダイレクション）
 date: YYYY-MM-DD HH:mm:ss 作成日時
 lastmod: YYYY-MM-DD HH:mm:ss 更新日時
 draft: true/false ドラフトかどうか
+showContent: true/false _index.mdで内容まで表示するか
 ---
 
 ## 内容
