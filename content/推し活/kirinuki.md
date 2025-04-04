@@ -7,8 +7,8 @@ tags:
   - STPR
 aliases:
   - youtube-channel
-date: 2025-04-03 11:35:41
-lastmod: 2025-04-03 11:35:41
+date: 2025-04-03T11:35:41+09:00
+lastmod: 2025-04-03T11:35:41+09:00
 draft: true
 ---
 ## このチャンネルの目的
