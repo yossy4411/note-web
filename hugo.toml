@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://yossy4411.okayugroup.net/'
+languageCode = 'ja-JP'
+title = 'yossy4411のノート'
 theme = 'stack'
