@@ -1,5 +1,7 @@
 baseURL = 'https://yossy4411.okayugroup.net/'
-languageCode = 'ja-JP'
+languageCode = 'ja'
 title = 'yossy4411のノート'
 theme = 'stack'
 ignoreFiles = ['README.md', 'LICENSE.md', 'content/templates/.*']
+
+defaultContentLanguage = 'ja'
