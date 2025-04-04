@@ -78,20 +78,22 @@
 
 
 
-    
+
     {{/* List only pages that are not a subsection */}}
     {{ $paginator := .Paginate $pages }}
+
+    {{ $filteredPages := where $paginator.Pages "Params.showContent" true }}
+    <section class="article-page">
+        {{ range $filteredPages }}
+            {{ partial "article-list/expanded" . }}
+        {{ end }}
+    </section>
+
+
+    {{ $unfilteredPages := where $paginator.Pages "Params.showContent" false }}
     <section class="article-list--compact">
-        {{ range $paginator.Pages }}
-            {{ if .Params.showContent }}
-            <div class="article-page">
-                <div class="main-article">
-                    {{ partial "article/components/content" . }}
-                </div>
-            </div>
-            {{ else }}
-                {{ partial "article-list/compact" . }}
-            {{ end }}
+        {{ range $unfilteredPages }}
+            {{ partial "article-list/compact" . }}
         {{ end }}
     </section>
 
