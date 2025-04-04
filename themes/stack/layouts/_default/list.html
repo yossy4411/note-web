@@ -83,7 +83,15 @@
     {{ $paginator := .Paginate $pages }}
     <section class="article-list--compact">
         {{ range $paginator.Pages }}
-            {{ partial "article-list/compact" . }}
+            {{ if .Params.showContent }}
+            <div class="article-page">
+                <div class="main-article">
+                    {{ partial "article/components/content" . }}
+                </div>
+            </div>
+            {{ else }}
+                {{ partial "article-list/compact" . }}
+            {{ end }}
         {{ end }}
     </section>
 
