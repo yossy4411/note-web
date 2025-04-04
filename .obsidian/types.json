@@ -45,6 +45,7 @@
     "excalidraw-embeddable-theme": "text",
     "excalidraw-open-md": "checkbox",
     "lastmod": "date",
-    "date": "date"
+    "date": "date",
+    "showContent": "checkbox"
   }
 }
