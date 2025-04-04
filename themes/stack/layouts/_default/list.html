@@ -66,6 +66,18 @@
             </div>
         </aside>
     {{- end -}}
+
+    <!-- Article -->
+    {{- if .Content -}}
+    <div class="article-page">
+        <div class="main-article">
+            {{ partial "article/components/content" . }}
+        </div>
+    </div>
+    {{- end -}}
+
+
+
     
     {{/* List only pages that are not a subsection */}}
     {{ $paginator := .Paginate $pages }}
