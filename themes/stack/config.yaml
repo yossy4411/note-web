@@ -5,14 +5,14 @@ module:
 
 params:
     mainSections:
-        - post
+        - 日記
     featuredImageField: image
     rssFullContent: true
     favicon:
 
     footer:
-        since:
-        customText:
+        since: 2024
+        customText: おかゆグループ提供
 
     dateFormat:
         published: Jan 02, 2006
@@ -25,7 +25,7 @@ params:
         avatar:
             enabled: true
             local: true
-            src: img/avatar.png
+            src: img/avatar.webp
 
     article:
         headingAnchor: false
@@ -37,8 +37,8 @@ params:
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
-        enabled: false
-        provider: disqus
+        enabled: true
+        provider: utterances
 
         disqusjs:
             shortname:
@@ -48,9 +48,9 @@ params:
             adminLabel:
 
         utterances:
-            repo:
-            issueTerm: pathname
-            label:
+            repo: yossy4411/note-web
+            issueTerm: title
+            label: Comment
 
         beaudar:
             repo:
