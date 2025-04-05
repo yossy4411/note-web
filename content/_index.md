@@ -21,10 +21,10 @@ title = ''
 - [その他](その他) - その他のこと
 
 ## GitHub Repo
-このノートはGitHubとObsidianによって、[こちら](https://github.com/yossy4411/note)にて公開されています。
+このノートはGitHubとObsidianによって、[こちら](https://github.com/yossy4411/note)にて公開されています。  
 ノートの内容はCC0ライセンスで公開されており、自由に利用できます。ただし、画像や商標権はその著作者に帰属しますので、注意してください。
 
-また、このウェブサイト自体はHugoによって静的に管理されており、ソースコードは[GitHub](https://github.com/yossy4411/note-web)に公開されています。
+また、このウェブサイト自体はHugoによって静的に管理されており、ソースコードは[GitHub](https://github.com/yossy4411/note-web)に公開されています。  
 毎日朝6時と夜18時に自動でビルドされており、最新の情報が反映されています。
 
 ## お問い合わせ
