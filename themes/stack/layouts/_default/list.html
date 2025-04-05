@@ -90,7 +90,7 @@
     </section>
 
 
-    {{ $unfilteredPages := where $paginator.Pages "Params.showContent" false }}
+    {{ $unfilteredPages := where $paginator.Pages "Params.showContent" "ne" true }}
     <section class="article-list--compact">
         {{ range $unfilteredPages }}
             {{ partial "article-list/compact" . }}
