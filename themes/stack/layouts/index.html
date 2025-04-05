@@ -1,7 +1,9 @@
 {{ define "main" }}
     <section class="article-page">
-        <div class="main-article article-content home">
-            {{ .Content }}
+        <div class="main-article home">
+            <article class="article-content">
+                {{ .Content }}
+            </article>
         </div>
     </section>
     {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
