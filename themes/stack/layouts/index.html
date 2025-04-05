@@ -1,4 +1,9 @@
 {{ define "main" }}
+    <section class="article-page">
+        <div class="main-article article-content home">
+            {{ .Content }}
+        </div>
+    </section>
     {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
     {{ $notHidden := where .Site.RegularPages "Params.hidden" "!=" true }}
     {{ $filtered := ($pages | intersect $notHidden) }}
