@@ -157,7 +157,7 @@ menus:
               icon: github
         - name: Twitter
           weight: 2
-          url: https://twitter.com/yossy4411_code
+          url: https://twitter.com/yossy4411_dev
           params:
               icon: twitter
         - name: YouTube
