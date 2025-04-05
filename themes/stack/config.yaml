@@ -165,3 +165,36 @@ menus:
           url: https://www.youtube.com/@yossy4411
           params:
               icon: youtube
+
+    main:
+        - name: ホーム
+          weight: 1
+          url: /
+          params:
+              icon: home
+        - name: 開発
+          weight: 2
+          url: /開発/
+          params:
+              icon: code
+        - name: 日記
+          weight: 3
+          url: /日記/
+          params:
+              icon: pencil
+        - name: 推し活
+          weight: 4
+          url: /推し活/
+          params:
+              icon: star
+        - name: おかゆグループ
+          weight: 5
+          url: /おかゆグループ/
+          params:
+              icon: building
+        - name: Buy Me a Coffee
+          weight: 6
+          url: https://www.buymeacoffee.com/yossy4411
+          params:
+              icon: mug-hot
+              newTab: true
