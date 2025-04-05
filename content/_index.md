@@ -28,4 +28,4 @@ title = ''
 毎日朝6時と夜18時に自動でビルドされており、最新の情報が反映されています。
 
 ## お問い合わせ
-何か質問や要望があれば、[Twitter](https://twitter.com/yossy4411_dev)までDMしてください。
+何か質問や要望があれば、[Twitter](https://twitter.com/yossy4411_dev)までDM、もしくは記事のコメントをご利用ください。
