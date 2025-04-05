@@ -1,0 +1,26 @@
+name: Update Subtree
+
+on:
+  schedule:
+    # 毎日6時に実行
+    - cron: '0 6 * * *'
+
+jobs:
+  update-subtree:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update Subtree
+        run: |
+          git subtree pull --prefix=content git@github.com:yossy4411/note.git main --squash
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .
+          git commit -m "Daily update of subtree"
+          git push origin main
