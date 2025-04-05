@@ -147,3 +147,21 @@ params:
             enabled: true
         content:
             enabled: true
+
+menus:
+    social:
+        - name: GitHub
+          weight: 1
+          url: https://github.com/yossy4411
+          params:
+              icon: github
+        - name: Twitter
+          weight: 2
+          url: https://twitter.com/yossy4411_code
+          params:
+              icon: twitter
+        - name: YouTube
+          weight: 3
+          url: https://www.youtube.com/@yossy4411
+          params:
+              icon: youtube
