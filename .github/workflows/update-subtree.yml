@@ -35,14 +35,9 @@ jobs:
           git branch -a
           git log --oneline -n 5
 
-      - uses: bisontransport/git-subtree-action@v1
-        with:
-          pat: ${{ secrets.GH_TOKEN }}
-          repo: https://github.com/yossy4411/note.git
-
-          action: pull
-          prefix: content
-          message: "Update note subtree"
+      - name: Update subtree
+        run: |
+          git subtree pull --prefix content https://github.com/yossy4411/note.git main --squash
       - name: Commit changes
         run: |
           git add content
