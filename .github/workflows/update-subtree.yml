@@ -37,7 +37,7 @@ jobs:
 
       - name: Update subtree
         run: |
-          git subtree pull --prefix content git@github.com:yossy4411/note.git main
+          git subtree pull --prefix content https://github.com/yossy4411/note.git main
       - name: Commit changes
         run: |
           git add content
