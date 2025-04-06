@@ -43,6 +43,13 @@ jobs:
           action: pull
           prefix: content
           message: "Update note subtree"
+      - name: Commit changes
+        run: |
+          git add content
+          git commit -m "Update note subtree" || echo "No changes to commit"
+      - name: Push changes
+        run: |
+          git push origin main || echo "No changes to push"
 
   publish:
     runs-on: ubuntu-latest
