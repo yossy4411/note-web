@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rust on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/%E9%96%8B%E7%99%BA/knowledge/lang/rust/</link><description>Recent content in Rust on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Fri, 04 Apr 2025 16:04:15 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/%E9%96%8B%E7%99%BA/knowledge/lang/rust/index.xml" rel="self" type="application/rss+xml"/><item><title>Rustのコンパイラについて</title><link>https://yossy4411.okayugroup.net/%E9%96%8B%E7%99%BA/knowledge/lang/rust/%E3%82%B3%E3%83%B3%E3%83%91%E3%82%A4%E3%83%A9/</link><pubDate>Fri, 04 Apr 2025 16:04:15 +0000</pubDate><guid>https://yossy4411.okayugroup.net/%E9%96%8B%E7%99%BA/knowledge/lang/rust/%E3%82%B3%E3%83%B3%E3%83%91%E3%82%A4%E3%83%A9/</guid><description>&lt;h3 id="コンパイラ">コンパイラ
+&lt;/h3>&lt;p>&lt;code>rustc&lt;/code>, &lt;code>cargo&lt;/code>&lt;/p>
+&lt;ul>
+&lt;li>AOTコンパイル&lt;/li>
+&lt;li>クロスコンパイルが可能 (Windows, Mac, Linux, iOS, Android, WASM)&lt;/li>
+&lt;li>実行時に発生する可能性のあるエラーをチェックしてくれます&lt;/li>
+&lt;/ul>
+&lt;p>実行時のエラーを最大限まで減らすため、コンパイルには比較的時間がかかります。&lt;/p>
+&lt;blockquote>
+&lt;p>[!Important]
+Rustのコンパイラ、疲労困憊ラ&lt;/p>&lt;/blockquote></description></item><item><title>Rustの概要</title><link>https://yossy4411.okayugroup.net/%E9%96%8B%E7%99%BA/knowledge/lang/rust/%E6%A6%82%E8%A6%81/</link><pubDate>Fri, 04 Apr 2025 16:46:51 +0900</pubDate><guid>https://yossy4411.okayugroup.net/%E9%96%8B%E7%99%BA/knowledge/lang/rust/%E6%A6%82%E8%A6%81/</guid><description>&lt;h2 id="rustの開発状況について">Rustの開発状況について
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/rust-lang/rust" target="_blank" rel="noopener"
+>ソースコード (GitHub)&lt;/a>
+Rustはあの&amp;quot;Firefox&amp;quot;を手掛けるMozilla社が開発したプログラミング言語で、高速でメモリの安全性が特徴です。
+これには独自の&lt;a class="link" href="./%e6%89%80%e6%9c%89%e6%a8%a9.md" >所有権&lt;/a>というシステムが大きく関わっており、これによってGCなしでメモリの安全性を手に入れています。&lt;/li>
+&lt;/ul>
+&lt;p>所有権を正しく判別し、コンパイル時にエラーを出すために強力な&lt;a class="link" href="./%e3%82%b3%e3%83%b3%e3%83%91%e3%82%a4%e3%83%a9.md" >コンパイラ&lt;/a> (rustc)が作られています。&lt;/p></description></item><item><title>所有権システム</title><link>https://yossy4411.okayugroup.net/%E9%96%8B%E7%99%BA/knowledge/lang/rust/%E6%89%80%E6%9C%89%E6%A8%A9/</link><pubDate>Fri, 04 Apr 2025 16:25:59 +0900</pubDate><guid>https://yossy4411.okayugroup.net/%E9%96%8B%E7%99%BA/knowledge/lang/rust/%E6%89%80%E6%9C%89%E6%A8%A9/</guid><description>&lt;h3 id="所有権">所有権
+&lt;/h3>&lt;p>Rustには&amp;quot;所有権システム&amp;quot;というのがあります。
+これには、ゼロコストのメモリ管理ができるという利点があります。&lt;/p>
+&lt;p>これによりGCが不必要となり、速度が圧倒的に上がります。&lt;/p>
+&lt;p>関数やマクロなどで値を使用したとき、その値の所有権は関数へ移動します。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rust" data-lang="rust">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">fn&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">let&lt;/span> a: String &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#34;text&amp;#34;&lt;/span>.to_string();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> custom_function(a); &lt;span style="color:#75715e">// aの所有権はcustom_functionに渡る
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">// ここより下ではもうaは使用できない
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> println!(&lt;span style="color:#e6db74">&amp;#34;移動後の値の使用: &lt;/span>&lt;span style="color:#e6db74">{}&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>, a); &lt;span style="color:#75715e">// コンパイルエラー
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">//
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">fn&lt;/span> &lt;span style="color:#a6e22e">custom_function&lt;/span>(text: String) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> println!(&lt;span style="color:#e6db74">&amp;#34;関数内での値: &lt;/span>&lt;span style="color:#e6db74">{}&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>, text);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// ここより下ではもうtextは使用できない
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>また、main関数内の変数&lt;code>a&lt;/code>は&lt;code>fn main&lt;/code>→&lt;code>custom_function&lt;/code>→&lt;code>println!&lt;/code>のように移動しています。
+println!関数に渡ったあと、その関数内でスコープを抜けるときに変数はメモリ上から破棄されます。&lt;/p>
+&lt;blockquote>
+&lt;p>つまり、custom_function関数でaを使ったあとにはもう値は存在しないこととなります。&lt;/p>&lt;/blockquote>&lt;/blockquote></description></item></channel></rss>

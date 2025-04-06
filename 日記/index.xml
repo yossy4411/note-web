@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>日記 on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/%E6%97%A5%E8%A8%98/</link><description>Recent content in 日記 on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><atom:link href="https://yossy4411.okayugroup.net/%E6%97%A5%E8%A8%98/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年04月03日(木)</title><link>https://yossy4411.okayugroup.net/%E6%97%A5%E8%A8%98/2025-04-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/%E6%97%A5%E8%A8%98/2025-04-03/</guid><description>&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="#JourneyStreetMap%e3%81%ae%e9%96%8b%e7%99%ba" >JourneyStreetMapの開発&lt;/a>&lt;/li>
+&lt;li>YouTube 動画投稿 @&lt;a class="link" href="../%e6%8e%a8%e3%81%97%e6%b4%bb/%e3%81%8a%e3%81%8b%e3%82%86%e3%81%ae%e3%82%b5%e3%83%96.md" >おかゆのサブ&lt;/a>「STAR to STPRのボーカルを際立たせてみた」 shorts及び長尺&lt;/li>
+&lt;li>&lt;a class="link" href="../%e6%8e%a8%e3%81%97%e6%b4%bb/STPR-Family-Festival-XAccount.md" >Xの怪しいアカウントのURLの調査&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="#X%e3%81%ae%e3%82%b9%e3%82%af%e3%82%b7%e3%83%a7%e3%82%92%e8%87%aa%e5%8b%95%e5%8c%96%e3%81%97%e3%82%88%e3%81%86%e3%81%a8%e6%80%9d%e3%81%a3%e3%81%9f" >Xのスクショの自動化&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="journeystreetmapの開発">JourneyStreetMapの開発
+&lt;/h2>&lt;p>主な変更&lt;/p>
+&lt;ul>
+&lt;li>[[differ-iced-canvas-widget|JourneyMapViewerをCanvasからWidgetに変更]]&lt;/li>
+&lt;li>マウスハンドラの追加&lt;/li>
+&lt;/ul>
+&lt;h2 id="xのスクショを自動化しようと思った">Xのスクショを自動化しようと思った
+&lt;/h2>&lt;p>いわゆるスクレイピングってやつです。
+Pythonでやるのも難しそうだし、そもそも需要がなさそうだったのでやめました。
+&lt;strong>手動でスクショ撮ってたほうが良い&lt;/strong>です。絶対に。&lt;/p></description></item><item><title>2025年04月04日(金)</title><link>https://yossy4411.okayugroup.net/%E6%97%A5%E8%A8%98/2025-04-04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/%E6%97%A5%E8%A8%98/2025-04-04/</guid><description>&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;ul>
+&lt;li>ノート整理&lt;/li>
+&lt;li>Web版のノートを作る&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>82 Contributions!?&lt;/strong>
+![[Pasted image 20250405154547.png]]&lt;/p></description></item><item><title>2025年04月05日(土)</title><link>https://yossy4411.okayugroup.net/%E6%97%A5%E8%A8%98/2025-04-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/%E6%97%A5%E8%A8%98/2025-04-05/</guid><description>&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="#Web%e7%89%88%e3%83%8e%e3%83%bc%e3%83%88%e3%81%ae%e6%a9%9f%e8%83%bd%e6%80%a7%e5%90%91%e4%b8%8a" >Web版ノートの機能性向上&lt;/a>&lt;/li>
+&lt;li>[Buy Me a Coffeeの登録](#Buy Me a Coffeeの登録)&lt;/li>
+&lt;/ul>
+&lt;h2 id="web版ノートの機能性向上">Web版ノートの機能性向上
+&lt;/h2>&lt;p>これには以下のものを含みます。&lt;/p>
+&lt;ul>
+&lt;li>トップページの追加&lt;/li>
+&lt;li>左サイドのメニューの追加&lt;/li>
+&lt;li>ソーシャルアイコンの追加
+![[Pasted image 20250405155132.png]]&lt;/li>
+&lt;/ul>
+&lt;h2 id="buy-me-a-coffeeの登録">Buy Me a Coffeeの登録
+&lt;/h2>&lt;p>まず銀行口座が要るらしい。
+親に頼もうホトトギス&lt;/p></description></item></channel></rss>
