@@ -2,7 +2,7 @@
 &lt;/h2>&lt;ul>
 &lt;li>&lt;a class="link" href="#JourneyStreetMap%e3%81%ae%e9%96%8b%e7%99%ba" >JourneyStreetMapの開発&lt;/a>&lt;/li>
 &lt;li>YouTube 動画投稿 @&lt;a class="link" href="../%e6%8e%a8%e3%81%97%e6%b4%bb/%e3%81%8a%e3%81%8b%e3%82%86%e3%81%ae%e3%82%b5%e3%83%96.md" >おかゆのサブ&lt;/a>「STAR to STPRのボーカルを際立たせてみた」 shorts及び長尺&lt;/li>
-&lt;li>&lt;a class="link" href="../%e6%8e%a8%e3%81%97%e6%b4%bb/STPR-Family-Festival-XAccount.md" >Xの怪しいアカウントのURLの調査&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="../%e6%8e%a8%e3%81%97%e6%b4%bb/STPR/STPR-Family-Festival-XAccount.md" >Xの怪しいアカウントのURLの調査&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="#X%e3%81%ae%e3%82%b9%e3%82%af%e3%82%b7%e3%83%a7%e3%82%92%e8%87%aa%e5%8b%95%e5%8c%96%e3%81%97%e3%82%88%e3%81%86%e3%81%a8%e6%80%9d%e3%81%a3%e3%81%9f" >Xのスクショの自動化&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="journeystreetmapの開発">JourneyStreetMapの開発
@@ -20,19 +20,50 @@ Pythonでやるのも難しそうだし、そもそも需要がなさそうだ�
 &lt;li>Web版のノートを作る&lt;/li>
 &lt;/ul>
 &lt;p>&lt;strong>82 Contributions!?&lt;/strong>
-![[Pasted image 20250405154547.png]]&lt;/p></description></item><item><title>2025年04月05日(土)</title><link>https://yossy4411.okayugroup.net/%E6%97%A5%E8%A8%98/2025-04-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/%E6%97%A5%E8%A8%98/2025-04-05/</guid><description>&lt;h2 id="今日の作業">今日の作業
-&lt;/h2>&lt;ul>
-&lt;li>&lt;a class="link" href="#Web%e7%89%88%e3%83%8e%e3%83%bc%e3%83%88%e3%81%ae%e6%a9%9f%e8%83%bd%e6%80%a7%e5%90%91%e4%b8%8a" >Web版ノートの機能性向上&lt;/a>&lt;/li>
-&lt;li>[Buy Me a Coffeeの登録](#Buy Me a Coffeeの登録)&lt;/li>
-&lt;/ul>
-&lt;h2 id="web版ノートの機能性向上">Web版ノートの機能性向上
-&lt;/h2>&lt;p>これには以下のものを含みます。&lt;/p>
+&lt;img src="https://yossy4411.okayugroup.net/assets/Pasted%20image%2020250405154547.png"
+loading="lazy"
+alt="82 contributionsって書いてる画像"
+>&lt;/p></description></item><item><title>2025年04月05日(土)</title><link>https://yossy4411.okayugroup.net/%E6%97%A5%E8%A8%98/2025-04-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/%E6%97%A5%E8%A8%98/2025-04-05/</guid><description>&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;h3 id="web版ノートの機能性向上">Web版ノートの機能性向上
+&lt;/h3>&lt;p>これには以下のものを含みます。&lt;/p>
 &lt;ul>
 &lt;li>トップページの追加&lt;/li>
 &lt;li>左サイドのメニューの追加&lt;/li>
 &lt;li>ソーシャルアイコンの追加
-![[Pasted image 20250405155132.png]]&lt;/li>
+&lt;img src="https://yossy4411.okayugroup.net/assets/Pasted%20image%2020250405155132.png"
+loading="lazy"
+>&lt;/li>
 &lt;/ul>
-&lt;h2 id="buy-me-a-coffeeの登録">Buy Me a Coffeeの登録
-&lt;/h2>&lt;p>まず銀行口座が要るらしい。
-親に頼もうホトトギス&lt;/p></description></item></channel></rss>
+&lt;h3 id="buy-me-a-coffeeの登録">Buy Me a Coffeeの登録
+&lt;/h3>&lt;p>まず銀行口座が要るらしい。
+親に頼もうトホホギス&lt;/p></description></item><item><title>2025年04月06日(日)</title><link>https://yossy4411.okayugroup.net/%E6%97%A5%E8%A8%98/2025-04-06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/%E6%97%A5%E8%A8%98/2025-04-06/</guid><description>&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;h3 id="web版ノートのデプロイ">Web版ノートのデプロイ
+&lt;/h3>&lt;p>GitHub Actionsで自動でビルドとデプロイを行えるようにした。&lt;br>
+自動化むずかった。&lt;/p>
+&lt;h4 id="詰まったポイント1">詰まったポイント1
+&lt;/h4>&lt;p>subtree pullで色々あった&lt;/p>
+&lt;p>&lt;code>$ git subtree --prefix=content https://github.com/yossy4411/note.git&lt;/code>&lt;br>
+これで解決すると思いきや、分岐の原点が違うよって言われるので
+&lt;code>git@github.com:yossy4411/note.git&lt;/code>にすると今度&lt;code>permission denied (publickey)&lt;/code>って言われるのでもう嫌になりました。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>- &lt;span style="color:#f92672">uses&lt;/span>: &lt;span style="color:#ae81ff">bisontransport/git-subtree-action@v1 &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">with&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">pat&lt;/span>: &lt;span style="color:#ae81ff">${{ secrets.GH_TOKEN }} &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">repo&lt;/span>: &lt;span style="color:#ae81ff">https://github.com/yossy4411/note.git &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">action&lt;/span>: &lt;span style="color:#ae81ff">pull &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">prefix&lt;/span>: &lt;span style="color:#ae81ff">content &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">message&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;Update note subtree&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>こうすれば&lt;del>エラーが無視されるし&lt;/del>記述が簡単になって楽&lt;br>
+&lt;strong>※エラーの根本的な解消にはなってない&lt;/strong>&lt;/p>&lt;/blockquote>
+&lt;h4 id="詰まったポイント2">詰まったポイント2
+&lt;/h4>&lt;pre tabindex="0">&lt;code>```yaml
+- name: Deploy
+uses: peaceiris/actions-gh-pages@v3
+if: github.ref == &amp;#39;refs/heads/main&amp;#39;
+with:
+github_token: ${{ secrets.GITHUB_TOKEN }}
+publish_dir: ./public
+publish_branch: gh-pages
+&lt;/code>&lt;/pre>&lt;blockquote>
+&lt;p>実は リポジトリ設定＞ActionsからBotに&lt;code>Read/Write&lt;/code>の権限を持たせないといけなかったりする&lt;/p>&lt;/blockquote></description></item></channel></rss>
