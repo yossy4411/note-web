@@ -8,6 +8,7 @@ aliases:
 lastmod: 2025-04-01 21:20:37
 date: 2025-04-01 21:20:37
 draft: true
+slug: iced-backend
 ---
 ## `tiny-skia`を使うとどうなるか
 `tiny-skia`はSkiaを基にした軽量な[[開発/Knowledge/lang/Rust/_index|Rust]]のライブラリです。
