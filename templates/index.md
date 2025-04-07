@@ -3,4 +3,4 @@ title:
 description: 
 draft: false
 ---
-<% tp.file.rename('_index.md') %>
+<% tp.file.rename('_index') %>
