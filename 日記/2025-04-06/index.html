@@ -9,7 +9,7 @@
 <span>Buy Me a Coffee</span></a></li><li class=menu-bottom-section><ol class=menu><li id=dark-mode-toggle><svg class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="8" cy="12" r="2"/><rect x="2" y="6" width="20" height="12" rx="6"/></svg>
 <svg class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="16" cy="12" r="2"/><rect x="2" y="6" width="20" height="12" rx="6"/></svg>
 <span>ダークモード</span></li></ol></li></ol></aside><main class="main full-width"><article class=main-article><header class=article-header><div class=article-details><div class=article-title-wrapper><h2 class=article-title><a href=/%E6%97%A5%E8%A8%98/2025-04-06/>2025年04月06日(日)</a></h2><h3 class=article-subtitle>2025年4月6日の日記</h3></div><footer class=article-time><div><svg class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
-<time class=article-time--reading>読了時間: 1分</time></div></footer></div></header><section class=article-content><h2 id=今日の作業>今日の作業</h2><h3 id=web版ノートのデプロイ>Web版ノートのデプロイ</h3><p>GitHub Actionsで自動でビルドとデプロイを行えるようにした。<br>自動化むずかった。</p><h4 id=詰まったポイント1>詰まったポイント1</h4><p>subtree pullで色々あった</p><p><code>$ git subtree --prefix=content https://github.com/yossy4411/note.git</code><br>これで解決すると思いきや、分岐の原点が違うよって言われるので
+<time class=article-time--reading>読了時間: 1分</time></div></footer></div></header><section class=article-content><h2 id=今日の作業>今日の作業</h2><h3 id=web版ノートのデプロイ>Web版ノートのデプロイ</h3><p>GitHub Actionsで自動でビルドとデプロイを行えるようにした。<br>自動化むずかった。</p><h4 id=詰まったポイント1>詰まったポイント1</h4><p>subtree pullで色々あった</p><p><code>$ git subtree pull --prefix=content https://github.com/yossy4411/note.git</code><br>これで解決すると思いきや、分岐の原点が違うよって言われるので
 <code>git@github.com:yossy4411/note.git</code>にすると今度<code>permission denied (publickey)</code>って言われるのでもう嫌になりました。</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span>- <span style=color:#f92672>uses</span>: <span style=color:#ae81ff>bisontransport/git-subtree-action@v1  </span>
 </span></span><span style=display:flex><span>  <span style=color:#f92672>with</span>:  
 </span></span><span style=display:flex><span>    <span style=color:#f92672>pat</span>: <span style=color:#ae81ff>${{ secrets.GH_TOKEN }}  </span>
@@ -18,7 +18,12 @@
 </span></span><span style=display:flex><span>    <span style=color:#f92672>action</span>: <span style=color:#ae81ff>pull  </span>
 </span></span><span style=display:flex><span>    <span style=color:#f92672>prefix</span>: <span style=color:#ae81ff>content  </span>
 </span></span><span style=display:flex><span>    <span style=color:#f92672>message</span>: <span style=color:#e6db74>&#34;Update note subtree&#34;</span>
-</span></span></code></pre></div><blockquote><p>こうすれば<del>エラーが無視されるし</del>記述が簡単になって楽<br><strong>※エラーの根本的な解消にはなってない</strong></p></blockquote><h4 id=詰まったポイント2>詰まったポイント2</h4><pre tabindex=0><code>```yaml
+</span></span></code></pre></div><blockquote><p>こうすれば<del>エラーが無視されるし</del>記述が簡単になって楽<br><strong>※エラーの根本的な解消にはなってない</strong></p></blockquote><p>これを修正するために、まずcheckoutを次のように変更します。</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-diff data-lang=diff><span style=display:flex><span>  - name: Checkout repository  
+</span></span><span style=display:flex><span>    uses: actions/checkout@v4  
+</span></span><span style=display:flex><span>    with:  
+</span></span><span style=display:flex><span>      token: ${{ secrets.GITHUB_TOKEN }}  
+</span></span><span style=display:flex><span><span style=color:#a6e22e>+     fetch-depth: 0
+</span></span></span></code></pre></div><p>こうすることでブランチ全体のfetchができ、原点を検出できます。</p><h4 id=詰まったポイント2>詰まったポイント2</h4><pre tabindex=0><code>```yaml
 - name: Deploy  
   uses: peaceiris/actions-gh-pages@v3  
   if: github.ref == &#39;refs/heads/main&#39;  
