@@ -2,6 +2,12 @@
 title: 政治関係
 description: 何だよこれ
 draft: false
+slug: politics
+aliases:
+  - 政治
+  - 経済
+  - economics
+  - 政治関係
 ---
 >[!Info]
 >何だよこれ
