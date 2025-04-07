@@ -8,6 +8,7 @@ aliases:
 date: 2025-04-04 16:04:15
 lastmod: 2025-04-04 16:04:15
 draft: false
+slug: compiler
 ---
 ### コンパイラ
 `rustc`, `cargo`
