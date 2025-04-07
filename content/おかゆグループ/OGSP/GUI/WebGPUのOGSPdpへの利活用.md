@@ -9,4 +9,5 @@ aliases:
 created: 2025-04-01 18:37:30
 date: 2025-04-01 18:37:30
 draft: true
+slug: using-webgpu
 ---

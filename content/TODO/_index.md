@@ -2,6 +2,11 @@
 title: やることリスト
 description: やることを書くよ
 draft: false
+slug: todo
+aliases:
+  - TODO
+  - やること
+  - やることリスト
 ---
 ## これは何？
 TODOリストです。
