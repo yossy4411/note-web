@@ -10,7 +10,7 @@ lastmod: 2025-04-04 16:04:15
 draft: false
 slug: compiler
 ---
-### コンパイラ
+### 概要
 `rustc`
 - AOTコンパイル
 - クロスコンパイルが可能 (Windows, Mac, Linux, iOS, Android, WASM)
