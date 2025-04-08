@@ -46,6 +46,7 @@
     "excalidraw-open-md": "checkbox",
     "lastmod": "date",
     "date": "date",
-    "showContent": "checkbox"
+    "showContent": "checkbox",
+    "moc": "checkbox"
   }
 }

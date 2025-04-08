@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.1 (93de688d07, 2025-03-30)"
+   sodipodi:docname="EarthQuake-StagedRelease.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.70911897"
+     inkscape:cx="480.87841"
+     inkscape:cy="516.13342"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g10" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;fill-opacity:1;stroke:#2da336;stroke-width:1.11125;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
+       d="M 47.758794,262.30025 V 45.5201"
+       id="path1" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#0ac5d9;stroke-width:1.111;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       d="M 73.130652,200.73618 96.263819,178.16269"
+       id="path4"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#d0960a;stroke-width:1.111;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       d="M 47.945352,261.1809 73.31721,233.01068 V 85.829563 L 48.13191,52.142902"
+       id="path3"
+       sodipodi:nodetypes="ccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.12224px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:end;letter-spacing:0.128496px;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#2da336;fill-opacity:1;stroke:none;stroke-width:0.399676;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       x="56.992847"
+       y="273.99844"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#2da336;fill-opacity:1;stroke:none;stroke-width:0.399676"
+         x="57.121342"
+         y="273.99844">main</tspan></text>
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#2da336;stroke-width:1.111;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       id="path2"
+       cx="47.758793"
+       cy="260.99435"
+       r="3.1714823" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#d0960a;stroke-width:1.111;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       id="circle3"
+       cx="73.218636"
+       cy="233.16478"
+       r="3.1714823" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#d0960a;stroke-width:1.111;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       id="circle4"
+       cx="73.218636"
+       cy="201.41475"
+       r="3.1714823" />
+    <path
+       style="fill:#d0960a;fill-opacity:1;stroke:#0ac5d9;stroke-width:1.111;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       d="m 74.532695,116.21824 21.687227,21.11142"
+       id="path5"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.33726px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:end;letter-spacing:0.100257px;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#d0960a;fill-opacity:1;stroke:none;stroke-width:0.311842;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       x="87.33107"
+       y="252.07581"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#d0960a;fill-opacity:1;stroke:none;stroke-width:0.311842"
+         x="87.431328"
+         y="252.07581">develop</tspan></text>
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#d0960a;stroke-width:1.111;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       id="circle5"
+       cx="73.218636"
+       cy="116.74802"
+       r="3.1714823" />
+    <path
+       style="fill:#d0960a;fill-opacity:1;stroke:#0ac5d9;stroke-width:1.111;stroke-linejoin:round;stroke-dasharray:3.33299982,1.11099994;stroke-opacity:1;paint-order:fill markers stroke;stroke-dashoffset:0"
+       d="M 96.035049,178.48272 V 136.92909"
+       id="path6" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.364px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:end;letter-spacing:0.0848598px;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#0ac5d9;fill-opacity:1;stroke:none;stroke-width:0.26395;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       x="108.92488"
+       y="195.07375"
+       id="text6"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#0ac5d9;fill-opacity:1;stroke:none;stroke-width:0.26395"
+         x="109.00974"
+         y="195.07375">feature/*</tspan></text>
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#d0960a;stroke-width:1.111;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       id="circle6"
+       cx="73.218636"
+       cy="84.998024"
+       r="3.1714823" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#2da336;stroke-width:1.111;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       id="circle7"
+       cx="47.758793"
+       cy="51.973415"
+       r="3.1714823" />
+    <g
+       id="g9">
+      <path
+         id="rect7"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.976466;stroke-linejoin:round;paint-order:fill markers stroke"
+         d="m 101.92308,84.011107 h 98.5258 c 1.12406,0 2.02899,0.904929 2.02899,2.028989 v 19.553284 c 0,1.12406 -0.90493,2.02899 -2.02899,2.02899 h -98.5258 c -1.12406,0 -2.028985,-0.90493 -2.028985,-2.02899 v -1.3584 l -19.8534,6.72772 19.8534,-13.52141 V 86.040096 c 0,-1.12406 0.904925,-2.028989 2.028985,-2.028989 z"
+         sodipodi:nodetypes="ssssssscccss" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.73049px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:end;letter-spacing:0.122299px;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.78;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+         x="197.95923"
+         y="95.805771"
+         id="text7"><tspan
+           sodipodi:role="line"
+           id="tspan7"
+           style="stroke:#000000;stroke-width:0.78;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+           x="198.08153"
+           y="95.805771">ここが<tspan
+   style="fill:#cfcfcf;fill-opacity:1;stroke:#000000;stroke-width:0.78;stroke-dasharray:none;stroke-opacity:1"
+   id="tspan8">プレリリース</tspan>の基準</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.2709px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:end;letter-spacing:0.0833874px;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#ff7777;fill-opacity:1;stroke:none;stroke-width:0.182095;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+         x="193.67314"
+         y="103.75708"
+         id="text11"><tspan
+           sodipodi:role="line"
+           id="tspan11"
+           style="fill:#ff7777;fill-opacity:1;stroke:none;stroke-width:0.182095;stroke-opacity:1"
+           x="193.75653"
+           y="103.75708">※不安定</tspan></text>
+    </g>
+    <g
+       id="g10"
+       transform="translate(-25.558417,-62.310302)">
+      <path
+         id="path9"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.976466;stroke-linejoin:round;paint-order:fill markers stroke"
+         d="m 101.92308,84.011107 h 83.17997 c 1.12406,0 2.02899,0.904929 2.02899,2.028989 v 19.553284 c 0,1.12406 -0.90493,2.02899 -2.02899,2.02899 h -83.17997 c -1.12406,0 -2.028985,-0.90493 -2.028985,-2.02899 v -1.3584 l -19.8534,6.72772 19.8534,-13.52141 V 86.040096 c 0,-1.12406 0.904925,-2.028989 2.028985,-2.028989 z"
+         sodipodi:nodetypes="ssssssscccss" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.93974px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:end;letter-spacing:0.0465076px;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#e3b500;fill-opacity:1;stroke:none;stroke-width:0.10156;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+         x="182.21109"
+         y="104.02369"
+         id="text12"><tspan
+           sodipodi:role="line"
+           id="tspan12"
+           style="fill:#e3b500;fill-opacity:1;stroke:none;stroke-width:0.10156;stroke-opacity:1"
+           x="182.2576"
+           y="104.02369">※バグ発生の可能性はあるが比較的安定</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.73049px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:end;letter-spacing:0.122299px;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.78;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+         x="182.08421"
+         y="96.334923"
+         id="text10"><tspan
+           sodipodi:role="line"
+           id="tspan10"
+           style="stroke:#000000;stroke-width:0.78;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+           x="182.20651"
+           y="96.334923">ここが<tspan
+   style="fill:#64fb58;fill-opacity:1;stroke:#000000;stroke-width:0.78;stroke-dasharray:none;stroke-opacity:1"
+   id="tspan9">リリース</tspan>の基準</tspan></text>
+    </g>
+  </g>
+</svg>
