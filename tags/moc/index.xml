@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MOC on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/tags/moc/</link><description>Recent content in MOC on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Tue, 08 Apr 2025 16:24:26 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/tags/moc/index.xml" rel="self" type="application/rss+xml"/><item><title>日記</title><link>https://yossy4411.okayugroup.net/diary/about/</link><pubDate>Tue, 08 Apr 2025 16:24:26 +0900</pubDate><guid>https://yossy4411.okayugroup.net/diary/about/</guid><description>&lt;h2 id="管理について">管理について
+&lt;/h2>&lt;p>2025/4/1から&lt;a class="link" href="../%e7%a7%81%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6" >yossy4411&lt;/a>が毎日書いています。&lt;br>
+殆どが「今日やったこと」とそれに関連して「わかったこと」しか書いてないと思います。&lt;/p>
+&lt;h2 id="目次">目次
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="2025-04-08" >2025-04-08&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="2025-04-07" >2025-04-07&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="2025-04-06" >2025-04-06&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="2025-04-05" >2025-04-05&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="2025-04-04" >2025-04-04&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="2025-04-03" >2025-04-03&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted --></description></item><item><title>EarthQuake - デスクトップ版地震災害情報アプリ</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/about/</link><pubDate>Tue, 08 Apr 2025 10:33:31 +0900</pubDate><guid>https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/about/</guid><description>&lt;blockquote>
+&lt;p>[!IMPORTANT]
+パフォーマンス上の理由から、このアプリの開発は中断されました。&lt;/p>
+&lt;p>次期となるOGSP Disaster Preventionの開発にご期待ください。&lt;/p>&lt;/blockquote>
+&lt;h2 id="特徴">特徴
+&lt;/h2>&lt;ul>
+&lt;li>Avaloniaで書かれたクロスプラットフォームなアプリ (Windows, Mac, Linux)&lt;/li>
+&lt;li>PMTilesを使用したベクターマップの表示 （独自実装）&lt;/li>
+&lt;li>地震情報・震央分布図の表示&lt;/li>
+&lt;/ul>
+&lt;h2 id="リリース">リリース
+&lt;/h2>&lt;p>正式なリリースは&lt;a class="link" href="https://github.com/yossy4411/EarthQuake/releases" target="_blank" rel="noopener"
+>GitHub&lt;/a>に、プレリリースバージョンは&lt;a class="link" href="https://archive.okayugroup.com/public/EarthQuake/releases/" target="_blank" rel="noopener"
+>おかゆグループ アーカイブ&lt;/a>にて公開されています。&lt;br>
+とても分かりづらいですが、画像にするならこんな感じ。
+&lt;img src="https://yossy4411.okayugroup.net/assets/EarthQuake-StagedRelease.svg"
+loading="lazy"
+alt="リリースの中で不安定だけど開発が一区切り着いたときにプレリリースバージョン、機能の追加が終了しリリースの準備ができた段階で正式リリースを出しています。"
+>&lt;/p>
+&lt;h3 id="バージョン履歴">バージョン履歴
+&lt;/h3>&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/yossy4411/EarthQuake/releases/tag/v0.1.1" target="_blank" rel="noopener"
+>v0.1.1&lt;/a> - 2024年12月22日
+マップにPMTilesを使用、バグ修正&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/yossy4411/EarthQuake/releases/tag/v0.1.0" target="_blank" rel="noopener"
+>v0.1.0&lt;/a> - 2024年9月23日
+最初のリリース&lt;/li>
+&lt;li>&lt;a class="link" href="https://archive.okayugroup.com/public/EarthQuake/releases/pre-20240722" target="_blank" rel="noopener"
+>pre-20240722&lt;/a> - 2024年7月22日&lt;/li>
+&lt;li>&lt;a class="link" href="https://archive.okayugroup.com/public/EarthQuake/releases/pre-20240528" target="_blank" rel="noopener"
+>pre-20240528&lt;/a> - 2024年5月28日&lt;/li>
+&lt;/ul></description></item><item><title>おかゆグループ</title><link>https://yossy4411.okayugroup.net/okayugroup/about/</link><pubDate>Mon, 07 Apr 2025 22:44:29 +0900</pubDate><guid>https://yossy4411.okayugroup.net/okayugroup/about/</guid><description>&lt;h2 id="概要">概要
+&lt;/h2>&lt;p>&lt;a class="link" href="https://okayugroup.com" target="_blank" rel="noopener"
+>おかゆグループ&lt;/a>は、『学生だからできること』をモットーに、現在はオープンソースソフトウェア開発を中心的に進めているグループ。&lt;br>
+いわば学生の同好会のようなもの。&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Field&lt;/th>
+&lt;th>Property&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>創設者&lt;/td>
+&lt;td>&lt;a class="link" href="../%e7%a7%81%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6" >yossy4411&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>管理者&lt;/td>
+&lt;td>&lt;a class="link" href="../%e7%a7%81%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6" >yossy4411&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>設立&lt;/td>
+&lt;td>2024年6月4日&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>業種&lt;/td>
+&lt;td>ITおよびその他製品&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>従業員数&lt;/td>
+&lt;td>2人&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>資本金&lt;/td>
+&lt;td>0円&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>売上高&lt;/td>
+&lt;td>0円&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>純利益&lt;/td>
+&lt;td>-4500円&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>決算期&lt;/td>
+&lt;td>3月31日&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>収入源&lt;/td>
+&lt;td>なし&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="メンバー募集について">メンバー募集について
+&lt;/h2>&lt;p>私達と一緒に活動しませんか？&lt;br>
+（圧倒的人員不足）&lt;/p>
+&lt;p>&lt;strong>条件&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>学生であること&lt;/li>
+&lt;li>やりたいという意思&lt;/li>
+&lt;li>開発・コミュニケーションに使用できるパソコン（自分専用のものを推奨）&lt;/li>
+&lt;/ul>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>創設された日付が明確にデータとして残っていない。
+ただし2024年3月頃には「おかゆコーポレーション」（仮名）という構想はできていた。&lt;br>
+おかゆグループの公式HPができたのが6月4日なのでこの日としている。&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>2024年度、&lt;a class="link" href="../%e7%a7%81%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6" >yossy4411&lt;/a>がおかゆグループにかけた金額は4500円、売上高0円。
+赤字！wwww&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3">
+&lt;p>寄付及び広告収入を視野に入れている。&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>おかゆグループ地震計プロジェクト</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/about/</link><pubDate>Mon, 07 Apr 2025 22:38:56 +0900</pubDate><guid>https://yossy4411.okayugroup.net/okayugroup/ogsp/about/</guid><description>&lt;h2 id="概要">概要
+&lt;/h2>&lt;p>おかゆグループ地震系プロジェクト（Okayu Group Seismometer Project、略称: OGSP）は、オープンソースで地震観測網および災害対策網を構築するプロジェクト。&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Field&lt;/th>
+&lt;th>Value&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>主導&lt;/td>
+&lt;td>&lt;a class="link" href="../%e3%81%8a%e3%81%8b%e3%82%86%e3%82%b0%e3%83%ab%e3%83%bc%e3%83%97" >おかゆグループ&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>参考&lt;/td>
+&lt;td>&lt;a class="link" href="https://www.jma.go.jp" target="_blank" rel="noopener"
+>気象庁&lt;/a>&lt;!-- raw HTML omitted -->&lt;a class="link" href="https://www.bosai.go.jp" target="_blank" rel="noopener"
+>NIED&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>プラットフォーム&lt;/td>
+&lt;td>GitHub (リンクなし)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>予算&lt;/td>
+&lt;td>0円+&lt;a class="link" href="../../%e7%a7%81%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6" >yossy4411&lt;/a>のお小遣い&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="なぜオープンソース">なぜオープンソース？
+&lt;/h2>&lt;p>私は「防災」は&lt;strong>みんなでつくる&lt;/strong>ものであるべきであって、他人や政府に頼りっきりになるべきではないと思っております。そのためのカギとなる考え方が&lt;strong>オープンソース&lt;/strong>だったわけです。&lt;/p>
+&lt;p>オープンソースは、ソフトウェアを公開された場所に置くことで、使用や改変、協力的な開発ができる開発の方法で、対比されるのが「クローズドソース」です。&lt;br>
+※&amp;ldquo;オープンソース&amp;quot;という言葉が指すものは、考え方だったり開発モデルだったりする。ややこしくてごめんね&lt;/p>
+&lt;h3 id="メリット">メリット
+&lt;/h3>&lt;p>オープンソースにすることで、政府組織外で運営されることによって発生する様々な問題の解消が可能になります。&lt;/p>
+&lt;ul>
+&lt;li>透明性の向上&lt;/li>
+&lt;li>柔軟性の向上&lt;/li>
+&lt;li>互換性の向上&lt;/li>
+&lt;li>バグの削減&lt;/li>
+&lt;li>責任の分散&lt;/li>
+&lt;li>災害への意識の向上&lt;/li>
+&lt;/ul>
+&lt;h3 id="デメリット">デメリット
+&lt;/h3>&lt;p>オープンソースになることによって発生するデメリットもあります。&lt;/p>
+&lt;ul>
+&lt;li>収入源が得られない （開発資金の調達が難しい）&lt;/li>
+&lt;li>ハッキングの対象になりやすい （逆に修正もしやすいが）&lt;/li>
+&lt;li>開発スピードの低下 （公開することで他人からも見やすくする必要があるため）
+これ以外にもデメリットはあると思います。判明次第付け足していきます。&lt;/li>
+&lt;/ul>
+&lt;h2 id="地震計開発">地震計開発
+&lt;/h2>&lt;p>地震計は、加速度データから震度を計測します。&lt;br>
+収集したデータは&lt;a class="link" href="#%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e9%96%8b%e7%99%ba" >サーバー&lt;/a>へ送信されます。&lt;/p>
+&lt;p>現在ではESP32マイコンを使い、開発を進めています。&lt;br>
+言語: C++ (Arduino/PlatformIO)&lt;br>
+↪ &lt;a class="link" href="https://github.com/yossy4411/ogsp-seismometer-esp32" target="_blank" rel="noopener"
+>OGSP-Seismometer-ESP32 (GitHub)&lt;/a>&lt;/p>
+&lt;p>また、スマホに内蔵される加速度センサを使って、スマホを地震計にすることで新しく地震計を作製することなく地震観測が可能になるプロジェクトもアイデアとして浮かんでいます。&lt;/p>
+&lt;h2 id="サーバー開発">サーバー開発
+&lt;/h2>&lt;p>地震計から収集したデータを集める場所がサーバーです。&lt;/p>
+&lt;p>同時に受信システムへのデータ送信も行います。&lt;/p>
+&lt;h2 id="受信システムアプリ開発">受信システム・アプリ開発
+&lt;/h2>&lt;h3 id="earthquake---デスクトップ版地震災害情報アプリ">&lt;a class="link" href="GUI/EarthQuake/EarthQuake.desktop" >EarthQuake&lt;/a> - デスクトップ版地震災害情報アプリ
+&lt;/h3>&lt;p>パフォーマンスの理由で開発停止&lt;br>
+言語: C#&lt;br>
+GUIフレームワーク: Avalonia + SkiaSharp
+↪ &lt;a class="link" href="https://github.com/yossy4411/EarthQuake" target="_blank" rel="noopener"
+>GitHub&lt;/a>&lt;/p>
+&lt;h3 id="ogsp-disaster-prevention">&lt;a class="link" href="GUI/OGSP%20Disaster%20Prevention" >OGSP Disaster Prevention&lt;/a>
+&lt;/h3>&lt;p>パフォーマンスを最大化した最新鋭の設計&lt;br>
+言語: &lt;a class="link" href="../../develop/Knowledge/lang/Rust/Rust" >Rust&lt;/a>
+GUIフレームワーク: &lt;code>iced&lt;/code> (変更の可能性あり) + &lt;code>wgpu&lt;/code> + Skia (&lt;code>skia-safe&lt;/code>)&lt;/p></description></item><item><title>ライブラリとは</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/about/</link><pubDate>Fri, 04 Apr 2025 17:23:16 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/libs/about/</guid><description>&lt;h2 id="ライブラリとは">ライブラリとは
+&lt;/h2>&lt;p>ソフトウェアの開発の上で機能を拡張するやつだと思っていたら良いと思います。
+知らんけど。&lt;/p>
+&lt;h2 id="目次">目次
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="wgpu/wgpu" >wgpu&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="関連項目">関連項目
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="../lang/Rust/crate" >crate&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Rustの概要</title><link>https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/about/</link><pubDate>Fri, 04 Apr 2025 16:46:51 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/about/</guid><description>&lt;h2 id="rustの開発状況について">Rustの開発状況について
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/rust-lang/rust" target="_blank" rel="noopener"
+>ソースコード (GitHub)&lt;/a>
+Rustはあの&amp;quot;Firefox&amp;quot;を手掛けるMozilla社が開発したプログラミング言語で、高速でメモリの安全性が特徴です。
+これには独自の&lt;a class="link" href="%e6%89%80%e6%9c%89%e6%a8%a9" >所有権&lt;/a>というシステムが大きく関わっており、これによってGCなしでメモリの安全性を手に入れています。&lt;/li>
+&lt;/ul>
+&lt;p>所有権を正しく判別し、コンパイル時にエラーを出すために強力な&lt;a class="link" href="rustc" >rustc&lt;/a> (rustc)が作られています。&lt;/p></description></item></channel></rss>

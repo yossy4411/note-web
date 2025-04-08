@@ -1,4 +1,97 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yossy4411のノート</title><link>https://yossy4411.okayugroup.net/</link><description>Recent content on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Mon, 07 Apr 2025 22:44:29 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/index.xml" rel="self" type="application/rss+xml"/><item><title>おかゆグループ</title><link>https://yossy4411.okayugroup.net/%E3%81%8A%E3%81%8B%E3%82%86%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97/about/</link><pubDate>Mon, 07 Apr 2025 22:44:29 +0900</pubDate><guid>https://yossy4411.okayugroup.net/%E3%81%8A%E3%81%8B%E3%82%86%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97/about/</guid><description>&lt;h2 id="概要">概要
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yossy4411のノート</title><link>https://yossy4411.okayugroup.net/</link><description>Recent content on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Tue, 08 Apr 2025 16:24:26 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/index.xml" rel="self" type="application/rss+xml"/><item><title>日記</title><link>https://yossy4411.okayugroup.net/diary/about/</link><pubDate>Tue, 08 Apr 2025 16:24:26 +0900</pubDate><guid>https://yossy4411.okayugroup.net/diary/about/</guid><description>&lt;h2 id="管理について">管理について
+&lt;/h2>&lt;p>2025/4/1から&lt;a class="link" href="../%e7%a7%81%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6" >yossy4411&lt;/a>が毎日書いています。&lt;br>
+殆どが「今日やったこと」とそれに関連して「わかったこと」しか書いてないと思います。&lt;/p>
+&lt;h2 id="目次">目次
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="2025-04-08" >2025-04-08&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="2025-04-07" >2025-04-07&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="2025-04-06" >2025-04-06&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="2025-04-05" >2025-04-05&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="2025-04-04" >2025-04-04&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="2025-04-03" >2025-04-03&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted --></description></item><item><title>EarthQuake - デスクトップ版地震災害情報アプリ</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/about/</link><pubDate>Tue, 08 Apr 2025 10:33:31 +0900</pubDate><guid>https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/about/</guid><description>&lt;blockquote>
+&lt;p>[!IMPORTANT]
+パフォーマンス上の理由から、このアプリの開発は中断されました。&lt;/p>
+&lt;p>次期となるOGSP Disaster Preventionの開発にご期待ください。&lt;/p>&lt;/blockquote>
+&lt;h2 id="特徴">特徴
+&lt;/h2>&lt;ul>
+&lt;li>Avaloniaで書かれたクロスプラットフォームなアプリ (Windows, Mac, Linux)&lt;/li>
+&lt;li>PMTilesを使用したベクターマップの表示 （独自実装）&lt;/li>
+&lt;li>地震情報・震央分布図の表示&lt;/li>
+&lt;/ul>
+&lt;h2 id="リリース">リリース
+&lt;/h2>&lt;p>正式なリリースは&lt;a class="link" href="https://github.com/yossy4411/EarthQuake/releases" target="_blank" rel="noopener"
+>GitHub&lt;/a>に、プレリリースバージョンは&lt;a class="link" href="https://archive.okayugroup.com/public/EarthQuake/releases/" target="_blank" rel="noopener"
+>おかゆグループ アーカイブ&lt;/a>にて公開されています。&lt;br>
+とても分かりづらいですが、画像にするならこんな感じ。
+&lt;img src="https://yossy4411.okayugroup.net/assets/EarthQuake-StagedRelease.svg"
+loading="lazy"
+alt="リリースの中で不安定だけど開発が一区切り着いたときにプレリリースバージョン、機能の追加が終了しリリースの準備ができた段階で正式リリースを出しています。"
+>&lt;/p>
+&lt;h3 id="バージョン履歴">バージョン履歴
+&lt;/h3>&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/yossy4411/EarthQuake/releases/tag/v0.1.1" target="_blank" rel="noopener"
+>v0.1.1&lt;/a> - 2024年12月22日
+マップにPMTilesを使用、バグ修正&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/yossy4411/EarthQuake/releases/tag/v0.1.0" target="_blank" rel="noopener"
+>v0.1.0&lt;/a> - 2024年9月23日
+最初のリリース&lt;/li>
+&lt;li>&lt;a class="link" href="https://archive.okayugroup.com/public/EarthQuake/releases/pre-20240722" target="_blank" rel="noopener"
+>pre-20240722&lt;/a> - 2024年7月22日&lt;/li>
+&lt;li>&lt;a class="link" href="https://archive.okayugroup.com/public/EarthQuake/releases/pre-20240528" target="_blank" rel="noopener"
+>pre-20240528&lt;/a> - 2024年5月28日&lt;/li>
+&lt;/ul></description></item><item><title>yossy4411に関する情報</title><link>https://yossy4411.okayugroup.net/about-me/</link><pubDate>Mon, 07 Apr 2025 22:50:08 +0900</pubDate><guid>https://yossy4411.okayugroup.net/about-me/</guid><description>&lt;h2 id="github">GitHub
+&lt;/h2>&lt;p>(&lt;a class="link" href="https://github.com/yossy4411/yossy4411/blob/main/README.md?plain=1" target="_blank" rel="noopener"
+>GitHub&lt;/a>よりコピー)&lt;/p>
+&lt;p>👋 &lt;strong>こんにちは！&lt;/strong>&lt;br>
+私はプログラミングが大好きな中学生で、コードを書くことで新しい可能性を広げることを目指しています。&lt;/p>
+&lt;p>2024年6月に&lt;a class="link" href="https://github.com/okayugroup" target="_blank" rel="noopener"
+>おかゆグループ&lt;/a>を設立し、現在メンバーが私を含め２人所属しています！&lt;/p>
+&lt;p>&lt;img src="https://komarev.com/ghpvc/?username=yossy4411&amp;amp;color=green"
+loading="lazy"
+>&lt;/p>
+&lt;h3 id="-主なスキル">💪 主なスキル
+&lt;/h3>&lt;ul>
+&lt;li>💻 &lt;strong>プログラミング言語&lt;/strong>: C#, Python, Rust, JavaScript, Go, PHP, C++ など&lt;/li>
+&lt;li>🌐 &lt;strong>フロントエンド&lt;/strong>: Avalonia, Flutter, Vue.js, iced(Rust) など&lt;/li>
+&lt;li>📡 &lt;strong>バックエンド&lt;/strong>: Go, .NET Core&lt;/li>
+&lt;li>🖥️ &lt;strong>開発環境&lt;/strong>: JetBrains IDE, VSCode&lt;/li>
+&lt;/ul>
+&lt;h3 id="-取り組んでいるプロジェクト">🌟 取り組んでいるプロジェクト
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>&lt;a class="link" href="https://github.com/okayugroup/ogsp-obsidianote" target="_blank" rel="noopener"
+>OGSP&lt;/a>&lt;/strong>: みんなでつくる防災プロジェクト&lt;/li>
+&lt;li>&lt;strong>歌い手ファンメイドページ&lt;/strong>: 好きを広げ、音楽をもっと楽しくするウェブサイト&lt;/li>
+&lt;/ul>
+&lt;h3 id="-興味のある分野">🧠 興味のある分野
+&lt;/h3>&lt;ul>
+&lt;li>IoTデバイス開発&lt;/li>
+&lt;li>3Dグラフィックスと地図描画&lt;/li>
+&lt;li>オープンソース貢献&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>📊 &lt;strong>GitHub Stats&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="https://github-readme-stats.vercel.app/api?username=yossy4411&amp;amp;show_icons=true&amp;amp;theme=radical"
+loading="lazy"
+alt="GitHub Stats"
+>&lt;/p>
+&lt;p>💻 &lt;strong>主な言語&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yossy4411&amp;amp;layout=compact&amp;amp;theme=radical"
+loading="lazy"
+alt="Top Langs"
+>&lt;/p>
+&lt;hr>
+&lt;h3 id="-リンク">🔗 リンク
+&lt;/h3>&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/yossy4411/" target="_blank" rel="noopener"
+>&lt;strong>GitHub&lt;/strong>&lt;/a> - オープンソースの拠点&lt;/li>
+&lt;li>&lt;del>&lt;strong>Qiita&lt;/strong> - 開発ブログ&lt;/del>&lt;/li>
+&lt;li>&lt;a class="link" href="https://blog.okayugroup.com" target="_blank" rel="noopener"
+>おかゆの日記&lt;/a> - 生活のブログ&lt;/li>
+&lt;li>&lt;a class="link" href="https://youtube.com/@yossy4411" target="_blank" rel="noopener"
+>YouTube&lt;/a> - 遊び場&lt;/li>
+&lt;/ul></description></item><item><title>おかゆグループ</title><link>https://yossy4411.okayugroup.net/okayugroup/about/</link><pubDate>Mon, 07 Apr 2025 22:44:29 +0900</pubDate><guid>https://yossy4411.okayugroup.net/okayugroup/about/</guid><description>&lt;h2 id="概要">概要
 &lt;/h2>&lt;p>&lt;a class="link" href="https://okayugroup.com" target="_blank" rel="noopener"
 >おかゆグループ&lt;/a>は、『学生だからできること』をモットーに、現在はオープンソースソフトウェア開発を中心的に進めているグループ。&lt;br>
 いわば学生の同好会のようなもの。&lt;/p>
@@ -77,8 +170,81 @@
 &lt;p>寄付及び広告収入を視野に入れている。&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>Rustのコンパイラについて</title><link>https://yossy4411.okayugroup.net/%E9%96%8B%E7%99%BA/knowledge/lang/rust/compiler/</link><pubDate>Fri, 04 Apr 2025 16:04:15 +0000</pubDate><guid>https://yossy4411.okayugroup.net/%E9%96%8B%E7%99%BA/knowledge/lang/rust/compiler/</guid><description>&lt;h3 id="コンパイラ">コンパイラ
-&lt;/h3>&lt;p>&lt;code>rustc&lt;/code>, &lt;code>cargo&lt;/code>&lt;/p>
+&lt;/div></description></item><item><title>おかゆグループ地震計プロジェクト</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/about/</link><pubDate>Mon, 07 Apr 2025 22:38:56 +0900</pubDate><guid>https://yossy4411.okayugroup.net/okayugroup/ogsp/about/</guid><description>&lt;h2 id="概要">概要
+&lt;/h2>&lt;p>おかゆグループ地震系プロジェクト（Okayu Group Seismometer Project、略称: OGSP）は、オープンソースで地震観測網および災害対策網を構築するプロジェクト。&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Field&lt;/th>
+&lt;th>Value&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>主導&lt;/td>
+&lt;td>&lt;a class="link" href="../%e3%81%8a%e3%81%8b%e3%82%86%e3%82%b0%e3%83%ab%e3%83%bc%e3%83%97" >おかゆグループ&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>参考&lt;/td>
+&lt;td>&lt;a class="link" href="https://www.jma.go.jp" target="_blank" rel="noopener"
+>気象庁&lt;/a>&lt;!-- raw HTML omitted -->&lt;a class="link" href="https://www.bosai.go.jp" target="_blank" rel="noopener"
+>NIED&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>プラットフォーム&lt;/td>
+&lt;td>GitHub (リンクなし)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>予算&lt;/td>
+&lt;td>0円+&lt;a class="link" href="../../%e7%a7%81%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6" >yossy4411&lt;/a>のお小遣い&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="なぜオープンソース">なぜオープンソース？
+&lt;/h2>&lt;p>私は「防災」は&lt;strong>みんなでつくる&lt;/strong>ものであるべきであって、他人や政府に頼りっきりになるべきではないと思っております。そのためのカギとなる考え方が&lt;strong>オープンソース&lt;/strong>だったわけです。&lt;/p>
+&lt;p>オープンソースは、ソフトウェアを公開された場所に置くことで、使用や改変、協力的な開発ができる開発の方法で、対比されるのが「クローズドソース」です。&lt;br>
+※&amp;ldquo;オープンソース&amp;quot;という言葉が指すものは、考え方だったり開発モデルだったりする。ややこしくてごめんね&lt;/p>
+&lt;h3 id="メリット">メリット
+&lt;/h3>&lt;p>オープンソースにすることで、政府組織外で運営されることによって発生する様々な問題の解消が可能になります。&lt;/p>
+&lt;ul>
+&lt;li>透明性の向上&lt;/li>
+&lt;li>柔軟性の向上&lt;/li>
+&lt;li>互換性の向上&lt;/li>
+&lt;li>バグの削減&lt;/li>
+&lt;li>責任の分散&lt;/li>
+&lt;li>災害への意識の向上&lt;/li>
+&lt;/ul>
+&lt;h3 id="デメリット">デメリット
+&lt;/h3>&lt;p>オープンソースになることによって発生するデメリットもあります。&lt;/p>
+&lt;ul>
+&lt;li>収入源が得られない （開発資金の調達が難しい）&lt;/li>
+&lt;li>ハッキングの対象になりやすい （逆に修正もしやすいが）&lt;/li>
+&lt;li>開発スピードの低下 （公開することで他人からも見やすくする必要があるため）
+これ以外にもデメリットはあると思います。判明次第付け足していきます。&lt;/li>
+&lt;/ul>
+&lt;h2 id="地震計開発">地震計開発
+&lt;/h2>&lt;p>地震計は、加速度データから震度を計測します。&lt;br>
+収集したデータは&lt;a class="link" href="#%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e9%96%8b%e7%99%ba" >サーバー&lt;/a>へ送信されます。&lt;/p>
+&lt;p>現在ではESP32マイコンを使い、開発を進めています。&lt;br>
+言語: C++ (Arduino/PlatformIO)&lt;br>
+↪ &lt;a class="link" href="https://github.com/yossy4411/ogsp-seismometer-esp32" target="_blank" rel="noopener"
+>OGSP-Seismometer-ESP32 (GitHub)&lt;/a>&lt;/p>
+&lt;p>また、スマホに内蔵される加速度センサを使って、スマホを地震計にすることで新しく地震計を作製することなく地震観測が可能になるプロジェクトもアイデアとして浮かんでいます。&lt;/p>
+&lt;h2 id="サーバー開発">サーバー開発
+&lt;/h2>&lt;p>地震計から収集したデータを集める場所がサーバーです。&lt;/p>
+&lt;p>同時に受信システムへのデータ送信も行います。&lt;/p>
+&lt;h2 id="受信システムアプリ開発">受信システム・アプリ開発
+&lt;/h2>&lt;h3 id="earthquake---デスクトップ版地震災害情報アプリ">&lt;a class="link" href="GUI/EarthQuake/EarthQuake.desktop" >EarthQuake&lt;/a> - デスクトップ版地震災害情報アプリ
+&lt;/h3>&lt;p>パフォーマンスの理由で開発停止&lt;br>
+言語: C#&lt;br>
+GUIフレームワーク: Avalonia + SkiaSharp
+↪ &lt;a class="link" href="https://github.com/yossy4411/EarthQuake" target="_blank" rel="noopener"
+>GitHub&lt;/a>&lt;/p>
+&lt;h3 id="ogsp-disaster-prevention">&lt;a class="link" href="GUI/OGSP%20Disaster%20Prevention" >OGSP Disaster Prevention&lt;/a>
+&lt;/h3>&lt;p>パフォーマンスを最大化した最新鋭の設計&lt;br>
+言語: &lt;a class="link" href="../../develop/Knowledge/lang/Rust/Rust" >Rust&lt;/a>
+GUIフレームワーク: &lt;code>iced&lt;/code> (変更の可能性あり) + &lt;code>wgpu&lt;/code> + Skia (&lt;code>skia-safe&lt;/code>)&lt;/p></description></item><item><title>Rustのコンパイラについて</title><link>https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/compiler/</link><pubDate>Fri, 04 Apr 2025 16:04:15 +0000</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/compiler/</guid><description>&lt;h3 id="概要">概要
+&lt;/h3>&lt;p>&lt;code>rustc&lt;/code>&lt;/p>
 &lt;ul>
 &lt;li>AOTコンパイル&lt;/li>
 &lt;li>クロスコンパイルが可能 (Windows, Mac, Linux, iOS, Android, WASM)&lt;/li>
@@ -87,14 +253,24 @@
 &lt;p>実行時のエラーを最大限まで減らすため、コンパイルには比較的時間がかかります。&lt;/p>
 &lt;blockquote>
 &lt;p>[!Important]
-Rustのコンパイラ、疲労困憊ラ&lt;/p>&lt;/blockquote></description></item><item><title>Rustの概要</title><link>https://yossy4411.okayugroup.net/%E9%96%8B%E7%99%BA/knowledge/lang/rust/about/</link><pubDate>Fri, 04 Apr 2025 16:46:51 +0900</pubDate><guid>https://yossy4411.okayugroup.net/%E9%96%8B%E7%99%BA/knowledge/lang/rust/about/</guid><description>&lt;h2 id="rustの開発状況について">Rustの開発状況について
+Rustのコンパイラ、疲労困憊ラ&lt;/p>&lt;/blockquote></description></item><item><title>ライブラリとは</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/about/</link><pubDate>Fri, 04 Apr 2025 17:23:16 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/libs/about/</guid><description>&lt;h2 id="ライブラリとは">ライブラリとは
+&lt;/h2>&lt;p>ソフトウェアの開発の上で機能を拡張するやつだと思っていたら良いと思います。
+知らんけど。&lt;/p>
+&lt;h2 id="目次">目次
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="wgpu/wgpu" >wgpu&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="関連項目">関連項目
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="../lang/Rust/crate" >crate&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Rustの概要</title><link>https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/about/</link><pubDate>Fri, 04 Apr 2025 16:46:51 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/about/</guid><description>&lt;h2 id="rustの開発状況について">Rustの開発状況について
 &lt;/h2>&lt;ul>
 &lt;li>&lt;a class="link" href="https://github.com/rust-lang/rust" target="_blank" rel="noopener"
 >ソースコード (GitHub)&lt;/a>
 Rustはあの&amp;quot;Firefox&amp;quot;を手掛けるMozilla社が開発したプログラミング言語で、高速でメモリの安全性が特徴です。
-これには独自の&lt;a class="link" href="./%e6%89%80%e6%9c%89%e6%a8%a9" >所有権&lt;/a>というシステムが大きく関わっており、これによってGCなしでメモリの安全性を手に入れています。&lt;/li>
+これには独自の&lt;a class="link" href="%e6%89%80%e6%9c%89%e6%a8%a9" >所有権&lt;/a>というシステムが大きく関わっており、これによってGCなしでメモリの安全性を手に入れています。&lt;/li>
 &lt;/ul>
-&lt;p>所有権を正しく判別し、コンパイル時にエラーを出すために強力な&lt;a class="link" href="Rust%e3%82%b3%e3%83%b3%e3%83%91%e3%82%a4%e3%83%a9" >Rustコンパイラ&lt;/a> (rustc)が作られています。&lt;/p></description></item><item><title>所有権システム</title><link>https://yossy4411.okayugroup.net/%E9%96%8B%E7%99%BA/knowledge/lang/rust/ownership/</link><pubDate>Fri, 04 Apr 2025 16:25:59 +0900</pubDate><guid>https://yossy4411.okayugroup.net/%E9%96%8B%E7%99%BA/knowledge/lang/rust/ownership/</guid><description>&lt;h3 id="所有権">所有権
+&lt;p>所有権を正しく判別し、コンパイル時にエラーを出すために強力な&lt;a class="link" href="rustc" >rustc&lt;/a> (rustc)が作られています。&lt;/p></description></item><item><title>所有権システム</title><link>https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/ownership/</link><pubDate>Fri, 04 Apr 2025 16:25:59 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/ownership/</guid><description>&lt;h3 id="所有権">所有権
 &lt;/h3>&lt;p>Rustには&amp;quot;所有権システム&amp;quot;というのがあります。
 これには、ゼロコストのメモリ管理ができるという利点があります。&lt;/p>
 &lt;p>これによりGCが不必要となり、速度が圧倒的に上がります。&lt;/p>
@@ -117,10 +293,10 @@ Rustはあの&amp;quot;Firefox&amp;quot;を手掛けるMozilla社が開発した
 &lt;p>また、main関数内の変数&lt;code>a&lt;/code>は&lt;code>fn main&lt;/code>→&lt;code>custom_function&lt;/code>→&lt;code>println!&lt;/code>のように移動しています。
 println!関数に渡ったあと、その関数内でスコープを抜けるときに変数はメモリ上から破棄されます。&lt;/p>
 &lt;blockquote>
-&lt;p>つまり、custom_function関数でaを使ったあとにはもう値は存在しないこととなります。&lt;/p>&lt;/blockquote>&lt;/blockquote></description></item><item><title>JourneyStreetMapとは</title><link>https://yossy4411.okayugroup.net/%E9%96%8B%E7%99%BA/journeystreetmap/about/</link><pubDate>Fri, 04 Apr 2025 15:50:47 +0900</pubDate><guid>https://yossy4411.okayugroup.net/%E9%96%8B%E7%99%BA/journeystreetmap/about/</guid><description>&lt;h2 id="仕組み">仕組み
+&lt;p>つまり、custom_function関数でaを使ったあとにはもう値は存在しないこととなります。&lt;/p>&lt;/blockquote>&lt;/blockquote></description></item><item><title>JourneyStreetMapとは</title><link>https://yossy4411.okayugroup.net/develop/journeystreetmap/about/</link><pubDate>Fri, 04 Apr 2025 15:50:47 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/journeystreetmap/about/</guid><description>&lt;h2 id="仕組み">仕組み
 &lt;/h2>&lt;h3 id="1-journeymapのデータを読み込む">1. JourneyMapのデータを読み込む
 &lt;/h3>&lt;p>まず、&lt;a class="link" href="https://www.curseforge.com/minecraft/mc-mods/journeymap" target="_blank" rel="noopener"
->JourneyMap&lt;/a>というのは、Minecraftでマップを表示するModです。&lt;/p></description></item><item><title>怪しいXアカウントの調査結果</title><link>https://yossy4411.okayugroup.net/%E6%8E%A8%E3%81%97%E6%B4%BB/stpr/stpr-family-festival-account/</link><pubDate>Thu, 03 Apr 2025 20:44:39 +0900</pubDate><guid>https://yossy4411.okayugroup.net/%E6%8E%A8%E3%81%97%E6%B4%BB/stpr/stpr-family-festival-account/</guid><description>&lt;h2 id="結論調査結果">結論：調査結果
+>JourneyMap&lt;/a>というのは、Minecraftでマップを表示するModです。&lt;/p></description></item><item><title>怪しいXアカウントの調査結果</title><link>https://yossy4411.okayugroup.net/favorite/stpr/stpr-family-festival-account/</link><pubDate>Thu, 03 Apr 2025 20:44:39 +0900</pubDate><guid>https://yossy4411.okayugroup.net/favorite/stpr/stpr-family-festival-account/</guid><description>&lt;h2 id="結論調査結果">結論：調査結果
 &lt;/h2>&lt;ul>
 &lt;li>メアドの入力の時点では特に何も起こらないが、今後そのメアドが悪用される可能性あり&lt;/li>
 &lt;li>カード番号を入れて確定しても向かう先はライブ配信ではない&lt;/li>
@@ -139,37 +315,40 @@ println!関数に渡ったあと、その関数内でスコープを抜けると
 良い年した大人が子供だましとか良くないよね本当😤&lt;/p>
 &lt;p>あと対象のアカウントは報告しといてね&lt;/p></description></item><item><title/><link>https://yossy4411.okayugroup.net/todo/%E3%82%84%E3%82%8B%E3%81%93%E3%81%A8%E3%83%AA%E3%82%B9%E3%83%88%E3%81%99%E3%81%B9%E3%81%A6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/todo/%E3%82%84%E3%82%8B%E3%81%93%E3%81%A8%E3%83%AA%E3%82%B9%E3%83%88%E3%81%99%E3%81%B9%E3%81%A6/</guid><description>&lt;h2 id="アイデア">アイデア
 &lt;/h2>&lt;h2 id="検討中">検討中
-&lt;/h2>&lt;h2 id="調査中">調査中
+&lt;/h2>&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> &lt;a class="link" href="../okayugroup/OGSP/GUI/OGSP%20Disaster%20Prevention" >OGSP Disaster Prevention&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="調査中">調査中
 &lt;/h2>&lt;h2 id="勉強学習中">勉強・学習中
 &lt;/h2>&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> &lt;a class="link" href="../%e3%81%8a%e3%81%8b%e3%82%86%e3%82%b0%e3%83%ab%e3%83%bc%e3%83%97/OGSP/GUI/WebGPU%e3%81%aeOGSPdp%e3%81%b8%e3%81%ae%e5%88%a9%e6%b4%bb%e7%94%a8" >WebGPUのOGSPdpへの利活用&lt;/a>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> &lt;a class="link" href="../okayugroup/OGSP/GUI/WebGPU%e3%81%aeOGSP-DP%e3%81%b8%e3%81%ae%e5%88%a9%e6%b4%bb%e7%94%a8" >WebGPUのOGSP-DPへの利活用&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="修正が必要-">修正が必要 ⏫
 &lt;/h2>&lt;h2 id="やりたいこと">やりたいこと
 &lt;/h2>&lt;h2 id="進行中">進行中
 &lt;/h2>&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> &lt;a class="link" href="../%e9%96%8b%e7%99%ba/JourneyStreetMap/JourneyStreetMap%e3%81%a8%e3%81%af" >JourneyStreetMapとは&lt;/a>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> &lt;a class="link" href="../develop/JourneyStreetMap/JourneyStreetMap%e3%81%a8%e3%81%af" >JourneyStreetMapとは&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="完了">完了
 &lt;/h2>&lt;p>%% kanban:settings&lt;/p>
 &lt;pre tabindex="0">&lt;code>{&amp;#34;kanban-plugin&amp;#34;:&amp;#34;board&amp;#34;,&amp;#34;list-collapse&amp;#34;:[false,false,false,false,false,false,false,false]}
-&lt;/code>&lt;/pre>&lt;p>%%&lt;/p></description></item><item><title>2025年04月03日(木)</title><link>https://yossy4411.okayugroup.net/%E6%97%A5%E8%A8%98/2025-04-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/%E6%97%A5%E8%A8%98/2025-04-03/</guid><description>&lt;h2 id="今日の作業">今日の作業
+&lt;/code>&lt;/pre>&lt;p>%%&lt;/p></description></item><item><title>2025年04月03日(木)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-03/</guid><description>&lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;ul>
 &lt;li>&lt;a class="link" href="#JourneyStreetMap%e3%81%ae%e9%96%8b%e7%99%ba" >JourneyStreetMapの開発&lt;/a>&lt;/li>
-&lt;li>YouTube 動画投稿 @&lt;a class="link" href="../%e6%8e%a8%e3%81%97%e6%b4%bb/%e3%81%8a%e3%81%8b%e3%82%86%e3%81%ae%e3%82%b5%e3%83%96" >おかゆのサブ&lt;/a>「STAR to STPRのボーカルを際立たせてみた」 shorts及び長尺&lt;/li>
-&lt;li>&lt;a class="link" href="../%e6%8e%a8%e3%81%97%e6%b4%bb/STPR/%e3%81%99%e3%81%a8%e3%81%b5%e3%81%87%e3%81%99%e8%a9%90%e6%ac%ba%e5%9e%a2" >Xの怪しいアカウントのURLの調査&lt;/a>&lt;/li>
+&lt;li>YouTube 動画投稿 @&lt;a class="link" href="../favorite/%e3%81%8a%e3%81%8b%e3%82%86%e3%81%ae%e3%82%b5%e3%83%96" >おかゆのサブ&lt;/a>「STAR to STPRのボーカルを際立たせてみた」 shorts及び長尺&lt;/li>
+&lt;li>&lt;a class="link" href="../favorite/STPR/%e3%81%99%e3%81%a8%e3%81%b5%e3%81%87%e3%81%99%e8%a9%90%e6%ac%ba%e5%9e%a2" >Xの怪しいアカウントのURLの調査&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="#X%e3%81%ae%e3%82%b9%e3%82%af%e3%82%b7%e3%83%a7%e3%82%92%e8%87%aa%e5%8b%95%e5%8c%96%e3%81%97%e3%82%88%e3%81%86%e3%81%a8%e6%80%9d%e3%81%a3%e3%81%9f" >Xのスクショの自動化&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="journeystreetmapの開発">JourneyStreetMapの開発
 &lt;/h2>&lt;p>主な変更&lt;/p>
 &lt;ul>
-&lt;li>[[../開発/JourneyStreetMap/icedのCanvasとWidgetの使い分け|JourneyMapViewerをCanvasからWidgetに変更]]&lt;/li>
+&lt;li>[[../develop/JourneyStreetMap/icedのCanvasとWidgetの使い分け|JourneyMapViewerをCanvasからWidgetに変更]]&lt;/li>
 &lt;li>マウスハンドラの追加&lt;/li>
 &lt;/ul>
 &lt;h2 id="xのスクショを自動化しようと思った">Xのスクショを自動化しようと思った
 &lt;/h2>&lt;p>いわゆるスクレイピングってやつです。
 Pythonでやるのも難しそうだし、そもそも需要がなさそうだったのでやめました。
-&lt;strong>手動でスクショ撮ってたほうが良い&lt;/strong>です。絶対に。&lt;/p></description></item><item><title>2025年04月04日(金)</title><link>https://yossy4411.okayugroup.net/%E6%97%A5%E8%A8%98/2025-04-04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/%E6%97%A5%E8%A8%98/2025-04-04/</guid><description>&lt;h2 id="今日の作業">今日の作業
+&lt;strong>手動でスクショ撮ってたほうが良い&lt;/strong>です。絶対に。&lt;/p></description></item><item><title>2025年04月04日(金)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-04/</guid><description>&lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;ul>
 &lt;li>ノート整理&lt;/li>
 &lt;li>Web版のノートを作る&lt;/li>
@@ -178,7 +357,7 @@ Pythonでやるのも難しそうだし、そもそも需要がなさそうだ�
 &lt;img src="https://yossy4411.okayugroup.net/assets/Pasted%20image%2020250405154547.png"
 loading="lazy"
 alt="82 contributionsって書いてる画像"
->&lt;/p></description></item><item><title>2025年04月05日(土)</title><link>https://yossy4411.okayugroup.net/%E6%97%A5%E8%A8%98/2025-04-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/%E6%97%A5%E8%A8%98/2025-04-05/</guid><description>&lt;h2 id="今日の作業">今日の作業
+>&lt;/p></description></item><item><title>2025年04月05日(土)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-05/</guid><description>&lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;h3 id="web版ノートの機能性向上">Web版ノートの機能性向上
 &lt;/h3>&lt;p>これには以下のものを含みます。&lt;/p>
 &lt;ul>
@@ -191,7 +370,7 @@ loading="lazy"
 &lt;/ul>
 &lt;h3 id="buy-me-a-coffeeの登録">Buy Me a Coffeeの登録
 &lt;/h3>&lt;p>まず銀行口座が要るらしい。
-親に頼もうトホホギス&lt;/p></description></item><item><title>2025年04月06日(日)</title><link>https://yossy4411.okayugroup.net/%E6%97%A5%E8%A8%98/2025-04-06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/%E6%97%A5%E8%A8%98/2025-04-06/</guid><description>&lt;h2 id="今日の作業">今日の作業
+親に頼もうトホホギス&lt;/p></description></item><item><title>2025年04月06日(日)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-06/</guid><description>&lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;h3 id="web版ノートのデプロイ">Web版ノートのデプロイ
 &lt;/h3>&lt;p>GitHub Actionsで自動でビルドとデプロイを行えるようにした。&lt;br>
 自動化むずかった。&lt;/p>
@@ -228,11 +407,11 @@ github_token: ${{ secrets.GITHUB_TOKEN }}
 publish_dir: ./public
 publish_branch: gh-pages
 &lt;/code>&lt;/pre>&lt;blockquote>
-&lt;p>実は リポジトリ設定＞ActionsからBotに&lt;code>Read/Write&lt;/code>の権限を持たせないといけなかったりする&lt;/p>&lt;/blockquote></description></item><item><title>2025年04月07日(月)</title><link>https://yossy4411.okayugroup.net/%E6%97%A5%E8%A8%98/2025-04-07/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/%E6%97%A5%E8%A8%98/2025-04-07/</guid><description>&lt;h2 id="今日の作業">今日の作業
+&lt;p>実は リポジトリ設定＞ActionsからBotに&lt;code>Read/Write&lt;/code>の権限を持たせないといけなかったりする&lt;/p>&lt;/blockquote></description></item><item><title>2025年04月07日(月)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-07/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-07/</guid><description>&lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;h3 id="short動画制作---we-are-stpr">short動画制作 - We Are STPR
 &lt;/h3>&lt;p>&lt;a class="link" href="https://www.youtube.com/watch?v=1bKc5XGMIbI&amp;amp;t=1476s" target="_blank" rel="noopener"
 >【全員集合】&amp;ldquo;すとふぇす&amp;quot;ドーム5DAYS終了！ライブ会場から緊急配信しますWWWWW【すとぷり/騎士A/AMPTAK/めておら/すにすて】&lt;/a>より切り抜き&lt;br>
-@&lt;a class="link" href="%e3%81%8a%e3%81%8b%e3%82%86%e3%81%ae%e3%82%b5%e3%83%96" >おかゆのサブ&lt;/a>&lt;/p>
+@&lt;a class="link" href="../favorite/%e3%81%8a%e3%81%8b%e3%82%86%e3%81%ae%e3%82%b5%e3%83%96" >おかゆのサブ&lt;/a>&lt;/p>
 &lt;p>10時半頃に投稿したところ全然伸びなかったので、悔しくて音声・イラスト・効果音を再修整してもう一度投稿しました。（いつかこれが黒歴史になるんだろうなぁ）&lt;br>
 ↑でもこれも学びだと捉えましょう！&lt;/p>
 &lt;h3 id="web版ノートの自動更新がうまく行ってるか確認した">Web版ノートの自動更新がうまく行ってるか確認した
@@ -253,4 +432,43 @@ URLエンコード後&lt;br>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">## 内容
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>内容
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>そんなときは&lt;code>slug&lt;/code>を使えば、ファイル名は日本語のままURLを英語に書き換えれてイイヨ👍️&lt;/p></description></item></channel></rss>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>そんなときは&lt;code>slug&lt;/code>を使えば、ファイル名は日本語のままURLを英語に書き換えれてイイヨ👍️&lt;/p></description></item><item><title>2025年04月08日(火)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-08/</guid><description>&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;h3 id="ノートの情報追加">ノートの情報追加
+&lt;/h3>&lt;p>これらに情報を書き加えました。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="../okayugroup/OGSP/OGSP" >OGSP&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="../okayugroup/OGSP/GUI/OGSP%20Disaster%20Prevention" >OGSP Disaster Prevention&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="../okayugroup/OGSP/GUI/EarthQuake/EarthQuake.desktop" >EarthQuake.desktop&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="../develop/Knowledge/libs/wgpu/wgpu" >wgpu&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="../develop/Knowledge/platform/graphics/webgpu/WebGPU" >WebGPU&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="ノートのリンクを修正">ノートのリンクを修正
+&lt;/h3>&lt;p>&lt;code>().md&lt;/code>形式のリンクはObsidianで一般的に使用されますが、これはHugoでは使えません。&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/yossy4411/note-web/commit/36ee46632d30d1d4646115c926659c293c3c9add#diff-f7b06ddbef6db89a3316207be1370aed4471163e87284b63aad6d51f59f1e45e" target="_blank" rel="noopener"
+>36ee4663 `.mdで終わるリンクを正しく解釈できるように修正`&lt;/a>&lt;br>
+リンクから&amp;quot;.md&amp;quot;を消去することで解釈できるようにしました。&lt;/p>
+&lt;h3 id="ノートのディレクトリ名を変更">ノートのディレクトリ名を変更
+&lt;/h3>&lt;p>&lt;a class="link" href="2025-04-07.md#%e3%83%8e%e3%83%bc%e3%83%88%e3%81%ae%e6%95%b4%e7%90%86" >URLに日本語を含むのはよくない&lt;/a>という判断に基づき、ディレクトリ自体にも名前の変更を加えました。&lt;/p>
+&lt;p>もともと&lt;code>_index.md&lt;/code>にslugを加えることで対処できるものだと思っていたのですが、それでは対応できなかったようです。名前自体を変更することで対処します。&lt;/p>
+&lt;h3 id="mocまとめノートをつける">MOC（まとめノート）をつける
+&lt;/h3>&lt;p>グラフをわかりやすくするため。&lt;/p>
+&lt;h2 id="明日から学校">明日から学校！
+&lt;/h2>&lt;p>ついに明日から3年生となります。&lt;/p>
+&lt;p>宿題をやりましょう。&lt;br>
+（やってなかったんかい）&lt;/p>
+&lt;p>歴史だけまじで苦手すぎる。他95%ぐらい解けてても社会だけ20％とかでマジでまずい、、&lt;br>
+今後このノートに勉強系も追加する可能性もなきにしもアラブ首長国連邦。&lt;br>
+特に江戸時代ね。世界史・地理は多分行ける。&lt;/p>
+&lt;h2 id="広告審査が通った話">広告審査が通った話
+&lt;/h2>&lt;p>&lt;img src="https://yossy4411.okayugroup.net/assets/Pasted%20image%2020250408215622.png"
+loading="lazy"
+alt="okayugroup.net サイトに広告を表示できる状態です"
+>
+長かった。本当に長かった。&lt;/p>
+&lt;p>あとはここから&lt;br>
+イ ン プ レ 数 を 伸 ば す だ け で す ね 。&lt;br>
+↑実質一番つらいのはこれ
+&lt;img src="https://yossy4411.okayugroup.net/assets/Pasted%20image%2020250408215823.png"
+loading="lazy"
+>
+ガチで稼いでる感ハンパねぇｗｗｗ&lt;/p></description></item></channel></rss>
