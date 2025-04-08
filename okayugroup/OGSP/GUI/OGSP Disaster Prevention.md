@@ -9,6 +9,7 @@ lastmod: 2025-04-07T22:37:43+09:00
 draft: true
 showContent: false
 slug: about
+moc: true
 ---
 ## 特徴
 このプロジェクトの最大の特徴は、Rustのメモリ安全性[^1]と高速性を活用した軽量な動作だと思います。  

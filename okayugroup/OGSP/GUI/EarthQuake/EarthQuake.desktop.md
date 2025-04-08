@@ -2,7 +2,8 @@
 title: EarthQuake - デスクトップ版地震災害情報アプリ
 description: （開発中止）災害対策情報アプリ written in C#
 lead: 
-tags: 
+tags:
+  - MOC
 aliases: 
 date: 2025-04-08T10:33:31+09:00
 lastmod: 2025-04-08T10:33:31+09:00

@@ -2,11 +2,12 @@
 title: おかゆグループ地震計プロジェクト
 description: 
 lead: 
-tags: 
+tags:
+  - MOC
 aliases: 
 date: 2025-04-07T22:38:56+09:00
 lastmod: 2025-04-07T22:38:56+09:00
-draft: true
+draft: false
 showContent: true
 slug: about
 ---
