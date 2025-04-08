@@ -4,7 +4,7 @@ description:
 lead: Rustはあの"Firefox"を手掛けるMozilla社が開発したプログラミング言語で、高速でメモリの安全性が特徴です。
 tags: 
 aliases:
-  - about
+  - rust
 date: 2025-04-04T16:46:51+09:00
 lastmod: 2025-04-04T16:46:51+09:00
 draft: false
