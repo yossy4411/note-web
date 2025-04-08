@@ -1,6 +1,6 @@
 ---
 title: Rustのコンパイラについて
-description: rustcとcargoについて解説します。
+description: rustcについて解説します。
 lead: 
 tags: 
 aliases:
@@ -11,7 +11,7 @@ draft: false
 slug: compiler
 ---
 ### コンパイラ
-`rustc`, `cargo`
+`rustc`
 - AOTコンパイル
 - クロスコンパイルが可能 (Windows, Mac, Linux, iOS, Android, WASM)
 - 実行時に発生する可能性のあるエラーをチェックしてくれます
