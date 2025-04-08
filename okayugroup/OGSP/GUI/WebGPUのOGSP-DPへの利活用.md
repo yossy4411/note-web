@@ -5,6 +5,7 @@ lead:
 tags:
   - GPU
   - グラフィック
+  - Web
 aliases: 
 created: 2025-04-01 18:37:30
 date: 2025-04-01 18:37:30
