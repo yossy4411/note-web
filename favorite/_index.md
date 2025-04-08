@@ -2,7 +2,6 @@
 title: 推し活
 description: 
 draft: false
-slug: favorite
 aliases:
   - hobby
   - 推し活
