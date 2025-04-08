@@ -12,11 +12,11 @@
 &lt;tbody>
 &lt;tr>
 &lt;td>創設者&lt;/td>
-&lt;td>&lt;a class="link" href="../%e7%a7%81%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6.md" >yossy4411&lt;/a>&lt;/td>
+&lt;td>&lt;a class="link" href="../%e7%a7%81%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6" >yossy4411&lt;/a>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>管理者&lt;/td>
-&lt;td>&lt;a class="link" href="../%e7%a7%81%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6.md" >yossy4411&lt;/a>&lt;/td>
+&lt;td>&lt;a class="link" href="../%e7%a7%81%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6" >yossy4411&lt;/a>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>設立&lt;/td>
@@ -70,7 +70,7 @@
 おかゆグループの公式HPができたのが6月4日なのでこの日としている。&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:2">
-&lt;p>2024年度、&lt;a class="link" href="../%e7%a7%81%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6.md" >yossy4411&lt;/a>がおかゆグループにかけた金額は4500円、売上高0円。
+&lt;p>2024年度、&lt;a class="link" href="../%e7%a7%81%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6" >yossy4411&lt;/a>がおかゆグループにかけた金額は4500円、売上高0円。
 赤字！wwww&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:3">
@@ -92,9 +92,9 @@ Rustのコンパイラ、疲労困憊ラ&lt;/p>&lt;/blockquote></description></i
 &lt;li>&lt;a class="link" href="https://github.com/rust-lang/rust" target="_blank" rel="noopener"
 >ソースコード (GitHub)&lt;/a>
 Rustはあの&amp;quot;Firefox&amp;quot;を手掛けるMozilla社が開発したプログラミング言語で、高速でメモリの安全性が特徴です。
-これには独自の&lt;a class="link" href="./%e6%89%80%e6%9c%89%e6%a8%a9.md" >所有権&lt;/a>というシステムが大きく関わっており、これによってGCなしでメモリの安全性を手に入れています。&lt;/li>
+これには独自の&lt;a class="link" href="./%e6%89%80%e6%9c%89%e6%a8%a9" >所有権&lt;/a>というシステムが大きく関わっており、これによってGCなしでメモリの安全性を手に入れています。&lt;/li>
 &lt;/ul>
-&lt;p>所有権を正しく判別し、コンパイル時にエラーを出すために強力な&lt;a class="link" href="Rust%e3%82%b3%e3%83%b3%e3%83%91%e3%82%a4%e3%83%a9.md" >Rustコンパイラ&lt;/a> (rustc)が作られています。&lt;/p></description></item><item><title>所有権システム</title><link>https://yossy4411.okayugroup.net/%E9%96%8B%E7%99%BA/knowledge/lang/rust/ownership/</link><pubDate>Fri, 04 Apr 2025 16:25:59 +0900</pubDate><guid>https://yossy4411.okayugroup.net/%E9%96%8B%E7%99%BA/knowledge/lang/rust/ownership/</guid><description>&lt;h3 id="所有権">所有権
+&lt;p>所有権を正しく判別し、コンパイル時にエラーを出すために強力な&lt;a class="link" href="Rust%e3%82%b3%e3%83%b3%e3%83%91%e3%82%a4%e3%83%a9" >Rustコンパイラ&lt;/a> (rustc)が作られています。&lt;/p></description></item><item><title>所有権システム</title><link>https://yossy4411.okayugroup.net/%E9%96%8B%E7%99%BA/knowledge/lang/rust/ownership/</link><pubDate>Fri, 04 Apr 2025 16:25:59 +0900</pubDate><guid>https://yossy4411.okayugroup.net/%E9%96%8B%E7%99%BA/knowledge/lang/rust/ownership/</guid><description>&lt;h3 id="所有権">所有権
 &lt;/h3>&lt;p>Rustには&amp;quot;所有権システム&amp;quot;というのがあります。
 これには、ゼロコストのメモリ管理ができるという利点があります。&lt;/p>
 &lt;p>これによりGCが不必要となり、速度が圧倒的に上がります。&lt;/p>
@@ -142,13 +142,13 @@ println!関数に渡ったあと、その関数内でスコープを抜けると
 &lt;/h2>&lt;h2 id="調査中">調査中
 &lt;/h2>&lt;h2 id="勉強学習中">勉強・学習中
 &lt;/h2>&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> &lt;a class="link" href="../%e3%81%8a%e3%81%8b%e3%82%86%e3%82%b0%e3%83%ab%e3%83%bc%e3%83%97/OGSP/GUI/WebGPU%e3%81%aeOGSPdp%e3%81%b8%e3%81%ae%e5%88%a9%e6%b4%bb%e7%94%a8.md" >WebGPUのOGSPdpへの利活用&lt;/a>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> &lt;a class="link" href="../%e3%81%8a%e3%81%8b%e3%82%86%e3%82%b0%e3%83%ab%e3%83%bc%e3%83%97/OGSP/GUI/WebGPU%e3%81%aeOGSPdp%e3%81%b8%e3%81%ae%e5%88%a9%e6%b4%bb%e7%94%a8" >WebGPUのOGSPdpへの利活用&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="修正が必要-">修正が必要 ⏫
 &lt;/h2>&lt;h2 id="やりたいこと">やりたいこと
 &lt;/h2>&lt;h2 id="進行中">進行中
 &lt;/h2>&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> &lt;a class="link" href="../%e9%96%8b%e7%99%ba/JourneyStreetMap/JourneyStreetMap%e3%81%a8%e3%81%af.md" >JourneyStreetMapとは&lt;/a>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> &lt;a class="link" href="../%e9%96%8b%e7%99%ba/JourneyStreetMap/JourneyStreetMap%e3%81%a8%e3%81%af" >JourneyStreetMapとは&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="完了">完了
 &lt;/h2>&lt;p>%% kanban:settings&lt;/p>
@@ -156,8 +156,8 @@ println!関数に渡ったあと、その関数内でスコープを抜けると
 &lt;/code>&lt;/pre>&lt;p>%%&lt;/p></description></item><item><title>2025年04月03日(木)</title><link>https://yossy4411.okayugroup.net/%E6%97%A5%E8%A8%98/2025-04-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/%E6%97%A5%E8%A8%98/2025-04-03/</guid><description>&lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;ul>
 &lt;li>&lt;a class="link" href="#JourneyStreetMap%e3%81%ae%e9%96%8b%e7%99%ba" >JourneyStreetMapの開発&lt;/a>&lt;/li>
-&lt;li>YouTube 動画投稿 @&lt;a class="link" href="../%e6%8e%a8%e3%81%97%e6%b4%bb/%e3%81%8a%e3%81%8b%e3%82%86%e3%81%ae%e3%82%b5%e3%83%96.md" >おかゆのサブ&lt;/a>「STAR to STPRのボーカルを際立たせてみた」 shorts及び長尺&lt;/li>
-&lt;li>&lt;a class="link" href="../%e6%8e%a8%e3%81%97%e6%b4%bb/STPR/%e3%81%99%e3%81%a8%e3%81%b5%e3%81%87%e3%81%99%e8%a9%90%e6%ac%ba%e5%9e%a2.md" >Xの怪しいアカウントのURLの調査&lt;/a>&lt;/li>
+&lt;li>YouTube 動画投稿 @&lt;a class="link" href="../%e6%8e%a8%e3%81%97%e6%b4%bb/%e3%81%8a%e3%81%8b%e3%82%86%e3%81%ae%e3%82%b5%e3%83%96" >おかゆのサブ&lt;/a>「STAR to STPRのボーカルを際立たせてみた」 shorts及び長尺&lt;/li>
+&lt;li>&lt;a class="link" href="../%e6%8e%a8%e3%81%97%e6%b4%bb/STPR/%e3%81%99%e3%81%a8%e3%81%b5%e3%81%87%e3%81%99%e8%a9%90%e6%ac%ba%e5%9e%a2" >Xの怪しいアカウントのURLの調査&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="#X%e3%81%ae%e3%82%b9%e3%82%af%e3%82%b7%e3%83%a7%e3%82%92%e8%87%aa%e5%8b%95%e5%8c%96%e3%81%97%e3%82%88%e3%81%86%e3%81%a8%e6%80%9d%e3%81%a3%e3%81%9f" >Xのスクショの自動化&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="journeystreetmapの開発">JourneyStreetMapの開発
@@ -232,7 +232,7 @@ publish_branch: gh-pages
 &lt;/h2>&lt;h3 id="short動画制作---we-are-stpr">short動画制作 - We Are STPR
 &lt;/h3>&lt;p>&lt;a class="link" href="https://www.youtube.com/watch?v=1bKc5XGMIbI&amp;amp;t=1476s" target="_blank" rel="noopener"
 >【全員集合】&amp;ldquo;すとふぇす&amp;quot;ドーム5DAYS終了！ライブ会場から緊急配信しますWWWWW【すとぷり/騎士A/AMPTAK/めておら/すにすて】&lt;/a>より切り抜き&lt;br>
-@&lt;a class="link" href="%e3%81%8a%e3%81%8b%e3%82%86%e3%81%ae%e3%82%b5%e3%83%96.md" >おかゆのサブ&lt;/a>&lt;/p>
+@&lt;a class="link" href="%e3%81%8a%e3%81%8b%e3%82%86%e3%81%ae%e3%82%b5%e3%83%96" >おかゆのサブ&lt;/a>&lt;/p>
 &lt;p>10時半頃に投稿したところ全然伸びなかったので、悔しくて音声・イラスト・効果音を再修整してもう一度投稿しました。（いつかこれが黒歴史になるんだろうなぁ）&lt;br>
 ↑でもこれも学びだと捉えましょう！&lt;/p>
 &lt;h3 id="web版ノートの自動更新がうまく行ってるか確認した">Web版ノートの自動更新がうまく行ってるか確認した

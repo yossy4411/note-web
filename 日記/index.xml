@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>日記 on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/%E6%97%A5%E8%A8%98/</link><description>Recent content in 日記 on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><atom:link href="https://yossy4411.okayugroup.net/%E6%97%A5%E8%A8%98/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年04月03日(木)</title><link>https://yossy4411.okayugroup.net/%E6%97%A5%E8%A8%98/2025-04-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/%E6%97%A5%E8%A8%98/2025-04-03/</guid><description>&lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;ul>
 &lt;li>&lt;a class="link" href="#JourneyStreetMap%e3%81%ae%e9%96%8b%e7%99%ba" >JourneyStreetMapの開発&lt;/a>&lt;/li>
-&lt;li>YouTube 動画投稿 @&lt;a class="link" href="../%e6%8e%a8%e3%81%97%e6%b4%bb/%e3%81%8a%e3%81%8b%e3%82%86%e3%81%ae%e3%82%b5%e3%83%96.md" >おかゆのサブ&lt;/a>「STAR to STPRのボーカルを際立たせてみた」 shorts及び長尺&lt;/li>
-&lt;li>&lt;a class="link" href="../%e6%8e%a8%e3%81%97%e6%b4%bb/STPR/%e3%81%99%e3%81%a8%e3%81%b5%e3%81%87%e3%81%99%e8%a9%90%e6%ac%ba%e5%9e%a2.md" >Xの怪しいアカウントのURLの調査&lt;/a>&lt;/li>
+&lt;li>YouTube 動画投稿 @&lt;a class="link" href="../%e6%8e%a8%e3%81%97%e6%b4%bb/%e3%81%8a%e3%81%8b%e3%82%86%e3%81%ae%e3%82%b5%e3%83%96" >おかゆのサブ&lt;/a>「STAR to STPRのボーカルを際立たせてみた」 shorts及び長尺&lt;/li>
+&lt;li>&lt;a class="link" href="../%e6%8e%a8%e3%81%97%e6%b4%bb/STPR/%e3%81%99%e3%81%a8%e3%81%b5%e3%81%87%e3%81%99%e8%a9%90%e6%ac%ba%e5%9e%a2" >Xの怪しいアカウントのURLの調査&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="#X%e3%81%ae%e3%82%b9%e3%82%af%e3%82%b7%e3%83%a7%e3%82%92%e8%87%aa%e5%8b%95%e5%8c%96%e3%81%97%e3%82%88%e3%81%86%e3%81%a8%e6%80%9d%e3%81%a3%e3%81%9f" >Xのスクショの自動化&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="journeystreetmapの開発">JourneyStreetMapの開発
@@ -77,7 +77,7 @@ publish_branch: gh-pages
 &lt;/h2>&lt;h3 id="short動画制作---we-are-stpr">short動画制作 - We Are STPR
 &lt;/h3>&lt;p>&lt;a class="link" href="https://www.youtube.com/watch?v=1bKc5XGMIbI&amp;amp;t=1476s" target="_blank" rel="noopener"
 >【全員集合】&amp;ldquo;すとふぇす&amp;quot;ドーム5DAYS終了！ライブ会場から緊急配信しますWWWWW【すとぷり/騎士A/AMPTAK/めておら/すにすて】&lt;/a>より切り抜き&lt;br>
-@&lt;a class="link" href="%e3%81%8a%e3%81%8b%e3%82%86%e3%81%ae%e3%82%b5%e3%83%96.md" >おかゆのサブ&lt;/a>&lt;/p>
+@&lt;a class="link" href="%e3%81%8a%e3%81%8b%e3%82%86%e3%81%ae%e3%82%b5%e3%83%96" >おかゆのサブ&lt;/a>&lt;/p>
 &lt;p>10時半頃に投稿したところ全然伸びなかったので、悔しくて音声・イラスト・効果音を再修整してもう一度投稿しました。（いつかこれが黒歴史になるんだろうなぁ）&lt;br>
 ↑でもこれも学びだと捉えましょう！&lt;/p>
 &lt;h3 id="web版ノートの自動更新がうまく行ってるか確認した">Web版ノートの自動更新がうまく行ってるか確認した
