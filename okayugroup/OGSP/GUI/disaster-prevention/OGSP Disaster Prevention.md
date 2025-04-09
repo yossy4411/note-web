@@ -5,7 +5,7 @@ lead:
 tags: 
 aliases: 
 date: 2025-04-07T22:37:43+09:00
-lastmod: 2025-04-07T22:37:43+09:00
+lastmod: 2025-04-09
 draft: true
 showContent: false
 slug: about
@@ -19,7 +19,10 @@ GCのないRustはC#よりも高速かつ少ないリソースでも動くと考
 現在の開発段階は「検討中」です。[^2]基礎からまるっきり変わる可能性もあります。
 - IDE: RustRover
 - プラットフォーム: GitHub
+## 技術的情報
+**依存関係**
+- [wgpu](../../../../develop/Knowledge/libs/wgpu/wgpu.md)
 
 
-[^1]: [所有権](../../../develop/Knowledge/lang/Rust/所有権.md)システムによって保証されている。
-[^2]: 詳しくは[やることリスト（すべて）](../../../TODO/やることリスト（すべて）.md)をご覧ください。
+[^1]: [所有権](../../../../develop/Knowledge/lang/Rust/所有権.md)システムによって保証されている。
+[^2]: 詳しくは[やることリスト（すべて）](../../../../TODO/やることリスト（すべて）.md)をご覧ください。
