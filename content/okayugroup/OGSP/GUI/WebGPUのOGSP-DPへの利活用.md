@@ -12,7 +12,7 @@ date: 2025-04-01 18:37:30
 draft: true
 slug: using-webgpu
 ---
-このドキュメントは[OGSP Disaster Prevention](OGSP%20Disaster%20Prevention.md)に関連します。
+このドキュメントは[OGSP Disaster Prevention](disaster-prevention/OGSP%20Disaster%20Prevention.md)に関連します。
 ## WebGPUについて
 WebGPUは、MozillaやGoogle、Appleなどが共同で開発している、様々なグラフィックライブラリを抽象化するプロジェクトです。  
 
