@@ -68,7 +68,7 @@
 GUIフレームワーク: Avalonia + SkiaSharp
 ↪ &lt;a class="link" href="https://github.com/yossy4411/EarthQuake" target="_blank" rel="noopener"
 >GitHub&lt;/a>&lt;/p>
-&lt;h3 id="ogsp-disaster-prevention">&lt;a class="link" href="GUI/OGSP%20Disaster%20Prevention" >OGSP Disaster Prevention&lt;/a>
+&lt;h3 id="ogsp-disaster-prevention">&lt;a class="link" href="GUI/disaster-prevention/OGSP%20Disaster%20Prevention" >OGSP Disaster Prevention&lt;/a>
 &lt;/h3>&lt;p>パフォーマンスを最大化した最新鋭の設計&lt;br>
 言語: &lt;a class="link" href="../../develop/Knowledge/lang/Rust/Rust" >Rust&lt;/a>
 GUIフレームワーク: &lt;code>iced&lt;/code> (変更の可能性あり) + &lt;code>wgpu&lt;/code> + Skia (&lt;code>skia-safe&lt;/code>)&lt;/p></description></item></channel></rss>

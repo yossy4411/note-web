@@ -1,1 +1,107 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yossy4411のノート</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/iced/</link><description>Recent content on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><atom:link href="https://yossy4411.okayugroup.net/develop/knowledge/libs/iced/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yossy4411のノート</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/iced/</link><description>Recent content on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Wed, 09 Apr 2025 15:50:19 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/develop/knowledge/libs/iced/index.xml" rel="self" type="application/rss+xml"/><item><title>Iced - RustのGUIライブラリ</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/iced/iced/</link><pubDate>Wed, 09 Apr 2025 15:50:19 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/libs/iced/iced/</guid><description>&lt;h2 id="特徴">特徴
+&lt;/h2>&lt;blockquote>
+&lt;p>A cross-platform GUI library for Rust focused on simplicity and type-safety. Inspired by &lt;a class="link" href="https://elm-lang.org/" target="_blank" rel="noopener"
+>Elm&lt;/a>.&lt;/p>&lt;/blockquote>
+&lt;p>日本語にすると、&lt;/p>
+&lt;blockquote>
+&lt;p>単純性と型安全性に注視したRustのクラスプラットフォームGUIライブラリ。Elmにインスパイアされました。&lt;/p>&lt;/blockquote>
+&lt;p>となりますね。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>Elmアーキテクチャを採用&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>iced&lt;/code>は、関数型言語Elmのアーキテクチャにインスパイアされて設計されている。&lt;/li>
+&lt;li>アプリの状態（State）を明確に管理しやすく、UIイベントもスッキリと書ける。&lt;/li>
+&lt;li>&lt;strong>構成要素&lt;/strong>:
+&lt;ul>
+&lt;li>&lt;strong>Model&lt;/strong>: アプリケーションの状態&lt;/li>
+&lt;li>&lt;strong>Message&lt;/strong>: ユーザーやシステムからのイベント&lt;/li>
+&lt;li>&lt;strong>Update&lt;/strong>: 状態を更新するロジック&lt;/li>
+&lt;li>&lt;strong>View&lt;/strong>: 状態に基づいてUIを描画&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>クロスプラットフォーム対応&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>デスクトップ（Windows、macOS、Linux）とWeb（WebAssembly）で動く。&lt;/li>
+&lt;li>しかも同じコードでね。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>宣言的UI&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>UIを「どう見えるべきか」を宣言的に書くことができる。&lt;/li>
+&lt;li>例えば、ボタンやテキストなどをコードで直感的に記述できるよ。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>非同期対応&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>非同期タスク（&lt;code>async&lt;/code>）に対応しているから、APIリクエストや長時間かかる処理も簡単に扱える。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>プラグイン可能な柔軟性&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>カスタムウィジェットやスタイルを実装できるので、自由度が高い。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="バックエンド">バックエンド
+&lt;/h2>&lt;p>icedはバックエンドに&lt;a class="link" href="../wgpu/wgpu" >wgpu&lt;/a>を採用している。&lt;br>
+また、パフォーマンスこそまずまずだが、tiny-skiaにも対応している。&lt;br>
+↪&lt;a class="link" href="../../../../okayugroup/OGSP/GUI/iced%e3%81%ae%e3%83%90%e3%83%83%e3%82%af%e3%82%a8%e3%83%b3%e3%83%89%e3%81%ae%e7%89%b9%e6%80%a7" >icedのバックエンドの特性&lt;/a>&lt;/p>
+&lt;h2 id="サンプルコード">サンプルコード
+&lt;/h2>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rust" data-lang="rust">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#[derive(Default)]&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">struct&lt;/span> &lt;span style="color:#a6e22e">Counter&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> value: &lt;span style="color:#66d9ef">i32&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#[derive(Debug, Clone, Copy)]&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">pub&lt;/span> &lt;span style="color:#66d9ef">enum&lt;/span> &lt;span style="color:#a6e22e">Message&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Increment,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Decrement,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">use&lt;/span> iced::widget::{button, column, text, Column};
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">impl&lt;/span> Counter {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">pub&lt;/span> &lt;span style="color:#66d9ef">fn&lt;/span> &lt;span style="color:#a6e22e">view&lt;/span>(&lt;span style="color:#f92672">&amp;amp;&lt;/span>self) -&amp;gt; &lt;span style="color:#a6e22e">Column&lt;/span>&lt;span style="color:#f92672">&amp;lt;&lt;/span>Message&lt;span style="color:#f92672">&amp;gt;&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// We use a column: a simple vertical layout
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> column![
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// The increment button. We tell it to produce an
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">// `Increment` message when pressed
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> button(&lt;span style="color:#e6db74">&amp;#34;+&amp;#34;&lt;/span>).on_press(Message::Increment),
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// We show the value of the counter here
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> text(self.value).size(&lt;span style="color:#ae81ff">50&lt;/span>),
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// The decrement button. We tell it to produce a
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">// `Decrement` message when pressed
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> button(&lt;span style="color:#e6db74">&amp;#34;-&amp;#34;&lt;/span>).on_press(Message::Decrement),
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">pub&lt;/span> &lt;span style="color:#66d9ef">fn&lt;/span> &lt;span style="color:#a6e22e">update&lt;/span>(&lt;span style="color:#f92672">&amp;amp;&lt;/span>&lt;span style="color:#66d9ef">mut&lt;/span> self, message: &lt;span style="color:#a6e22e">Message&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">match&lt;/span> message {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Message::Increment &lt;span style="color:#f92672">=&amp;gt;&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> self.value &lt;span style="color:#f92672">+=&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Message::Decrement &lt;span style="color:#f92672">=&amp;gt;&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> self.value &lt;span style="color:#f92672">-=&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">fn&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>() -&amp;gt; &lt;span style="color:#a6e22e">iced&lt;/span>::Result {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> iced::run(&lt;span style="color:#e6db74">&amp;#34;A cool counter&amp;#34;&lt;/span>, Counter::update, Counter::view)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>#信憑性の低い情報&lt;/p>
+&lt;p>関数&lt;code>view&lt;/code>部分にはマクロと純粋関数を使用している。ここに関数型言語Elmの特徴が出てきていますね。&lt;/p>
+&lt;p>ボタンを押したときのイベントを&lt;code>on_press&lt;/code>で割り当て、イベント発生時に&lt;code>update&lt;/code>関数が呼び出されます。&lt;br>
+&lt;code>self.value&lt;/code>を変更すると、&lt;code>view&lt;/code>関数が呼び出されます。&lt;/p>
+&lt;p>そうやってローテーションしていきます。&lt;/p></description></item></channel></rss>

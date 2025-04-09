@@ -3,6 +3,7 @@
 殆どが「今日やったこと」とそれに関連して「わかったこと」しか書いてないと思います。&lt;/p>
 &lt;h2 id="目次">目次
 &lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="2025-04-09" >2025-04-09&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="2025-04-08" >2025-04-08&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="2025-04-07" >2025-04-07&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="2025-04-06" >2025-04-06&lt;/a>&lt;/li>
@@ -115,7 +116,7 @@ URLエンコード後&lt;br>
 &lt;/h3>&lt;p>これらに情報を書き加えました。&lt;/p>
 &lt;ul>
 &lt;li>&lt;a class="link" href="../okayugroup/OGSP/OGSP" >OGSP&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="../okayugroup/OGSP/GUI/OGSP%20Disaster%20Prevention" >OGSP Disaster Prevention&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="../okayugroup/OGSP/GUI/disaster-prevention/OGSP%20Disaster%20Prevention" >OGSP Disaster Prevention&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="../okayugroup/OGSP/GUI/EarthQuake/EarthQuake.desktop" >EarthQuake.desktop&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="../develop/Knowledge/libs/wgpu/wgpu" >wgpu&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="../develop/Knowledge/platform/graphics/webgpu/WebGPU" >WebGPU&lt;/a>&lt;/li>
@@ -149,4 +150,30 @@ alt="okayugroup.net サイトに広告を表示できる状態です"
 &lt;img src="https://yossy4411.okayugroup.net/assets/Pasted%20image%2020250408215823.png"
 loading="lazy"
 >
-ガチで稼いでる感ハンパねぇｗｗｗ&lt;/p></description></item></channel></rss>
+ガチで稼いでる感ハンパねぇｗｗｗ&lt;/p></description></item><item><title>2025年04月09日(水)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-09/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-09/</guid><description>&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;h3 id="ノート整理">ノート整理
+&lt;/h3>&lt;p>&lt;a class="link" href="2025-04-08" >昨日&lt;/a>の続きです。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="../develop/JourneyStreetMap/JourneyStreetMap%e3%81%a8%e3%81%af" >JourneyStreetMap&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="../okayugroup/OGSP/OGSP" >OGSP&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="../develop/Knowledge/libs/iced/iced" >iced&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="../favorite/STPR/STPR" >STPR&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="../develop/Knowledge/lang/%e3%82%ac%e3%83%99%e3%83%bc%e3%82%b8%e3%82%b3%e3%83%ac%e3%82%af%e3%82%b7%e3%83%a7%e3%83%b3" >GC&lt;/a>
+のまとめノートを整理しました。&lt;/li>
+&lt;/ul>
+&lt;h2 id="journeystreetmapの制作">&lt;a class="link" href="../develop/JourneyStreetMap/JourneyStreetMap%e3%81%a8%e3%81%af" >journeystreetmap&lt;/a>の制作
+&lt;/h2>&lt;p>icedのカスタムウィジェットと他のウィジェットをつなげる部分の開発&lt;/p>
+&lt;p>分かったこととしては、&lt;/p>
+&lt;ul>
+&lt;li>view関数内では&amp;amp;selfしか引数に与えられないため、その中で操作するウィジェットはApplicationのメンバーにアクセスできず、イミュータブルである。&lt;/li>
+&lt;li>もし書き換える必要があるならば、カスタムウィジェットにイベントハンドラを追加してMessageを割り当て、update関数でメンバーの変数を書き換えることができる。&lt;/li>
+&lt;li>update関数が呼び出されたあとには、アプリケーションのウィジェットはすべて破棄されてもう一度view関数が呼ばれ、再宣言される。&lt;/li>
+&lt;/ul>
+&lt;p>宣言型・関数型なのだ。&lt;/p>
+&lt;p>つまり、icedはあまりこういうアプリには向いていないと言える。&lt;/p>
+&lt;p>選択肢としては&amp;hellip;&lt;/p>
+&lt;ul>
+&lt;li>egui&lt;/li>
+&lt;li>Druid&lt;/li>
+&lt;li>Dioxus ←試験段階らしい、Reactライクだとかなんとか&lt;/li>
+&lt;/ul></description></item></channel></rss>
