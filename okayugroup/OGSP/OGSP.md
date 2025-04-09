@@ -63,7 +63,7 @@ slug: about
 言語: C#  
 GUIフレームワーク: Avalonia + SkiaSharp
 ↪ [GitHub](https://github.com/yossy4411/EarthQuake)
-### [OGSP Disaster Prevention](GUI/OGSP%20Disaster%20Prevention.md)
+### [OGSP Disaster Prevention](GUI/disaster-prevention/OGSP%20Disaster%20Prevention.md)
 パフォーマンスを最大化した最新鋭の設計  
  言語: [Rust](../../develop/Knowledge/lang/Rust/Rust.md)
  GUIフレームワーク: `iced` (変更の可能性あり) + `wgpu` + Skia (`skia-safe`)
