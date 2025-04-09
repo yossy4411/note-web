@@ -4,7 +4,7 @@ on:
   schedule:
     # UTC 21:00 (日本の6時）に実行
     - cron: '0 21 * * *'
-  push:
+  pull_request:
     branches:
       - main
 
