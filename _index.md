@@ -11,14 +11,15 @@ title = ''
 何かしらの役に立てれば幸いです。
 
 ## 目次
-- [JourneyStreetMap](開発/journeystreetmap) - JourneyMapのデータからウェブマップを作る
-- [開発](開発) - 開発に関すること
-  - [Knowledge](開発/knowledge) - 知識の整理
-  - [ライブラリ](開発/knowledge/libs) - ライブラリのメモ
-- [日記](日記) - 日々の出来事まとめ
-- [推し活](推し活) - 推しを語りたい
-- [TODO](TODO) - TODOリスト / かんばんボード
-- [その他](その他) - その他のこと
+- [journeystreetmap](develop/journeystreetmap/) - JourneyMapのデータからウェブマップを作るプロジェクト
+- [OGSP](okayugroup/OGSP/)
+- [開発](develop/) - 開発に関すること
+  - [Knowledge](develop/knowledge/) - 知識の整理
+  - [ライブラリ](develop/knowledge/libs/) - ライブラリのメモ
+- [日記](diary/) - 日々の出来事まとめ
+- [推し活](favorite/) - 推しを語りたい
+- [TODO](todo/) - TODOリスト / かんばんボード
+- [その他](others/) - その他のこと
 
 ## GitHub Repo
 このノートはGitHubとObsidianによって、[こちら](https://github.com/yossy4411/note)にて公開されています。  
