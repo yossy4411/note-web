@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>グラフィック on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/tags/%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3%E3%83%83%E3%82%AF/</link><description>Recent content in グラフィック on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Thu, 10 Apr 2025 17:35:48 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/tags/%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3%E3%83%83%E3%82%AF/index.xml" rel="self" type="application/rss+xml"/><item><title>egui</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/egui/about/</link><pubDate>Thu, 10 Apr 2025 17:35:48 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/libs/egui/about/</guid><description>&lt;h2 id="特徴">特徴
+&lt;/h2>&lt;blockquote>
+&lt;p>egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native&lt;/p>&lt;/blockquote>
+&lt;p>日本語にすると、&lt;/p>
+&lt;blockquote>
+&lt;p>Webとネイティブアプリケーションとして動作できる、&lt;a class="link" href="../../lang/Rust/Rust" >Rust&lt;/a>の使いやすい即時モードの&lt;a class="link" href="../GUI%e3%83%a9%e3%82%a4%e3%83%96%e3%83%a9%e3%83%aa" >GUIライブラリ&lt;/a>。&lt;/p>&lt;/blockquote>
+&lt;p>となりますね。&lt;/p>
+&lt;h3 id="即時モードについて">即時モードについて
+&lt;/h3>&lt;p>即時モードとは、アプリケーションが常に更新され続ける形のUI構築システムのことで、ウィンドウでは定期的に再描画処理が呼ばれる。&lt;/p>
+&lt;h2 id="サンプルコード">サンプルコード
+&lt;/h2>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rust" data-lang="rust">&lt;span style="display:flex;">&lt;span>ui.heading(&lt;span style="color:#e6db74">&amp;#34;My egui Application&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ui.horizontal(&lt;span style="color:#f92672">|&lt;/span>ui&lt;span style="color:#f92672">|&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ui.label(&lt;span style="color:#e6db74">&amp;#34;Your name: &amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ui.text_edit_singleline(&lt;span style="color:#f92672">&amp;amp;&lt;/span>&lt;span style="color:#66d9ef">mut&lt;/span> name);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>});
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ui.add(egui::Slider::new(&lt;span style="color:#f92672">&amp;amp;&lt;/span>&lt;span style="color:#66d9ef">mut&lt;/span> age, &lt;span style="color:#ae81ff">0&lt;/span>&lt;span style="color:#f92672">..=&lt;/span>&lt;span style="color:#ae81ff">120&lt;/span>).text(&lt;span style="color:#e6db74">&amp;#34;age&amp;#34;&lt;/span>));
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">if&lt;/span> ui.button(&lt;span style="color:#e6db74">&amp;#34;Increment&amp;#34;&lt;/span>).clicked() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> age &lt;span style="color:#f92672">+=&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ui.label(format!(&lt;span style="color:#e6db74">&amp;#34;Hello &amp;#39;&lt;/span>&lt;span style="color:#e6db74">{name}&lt;/span>&lt;span style="color:#e6db74">&amp;#39;, age &lt;/span>&lt;span style="color:#e6db74">{age}&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>));
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ui.image(egui::include_image!(&lt;span style="color:#e6db74">&amp;#34;ferris.png&amp;#34;&lt;/span>));
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>やっぱりわかりやすいね。&lt;/p>
+&lt;p>他のGUIライブラリとは違って、ボタンのクリックの処理がイベントハンドラではないところが少し気になると思うが、&lt;code>clicked()&lt;/code>はボタンが押された瞬間だけ&lt;code>true&lt;/code>になるため、これでボタンの押された処理が実装できる。&lt;/p>
+&lt;p>私は以前Scratchをやっていましたが、それにとても近いと思います。&lt;/p></description></item></channel></rss>

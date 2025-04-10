@@ -4,7 +4,7 @@
 >Elm&lt;/a>.&lt;/p>&lt;/blockquote>
 &lt;p>日本語にすると、&lt;/p>
 &lt;blockquote>
-&lt;p>単純性と型安全性に注視したRustのクラスプラットフォームGUIライブラリ。Elmにインスパイアされました。&lt;/p>&lt;/blockquote>
+&lt;p>単純性と型安全性に注視した&lt;a class="link" href="../../lang/Rust/Rust" >Rust&lt;/a>のクラスプラットフォームGUIライブラリ。Elmにインスパイアされました。&lt;/p>&lt;/blockquote>
 &lt;p>となりますね。&lt;/p>
 &lt;ol>
 &lt;li>

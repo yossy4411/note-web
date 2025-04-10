@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>日記 on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/diary/</link><description>Recent content in 日記 on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Tue, 08 Apr 2025 16:24:26 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/diary/index.xml" rel="self" type="application/rss+xml"/><item><title>日記</title><link>https://yossy4411.okayugroup.net/diary/about/</link><pubDate>Tue, 08 Apr 2025 16:24:26 +0900</pubDate><guid>https://yossy4411.okayugroup.net/diary/about/</guid><description>&lt;h2 id="管理について">管理について
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>日記 on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/diary/</link><description>Recent content in 日記 on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/diary/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年04月10日(木)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-10/</link><pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-10/</guid><description>&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;h3 id="journeystreetmapをeguiに移植">&lt;a class="link" href="../develop/JourneyStreetMap/JourneyStreetMap%e3%81%a8%e3%81%af" >journeystreetmap&lt;/a>をeguiに移植
+&lt;/h3>&lt;p>&lt;a class="link" href="2025-04-09.md#[journeystreetmap]%28../develop/JourneyStreetMap/JourneyStreetMap%e3%81%a8%e3%81%af.md%29%e3%81%ae%e5%88%b6%e4%bd%9c" >昨日分かったこと&lt;/a>なのですが、&lt;a class="link" href="../develop/Knowledge/libs/iced/iced" >iced&lt;/a>では少し融通がきかないなというわけでeguiに移植したいと思います。&lt;/p>
+&lt;p>普通に&lt;code>Image&lt;/code>を&lt;code>ui.put&lt;/code>して良いパフォーマンスが得られたら良いんですがね、そう上手くはいかなそうです。&lt;br>
+もし別の方法を考える必要があった場合は、&lt;a class="link" href="../develop/Knowledge/libs/wgpu/wgpu" >wgpu&lt;/a>で直接描画を行うなど、プリミティブなやり方を取ります。&lt;/p></description></item><item><title>2025年04月09日(水)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-09/</link><pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-09/</guid><description>&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;h3 id="ノート整理">ノート整理
+&lt;/h3>&lt;p>&lt;a class="link" href="2025-04-08" >昨日&lt;/a>の続きです。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="../develop/JourneyStreetMap/JourneyStreetMap%e3%81%a8%e3%81%af" >JourneyStreetMap&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="../okayugroup/OGSP/OGSP" >OGSP&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="../develop/Knowledge/libs/iced/iced" >iced&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="../favorite/STPR/STPR" >STPR&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="../develop/Knowledge/lang/%e3%82%ac%e3%83%99%e3%83%bc%e3%82%b8%e3%82%b3%e3%83%ac%e3%82%af%e3%82%b7%e3%83%a7%e3%83%b3" >GC&lt;/a>
+のまとめノートを整理しました。&lt;/li>
+&lt;/ul>
+&lt;h2 id="journeystreetmapの制作">&lt;a class="link" href="../develop/JourneyStreetMap/JourneyStreetMap%e3%81%a8%e3%81%af" >journeystreetmap&lt;/a>の制作
+&lt;/h2>&lt;p>icedのカスタムウィジェットと他のウィジェットをつなげる部分の開発&lt;/p>
+&lt;p>分かったこととしては、&lt;/p>
+&lt;ul>
+&lt;li>view関数内では&amp;amp;selfしか引数に与えられないため、その中で操作するウィジェットはApplicationのメンバーにアクセスできず、イミュータブルである。&lt;/li>
+&lt;li>もし書き換える必要があるならば、カスタムウィジェットにイベントハンドラを追加してMessageを割り当て、update関数でメンバーの変数を書き換えることができる。&lt;/li>
+&lt;li>update関数が呼び出されたあとには、アプリケーションのウィジェットはすべて破棄されてもう一度view関数が呼ばれ、再宣言される。&lt;/li>
+&lt;/ul>
+&lt;p>宣言型・関数型なのだ。&lt;/p>
+&lt;p>つまり、icedはあまりこういうアプリには向いていないと言える。&lt;/p>
+&lt;p>選択肢としては&amp;hellip;&lt;/p>
+&lt;ul>
+&lt;li>egui&lt;/li>
+&lt;li>Druid&lt;/li>
+&lt;li>Dioxus ←試験段階らしい、Reactライクだとかなんとか&lt;/li>
+&lt;/ul></description></item><item><title>日記</title><link>https://yossy4411.okayugroup.net/diary/about/</link><pubDate>Tue, 08 Apr 2025 16:24:26 +0900</pubDate><guid>https://yossy4411.okayugroup.net/diary/about/</guid><description>&lt;h2 id="管理について">管理について
 &lt;/h2>&lt;p>2025/4/1から&lt;a class="link" href="../%e7%a7%81%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6" >yossy4411&lt;/a>が毎日書いています。&lt;br>
 殆どが「今日やったこと」とそれに関連して「わかったこと」しか書いてないと思います。&lt;/p>
 &lt;h2 id="目次">目次
@@ -11,107 +41,7 @@
 &lt;li>&lt;a class="link" href="2025-04-04" >2025-04-04&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="2025-04-03" >2025-04-03&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;!-- raw HTML omitted --></description></item><item><title>2025年04月03日(木)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-03/</guid><description>&lt;h2 id="今日の作業">今日の作業
-&lt;/h2>&lt;ul>
-&lt;li>&lt;a class="link" href="#JourneyStreetMap%e3%81%ae%e9%96%8b%e7%99%ba" >JourneyStreetMapの開発&lt;/a>&lt;/li>
-&lt;li>YouTube 動画投稿 @&lt;a class="link" href="../favorite/%e3%81%8a%e3%81%8b%e3%82%86%e3%81%ae%e3%82%b5%e3%83%96" >おかゆのサブ&lt;/a>「STAR to STPRのボーカルを際立たせてみた」 shorts及び長尺&lt;/li>
-&lt;li>&lt;a class="link" href="../favorite/STPR/%e3%81%99%e3%81%a8%e3%81%b5%e3%81%87%e3%81%99%e8%a9%90%e6%ac%ba%e5%9e%a2" >Xの怪しいアカウントのURLの調査&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="#X%e3%81%ae%e3%82%b9%e3%82%af%e3%82%b7%e3%83%a7%e3%82%92%e8%87%aa%e5%8b%95%e5%8c%96%e3%81%97%e3%82%88%e3%81%86%e3%81%a8%e6%80%9d%e3%81%a3%e3%81%9f" >Xのスクショの自動化&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="journeystreetmapの開発">JourneyStreetMapの開発
-&lt;/h2>&lt;p>主な変更&lt;/p>
-&lt;ul>
-&lt;li>[[../develop/JourneyStreetMap/icedのCanvasとWidgetの使い分け|JourneyMapViewerをCanvasからWidgetに変更]]&lt;/li>
-&lt;li>マウスハンドラの追加&lt;/li>
-&lt;/ul>
-&lt;h2 id="xのスクショを自動化しようと思った">Xのスクショを自動化しようと思った
-&lt;/h2>&lt;p>いわゆるスクレイピングってやつです。
-Pythonでやるのも難しそうだし、そもそも需要がなさそうだったのでやめました。
-&lt;strong>手動でスクショ撮ってたほうが良い&lt;/strong>です。絶対に。&lt;/p></description></item><item><title>2025年04月04日(金)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-04/</guid><description>&lt;h2 id="今日の作業">今日の作業
-&lt;/h2>&lt;ul>
-&lt;li>ノート整理&lt;/li>
-&lt;li>Web版のノートを作る&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>82 Contributions!?&lt;/strong>
-&lt;img src="https://yossy4411.okayugroup.net/assets/Pasted%20image%2020250405154547.png"
-loading="lazy"
-alt="82 contributionsって書いてる画像"
->&lt;/p></description></item><item><title>2025年04月05日(土)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-05/</guid><description>&lt;h2 id="今日の作業">今日の作業
-&lt;/h2>&lt;h3 id="web版ノートの機能性向上">Web版ノートの機能性向上
-&lt;/h3>&lt;p>これには以下のものを含みます。&lt;/p>
-&lt;ul>
-&lt;li>トップページの追加&lt;/li>
-&lt;li>左サイドのメニューの追加&lt;/li>
-&lt;li>ソーシャルアイコンの追加
-&lt;img src="https://yossy4411.okayugroup.net/assets/Pasted%20image%2020250405155132.png"
-loading="lazy"
->&lt;/li>
-&lt;/ul>
-&lt;h3 id="buy-me-a-coffeeの登録">Buy Me a Coffeeの登録
-&lt;/h3>&lt;p>まず銀行口座が要るらしい。
-親に頼もうトホホギス&lt;/p></description></item><item><title>2025年04月06日(日)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-06/</guid><description>&lt;h2 id="今日の作業">今日の作業
-&lt;/h2>&lt;h3 id="web版ノートのデプロイ">Web版ノートのデプロイ
-&lt;/h3>&lt;p>GitHub Actionsで自動でビルドとデプロイを行えるようにした。&lt;br>
-自動化むずかった。&lt;/p>
-&lt;h4 id="詰まったポイント1">詰まったポイント1
-&lt;/h4>&lt;p>subtree pullで色々あった&lt;/p>
-&lt;p>&lt;code>$ git subtree pull --prefix=content https://github.com/yossy4411/note.git&lt;/code>&lt;br>
-これで解決すると思いきや、分岐の原点が違うよって言われるので
-&lt;code>git@github.com:yossy4411/note.git&lt;/code>にすると今度&lt;code>permission denied (publickey)&lt;/code>って言われるのでもう嫌になりました。&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>- &lt;span style="color:#f92672">uses&lt;/span>: &lt;span style="color:#ae81ff">bisontransport/git-subtree-action@v1 &lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">with&lt;/span>:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">pat&lt;/span>: &lt;span style="color:#ae81ff">${{ secrets.GH_TOKEN }} &lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">repo&lt;/span>: &lt;span style="color:#ae81ff">https://github.com/yossy4411/note.git &lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">action&lt;/span>: &lt;span style="color:#ae81ff">pull &lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">prefix&lt;/span>: &lt;span style="color:#ae81ff">content &lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">message&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;Update note subtree&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
-&lt;p>こうすれば&lt;del>エラーが無視されるし&lt;/del>記述が簡単になって楽&lt;br>
-&lt;strong>※エラーの根本的な解消にはなってない&lt;/strong>&lt;/p>&lt;/blockquote>
-&lt;p>これを修正するために、まずcheckoutを次のように変更します。&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-diff" data-lang="diff">&lt;span style="display:flex;">&lt;span> - name: Checkout repository
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> uses: actions/checkout@v4
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> with:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> token: ${{ secrets.GITHUB_TOKEN }}
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">+ fetch-depth: 0
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>こうすることでブランチ全体のfetchができ、原点を検出できます。&lt;/p>
-&lt;h4 id="詰まったポイント2">詰まったポイント2
-&lt;/h4>&lt;pre tabindex="0">&lt;code>```yaml
-- name: Deploy
-uses: peaceiris/actions-gh-pages@v3
-if: github.ref == &amp;#39;refs/heads/main&amp;#39;
-with:
-github_token: ${{ secrets.GITHUB_TOKEN }}
-publish_dir: ./public
-publish_branch: gh-pages
-&lt;/code>&lt;/pre>&lt;blockquote>
-&lt;p>実は リポジトリ設定＞ActionsからBotに&lt;code>Read/Write&lt;/code>の権限を持たせないといけなかったりする&lt;/p>&lt;/blockquote></description></item><item><title>2025年04月07日(月)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-07/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-07/</guid><description>&lt;h2 id="今日の作業">今日の作業
-&lt;/h2>&lt;h3 id="short動画制作---we-are-stpr">short動画制作 - We Are STPR
-&lt;/h3>&lt;p>&lt;a class="link" href="https://www.youtube.com/watch?v=1bKc5XGMIbI&amp;amp;t=1476s" target="_blank" rel="noopener"
->【全員集合】&amp;ldquo;すとふぇす&amp;quot;ドーム5DAYS終了！ライブ会場から緊急配信しますWWWWW【すとぷり/騎士A/AMPTAK/めておら/すにすて】&lt;/a>より切り抜き&lt;br>
-@&lt;a class="link" href="../favorite/%e3%81%8a%e3%81%8b%e3%82%86%e3%81%ae%e3%82%b5%e3%83%96" >おかゆのサブ&lt;/a>&lt;/p>
-&lt;p>10時半頃に投稿したところ全然伸びなかったので、悔しくて音声・イラスト・効果音を再修整してもう一度投稿しました。（いつかこれが黒歴史になるんだろうなぁ）&lt;br>
-↑でもこれも学びだと捉えましょう！&lt;/p>
-&lt;h3 id="web版ノートの自動更新がうまく行ってるか確認した">Web版ノートの自動更新がうまく行ってるか確認した
-&lt;/h3>&lt;p>→&lt;a class="link" href="https://github.com/yossy4411/note-web/actions/runs/14296664797" target="_blank" rel="noopener"
->yossy4411/note-web #27&lt;/a>うまく行ってました！良かった〜&lt;/p>
-&lt;p>今日はUp to dateで良かったとして、そのうちコンフリクト起こしてマージできないって怒られそうだけど大丈夫かな。&lt;/p>
-&lt;h2 id="ノートの整理">ノートの整理
-&lt;/h2>&lt;p>&lt;code>https://yossy4411.okayugroup.net/開発&lt;/code>&lt;br>
-URLエンコード後&lt;br>
-→&lt;code>https://yossy4411.okayugroup.net/%E9%96%8B%E7%99%BA/&lt;/code>&lt;/p>
-&lt;p>ああ、なんとも分かりづらい。URLに日本語を含むのは好ましくないですねぇ。&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>---
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>title: # タイトル
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>description: # 説明
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>tags: # タグ
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>slug: # ここにURLパスを書く
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>---
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">## 内容
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>内容
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>そんなときは&lt;code>slug&lt;/code>を使えば、ファイル名は日本語のままURLを英語に書き換えれてイイヨ👍️&lt;/p></description></item><item><title>2025年04月08日(火)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-08/</guid><description>&lt;h2 id="今日の作業">今日の作業
+&lt;!-- raw HTML omitted --></description></item><item><title>2025年04月08日(火)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-08/</link><pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-08/</guid><description>&lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;h3 id="ノートの情報追加">ノートの情報追加
 &lt;/h3>&lt;p>これらに情報を書き加えました。&lt;/p>
 &lt;ul>
@@ -150,30 +80,277 @@ alt="okayugroup.net サイトに広告を表示できる状態です"
 &lt;img src="https://yossy4411.okayugroup.net/assets/Pasted%20image%2020250408215823.png"
 loading="lazy"
 >
-ガチで稼いでる感ハンパねぇｗｗｗ&lt;/p></description></item><item><title>2025年04月09日(水)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-09/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-09/</guid><description>&lt;h2 id="今日の作業">今日の作業
-&lt;/h2>&lt;h3 id="ノート整理">ノート整理
-&lt;/h3>&lt;p>&lt;a class="link" href="2025-04-08" >昨日&lt;/a>の続きです。&lt;/p>
+ガチで稼いでる感ハンパねぇｗｗｗ&lt;/p></description></item><item><title>2025年04月07日(月)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-07/</link><pubDate>Mon, 07 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-07/</guid><description>&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;h3 id="short動画制作---we-are-stpr">short動画制作 - We Are STPR
+&lt;/h3>&lt;p>&lt;a class="link" href="https://www.youtube.com/watch?v=1bKc5XGMIbI&amp;amp;t=1476s" target="_blank" rel="noopener"
+>【全員集合】&amp;ldquo;すとふぇす&amp;quot;ドーム5DAYS終了！ライブ会場から緊急配信しますWWWWW【すとぷり/騎士A/AMPTAK/めておら/すにすて】&lt;/a>より切り抜き&lt;br>
+@&lt;a class="link" href="../favorite/%e3%81%8a%e3%81%8b%e3%82%86%e3%81%ae%e3%82%b5%e3%83%96" >おかゆのサブ&lt;/a>&lt;/p>
+&lt;p>10時半頃に投稿したところ全然伸びなかったので、悔しくて音声・イラスト・効果音を再修整してもう一度投稿しました。（いつかこれが黒歴史になるんだろうなぁ）&lt;br>
+↑でもこれも学びだと捉えましょう！&lt;/p>
+&lt;h3 id="web版ノートの自動更新がうまく行ってるか確認した">Web版ノートの自動更新がうまく行ってるか確認した
+&lt;/h3>&lt;p>→&lt;a class="link" href="https://github.com/yossy4411/note-web/actions/runs/14296664797" target="_blank" rel="noopener"
+>yossy4411/note-web #27&lt;/a>うまく行ってました！良かった〜&lt;/p>
+&lt;p>今日はUp to dateで良かったとして、そのうちコンフリクト起こしてマージできないって怒られそうだけど大丈夫かな。&lt;/p>
+&lt;h2 id="ノートの整理">ノートの整理
+&lt;/h2>&lt;p>&lt;code>https://yossy4411.okayugroup.net/開発&lt;/code>&lt;br>
+URLエンコード後&lt;br>
+→&lt;code>https://yossy4411.okayugroup.net/%E9%96%8B%E7%99%BA/&lt;/code>&lt;/p>
+&lt;p>ああ、なんとも分かりづらい。URLに日本語を含むのは好ましくないですねぇ。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>---
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>title: # タイトル
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>description: # 説明
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>tags: # タグ
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>slug: # ここにURLパスを書く
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>---
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">## 内容
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>内容
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>そんなときは&lt;code>slug&lt;/code>を使えば、ファイル名は日本語のままURLを英語に書き換えれてイイヨ👍️&lt;/p></description></item><item><title>2025年04月06日(日)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-06/</link><pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-06/</guid><description>&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;h3 id="web版ノートのデプロイ">Web版ノートのデプロイ
+&lt;/h3>&lt;p>GitHub Actionsで自動でビルドとデプロイを行えるようにした。&lt;br>
+自動化むずかった。&lt;/p>
+&lt;h4 id="詰まったポイント1">詰まったポイント1
+&lt;/h4>&lt;p>subtree pullで色々あった&lt;/p>
+&lt;p>&lt;code>$ git subtree pull --prefix=content https://github.com/yossy4411/note.git&lt;/code>&lt;br>
+これで解決すると思いきや、分岐の原点が違うよって言われるので
+&lt;code>git@github.com:yossy4411/note.git&lt;/code>にすると今度&lt;code>permission denied (publickey)&lt;/code>って言われるのでもう嫌になりました。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>- &lt;span style="color:#f92672">uses&lt;/span>: &lt;span style="color:#ae81ff">bisontransport/git-subtree-action@v1 &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">with&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">pat&lt;/span>: &lt;span style="color:#ae81ff">${{ secrets.GH_TOKEN }} &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">repo&lt;/span>: &lt;span style="color:#ae81ff">https://github.com/yossy4411/note.git &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">action&lt;/span>: &lt;span style="color:#ae81ff">pull &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">prefix&lt;/span>: &lt;span style="color:#ae81ff">content &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">message&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;Update note subtree&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>こうすれば&lt;del>エラーが無視されるし&lt;/del>記述が簡単になって楽&lt;br>
+&lt;strong>※エラーの根本的な解消にはなってない&lt;/strong>&lt;/p>&lt;/blockquote>
+&lt;p>これを修正するために、まずcheckoutを次のように変更します。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-diff" data-lang="diff">&lt;span style="display:flex;">&lt;span> - name: Checkout repository
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> uses: actions/checkout@v4
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> with:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> token: ${{ secrets.GITHUB_TOKEN }}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">+ fetch-depth: 0
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>こうすることでブランチ全体のfetchができ、原点を検出できます。&lt;/p>
+&lt;h4 id="詰まったポイント2">詰まったポイント2
+&lt;/h4>
+&lt;div class="goat svg-container ">
+&lt;svg
+xmlns="http://www.w3.org/2000/svg"
+font-family="Menlo,Lucida Console,monospace"
+viewBox="0 0 384 137"
+>
+&lt;g transform='translate(8,16)'>
+&lt;text text-anchor='middle' x='0' y='4' fill='currentColor' style='font-size:1em'>`&lt;/text>
+&lt;text text-anchor='middle' x='0' y='20' fill='currentColor' style='font-size:1em'>-&lt;/text>
+&lt;text text-anchor='middle' x='8' y='4' fill='currentColor' style='font-size:1em'>`&lt;/text>
+&lt;text text-anchor='middle' x='16' y='4' fill='currentColor' style='font-size:1em'>`&lt;/text>
+&lt;text text-anchor='middle' x='16' y='20' fill='currentColor' style='font-size:1em'>n&lt;/text>
+&lt;text text-anchor='middle' x='16' y='36' fill='currentColor' style='font-size:1em'>u&lt;/text>
+&lt;text text-anchor='middle' x='16' y='52' fill='currentColor' style='font-size:1em'>i&lt;/text>
+&lt;text text-anchor='middle' x='16' y='68' fill='currentColor' style='font-size:1em'>w&lt;/text>
+&lt;text text-anchor='middle' x='24' y='4' fill='currentColor' style='font-size:1em'>y&lt;/text>
+&lt;text text-anchor='middle' x='24' y='20' fill='currentColor' style='font-size:1em'>a&lt;/text>
+&lt;text text-anchor='middle' x='24' y='36' fill='currentColor' style='font-size:1em'>s&lt;/text>
+&lt;text text-anchor='middle' x='24' y='52' fill='currentColor' style='font-size:1em'>f&lt;/text>
+&lt;text text-anchor='middle' x='24' y='68' fill='currentColor' style='font-size:1em'>i&lt;/text>
+&lt;text text-anchor='middle' x='32' y='4' fill='currentColor' style='font-size:1em'>a&lt;/text>
+&lt;text text-anchor='middle' x='32' y='20' fill='currentColor' style='font-size:1em'>m&lt;/text>
+&lt;text text-anchor='middle' x='32' y='36' fill='currentColor' style='font-size:1em'>e&lt;/text>
+&lt;text text-anchor='middle' x='32' y='52' fill='currentColor' style='font-size:1em'>:&lt;/text>
+&lt;text text-anchor='middle' x='32' y='68' fill='currentColor' style='font-size:1em'>t&lt;/text>
+&lt;text text-anchor='middle' x='32' y='84' fill='currentColor' style='font-size:1em'>g&lt;/text>
+&lt;text text-anchor='middle' x='32' y='100' fill='currentColor' style='font-size:1em'>p&lt;/text>
+&lt;text text-anchor='middle' x='32' y='116' fill='currentColor' style='font-size:1em'>p&lt;/text>
+&lt;text text-anchor='middle' x='40' y='4' fill='currentColor' style='font-size:1em'>m&lt;/text>
+&lt;text text-anchor='middle' x='40' y='20' fill='currentColor' style='font-size:1em'>e&lt;/text>
+&lt;text text-anchor='middle' x='40' y='36' fill='currentColor' style='font-size:1em'>s&lt;/text>
+&lt;text text-anchor='middle' x='40' y='68' fill='currentColor' style='font-size:1em'>h&lt;/text>
+&lt;text text-anchor='middle' x='40' y='84' fill='currentColor' style='font-size:1em'>i&lt;/text>
+&lt;text text-anchor='middle' x='40' y='100' fill='currentColor' style='font-size:1em'>u&lt;/text>
+&lt;text text-anchor='middle' x='40' y='116' fill='currentColor' style='font-size:1em'>u&lt;/text>
+&lt;text text-anchor='middle' x='48' y='4' fill='currentColor' style='font-size:1em'>l&lt;/text>
+&lt;text text-anchor='middle' x='48' y='20' fill='currentColor' style='font-size:1em'>:&lt;/text>
+&lt;text text-anchor='middle' x='48' y='36' fill='currentColor' style='font-size:1em'>:&lt;/text>
+&lt;text text-anchor='middle' x='48' y='52' fill='currentColor' style='font-size:1em'>g&lt;/text>
+&lt;text text-anchor='middle' x='48' y='68' fill='currentColor' style='font-size:1em'>:&lt;/text>
+&lt;text text-anchor='middle' x='48' y='84' fill='currentColor' style='font-size:1em'>t&lt;/text>
+&lt;text text-anchor='middle' x='48' y='100' fill='currentColor' style='font-size:1em'>b&lt;/text>
+&lt;text text-anchor='middle' x='48' y='116' fill='currentColor' style='font-size:1em'>b&lt;/text>
+&lt;text text-anchor='middle' x='56' y='52' fill='currentColor' style='font-size:1em'>i&lt;/text>
+&lt;text text-anchor='middle' x='56' y='84' fill='currentColor' style='font-size:1em'>h&lt;/text>
+&lt;text text-anchor='middle' x='56' y='100' fill='currentColor' style='font-size:1em'>l&lt;/text>
+&lt;text text-anchor='middle' x='56' y='116' fill='currentColor' style='font-size:1em'>l&lt;/text>
+&lt;text text-anchor='middle' x='64' y='20' fill='currentColor' style='font-size:1em'>D&lt;/text>
+&lt;text text-anchor='middle' x='64' y='36' fill='currentColor' style='font-size:1em'>p&lt;/text>
+&lt;text text-anchor='middle' x='64' y='52' fill='currentColor' style='font-size:1em'>t&lt;/text>
+&lt;text text-anchor='middle' x='64' y='84' fill='currentColor' style='font-size:1em'>u&lt;/text>
+&lt;text text-anchor='middle' x='64' y='100' fill='currentColor' style='font-size:1em'>i&lt;/text>
+&lt;text text-anchor='middle' x='64' y='116' fill='currentColor' style='font-size:1em'>i&lt;/text>
+&lt;text text-anchor='middle' x='72' y='20' fill='currentColor' style='font-size:1em'>e&lt;/text>
+&lt;text text-anchor='middle' x='72' y='36' fill='currentColor' style='font-size:1em'>e&lt;/text>
+&lt;text text-anchor='middle' x='72' y='52' fill='currentColor' style='font-size:1em'>h&lt;/text>
+&lt;text text-anchor='middle' x='72' y='84' fill='currentColor' style='font-size:1em'>b&lt;/text>
+&lt;text text-anchor='middle' x='72' y='100' fill='currentColor' style='font-size:1em'>s&lt;/text>
+&lt;text text-anchor='middle' x='72' y='116' fill='currentColor' style='font-size:1em'>s&lt;/text>
+&lt;text text-anchor='middle' x='80' y='20' fill='currentColor' style='font-size:1em'>p&lt;/text>
+&lt;text text-anchor='middle' x='80' y='36' fill='currentColor' style='font-size:1em'>a&lt;/text>
+&lt;text text-anchor='middle' x='80' y='52' fill='currentColor' style='font-size:1em'>u&lt;/text>
+&lt;text text-anchor='middle' x='80' y='84' fill='currentColor' style='font-size:1em'>_&lt;/text>
+&lt;text text-anchor='middle' x='80' y='100' fill='currentColor' style='font-size:1em'>h&lt;/text>
+&lt;text text-anchor='middle' x='80' y='116' fill='currentColor' style='font-size:1em'>h&lt;/text>
+&lt;text text-anchor='middle' x='88' y='20' fill='currentColor' style='font-size:1em'>l&lt;/text>
+&lt;text text-anchor='middle' x='88' y='36' fill='currentColor' style='font-size:1em'>c&lt;/text>
+&lt;text text-anchor='middle' x='88' y='52' fill='currentColor' style='font-size:1em'>b&lt;/text>
+&lt;text text-anchor='middle' x='88' y='84' fill='currentColor' style='font-size:1em'>t&lt;/text>
+&lt;text text-anchor='middle' x='88' y='100' fill='currentColor' style='font-size:1em'>_&lt;/text>
+&lt;text text-anchor='middle' x='88' y='116' fill='currentColor' style='font-size:1em'>_&lt;/text>
+&lt;text text-anchor='middle' x='96' y='20' fill='currentColor' style='font-size:1em'>o&lt;/text>
+&lt;text text-anchor='middle' x='96' y='36' fill='currentColor' style='font-size:1em'>e&lt;/text>
+&lt;text text-anchor='middle' x='96' y='52' fill='currentColor' style='font-size:1em'>.&lt;/text>
+&lt;text text-anchor='middle' x='96' y='84' fill='currentColor' style='font-size:1em'>o&lt;/text>
+&lt;text text-anchor='middle' x='96' y='100' fill='currentColor' style='font-size:1em'>d&lt;/text>
+&lt;text text-anchor='middle' x='96' y='116' fill='currentColor' style='font-size:1em'>b&lt;/text>
+&lt;text text-anchor='middle' x='104' y='20' fill='currentColor' style='font-size:1em'>y&lt;/text>
+&lt;text text-anchor='middle' x='104' y='36' fill='currentColor' style='font-size:1em'>i&lt;/text>
+&lt;text text-anchor='middle' x='104' y='52' fill='currentColor' style='font-size:1em'>r&lt;/text>
+&lt;text text-anchor='middle' x='104' y='84' fill='currentColor' style='font-size:1em'>k&lt;/text>
+&lt;text text-anchor='middle' x='104' y='100' fill='currentColor' style='font-size:1em'>i&lt;/text>
+&lt;text text-anchor='middle' x='104' y='116' fill='currentColor' style='font-size:1em'>r&lt;/text>
+&lt;text text-anchor='middle' x='112' y='36' fill='currentColor' style='font-size:1em'>r&lt;/text>
+&lt;text text-anchor='middle' x='112' y='52' fill='currentColor' style='font-size:1em'>e&lt;/text>
+&lt;text text-anchor='middle' x='112' y='84' fill='currentColor' style='font-size:1em'>e&lt;/text>
+&lt;text text-anchor='middle' x='112' y='100' fill='currentColor' style='font-size:1em'>r&lt;/text>
+&lt;text text-anchor='middle' x='112' y='116' fill='currentColor' style='font-size:1em'>a&lt;/text>
+&lt;text text-anchor='middle' x='120' y='36' fill='currentColor' style='font-size:1em'>i&lt;/text>
+&lt;text text-anchor='middle' x='120' y='52' fill='currentColor' style='font-size:1em'>f&lt;/text>
+&lt;text text-anchor='middle' x='120' y='84' fill='currentColor' style='font-size:1em'>n&lt;/text>
+&lt;text text-anchor='middle' x='120' y='100' fill='currentColor' style='font-size:1em'>:&lt;/text>
+&lt;text text-anchor='middle' x='120' y='116' fill='currentColor' style='font-size:1em'>n&lt;/text>
+&lt;text text-anchor='middle' x='128' y='36' fill='currentColor' style='font-size:1em'>s&lt;/text>
+&lt;text text-anchor='middle' x='128' y='84' fill='currentColor' style='font-size:1em'>:&lt;/text>
+&lt;text text-anchor='middle' x='128' y='116' fill='currentColor' style='font-size:1em'>c&lt;/text>
+&lt;text text-anchor='middle' x='136' y='36' fill='currentColor' style='font-size:1em'>/&lt;/text>
+&lt;text text-anchor='middle' x='136' y='52' fill='currentColor' style='font-size:1em'>=&lt;/text>
+&lt;text text-anchor='middle' x='136' y='116' fill='currentColor' style='font-size:1em'>h&lt;/text>
+&lt;text text-anchor='middle' x='144' y='36' fill='currentColor' style='font-size:1em'>a&lt;/text>
+&lt;text text-anchor='middle' x='144' y='52' fill='currentColor' style='font-size:1em'>=&lt;/text>
+&lt;text text-anchor='middle' x='144' y='84' fill='currentColor' style='font-size:1em'>$&lt;/text>
+&lt;text text-anchor='middle' x='144' y='100' fill='currentColor' style='font-size:1em'>/&lt;/text>
+&lt;text text-anchor='middle' x='144' y='116' fill='currentColor' style='font-size:1em'>:&lt;/text>
+&lt;text text-anchor='middle' x='152' y='36' fill='currentColor' style='font-size:1em'>c&lt;/text>
+&lt;text text-anchor='middle' x='152' y='84' fill='currentColor' style='font-size:1em'>{&lt;/text>
+&lt;text text-anchor='middle' x='152' y='100' fill='currentColor' style='font-size:1em'>p&lt;/text>
+&lt;text text-anchor='middle' x='160' y='36' fill='currentColor' style='font-size:1em'>t&lt;/text>
+&lt;text text-anchor='middle' x='160' y='52' fill='currentColor' style='font-size:1em'>'&lt;/text>
+&lt;text text-anchor='middle' x='160' y='84' fill='currentColor' style='font-size:1em'>{&lt;/text>
+&lt;text text-anchor='middle' x='160' y='100' fill='currentColor' style='font-size:1em'>u&lt;/text>
+&lt;text text-anchor='middle' x='160' y='116' fill='currentColor' style='font-size:1em'>g&lt;/text>
+&lt;text text-anchor='middle' x='168' y='36' fill='currentColor' style='font-size:1em'>i&lt;/text>
+&lt;text text-anchor='middle' x='168' y='52' fill='currentColor' style='font-size:1em'>r&lt;/text>
+&lt;text text-anchor='middle' x='168' y='100' fill='currentColor' style='font-size:1em'>b&lt;/text>
+&lt;text text-anchor='middle' x='168' y='116' fill='currentColor' style='font-size:1em'>h&lt;/text>
+&lt;text text-anchor='middle' x='176' y='36' fill='currentColor' style='font-size:1em'>o&lt;/text>
+&lt;text text-anchor='middle' x='176' y='52' fill='currentColor' style='font-size:1em'>e&lt;/text>
+&lt;text text-anchor='middle' x='176' y='84' fill='currentColor' style='font-size:1em'>s&lt;/text>
+&lt;text text-anchor='middle' x='176' y='100' fill='currentColor' style='font-size:1em'>l&lt;/text>
+&lt;text text-anchor='middle' x='176' y='116' fill='currentColor' style='font-size:1em'>-&lt;/text>
+&lt;text text-anchor='middle' x='184' y='36' fill='currentColor' style='font-size:1em'>n&lt;/text>
+&lt;text text-anchor='middle' x='184' y='52' fill='currentColor' style='font-size:1em'>f&lt;/text>
+&lt;text text-anchor='middle' x='184' y='84' fill='currentColor' style='font-size:1em'>e&lt;/text>
+&lt;text text-anchor='middle' x='184' y='100' fill='currentColor' style='font-size:1em'>i&lt;/text>
+&lt;text text-anchor='middle' x='184' y='116' fill='currentColor' style='font-size:1em'>p&lt;/text>
+&lt;text text-anchor='middle' x='192' y='36' fill='currentColor' style='font-size:1em'>s&lt;/text>
+&lt;text text-anchor='middle' x='192' y='52' fill='currentColor' style='font-size:1em'>s&lt;/text>
+&lt;text text-anchor='middle' x='192' y='84' fill='currentColor' style='font-size:1em'>c&lt;/text>
+&lt;text text-anchor='middle' x='192' y='100' fill='currentColor' style='font-size:1em'>c&lt;/text>
+&lt;text text-anchor='middle' x='192' y='116' fill='currentColor' style='font-size:1em'>a&lt;/text>
+&lt;text text-anchor='middle' x='200' y='36' fill='currentColor' style='font-size:1em'>-&lt;/text>
+&lt;text text-anchor='middle' x='200' y='52' fill='currentColor' style='font-size:1em'>/&lt;/text>
+&lt;text text-anchor='middle' x='200' y='84' fill='currentColor' style='font-size:1em'>r&lt;/text>
+&lt;text text-anchor='middle' x='200' y='116' fill='currentColor' style='font-size:1em'>g&lt;/text>
+&lt;text text-anchor='middle' x='208' y='36' fill='currentColor' style='font-size:1em'>g&lt;/text>
+&lt;text text-anchor='middle' x='208' y='52' fill='currentColor' style='font-size:1em'>h&lt;/text>
+&lt;text text-anchor='middle' x='208' y='84' fill='currentColor' style='font-size:1em'>e&lt;/text>
+&lt;text text-anchor='middle' x='208' y='116' fill='currentColor' style='font-size:1em'>e&lt;/text>
+&lt;text text-anchor='middle' x='216' y='36' fill='currentColor' style='font-size:1em'>h&lt;/text>
+&lt;text text-anchor='middle' x='216' y='52' fill='currentColor' style='font-size:1em'>e&lt;/text>
+&lt;text text-anchor='middle' x='216' y='84' fill='currentColor' style='font-size:1em'>t&lt;/text>
+&lt;text text-anchor='middle' x='216' y='116' fill='currentColor' style='font-size:1em'>s&lt;/text>
+&lt;text text-anchor='middle' x='224' y='36' fill='currentColor' style='font-size:1em'>-&lt;/text>
+&lt;text text-anchor='middle' x='224' y='52' fill='currentColor' style='font-size:1em'>a&lt;/text>
+&lt;text text-anchor='middle' x='224' y='84' fill='currentColor' style='font-size:1em'>s&lt;/text>
+&lt;text text-anchor='middle' x='232' y='36' fill='currentColor' style='font-size:1em'>p&lt;/text>
+&lt;text text-anchor='middle' x='232' y='52' fill='currentColor' style='font-size:1em'>d&lt;/text>
+&lt;text text-anchor='middle' x='232' y='84' fill='currentColor' style='font-size:1em'>.&lt;/text>
+&lt;text text-anchor='middle' x='240' y='36' fill='currentColor' style='font-size:1em'>a&lt;/text>
+&lt;text text-anchor='middle' x='240' y='52' fill='currentColor' style='font-size:1em'>s&lt;/text>
+&lt;text text-anchor='middle' x='240' y='84' fill='currentColor' style='font-size:1em'>G&lt;/text>
+&lt;text text-anchor='middle' x='248' y='36' fill='currentColor' style='font-size:1em'>g&lt;/text>
+&lt;text text-anchor='middle' x='248' y='52' fill='currentColor' style='font-size:1em'>/&lt;/text>
+&lt;text text-anchor='middle' x='248' y='84' fill='currentColor' style='font-size:1em'>I&lt;/text>
+&lt;text text-anchor='middle' x='256' y='36' fill='currentColor' style='font-size:1em'>e&lt;/text>
+&lt;text text-anchor='middle' x='256' y='52' fill='currentColor' style='font-size:1em'>m&lt;/text>
+&lt;text text-anchor='middle' x='256' y='84' fill='currentColor' style='font-size:1em'>T&lt;/text>
+&lt;text text-anchor='middle' x='264' y='36' fill='currentColor' style='font-size:1em'>s&lt;/text>
+&lt;text text-anchor='middle' x='264' y='52' fill='currentColor' style='font-size:1em'>a&lt;/text>
+&lt;text text-anchor='middle' x='264' y='84' fill='currentColor' style='font-size:1em'>H&lt;/text>
+&lt;text text-anchor='middle' x='272' y='36' fill='currentColor' style='font-size:1em'>@&lt;/text>
+&lt;text text-anchor='middle' x='272' y='52' fill='currentColor' style='font-size:1em'>i&lt;/text>
+&lt;text text-anchor='middle' x='272' y='84' fill='currentColor' style='font-size:1em'>U&lt;/text>
+&lt;text text-anchor='middle' x='280' y='36' fill='currentColor' style='font-size:1em'>v&lt;/text>
+&lt;text text-anchor='middle' x='280' y='52' fill='currentColor' style='font-size:1em'>n&lt;/text>
+&lt;text text-anchor='middle' x='280' y='84' fill='currentColor' style='font-size:1em'>B&lt;/text>
+&lt;text text-anchor='middle' x='288' y='36' fill='currentColor' style='font-size:1em'>3&lt;/text>
+&lt;text text-anchor='middle' x='288' y='52' fill='currentColor' style='font-size:1em'>'&lt;/text>
+&lt;text text-anchor='middle' x='288' y='84' fill='currentColor' style='font-size:1em'>_&lt;/text>
+&lt;text text-anchor='middle' x='296' y='84' fill='currentColor' style='font-size:1em'>T&lt;/text>
+&lt;text text-anchor='middle' x='304' y='84' fill='currentColor' style='font-size:1em'>O&lt;/text>
+&lt;text text-anchor='middle' x='312' y='84' fill='currentColor' style='font-size:1em'>K&lt;/text>
+&lt;text text-anchor='middle' x='320' y='84' fill='currentColor' style='font-size:1em'>E&lt;/text>
+&lt;text text-anchor='middle' x='328' y='84' fill='currentColor' style='font-size:1em'>N&lt;/text>
+&lt;text text-anchor='middle' x='344' y='84' fill='currentColor' style='font-size:1em'>}&lt;/text>
+&lt;text text-anchor='middle' x='352' y='84' fill='currentColor' style='font-size:1em'>}&lt;/text>
+&lt;/g>
+&lt;/svg>
+&lt;/div>
+&lt;blockquote>
+&lt;p>実は リポジトリ設定＞ActionsからBotに&lt;code>Read/Write&lt;/code>の権限を持たせないといけなかったりする&lt;/p>&lt;/blockquote></description></item><item><title>2025年04月05日(土)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-05/</link><pubDate>Sat, 05 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-05/</guid><description>&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;h3 id="web版ノートの機能性向上">Web版ノートの機能性向上
+&lt;/h3>&lt;p>これには以下のものを含みます。&lt;/p>
 &lt;ul>
-&lt;li>&lt;a class="link" href="../develop/JourneyStreetMap/JourneyStreetMap%e3%81%a8%e3%81%af" >JourneyStreetMap&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="../okayugroup/OGSP/OGSP" >OGSP&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="../develop/Knowledge/libs/iced/iced" >iced&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="../favorite/STPR/STPR" >STPR&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="../develop/Knowledge/lang/%e3%82%ac%e3%83%99%e3%83%bc%e3%82%b8%e3%82%b3%e3%83%ac%e3%82%af%e3%82%b7%e3%83%a7%e3%83%b3" >GC&lt;/a>
-のまとめノートを整理しました。&lt;/li>
+&lt;li>トップページの追加&lt;/li>
+&lt;li>左サイドのメニューの追加&lt;/li>
+&lt;li>ソーシャルアイコンの追加
+&lt;img src="https://yossy4411.okayugroup.net/assets/Pasted%20image%2020250405155132.png"
+loading="lazy"
+>&lt;/li>
 &lt;/ul>
-&lt;h2 id="journeystreetmapの制作">&lt;a class="link" href="../develop/JourneyStreetMap/JourneyStreetMap%e3%81%a8%e3%81%af" >journeystreetmap&lt;/a>の制作
-&lt;/h2>&lt;p>icedのカスタムウィジェットと他のウィジェットをつなげる部分の開発&lt;/p>
-&lt;p>分かったこととしては、&lt;/p>
-&lt;ul>
-&lt;li>view関数内では&amp;amp;selfしか引数に与えられないため、その中で操作するウィジェットはApplicationのメンバーにアクセスできず、イミュータブルである。&lt;/li>
-&lt;li>もし書き換える必要があるならば、カスタムウィジェットにイベントハンドラを追加してMessageを割り当て、update関数でメンバーの変数を書き換えることができる。&lt;/li>
-&lt;li>update関数が呼び出されたあとには、アプリケーションのウィジェットはすべて破棄されてもう一度view関数が呼ばれ、再宣言される。&lt;/li>
+&lt;h3 id="buy-me-a-coffeeの登録">Buy Me a Coffeeの登録
+&lt;/h3>&lt;p>まず銀行口座が要るらしい。
+親に頼もうトホホギス&lt;/p></description></item><item><title>2025年04月04日(金)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-04/</link><pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-04/</guid><description>&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;ul>
+&lt;li>ノート整理&lt;/li>
+&lt;li>Web版のノートを作る&lt;/li>
 &lt;/ul>
-&lt;p>宣言型・関数型なのだ。&lt;/p>
-&lt;p>つまり、icedはあまりこういうアプリには向いていないと言える。&lt;/p>
-&lt;p>選択肢としては&amp;hellip;&lt;/p>
+&lt;p>&lt;strong>82 Contributions!?&lt;/strong>
+&lt;img src="https://yossy4411.okayugroup.net/assets/Pasted%20image%2020250405154547.png"
+loading="lazy"
+alt="82 contributionsって書いてる画像"
+>&lt;/p></description></item><item><title>2025年04月03日(木)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-03/</link><pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-03/</guid><description>&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="#JourneyStreetMap%e3%81%ae%e9%96%8b%e7%99%ba" >JourneyStreetMapの開発&lt;/a>&lt;/li>
+&lt;li>YouTube 動画投稿 @&lt;a class="link" href="../favorite/%e3%81%8a%e3%81%8b%e3%82%86%e3%81%ae%e3%82%b5%e3%83%96" >おかゆのサブ&lt;/a>「STAR to STPRのボーカルを際立たせてみた」 shorts及び長尺&lt;/li>
+&lt;li>&lt;a class="link" href="../favorite/STPR/%e3%81%99%e3%81%a8%e3%81%b5%e3%81%87%e3%81%99%e8%a9%90%e6%ac%ba%e5%9e%a2" >Xの怪しいアカウントのURLの調査&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="#X%e3%81%ae%e3%82%b9%e3%82%af%e3%82%b7%e3%83%a7%e3%82%92%e8%87%aa%e5%8b%95%e5%8c%96%e3%81%97%e3%82%88%e3%81%86%e3%81%a8%e6%80%9d%e3%81%a3%e3%81%9f" >Xのスクショの自動化&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="journeystreetmapの開発">JourneyStreetMapの開発
+&lt;/h2>&lt;p>主な変更&lt;/p>
 &lt;ul>
-&lt;li>egui&lt;/li>
-&lt;li>Druid&lt;/li>
-&lt;li>Dioxus ←試験段階らしい、Reactライクだとかなんとか&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;li>[[../develop/JourneyStreetMap/icedのCanvasとWidgetの使い分け|JourneyMapViewerをCanvasからWidgetに変更]]&lt;/li>
+&lt;li>マウスハンドラの追加&lt;/li>
+&lt;/ul>
+&lt;h2 id="xのスクショを自動化しようと思った">Xのスクショを自動化しようと思った
+&lt;/h2>&lt;p>いわゆるスクレイピングってやつです。
+Pythonでやるのも難しそうだし、そもそも需要がなさそうだったのでやめました。
+&lt;strong>手動でスクショ撮ってたほうが良い&lt;/strong>です。絶対に。&lt;/p></description></item></channel></rss>

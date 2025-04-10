@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ライブラリとか on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/</link><description>Recent content in ライブラリとか on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Fri, 04 Apr 2025 17:23:16 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/develop/knowledge/libs/index.xml" rel="self" type="application/rss+xml"/><item><title>ライブラリとは</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/about/</link><pubDate>Fri, 04 Apr 2025 17:23:16 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/libs/about/</guid><description>&lt;h2 id="ライブラリとは">ライブラリとは
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ライブラリとか on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/</link><description>Recent content in ライブラリとか on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Thu, 10 Apr 2025 17:46:20 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/develop/knowledge/libs/index.xml" rel="self" type="application/rss+xml"/><item><title>GUIライブラリまとめ</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/gui-library/</link><pubDate>Thu, 10 Apr 2025 17:46:20 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/libs/gui-library/</guid><description>&lt;p>GUI（グラフィカルユーザーインターフェース）を表示するための&lt;a class="link" href="%e3%83%a9%e3%82%a4%e3%83%96%e3%83%a9%e3%83%aa" >ライブラリ&lt;/a>。&lt;/p>
+&lt;p>ここでは私が知る限りのGUIライブラリおよびGUIフレームワークを書いておく。&lt;/p>
+&lt;p>※Webについては別の場所で書こうと思っていて、完成した頃にリンクを貼ります&lt;/p>
+&lt;h2 id="rust">Rust
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="egui/egui" >egui&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="iced/iced" >iced&lt;/a>&lt;/li>
+&lt;li>Tauri&lt;/li>
+&lt;li>Druid (開発停止)&lt;/li>
+&lt;li>Slint&lt;/li>
+&lt;/ul>
+&lt;h2 id="flutter">Flutter
+&lt;/h2>&lt;p>Flutterはそのもの全体がUIフレームワークだと言えるだろう。&lt;/p>
+&lt;h2 id="c">C#
+&lt;/h2>&lt;ul>
+&lt;li>WinForms&lt;/li>
+&lt;li>WPF&lt;/li>
+&lt;li>WinAPI&lt;/li>
+&lt;li>MAUI&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;ul>
+&lt;li>Avalonia&lt;/li>
+&lt;li>UNO Platform&lt;/li>
+&lt;li>Xamarin (開発停止)&lt;/li>
+&lt;/ul>
+&lt;h2 id="go">Go
+&lt;/h2>&lt;ul>
+&lt;li>Gio&lt;/li>
+&lt;/ul>
+&lt;h2 id="c-1">C++
+&lt;/h2>&lt;ul>
+&lt;li>Qt&lt;/li>
+&lt;li>Xamarin C++&lt;/li>
+&lt;/ul></description></item><item><title>ライブラリとは</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/about/</link><pubDate>Fri, 04 Apr 2025 17:23:16 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/libs/about/</guid><description>&lt;h2 id="ライブラリとは">ライブラリとは
 &lt;/h2>&lt;p>ソフトウェアの開発の上で機能を拡張するやつだと思っていたら良いと思います。
 知らんけど。&lt;/p>
 &lt;h2 id="目次">目次
