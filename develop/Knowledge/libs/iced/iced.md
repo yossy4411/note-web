@@ -3,12 +3,13 @@ title: Iced - RustのGUIライブラリ
 description: 
 lead: 
 tags: 
-aliases: 
+aliases:
+  - iced
 date: 2025-04-09T15:50:19+09:00
 lastmod: 2025-04-09T15:50:19+09:00
 draft: false
 showContent: true
-slug:
+slug: about
 ---
 
 ## 特徴

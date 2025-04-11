@@ -6,6 +6,7 @@ tags:
   - MOC
 aliases:
   - rust
+  - Rust
 date: 2025-04-04T16:46:51+09:00
 lastmod: 2025-04-04T16:46:51+09:00
 draft: false

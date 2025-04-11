@@ -3,7 +3,8 @@ title: 型安全性
 description: Rustの型安全性について
 lead: 
 tags: 
-aliases: 
+aliases:
+  - Rustの型安全性
 date: 2025-04-09T21:35:49+09:00
 lastmod: 2025-04-09T21:35:49+09:00
 draft: true

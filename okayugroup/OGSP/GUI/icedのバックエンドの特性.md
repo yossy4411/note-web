@@ -4,7 +4,8 @@ description: icedの描画ライブラリの使い方にクセがある
 lead: 
 tags:
   - グラフィック
-aliases: 
+aliases:
+  - icedのバックエンドの特性
 lastmod: 2025-04-01 21:20:37
 date: 2025-04-01 21:20:37
 draft: true
