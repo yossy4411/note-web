@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yossy4411のノート</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/iced/</link><description>Recent content on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Wed, 09 Apr 2025 15:50:19 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/develop/knowledge/libs/iced/index.xml" rel="self" type="application/rss+xml"/><item><title>Iced - RustのGUIライブラリ</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/iced/iced/</link><pubDate>Wed, 09 Apr 2025 15:50:19 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/libs/iced/iced/</guid><description>&lt;h2 id="特徴">特徴
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>iced on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/iced/</link><description>Recent content in iced on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Wed, 09 Apr 2025 15:50:19 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/develop/knowledge/libs/iced/index.xml" rel="self" type="application/rss+xml"/><item><title>Iced - RustのGUIライブラリ</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/iced/iced/</link><pubDate>Wed, 09 Apr 2025 15:50:19 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/libs/iced/iced/</guid><description>&lt;h2 id="特徴">特徴
 &lt;/h2>&lt;blockquote>
 &lt;p>A cross-platform GUI library for Rust focused on simplicity and type-safety. Inspired by &lt;a class="link" href="https://elm-lang.org/" target="_blank" rel="noopener"
 >Elm&lt;/a>.&lt;/p>&lt;/blockquote>
@@ -100,8 +100,7 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">fn&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>() -&amp;gt; &lt;span style="color:#a6e22e">iced&lt;/span>::Result {
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> iced::run(&lt;span style="color:#e6db74">&amp;#34;A cool counter&amp;#34;&lt;/span>, Counter::update, Counter::view)
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>#信憑性の低い情報&lt;/p>
-&lt;p>関数&lt;code>view&lt;/code>部分にはマクロと純粋関数を使用している。ここに関数型言語Elmの特徴が出てきていますね。&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>関数&lt;code>view&lt;/code>部分にはマクロと純粋関数を使用している。ここに関数型言語Elmの特徴が出てきていますね。&lt;/p>
 &lt;p>ボタンを押したときのイベントを&lt;code>on_press&lt;/code>で割り当て、イベント発生時に&lt;code>update&lt;/code>関数が呼び出されます。&lt;br>
 &lt;code>self.value&lt;/code>を変更すると、&lt;code>view&lt;/code>関数が呼び出されます。&lt;/p>
 &lt;p>そうやってローテーションしていきます。&lt;/p></description></item></channel></rss>

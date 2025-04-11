@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>日記 on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/diary/</link><description>Recent content in 日記 on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/diary/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年04月10日(木)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-10/</link><pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-10/</guid><description>&lt;h2 id="今日の作業">今日の作業
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>日記 on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/diary/</link><description>Recent content in 日記 on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Fri, 11 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/diary/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年04月11日(金)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-11/</link><pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-11/</guid><description>&lt;h2 id="ノートの不具合">ノートの不具合
+&lt;/h2>&lt;p>例えば&lt;a class="link" href="https://yossy4411.okayugroup.net/%e7%a7%81%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6" >私について(/私について.md)&lt;/a>は &lt;a class="link" href="https://yossy4411.okayugroup.net/about-me/" target="_blank" rel="noopener"
+>https://yossy4411.okayugroup.net/about-me/&lt;/a> に配信されますが、これによって不具合が発生することがあります。&lt;br>
+相対パスが合わないという問題です。&lt;/p>
+&lt;p>例えば先程の&lt;code>私について.md&lt;/code>で./a.mdを指した場合、Obsidianでは同じディレクトリのa (/a.md)がリンクされるのですが、Web版で見た場合に&lt;code>https://yossy4411.okayugroup.net/about-me/a&lt;/code>が対象になってしまい、404になるという問題があります。&lt;/p>
+&lt;p>これを修正するために、以下の対処法が考えられます。&lt;/p>
+&lt;ul>
+&lt;li>Markdownファイルですべてのリンクを絶対パス指定にする&lt;/li>
+&lt;li>Hugoでリンクの接頭辞に../をつける&lt;/li>
+&lt;li>Hugoで、ファイルをディレクトリ(&lt;code>https://&amp;lt;domain&amp;gt;/path/to/dest/%1&lt;/code>)分けするのではなく%1.htmlとして扱い、.mdを.htmlに置換&lt;/li>
+&lt;/ul></description></item><item><title>2025年04月10日(木)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-10/</link><pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-10/</guid><description>&lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;h3 id="journeystreetmapをeguiに移植">&lt;a class="link" href="../develop/JourneyStreetMap/JourneyStreetMap%e3%81%a8%e3%81%af" >journeystreetmap&lt;/a>をeguiに移植
 &lt;/h3>&lt;p>&lt;a class="link" href="2025-04-09.md#[journeystreetmap]%28../develop/JourneyStreetMap/JourneyStreetMap%e3%81%a8%e3%81%af.md%29%e3%81%ae%e5%88%b6%e4%bd%9c" >昨日分かったこと&lt;/a>なのですが、&lt;a class="link" href="../develop/Knowledge/libs/iced/iced" >iced&lt;/a>では少し融通がきかないなというわけでeguiに移植したいと思います。&lt;/p>
 &lt;p>普通に&lt;code>Image&lt;/code>を&lt;code>ui.put&lt;/code>して良いパフォーマンスが得られたら良いんですがね、そう上手くはいかなそうです。&lt;br>
@@ -33,6 +43,8 @@
 殆どが「今日やったこと」とそれに関連して「わかったこと」しか書いてないと思います。&lt;/p>
 &lt;h2 id="目次">目次
 &lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="2025-04-11" >2025-04-11&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="2025-04-10" >2025-04-10&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="2025-04-09" >2025-04-09&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="2025-04-08" >2025-04-08&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="2025-04-07" >2025-04-07&lt;/a>&lt;/li>
@@ -133,188 +145,15 @@ URLエンコード後&lt;br>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">+ fetch-depth: 0
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>こうすることでブランチ全体のfetchができ、原点を検出できます。&lt;/p>
 &lt;h4 id="詰まったポイント2">詰まったポイント2
-&lt;/h4>
-&lt;div class="goat svg-container ">
-&lt;svg
-xmlns="http://www.w3.org/2000/svg"
-font-family="Menlo,Lucida Console,monospace"
-viewBox="0 0 384 137"
->
-&lt;g transform='translate(8,16)'>
-&lt;text text-anchor='middle' x='0' y='4' fill='currentColor' style='font-size:1em'>`&lt;/text>
-&lt;text text-anchor='middle' x='0' y='20' fill='currentColor' style='font-size:1em'>-&lt;/text>
-&lt;text text-anchor='middle' x='8' y='4' fill='currentColor' style='font-size:1em'>`&lt;/text>
-&lt;text text-anchor='middle' x='16' y='4' fill='currentColor' style='font-size:1em'>`&lt;/text>
-&lt;text text-anchor='middle' x='16' y='20' fill='currentColor' style='font-size:1em'>n&lt;/text>
-&lt;text text-anchor='middle' x='16' y='36' fill='currentColor' style='font-size:1em'>u&lt;/text>
-&lt;text text-anchor='middle' x='16' y='52' fill='currentColor' style='font-size:1em'>i&lt;/text>
-&lt;text text-anchor='middle' x='16' y='68' fill='currentColor' style='font-size:1em'>w&lt;/text>
-&lt;text text-anchor='middle' x='24' y='4' fill='currentColor' style='font-size:1em'>y&lt;/text>
-&lt;text text-anchor='middle' x='24' y='20' fill='currentColor' style='font-size:1em'>a&lt;/text>
-&lt;text text-anchor='middle' x='24' y='36' fill='currentColor' style='font-size:1em'>s&lt;/text>
-&lt;text text-anchor='middle' x='24' y='52' fill='currentColor' style='font-size:1em'>f&lt;/text>
-&lt;text text-anchor='middle' x='24' y='68' fill='currentColor' style='font-size:1em'>i&lt;/text>
-&lt;text text-anchor='middle' x='32' y='4' fill='currentColor' style='font-size:1em'>a&lt;/text>
-&lt;text text-anchor='middle' x='32' y='20' fill='currentColor' style='font-size:1em'>m&lt;/text>
-&lt;text text-anchor='middle' x='32' y='36' fill='currentColor' style='font-size:1em'>e&lt;/text>
-&lt;text text-anchor='middle' x='32' y='52' fill='currentColor' style='font-size:1em'>:&lt;/text>
-&lt;text text-anchor='middle' x='32' y='68' fill='currentColor' style='font-size:1em'>t&lt;/text>
-&lt;text text-anchor='middle' x='32' y='84' fill='currentColor' style='font-size:1em'>g&lt;/text>
-&lt;text text-anchor='middle' x='32' y='100' fill='currentColor' style='font-size:1em'>p&lt;/text>
-&lt;text text-anchor='middle' x='32' y='116' fill='currentColor' style='font-size:1em'>p&lt;/text>
-&lt;text text-anchor='middle' x='40' y='4' fill='currentColor' style='font-size:1em'>m&lt;/text>
-&lt;text text-anchor='middle' x='40' y='20' fill='currentColor' style='font-size:1em'>e&lt;/text>
-&lt;text text-anchor='middle' x='40' y='36' fill='currentColor' style='font-size:1em'>s&lt;/text>
-&lt;text text-anchor='middle' x='40' y='68' fill='currentColor' style='font-size:1em'>h&lt;/text>
-&lt;text text-anchor='middle' x='40' y='84' fill='currentColor' style='font-size:1em'>i&lt;/text>
-&lt;text text-anchor='middle' x='40' y='100' fill='currentColor' style='font-size:1em'>u&lt;/text>
-&lt;text text-anchor='middle' x='40' y='116' fill='currentColor' style='font-size:1em'>u&lt;/text>
-&lt;text text-anchor='middle' x='48' y='4' fill='currentColor' style='font-size:1em'>l&lt;/text>
-&lt;text text-anchor='middle' x='48' y='20' fill='currentColor' style='font-size:1em'>:&lt;/text>
-&lt;text text-anchor='middle' x='48' y='36' fill='currentColor' style='font-size:1em'>:&lt;/text>
-&lt;text text-anchor='middle' x='48' y='52' fill='currentColor' style='font-size:1em'>g&lt;/text>
-&lt;text text-anchor='middle' x='48' y='68' fill='currentColor' style='font-size:1em'>:&lt;/text>
-&lt;text text-anchor='middle' x='48' y='84' fill='currentColor' style='font-size:1em'>t&lt;/text>
-&lt;text text-anchor='middle' x='48' y='100' fill='currentColor' style='font-size:1em'>b&lt;/text>
-&lt;text text-anchor='middle' x='48' y='116' fill='currentColor' style='font-size:1em'>b&lt;/text>
-&lt;text text-anchor='middle' x='56' y='52' fill='currentColor' style='font-size:1em'>i&lt;/text>
-&lt;text text-anchor='middle' x='56' y='84' fill='currentColor' style='font-size:1em'>h&lt;/text>
-&lt;text text-anchor='middle' x='56' y='100' fill='currentColor' style='font-size:1em'>l&lt;/text>
-&lt;text text-anchor='middle' x='56' y='116' fill='currentColor' style='font-size:1em'>l&lt;/text>
-&lt;text text-anchor='middle' x='64' y='20' fill='currentColor' style='font-size:1em'>D&lt;/text>
-&lt;text text-anchor='middle' x='64' y='36' fill='currentColor' style='font-size:1em'>p&lt;/text>
-&lt;text text-anchor='middle' x='64' y='52' fill='currentColor' style='font-size:1em'>t&lt;/text>
-&lt;text text-anchor='middle' x='64' y='84' fill='currentColor' style='font-size:1em'>u&lt;/text>
-&lt;text text-anchor='middle' x='64' y='100' fill='currentColor' style='font-size:1em'>i&lt;/text>
-&lt;text text-anchor='middle' x='64' y='116' fill='currentColor' style='font-size:1em'>i&lt;/text>
-&lt;text text-anchor='middle' x='72' y='20' fill='currentColor' style='font-size:1em'>e&lt;/text>
-&lt;text text-anchor='middle' x='72' y='36' fill='currentColor' style='font-size:1em'>e&lt;/text>
-&lt;text text-anchor='middle' x='72' y='52' fill='currentColor' style='font-size:1em'>h&lt;/text>
-&lt;text text-anchor='middle' x='72' y='84' fill='currentColor' style='font-size:1em'>b&lt;/text>
-&lt;text text-anchor='middle' x='72' y='100' fill='currentColor' style='font-size:1em'>s&lt;/text>
-&lt;text text-anchor='middle' x='72' y='116' fill='currentColor' style='font-size:1em'>s&lt;/text>
-&lt;text text-anchor='middle' x='80' y='20' fill='currentColor' style='font-size:1em'>p&lt;/text>
-&lt;text text-anchor='middle' x='80' y='36' fill='currentColor' style='font-size:1em'>a&lt;/text>
-&lt;text text-anchor='middle' x='80' y='52' fill='currentColor' style='font-size:1em'>u&lt;/text>
-&lt;text text-anchor='middle' x='80' y='84' fill='currentColor' style='font-size:1em'>_&lt;/text>
-&lt;text text-anchor='middle' x='80' y='100' fill='currentColor' style='font-size:1em'>h&lt;/text>
-&lt;text text-anchor='middle' x='80' y='116' fill='currentColor' style='font-size:1em'>h&lt;/text>
-&lt;text text-anchor='middle' x='88' y='20' fill='currentColor' style='font-size:1em'>l&lt;/text>
-&lt;text text-anchor='middle' x='88' y='36' fill='currentColor' style='font-size:1em'>c&lt;/text>
-&lt;text text-anchor='middle' x='88' y='52' fill='currentColor' style='font-size:1em'>b&lt;/text>
-&lt;text text-anchor='middle' x='88' y='84' fill='currentColor' style='font-size:1em'>t&lt;/text>
-&lt;text text-anchor='middle' x='88' y='100' fill='currentColor' style='font-size:1em'>_&lt;/text>
-&lt;text text-anchor='middle' x='88' y='116' fill='currentColor' style='font-size:1em'>_&lt;/text>
-&lt;text text-anchor='middle' x='96' y='20' fill='currentColor' style='font-size:1em'>o&lt;/text>
-&lt;text text-anchor='middle' x='96' y='36' fill='currentColor' style='font-size:1em'>e&lt;/text>
-&lt;text text-anchor='middle' x='96' y='52' fill='currentColor' style='font-size:1em'>.&lt;/text>
-&lt;text text-anchor='middle' x='96' y='84' fill='currentColor' style='font-size:1em'>o&lt;/text>
-&lt;text text-anchor='middle' x='96' y='100' fill='currentColor' style='font-size:1em'>d&lt;/text>
-&lt;text text-anchor='middle' x='96' y='116' fill='currentColor' style='font-size:1em'>b&lt;/text>
-&lt;text text-anchor='middle' x='104' y='20' fill='currentColor' style='font-size:1em'>y&lt;/text>
-&lt;text text-anchor='middle' x='104' y='36' fill='currentColor' style='font-size:1em'>i&lt;/text>
-&lt;text text-anchor='middle' x='104' y='52' fill='currentColor' style='font-size:1em'>r&lt;/text>
-&lt;text text-anchor='middle' x='104' y='84' fill='currentColor' style='font-size:1em'>k&lt;/text>
-&lt;text text-anchor='middle' x='104' y='100' fill='currentColor' style='font-size:1em'>i&lt;/text>
-&lt;text text-anchor='middle' x='104' y='116' fill='currentColor' style='font-size:1em'>r&lt;/text>
-&lt;text text-anchor='middle' x='112' y='36' fill='currentColor' style='font-size:1em'>r&lt;/text>
-&lt;text text-anchor='middle' x='112' y='52' fill='currentColor' style='font-size:1em'>e&lt;/text>
-&lt;text text-anchor='middle' x='112' y='84' fill='currentColor' style='font-size:1em'>e&lt;/text>
-&lt;text text-anchor='middle' x='112' y='100' fill='currentColor' style='font-size:1em'>r&lt;/text>
-&lt;text text-anchor='middle' x='112' y='116' fill='currentColor' style='font-size:1em'>a&lt;/text>
-&lt;text text-anchor='middle' x='120' y='36' fill='currentColor' style='font-size:1em'>i&lt;/text>
-&lt;text text-anchor='middle' x='120' y='52' fill='currentColor' style='font-size:1em'>f&lt;/text>
-&lt;text text-anchor='middle' x='120' y='84' fill='currentColor' style='font-size:1em'>n&lt;/text>
-&lt;text text-anchor='middle' x='120' y='100' fill='currentColor' style='font-size:1em'>:&lt;/text>
-&lt;text text-anchor='middle' x='120' y='116' fill='currentColor' style='font-size:1em'>n&lt;/text>
-&lt;text text-anchor='middle' x='128' y='36' fill='currentColor' style='font-size:1em'>s&lt;/text>
-&lt;text text-anchor='middle' x='128' y='84' fill='currentColor' style='font-size:1em'>:&lt;/text>
-&lt;text text-anchor='middle' x='128' y='116' fill='currentColor' style='font-size:1em'>c&lt;/text>
-&lt;text text-anchor='middle' x='136' y='36' fill='currentColor' style='font-size:1em'>/&lt;/text>
-&lt;text text-anchor='middle' x='136' y='52' fill='currentColor' style='font-size:1em'>=&lt;/text>
-&lt;text text-anchor='middle' x='136' y='116' fill='currentColor' style='font-size:1em'>h&lt;/text>
-&lt;text text-anchor='middle' x='144' y='36' fill='currentColor' style='font-size:1em'>a&lt;/text>
-&lt;text text-anchor='middle' x='144' y='52' fill='currentColor' style='font-size:1em'>=&lt;/text>
-&lt;text text-anchor='middle' x='144' y='84' fill='currentColor' style='font-size:1em'>$&lt;/text>
-&lt;text text-anchor='middle' x='144' y='100' fill='currentColor' style='font-size:1em'>/&lt;/text>
-&lt;text text-anchor='middle' x='144' y='116' fill='currentColor' style='font-size:1em'>:&lt;/text>
-&lt;text text-anchor='middle' x='152' y='36' fill='currentColor' style='font-size:1em'>c&lt;/text>
-&lt;text text-anchor='middle' x='152' y='84' fill='currentColor' style='font-size:1em'>{&lt;/text>
-&lt;text text-anchor='middle' x='152' y='100' fill='currentColor' style='font-size:1em'>p&lt;/text>
-&lt;text text-anchor='middle' x='160' y='36' fill='currentColor' style='font-size:1em'>t&lt;/text>
-&lt;text text-anchor='middle' x='160' y='52' fill='currentColor' style='font-size:1em'>'&lt;/text>
-&lt;text text-anchor='middle' x='160' y='84' fill='currentColor' style='font-size:1em'>{&lt;/text>
-&lt;text text-anchor='middle' x='160' y='100' fill='currentColor' style='font-size:1em'>u&lt;/text>
-&lt;text text-anchor='middle' x='160' y='116' fill='currentColor' style='font-size:1em'>g&lt;/text>
-&lt;text text-anchor='middle' x='168' y='36' fill='currentColor' style='font-size:1em'>i&lt;/text>
-&lt;text text-anchor='middle' x='168' y='52' fill='currentColor' style='font-size:1em'>r&lt;/text>
-&lt;text text-anchor='middle' x='168' y='100' fill='currentColor' style='font-size:1em'>b&lt;/text>
-&lt;text text-anchor='middle' x='168' y='116' fill='currentColor' style='font-size:1em'>h&lt;/text>
-&lt;text text-anchor='middle' x='176' y='36' fill='currentColor' style='font-size:1em'>o&lt;/text>
-&lt;text text-anchor='middle' x='176' y='52' fill='currentColor' style='font-size:1em'>e&lt;/text>
-&lt;text text-anchor='middle' x='176' y='84' fill='currentColor' style='font-size:1em'>s&lt;/text>
-&lt;text text-anchor='middle' x='176' y='100' fill='currentColor' style='font-size:1em'>l&lt;/text>
-&lt;text text-anchor='middle' x='176' y='116' fill='currentColor' style='font-size:1em'>-&lt;/text>
-&lt;text text-anchor='middle' x='184' y='36' fill='currentColor' style='font-size:1em'>n&lt;/text>
-&lt;text text-anchor='middle' x='184' y='52' fill='currentColor' style='font-size:1em'>f&lt;/text>
-&lt;text text-anchor='middle' x='184' y='84' fill='currentColor' style='font-size:1em'>e&lt;/text>
-&lt;text text-anchor='middle' x='184' y='100' fill='currentColor' style='font-size:1em'>i&lt;/text>
-&lt;text text-anchor='middle' x='184' y='116' fill='currentColor' style='font-size:1em'>p&lt;/text>
-&lt;text text-anchor='middle' x='192' y='36' fill='currentColor' style='font-size:1em'>s&lt;/text>
-&lt;text text-anchor='middle' x='192' y='52' fill='currentColor' style='font-size:1em'>s&lt;/text>
-&lt;text text-anchor='middle' x='192' y='84' fill='currentColor' style='font-size:1em'>c&lt;/text>
-&lt;text text-anchor='middle' x='192' y='100' fill='currentColor' style='font-size:1em'>c&lt;/text>
-&lt;text text-anchor='middle' x='192' y='116' fill='currentColor' style='font-size:1em'>a&lt;/text>
-&lt;text text-anchor='middle' x='200' y='36' fill='currentColor' style='font-size:1em'>-&lt;/text>
-&lt;text text-anchor='middle' x='200' y='52' fill='currentColor' style='font-size:1em'>/&lt;/text>
-&lt;text text-anchor='middle' x='200' y='84' fill='currentColor' style='font-size:1em'>r&lt;/text>
-&lt;text text-anchor='middle' x='200' y='116' fill='currentColor' style='font-size:1em'>g&lt;/text>
-&lt;text text-anchor='middle' x='208' y='36' fill='currentColor' style='font-size:1em'>g&lt;/text>
-&lt;text text-anchor='middle' x='208' y='52' fill='currentColor' style='font-size:1em'>h&lt;/text>
-&lt;text text-anchor='middle' x='208' y='84' fill='currentColor' style='font-size:1em'>e&lt;/text>
-&lt;text text-anchor='middle' x='208' y='116' fill='currentColor' style='font-size:1em'>e&lt;/text>
-&lt;text text-anchor='middle' x='216' y='36' fill='currentColor' style='font-size:1em'>h&lt;/text>
-&lt;text text-anchor='middle' x='216' y='52' fill='currentColor' style='font-size:1em'>e&lt;/text>
-&lt;text text-anchor='middle' x='216' y='84' fill='currentColor' style='font-size:1em'>t&lt;/text>
-&lt;text text-anchor='middle' x='216' y='116' fill='currentColor' style='font-size:1em'>s&lt;/text>
-&lt;text text-anchor='middle' x='224' y='36' fill='currentColor' style='font-size:1em'>-&lt;/text>
-&lt;text text-anchor='middle' x='224' y='52' fill='currentColor' style='font-size:1em'>a&lt;/text>
-&lt;text text-anchor='middle' x='224' y='84' fill='currentColor' style='font-size:1em'>s&lt;/text>
-&lt;text text-anchor='middle' x='232' y='36' fill='currentColor' style='font-size:1em'>p&lt;/text>
-&lt;text text-anchor='middle' x='232' y='52' fill='currentColor' style='font-size:1em'>d&lt;/text>
-&lt;text text-anchor='middle' x='232' y='84' fill='currentColor' style='font-size:1em'>.&lt;/text>
-&lt;text text-anchor='middle' x='240' y='36' fill='currentColor' style='font-size:1em'>a&lt;/text>
-&lt;text text-anchor='middle' x='240' y='52' fill='currentColor' style='font-size:1em'>s&lt;/text>
-&lt;text text-anchor='middle' x='240' y='84' fill='currentColor' style='font-size:1em'>G&lt;/text>
-&lt;text text-anchor='middle' x='248' y='36' fill='currentColor' style='font-size:1em'>g&lt;/text>
-&lt;text text-anchor='middle' x='248' y='52' fill='currentColor' style='font-size:1em'>/&lt;/text>
-&lt;text text-anchor='middle' x='248' y='84' fill='currentColor' style='font-size:1em'>I&lt;/text>
-&lt;text text-anchor='middle' x='256' y='36' fill='currentColor' style='font-size:1em'>e&lt;/text>
-&lt;text text-anchor='middle' x='256' y='52' fill='currentColor' style='font-size:1em'>m&lt;/text>
-&lt;text text-anchor='middle' x='256' y='84' fill='currentColor' style='font-size:1em'>T&lt;/text>
-&lt;text text-anchor='middle' x='264' y='36' fill='currentColor' style='font-size:1em'>s&lt;/text>
-&lt;text text-anchor='middle' x='264' y='52' fill='currentColor' style='font-size:1em'>a&lt;/text>
-&lt;text text-anchor='middle' x='264' y='84' fill='currentColor' style='font-size:1em'>H&lt;/text>
-&lt;text text-anchor='middle' x='272' y='36' fill='currentColor' style='font-size:1em'>@&lt;/text>
-&lt;text text-anchor='middle' x='272' y='52' fill='currentColor' style='font-size:1em'>i&lt;/text>
-&lt;text text-anchor='middle' x='272' y='84' fill='currentColor' style='font-size:1em'>U&lt;/text>
-&lt;text text-anchor='middle' x='280' y='36' fill='currentColor' style='font-size:1em'>v&lt;/text>
-&lt;text text-anchor='middle' x='280' y='52' fill='currentColor' style='font-size:1em'>n&lt;/text>
-&lt;text text-anchor='middle' x='280' y='84' fill='currentColor' style='font-size:1em'>B&lt;/text>
-&lt;text text-anchor='middle' x='288' y='36' fill='currentColor' style='font-size:1em'>3&lt;/text>
-&lt;text text-anchor='middle' x='288' y='52' fill='currentColor' style='font-size:1em'>'&lt;/text>
-&lt;text text-anchor='middle' x='288' y='84' fill='currentColor' style='font-size:1em'>_&lt;/text>
-&lt;text text-anchor='middle' x='296' y='84' fill='currentColor' style='font-size:1em'>T&lt;/text>
-&lt;text text-anchor='middle' x='304' y='84' fill='currentColor' style='font-size:1em'>O&lt;/text>
-&lt;text text-anchor='middle' x='312' y='84' fill='currentColor' style='font-size:1em'>K&lt;/text>
-&lt;text text-anchor='middle' x='320' y='84' fill='currentColor' style='font-size:1em'>E&lt;/text>
-&lt;text text-anchor='middle' x='328' y='84' fill='currentColor' style='font-size:1em'>N&lt;/text>
-&lt;text text-anchor='middle' x='344' y='84' fill='currentColor' style='font-size:1em'>}&lt;/text>
-&lt;text text-anchor='middle' x='352' y='84' fill='currentColor' style='font-size:1em'>}&lt;/text>
-&lt;/g>
-&lt;/svg>
-&lt;/div>
-&lt;blockquote>
+&lt;/h4>&lt;pre tabindex="0">&lt;code>```yaml
+- name: Deploy
+uses: peaceiris/actions-gh-pages@v3
+if: github.ref == &amp;#39;refs/heads/main&amp;#39;
+with:
+github_token: ${{ secrets.GITHUB_TOKEN }}
+publish_dir: ./public
+publish_branch: gh-pages
+&lt;/code>&lt;/pre>&lt;blockquote>
 &lt;p>実は リポジトリ設定＞ActionsからBotに&lt;code>Read/Write&lt;/code>の権限を持たせないといけなかったりする&lt;/p>&lt;/blockquote></description></item><item><title>2025年04月05日(土)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-05/</link><pubDate>Sat, 05 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-05/</guid><description>&lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;h3 id="web版ノートの機能性向上">Web版ノートの機能性向上
 &lt;/h3>&lt;p>これには以下のものを含みます。&lt;/p>
