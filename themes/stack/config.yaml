@@ -148,6 +148,12 @@ params:
         content:
             enabled: true
 
+markup:
+    defaultMarkdownHandler: goldmark
+    goldmark:
+        renderer:
+            unsafe: true
+
 menus:
     social:
         - name: GitHub
