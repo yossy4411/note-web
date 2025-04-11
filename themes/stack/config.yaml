@@ -5,7 +5,7 @@ module:
 
 params:
     mainSections:
-        - 日記
+        - diary
     featuredImageField: image
     rssFullContent: true
     favicon:
@@ -180,22 +180,22 @@ menus:
               icon: home
         - name: 開発
           weight: 2
-          url: /開発/
+          url: /develop.html
           params:
               icon: code
         - name: 日記
           weight: 3
-          url: /日記/
+          url: /diary.html
           params:
               icon: pencil
         - name: 推し活
           weight: 4
-          url: /推し活/
+          url: /favorite.html
           params:
               icon: star
         - name: おかゆグループ
           weight: 5
-          url: /おかゆグループ/
+          url: /okayugroup.html
           params:
               icon: building
         - name: Buy Me a Coffee
