@@ -54,7 +54,7 @@ if __name__ == '__main__':
     for file in directory.rglob("*.md"):
         # ファイルの読み込み
         with open(file, "r", encoding="utf-8") as file_reader:
-            document = '\n'.join(file_reader.readlines())
+            document = ''.join(file_reader.readlines())
             # ファイルが置いてある場所
             path = str(file.relative_to(directory).parent)
             # 先ず、リンクを絶対パスに置き換える。
