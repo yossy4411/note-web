@@ -67,6 +67,15 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Convert Obsidian Markdown to Hugo Markdown
+        run: |
+          python replace_markdown.py
+
       - name: Build
         run: |
           hugo --minify
