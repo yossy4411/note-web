@@ -3,7 +3,8 @@ title: STPR
 description: 5つの歌い手グループとその他クリエイター活動の支援を行う企業。
 lead: 
 tags: 
-aliases: 
+aliases:
+  - STPR
 date: 2025-04-09T18:15:01+09:00
 lastmod: 2025-04-09T18:15:01+09:00
 draft: false

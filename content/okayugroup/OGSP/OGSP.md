@@ -4,7 +4,8 @@ description:
 lead: 
 tags:
   - MOC
-aliases: 
+aliases:
+  - OGSP
 date: 2025-04-07T22:38:56+09:00
 lastmod: 2025-04-07T22:38:56+09:00
 draft: false

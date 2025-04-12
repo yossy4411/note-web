@@ -12,3 +12,6 @@ slug: differ-iced-canvas-widget
 ---
 ## コイツラはまず何やねん
 これらはどちらも、icedのカスタムウィジェットを作るためのトレイトです。
+
+結局何が書きたかったか忘れた  
+[JourneyMapViewerをCanvasからWidgetに変更](https://github.com/yossy4411/journeystreetmap.rs/commit/68cee5bb41bc916bc345a516f297425a7d740a0e) この辺りに答えがあるかも

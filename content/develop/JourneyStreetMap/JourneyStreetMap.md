@@ -5,6 +5,7 @@ lead:
 tags: 
 aliases:
   - journeystreetmap
+  - JSM
 date: 2025-04-04T15:50:47+09:00
 lastmod: 2025-04-04T21:24:04+09:00
 draft: false

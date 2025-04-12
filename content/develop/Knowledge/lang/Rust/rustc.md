@@ -5,6 +5,7 @@ lead:
 tags: 
 aliases:
   - compiler
+  - rustc
 date: 2025-04-04 16:04:15
 lastmod: 2025-04-04 16:04:15
 draft: false

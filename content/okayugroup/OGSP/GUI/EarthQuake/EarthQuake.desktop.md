@@ -4,7 +4,8 @@ description: （開発中止）災害対策情報アプリ written in C#
 lead: 
 tags:
   - MOC
-aliases: 
+aliases:
+  - EarthQuake.Desktop
 date: 2025-04-08T10:33:31+09:00
 lastmod: 2025-04-08T10:33:31+09:00
 draft: false
