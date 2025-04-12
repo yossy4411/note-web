@@ -6,4 +6,3 @@ ignoreFiles = ['README.md', 'LICENSE.md', 'content/templates/.*']
 
 defaultContentLanguage = 'ja'
 copyright = 'yossy4411 (おかゆ)'
-uglyURLs = true
