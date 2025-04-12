@@ -10,12 +10,12 @@
 &lt;tbody>
 &lt;tr>
 &lt;td>主導&lt;/td>
-&lt;td>&lt;a class="link" href="../%e3%81%8a%e3%81%8b%e3%82%86%e3%82%b0%e3%83%ab%e3%83%bc%e3%83%97" >おかゆグループ&lt;/a>&lt;/td>
+&lt;td>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/about/" >おかゆグループ&lt;/a>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>参考&lt;/td>
 &lt;td>&lt;a class="link" href="https://www.jma.go.jp" target="_blank" rel="noopener"
->気象庁&lt;/a>&lt;!-- raw HTML omitted -->&lt;a class="link" href="https://www.bosai.go.jp" target="_blank" rel="noopener"
+>気象庁&lt;/a>&lt;br>&lt;a class="link" href="https://www.bosai.go.jp" target="_blank" rel="noopener"
 >NIED&lt;/a>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -24,7 +24,7 @@
 &lt;/tr>
 &lt;tr>
 &lt;td>予算&lt;/td>
-&lt;td>0円+&lt;a class="link" href="../../%e7%a7%81%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6" >yossy4411&lt;/a>のお小遣い&lt;/td>
+&lt;td>0円+&lt;a class="link" href="https://yossy4411.okayugroup.net/about-me/" >yossy4411&lt;/a>のお小遣い&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -62,13 +62,16 @@
 &lt;/h2>&lt;p>地震計から収集したデータを集める場所がサーバーです。&lt;/p>
 &lt;p>同時に受信システムへのデータ送信も行います。&lt;/p>
 &lt;h2 id="受信システムアプリ開発">受信システム・アプリ開発
-&lt;/h2>&lt;h3 id="earthquake---デスクトップ版地震災害情報アプリ">&lt;a class="link" href="GUI/EarthQuake/EarthQuake.desktop" >EarthQuake&lt;/a> - デスクトップ版地震災害情報アプリ
+&lt;/h2>&lt;h3 id="earthquake---デスクトップ版地震災害情報アプリ">&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/about/" >EarthQuake&lt;/a> - デスクトップ版地震災害情報アプリ
 &lt;/h3>&lt;p>パフォーマンスの理由で開発停止&lt;br>
 言語: C#&lt;br>
 GUIフレームワーク: Avalonia + SkiaSharp
 ↪ &lt;a class="link" href="https://github.com/yossy4411/EarthQuake" target="_blank" rel="noopener"
 >GitHub&lt;/a>&lt;/p>
-&lt;h3 id="ogsp-disaster-prevention">&lt;a class="link" href="GUI/disaster-prevention/OGSP%20Disaster%20Prevention" >OGSP Disaster Prevention&lt;/a>
+&lt;h3 id="hahahugoshortcode54s0hbhb">&lt;span class="dead-link">
+OGSP Disaster Prevention
+&lt;span style="font-size: 1rem">（リンク切れ）&lt;/span>
+&lt;/span>
 &lt;/h3>&lt;p>パフォーマンスを最大化した最新鋭の設計&lt;br>
-言語: &lt;a class="link" href="../../develop/Knowledge/lang/Rust/Rust" >Rust&lt;/a>
+言語: &lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/about/" >Rust&lt;/a>
 GUIフレームワーク: &lt;code>iced&lt;/code> (変更の可能性あり) + &lt;code>wgpu&lt;/code> + Skia (&lt;code>skia-safe&lt;/code>)&lt;/p></description></item></channel></rss>

@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MOC on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/tags/moc/</link><description>Recent content in MOC on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Thu, 10 Apr 2025 17:46:20 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/tags/moc/index.xml" rel="self" type="application/rss+xml"/><item><title>GUIライブラリまとめ</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/gui-library/</link><pubDate>Thu, 10 Apr 2025 17:46:20 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/libs/gui-library/</guid><description>&lt;p>GUI（グラフィカルユーザーインターフェース）を表示するための&lt;a class="link" href="%e3%83%a9%e3%82%a4%e3%83%96%e3%83%a9%e3%83%aa" >ライブラリ&lt;/a>。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MOC on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/tags/moc/</link><description>Recent content in MOC on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Thu, 10 Apr 2025 17:46:20 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/tags/moc/index.xml" rel="self" type="application/rss+xml"/><item><title>GUIライブラリまとめ</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/gui-library/</link><pubDate>Thu, 10 Apr 2025 17:46:20 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/libs/gui-library/</guid><description>&lt;p>GUI（グラフィカルユーザーインターフェース）を表示するための&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/about/" >ライブラリ&lt;/a>。&lt;/p>
 &lt;p>ここでは私が知る限りのGUIライブラリおよびGUIフレームワークを書いておく。&lt;/p>
 &lt;p>※Webについては別の場所で書こうと思っていて、完成した頃にリンクを貼ります&lt;/p>
 &lt;h2 id="rust">Rust
 &lt;/h2>&lt;ul>
-&lt;li>&lt;a class="link" href="egui/egui" >egui&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="iced/iced" >iced&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/egui/about/" >egui&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/iced/about/" >iced&lt;/a>&lt;/li>
 &lt;li>Tauri&lt;/li>
 &lt;li>Druid (開発停止)&lt;/li>
 &lt;li>Slint&lt;/li>
@@ -61,27 +61,35 @@
 &lt;/h2>&lt;p>莉犬くん。&lt;/p>
 &lt;p>かわいい。&lt;br>
 声が好き。&lt;/p>
-&lt;p>莉犬くんもだけどその事務所の&lt;a class="link" href="STPR/STPR" >STPR&lt;/a>も推してる。&lt;/p></description></item><item><title>日記</title><link>https://yossy4411.okayugroup.net/diary/about/</link><pubDate>Tue, 08 Apr 2025 16:24:26 +0900</pubDate><guid>https://yossy4411.okayugroup.net/diary/about/</guid><description>&lt;h2 id="管理について">管理について
-&lt;/h2>&lt;p>2025/4/1から&lt;a class="link" href="../%e7%a7%81%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6" >yossy4411&lt;/a>が毎日書いています。&lt;br>
+&lt;p>莉犬くんもだけどその事務所の&lt;a class="link" href="https://yossy4411.okayugroup.net/favorite/stpr/about/" >STPR&lt;/a>も推してる。&lt;/p></description></item><item><title>日記</title><link>https://yossy4411.okayugroup.net/diary/about/</link><pubDate>Tue, 08 Apr 2025 16:24:26 +0900</pubDate><guid>https://yossy4411.okayugroup.net/diary/about/</guid><description>&lt;h2 id="管理について">管理について
+&lt;/h2>&lt;p>2025/4/1から&lt;a class="link" href="https://yossy4411.okayugroup.net/about-me/" >yossy4411&lt;/a>が毎日書いています。&lt;br>
 殆どが「今日やったこと」とそれに関連して「わかったこと」しか書いてないと思います。&lt;/p>
 &lt;h2 id="目次">目次
 &lt;/h2>&lt;ul>
-&lt;li>&lt;a class="link" href="2025-04-11" >2025-04-11&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="2025-04-10" >2025-04-10&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="2025-04-09" >2025-04-09&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="2025-04-08" >2025-04-08&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="2025-04-07" >2025-04-07&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="2025-04-06" >2025-04-06&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="2025-04-05" >2025-04-05&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="2025-04-04" >2025-04-04&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="2025-04-03" >2025-04-03&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-12/" >2025-04-12&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-11/" >2025-04-11&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-10/" >2025-04-10&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-09/" >2025-04-09&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-08/" >2025-04-08&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-07/" >2025-04-07&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-06/" >2025-04-06&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-05/" >2025-04-05&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-04/" >2025-04-04&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-03/" >2025-04-03&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;!-- raw HTML omitted --></description></item><item><title>EarthQuake - デスクトップ版地震災害情報アプリ</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/about/</link><pubDate>Tue, 08 Apr 2025 10:33:31 +0900</pubDate><guid>https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/about/</guid><description>&lt;blockquote>
-&lt;p>[!IMPORTANT]
-パフォーマンス上の理由から、このアプリの開発は中断されました。&lt;/p>
-&lt;p>次期となるOGSP Disaster Preventionの開発にご期待ください。&lt;/p>&lt;/blockquote>
-&lt;h2 id="特徴">特徴
-&lt;/h2>&lt;ul>
+&lt;details>
+&lt;summary>2025年3月以前のアーカイブ&lt;/summary>
+ここには何もありません。
+&lt;/details></description></item><item><title>EarthQuake - デスクトップ版地震災害情報アプリ</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/about/</link><pubDate>Tue, 08 Apr 2025 10:33:31 +0900</pubDate><guid>https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/about/</guid><description>&lt;p>
+&lt;div class="admonition important">
+&lt;div class="admonition-title">Important&lt;/div>
+&lt;div class="admonition-content">
+パフォーマンス上の理由から、このアプリの開発は中断されました。
+次期となるOGSP Disaster Preventionの開発にご期待ください。
+&lt;/div>
+&lt;/div>
+## 特徴&lt;/p>
+&lt;ul>
 &lt;li>Avaloniaで書かれたクロスプラットフォームなアプリ (Windows, Mac, Linux)&lt;/li>
 &lt;li>PMTilesを使用したベクターマップの表示 （独自実装）&lt;/li>
 &lt;li>地震情報・震央分布図の表示&lt;/li>
@@ -121,11 +129,11 @@ alt="リリースの中で不安定だけど開発が一区切り着いたとき
 &lt;tbody>
 &lt;tr>
 &lt;td>創設者&lt;/td>
-&lt;td>&lt;a class="link" href="../%e7%a7%81%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6" >yossy4411&lt;/a>&lt;/td>
+&lt;td>&lt;a class="link" href="https://yossy4411.okayugroup.net/about-me/" >yossy4411&lt;/a>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>管理者&lt;/td>
-&lt;td>&lt;a class="link" href="../%e7%a7%81%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6" >yossy4411&lt;/a>&lt;/td>
+&lt;td>&lt;a class="link" href="https://yossy4411.okayugroup.net/about-me/" >yossy4411&lt;/a>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>設立&lt;/td>
@@ -179,7 +187,7 @@ alt="リリースの中で不安定だけど開発が一区切り着いたとき
 おかゆグループの公式HPができたのが6月4日なのでこの日としている。&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:2">
-&lt;p>2024年度、&lt;a class="link" href="../%e7%a7%81%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6" >yossy4411&lt;/a>がおかゆグループにかけた金額は4500円、売上高0円。
+&lt;p>2024年度、&lt;a class="link" href="https://yossy4411.okayugroup.net/about-me/" >yossy4411&lt;/a>がおかゆグループにかけた金額は4500円、売上高0円。
 赤字！wwww&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:3">
@@ -198,12 +206,12 @@ alt="リリースの中で不安定だけど開発が一区切り着いたとき
 &lt;tbody>
 &lt;tr>
 &lt;td>主導&lt;/td>
-&lt;td>&lt;a class="link" href="../%e3%81%8a%e3%81%8b%e3%82%86%e3%82%b0%e3%83%ab%e3%83%bc%e3%83%97" >おかゆグループ&lt;/a>&lt;/td>
+&lt;td>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/about/" >おかゆグループ&lt;/a>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>参考&lt;/td>
 &lt;td>&lt;a class="link" href="https://www.jma.go.jp" target="_blank" rel="noopener"
->気象庁&lt;/a>&lt;!-- raw HTML omitted -->&lt;a class="link" href="https://www.bosai.go.jp" target="_blank" rel="noopener"
+>気象庁&lt;/a>&lt;br>&lt;a class="link" href="https://www.bosai.go.jp" target="_blank" rel="noopener"
 >NIED&lt;/a>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -212,7 +220,7 @@ alt="リリースの中で不安定だけど開発が一区切り着いたとき
 &lt;/tr>
 &lt;tr>
 &lt;td>予算&lt;/td>
-&lt;td>0円+&lt;a class="link" href="../../%e7%a7%81%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6" >yossy4411&lt;/a>のお小遣い&lt;/td>
+&lt;td>0円+&lt;a class="link" href="https://yossy4411.okayugroup.net/about-me/" >yossy4411&lt;/a>のお小遣い&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -250,31 +258,52 @@ alt="リリースの中で不安定だけど開発が一区切り着いたとき
 &lt;/h2>&lt;p>地震計から収集したデータを集める場所がサーバーです。&lt;/p>
 &lt;p>同時に受信システムへのデータ送信も行います。&lt;/p>
 &lt;h2 id="受信システムアプリ開発">受信システム・アプリ開発
-&lt;/h2>&lt;h3 id="earthquake---デスクトップ版地震災害情報アプリ">&lt;a class="link" href="GUI/EarthQuake/EarthQuake.desktop" >EarthQuake&lt;/a> - デスクトップ版地震災害情報アプリ
+&lt;/h2>&lt;h3 id="earthquake---デスクトップ版地震災害情報アプリ">&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/about/" >EarthQuake&lt;/a> - デスクトップ版地震災害情報アプリ
 &lt;/h3>&lt;p>パフォーマンスの理由で開発停止&lt;br>
 言語: C#&lt;br>
 GUIフレームワーク: Avalonia + SkiaSharp
 ↪ &lt;a class="link" href="https://github.com/yossy4411/EarthQuake" target="_blank" rel="noopener"
 >GitHub&lt;/a>&lt;/p>
-&lt;h3 id="ogsp-disaster-prevention">&lt;a class="link" href="GUI/disaster-prevention/OGSP%20Disaster%20Prevention" >OGSP Disaster Prevention&lt;/a>
+&lt;h3 id="hahahugoshortcode54s0hbhb">&lt;span class="dead-link">
+OGSP Disaster Prevention
+&lt;span style="font-size: 1rem">（リンク切れ）&lt;/span>
+&lt;/span>
 &lt;/h3>&lt;p>パフォーマンスを最大化した最新鋭の設計&lt;br>
-言語: &lt;a class="link" href="../../develop/Knowledge/lang/Rust/Rust" >Rust&lt;/a>
+言語: &lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/about/" >Rust&lt;/a>
 GUIフレームワーク: &lt;code>iced&lt;/code> (変更の可能性あり) + &lt;code>wgpu&lt;/code> + Skia (&lt;code>skia-safe&lt;/code>)&lt;/p></description></item><item><title>ライブラリとは</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/about/</link><pubDate>Fri, 04 Apr 2025 17:23:16 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/libs/about/</guid><description>&lt;h2 id="ライブラリとは">ライブラリとは
 &lt;/h2>&lt;p>ソフトウェアの開発の上で機能を拡張するやつだと思っていたら良いと思います。
 知らんけど。&lt;/p>
 &lt;h2 id="目次">目次
 &lt;/h2>&lt;ul>
-&lt;li>&lt;a class="link" href="wgpu/wgpu" >wgpu&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="iced/iced" >iced&lt;/a>&lt;/li>
+&lt;li>&lt;span class="dead-link">
+wgpu
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/iced/about/" >iced&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="関連項目">関連項目
 &lt;/h2>&lt;ul>
-&lt;li>&lt;a class="link" href="../lang/Rust/crate" >crate&lt;/a>&lt;/li>
+&lt;li>&lt;span class="dead-link">
+crate
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>&lt;/li>
 &lt;/ul></description></item><item><title>Rustの概要</title><link>https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/about/</link><pubDate>Fri, 04 Apr 2025 16:46:51 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/about/</guid><description>&lt;h2 id="rustの開発状況について">Rustの開発状況について
 &lt;/h2>&lt;ul>
 &lt;li>&lt;a class="link" href="https://github.com/rust-lang/rust" target="_blank" rel="noopener"
 >ソースコード (GitHub)&lt;/a>
 Rustはあの&amp;quot;Firefox&amp;quot;を手掛けるMozilla社が開発したプログラミング言語で、高速でメモリの安全性が特徴です。
-これには独自の&lt;a class="link" href="%e6%89%80%e6%9c%89%e6%a8%a9" >所有権&lt;/a>というシステムが大きく関わっており、これによって&lt;a class="link" href="../%e3%82%ac%e3%83%99%e3%83%bc%e3%82%b8%e3%82%b3%e3%83%ac%e3%82%af%e3%82%b7%e3%83%a7%e3%83%b3" >GC&lt;/a>なしでメモリの安全性を手に入れています。&lt;/li>
+これには独自の&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/ownership/" >所有権&lt;/a>というシステムが大きく関わっており、これによって&lt;span class="dead-link">
+GC
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>なしでメモリの安全性を手に入れています。&lt;/li>
 &lt;/ul>
-&lt;p>所有権を正しく判別し、コンパイル時にエラーを出すために強力な&lt;a class="link" href="rustc" >rustc&lt;/a> (rustc)が作られています。&lt;/p></description></item></channel></rss>
+&lt;p>所有権を正しく判別し、コンパイル時にエラーを出すために強力な&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/compiler/" >rustc&lt;/a> (rustc)が作られています。&lt;/p>
+&lt;h2 id="用語集">用語集
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/ownership/" >所有権&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/compiler/" >rustc&lt;/a> - Rust compiler&lt;/li>
+&lt;li>&lt;span class="dead-link">
+デリファレンス
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>&lt;/li>
+&lt;/ul></description></item></channel></rss>

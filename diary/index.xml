@@ -1,5 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>日記 on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/diary/</link><description>Recent content in 日記 on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Fri, 11 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/diary/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年04月11日(金)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-11/</link><pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-11/</guid><description>&lt;h2 id="ノートの不具合">ノートの不具合
-&lt;/h2>&lt;p>例えば&lt;a class="link" href="https://yossy4411.okayugroup.net/%e7%a7%81%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6" >私について(/私について.md)&lt;/a>は &lt;a class="link" href="https://yossy4411.okayugroup.net/about-me/" target="_blank" rel="noopener"
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>日記 on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/diary/</link><description>Recent content in 日記 on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Sat, 12 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/diary/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年04月12日(土)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-12/</link><pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-12/</guid><description>&lt;h2 id="web版ノートの不具合について-第二弾">Web版ノートの不具合について 第二弾
+&lt;/h2>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-11/" >ノートの不具合&lt;/a>の続きになりますが、前回は「&lt;code>aliases&lt;/code>にファイル名を載せることで、リダイレクトによって正しいパスを指定できる。&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>」という術を使いましたよね。&lt;/p>
+&lt;p>よく考えたらこれでもだめな説が出てきました。&lt;/p>
+&lt;p>問題が発生するのはノートのセクション一覧です。&lt;br>
+一覧でその中身のページを表示すると、相対リンクが１つづれてしまうという問題があります。&lt;/p>
+&lt;p>これでは、リンクを絶対パスで指定しない限り、正しく判別できません。&lt;/p>
+&lt;p>これを解消するために、「スクリプトを作ってすべてのMarkdownファイルを置換する」という方法が考えられます。&lt;/p>
+&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;h3 id="journeystreetmap">JourneyStreetMap
+&lt;/h3>&lt;p>毎度のこと、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/about/" >JourneyStreetMap&lt;/a>です。&lt;/p>
+&lt;p>飽きて途中でやめました(; ;)&lt;/p>
+&lt;h2 id="ノートの不具合を修正">ノートの不具合を修正
+&lt;/h2>&lt;p>ObsidianのMarkdownを普通のMarkdownに書き換えるためのスクリプトを作成。&lt;br>
+↪&lt;a class="link" href="https://github.com/yossy4411/note-web/blob/c9fd69796ad2d4896b99ac0327d31c06c47c5493/replace_markdown.py" target="_blank" rel="noopener"
+>replace_markdown.py&lt;/a>&lt;/p>
+&lt;h2 id="ノートの名前整理">ノートの名前整理
+&lt;/h2>&lt;p>不具合修正により、冗長なaliasesは必要なくなりました。&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-11/" >ノートのURLをuglyとして扱う&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>2025年04月11日(金)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-11/</link><pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-11/</guid><description>&lt;h2 id="ノートの不具合">ノートの不具合
+&lt;/h2>&lt;p>例えば&lt;span class="dead-link">
+私について(/私について.md)
+&lt;span style="font-size: 1rem">（リンク切れ）&lt;/span>
+&lt;/span>は &lt;a class="link" href="https://yossy4411.okayugroup.net/about-me/" target="_blank" rel="noopener"
 >https://yossy4411.okayugroup.net/about-me/&lt;/a> に配信されますが、これによって不具合が発生することがあります。&lt;br>
 相対パスが合わないという問題です。&lt;/p>
 &lt;p>例えば先程の&lt;code>私について.md&lt;/code>で./a.mdを指した場合、Obsidianでは同じディレクトリのa (/a.md)がリンクされるのですが、Web版で見た場合に&lt;code>https://yossy4411.okayugroup.net/about-me/a&lt;/code>が対象になってしまい、404になるという問題があります。&lt;/p>
@@ -8,22 +35,33 @@
 &lt;li>Markdownファイルですべてのリンクを絶対パス指定にする&lt;/li>
 &lt;li>Hugoでリンクの接頭辞に../をつける&lt;/li>
 &lt;li>Hugoで、ファイルをディレクトリ(&lt;code>https://&amp;lt;domain&amp;gt;/path/to/dest/%1&lt;/code>)分けするのではなく%1.htmlとして扱い、.mdを.htmlに置換&lt;/li>
-&lt;/ul></description></item><item><title>2025年04月10日(木)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-10/</link><pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-10/</guid><description>&lt;h2 id="今日の作業">今日の作業
-&lt;/h2>&lt;h3 id="journeystreetmapをeguiに移植">&lt;a class="link" href="../develop/JourneyStreetMap/JourneyStreetMap%e3%81%a8%e3%81%af" >journeystreetmap&lt;/a>をeguiに移植
-&lt;/h3>&lt;p>&lt;a class="link" href="2025-04-09.md#[journeystreetmap]%28../develop/JourneyStreetMap/JourneyStreetMap%e3%81%a8%e3%81%af.md%29%e3%81%ae%e5%88%b6%e4%bd%9c" >昨日分かったこと&lt;/a>なのですが、&lt;a class="link" href="../develop/Knowledge/libs/iced/iced" >iced&lt;/a>では少し融通がきかないなというわけでeguiに移植したいと思います。&lt;/p>
+&lt;/ul>
+&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;h3 id="ノートのurlをuglyとして扱う">ノートのURLをuglyとして扱う
+&lt;/h3>&lt;p>&lt;a class="link" href="#%e3%83%8e%e3%83%bc%e3%83%88%e3%81%ae%e4%b8%8d%e5%85%b7%e5%90%88" >ノートの不具合&lt;/a>でも説明した通り、正しいURLが指定されないバグがあります。&lt;br>
+これを修正するために作業を致しました。&lt;/p>
+&lt;p>ファイル名が一致しないファイルにエイリアスを追加しました。&lt;/p></description></item><item><title>2025年04月10日(木)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-10/</link><pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-10/</guid><description>&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;h3 id="journeystreetmapをeguiに移植">&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/about/" >journeystreetmap&lt;/a>をeguiに移植
+&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-09/" >昨日分かったこと&lt;/a>の制作)なのですが、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/iced/about/" >iced&lt;/a>では少し融通がきかないなというわけでeguiに移植したいと思います。&lt;/p>
 &lt;p>普通に&lt;code>Image&lt;/code>を&lt;code>ui.put&lt;/code>して良いパフォーマンスが得られたら良いんですがね、そう上手くはいかなそうです。&lt;br>
-もし別の方法を考える必要があった場合は、&lt;a class="link" href="../develop/Knowledge/libs/wgpu/wgpu" >wgpu&lt;/a>で直接描画を行うなど、プリミティブなやり方を取ります。&lt;/p></description></item><item><title>2025年04月09日(水)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-09/</link><pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-09/</guid><description>&lt;h2 id="今日の作業">今日の作業
+もし別の方法を考える必要があった場合は、&lt;span class="dead-link">
+wgpu
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>で直接描画を行うなど、プリミティブなやり方を取ります。&lt;/p></description></item><item><title>2025年04月09日(水)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-09/</link><pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-09/</guid><description>&lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;h3 id="ノート整理">ノート整理
-&lt;/h3>&lt;p>&lt;a class="link" href="2025-04-08" >昨日&lt;/a>の続きです。&lt;/p>
+&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-08/" >昨日&lt;/a>の続きです。&lt;/p>
 &lt;ul>
-&lt;li>&lt;a class="link" href="../develop/JourneyStreetMap/JourneyStreetMap%e3%81%a8%e3%81%af" >JourneyStreetMap&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="../okayugroup/OGSP/OGSP" >OGSP&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="../develop/Knowledge/libs/iced/iced" >iced&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="../favorite/STPR/STPR" >STPR&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="../develop/Knowledge/lang/%e3%82%ac%e3%83%99%e3%83%bc%e3%82%b8%e3%82%b3%e3%83%ac%e3%82%af%e3%82%b7%e3%83%a7%e3%83%b3" >GC&lt;/a>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/about/" >JourneyStreetMap&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/about/" >OGSP&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/iced/about/" >iced&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/favorite/stpr/about/" >STPR&lt;/a>&lt;/li>
+&lt;li>&lt;span class="dead-link">
+GC
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>
 のまとめノートを整理しました。&lt;/li>
 &lt;/ul>
-&lt;h2 id="journeystreetmapの制作">&lt;a class="link" href="../develop/JourneyStreetMap/JourneyStreetMap%e3%81%a8%e3%81%af" >journeystreetmap&lt;/a>の制作
+&lt;h2 id="journeystreetmapの制作">&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/about/" >journeystreetmap&lt;/a>の制作
 &lt;/h2>&lt;p>icedのカスタムウィジェットと他のウィジェットをつなげる部分の開発&lt;/p>
 &lt;p>分かったこととしては、&lt;/p>
 &lt;ul>
@@ -39,29 +77,42 @@
 &lt;li>Druid&lt;/li>
 &lt;li>Dioxus ←試験段階らしい、Reactライクだとかなんとか&lt;/li>
 &lt;/ul></description></item><item><title>日記</title><link>https://yossy4411.okayugroup.net/diary/about/</link><pubDate>Tue, 08 Apr 2025 16:24:26 +0900</pubDate><guid>https://yossy4411.okayugroup.net/diary/about/</guid><description>&lt;h2 id="管理について">管理について
-&lt;/h2>&lt;p>2025/4/1から&lt;a class="link" href="../%e7%a7%81%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6" >yossy4411&lt;/a>が毎日書いています。&lt;br>
+&lt;/h2>&lt;p>2025/4/1から&lt;a class="link" href="https://yossy4411.okayugroup.net/about-me/" >yossy4411&lt;/a>が毎日書いています。&lt;br>
 殆どが「今日やったこと」とそれに関連して「わかったこと」しか書いてないと思います。&lt;/p>
 &lt;h2 id="目次">目次
 &lt;/h2>&lt;ul>
-&lt;li>&lt;a class="link" href="2025-04-11" >2025-04-11&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="2025-04-10" >2025-04-10&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="2025-04-09" >2025-04-09&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="2025-04-08" >2025-04-08&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="2025-04-07" >2025-04-07&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="2025-04-06" >2025-04-06&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="2025-04-05" >2025-04-05&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="2025-04-04" >2025-04-04&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="2025-04-03" >2025-04-03&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-12/" >2025-04-12&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-11/" >2025-04-11&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-10/" >2025-04-10&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-09/" >2025-04-09&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-08/" >2025-04-08&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-07/" >2025-04-07&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-06/" >2025-04-06&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-05/" >2025-04-05&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-04/" >2025-04-04&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-03/" >2025-04-03&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;!-- raw HTML omitted --></description></item><item><title>2025年04月08日(火)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-08/</link><pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-08/</guid><description>&lt;h2 id="今日の作業">今日の作業
+&lt;details>
+&lt;summary>2025年3月以前のアーカイブ&lt;/summary>
+ここには何もありません。
+&lt;/details></description></item><item><title>2025年04月08日(火)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-08/</link><pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-08/</guid><description>&lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;h3 id="ノートの情報追加">ノートの情報追加
 &lt;/h3>&lt;p>これらに情報を書き加えました。&lt;/p>
 &lt;ul>
-&lt;li>&lt;a class="link" href="../okayugroup/OGSP/OGSP" >OGSP&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="../okayugroup/OGSP/GUI/disaster-prevention/OGSP%20Disaster%20Prevention" >OGSP Disaster Prevention&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="../okayugroup/OGSP/GUI/EarthQuake/EarthQuake.desktop" >EarthQuake.desktop&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="../develop/Knowledge/libs/wgpu/wgpu" >wgpu&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="../develop/Knowledge/platform/graphics/webgpu/WebGPU" >WebGPU&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/about/" >OGSP&lt;/a>&lt;/li>
+&lt;li>&lt;span class="dead-link">
+OGSP Disaster Prevention
+&lt;span style="font-size: 1rem">（リンク切れ）&lt;/span>
+&lt;/span>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/about/" >EarthQuake.desktop&lt;/a>&lt;/li>
+&lt;li>&lt;span class="dead-link">
+wgpu
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>&lt;/li>
+&lt;li>&lt;span class="dead-link">
+WebGPU
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>&lt;/li>
 &lt;/ul>
 &lt;h3 id="ノートのリンクを修正">ノートのリンクを修正
 &lt;/h3>&lt;p>&lt;code>().md&lt;/code>形式のリンクはObsidianで一般的に使用されますが、これはHugoでは使えません。&lt;/p>
@@ -69,7 +120,7 @@
 >36ee4663 `.mdで終わるリンクを正しく解釈できるように修正`&lt;/a>&lt;br>
 リンクから&amp;quot;.md&amp;quot;を消去することで解釈できるようにしました。&lt;/p>
 &lt;h3 id="ノートのディレクトリ名を変更">ノートのディレクトリ名を変更
-&lt;/h3>&lt;p>&lt;a class="link" href="2025-04-07.md#%e3%83%8e%e3%83%bc%e3%83%88%e3%81%ae%e6%95%b4%e7%90%86" >URLに日本語を含むのはよくない&lt;/a>という判断に基づき、ディレクトリ自体にも名前の変更を加えました。&lt;/p>
+&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-07/" >URLに日本語を含むのはよくない&lt;/a>という判断に基づき、ディレクトリ自体にも名前の変更を加えました。&lt;/p>
 &lt;p>もともと&lt;code>_index.md&lt;/code>にslugを加えることで対処できるものだと思っていたのですが、それでは対応できなかったようです。名前自体を変更することで対処します。&lt;/p>
 &lt;h3 id="mocまとめノートをつける">MOC（まとめノート）をつける
 &lt;/h3>&lt;p>グラフをわかりやすくするため。&lt;/p>
@@ -96,7 +147,10 @@ loading="lazy"
 &lt;/h2>&lt;h3 id="short動画制作---we-are-stpr">short動画制作 - We Are STPR
 &lt;/h3>&lt;p>&lt;a class="link" href="https://www.youtube.com/watch?v=1bKc5XGMIbI&amp;amp;t=1476s" target="_blank" rel="noopener"
 >【全員集合】&amp;ldquo;すとふぇす&amp;quot;ドーム5DAYS終了！ライブ会場から緊急配信しますWWWWW【すとぷり/騎士A/AMPTAK/めておら/すにすて】&lt;/a>より切り抜き&lt;br>
-@&lt;a class="link" href="../favorite/%e3%81%8a%e3%81%8b%e3%82%86%e3%81%ae%e3%82%b5%e3%83%96" >おかゆのサブ&lt;/a>&lt;/p>
+@&lt;span class="dead-link">
+おかゆのサブ
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>&lt;/p>
 &lt;p>10時半頃に投稿したところ全然伸びなかったので、悔しくて音声・イラスト・効果音を再修整してもう一度投稿しました。（いつかこれが黒歴史になるんだろうなぁ）&lt;br>
 ↑でもこれも学びだと捉えましょう！&lt;/p>
 &lt;h3 id="web版ノートの自動更新がうまく行ってるか確認した">Web版ノートの自動更新がうまく行ってるか確認した
@@ -179,8 +233,11 @@ alt="82 contributionsって書いてる画像"
 >&lt;/p></description></item><item><title>2025年04月03日(木)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-03/</link><pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-03/</guid><description>&lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;ul>
 &lt;li>&lt;a class="link" href="#JourneyStreetMap%e3%81%ae%e9%96%8b%e7%99%ba" >JourneyStreetMapの開発&lt;/a>&lt;/li>
-&lt;li>YouTube 動画投稿 @&lt;a class="link" href="../favorite/%e3%81%8a%e3%81%8b%e3%82%86%e3%81%ae%e3%82%b5%e3%83%96" >おかゆのサブ&lt;/a>「STAR to STPRのボーカルを際立たせてみた」 shorts及び長尺&lt;/li>
-&lt;li>&lt;a class="link" href="../favorite/STPR/%e3%81%99%e3%81%a8%e3%81%b5%e3%81%87%e3%81%99%e8%a9%90%e6%ac%ba%e5%9e%a2" >Xの怪しいアカウントのURLの調査&lt;/a>&lt;/li>
+&lt;li>YouTube 動画投稿 @&lt;span class="dead-link">
+おかゆのサブ
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>「STAR to STPRのボーカルを際立たせてみた」 shorts及び長尺&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/favorite/stpr/stpr-family-festival-account/" >Xの怪しいアカウントのURLの調査&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="#X%e3%81%ae%e3%82%b9%e3%82%af%e3%82%b7%e3%83%a7%e3%82%92%e8%87%aa%e5%8b%95%e5%8c%96%e3%81%97%e3%82%88%e3%81%86%e3%81%a8%e6%80%9d%e3%81%a3%e3%81%9f" >Xのスクショの自動化&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="journeystreetmapの開発">JourneyStreetMapの開発

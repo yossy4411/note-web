@@ -6,10 +6,10 @@
 →Anvilファイルフォーマット、NBTデータ&lt;/p>
 &lt;h3 id="2-アプリ画面に表示">2. アプリ画面に表示
 &lt;/h3>&lt;blockquote>
-&lt;p>適当に&lt;a class="link" href="../Knowledge/lang/Rust/Rust" >Rust&lt;/a>で組んどくかー&lt;/p>&lt;/blockquote>
+&lt;p>適当に&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/about/" >Rust&lt;/a>で組んどくかー&lt;/p>&lt;/blockquote>
 &lt;p>うぇい。&lt;/p>
 &lt;h3 id="3-マップデータを編集">3. マップデータを編集
 &lt;/h3>&lt;p>アプリ画面上で道路とか地点を追加したりします。&lt;/p>
-&lt;p>ここには&lt;a class="link" href="../Knowledge/libs/GUI%e3%83%a9%e3%82%a4%e3%83%96%e3%83%a9%e3%83%aa" >GUIライブラリ&lt;/a>を使用するとやりやすいかもしれんね&lt;/p>
+&lt;p>ここには&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/gui-library/" >GUIライブラリ&lt;/a>を使用するとやりやすいかもしれんね&lt;/p>
 &lt;h3 id="4-pmtilesにエクスポート">4. PMTilesにエクスポート
 &lt;/h3>&lt;p>PMTiles形式の１つのファイルにエクスポートすると使いやすいよね〜！&lt;/p></description></item></channel></rss>

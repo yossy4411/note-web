@@ -1,9 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>EarthQuake on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/</link><description>Recent content in EarthQuake on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Tue, 08 Apr 2025 10:33:31 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/index.xml" rel="self" type="application/rss+xml"/><item><title>EarthQuake - デスクトップ版地震災害情報アプリ</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/about/</link><pubDate>Tue, 08 Apr 2025 10:33:31 +0900</pubDate><guid>https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/about/</guid><description>&lt;blockquote>
-&lt;p>[!IMPORTANT]
-パフォーマンス上の理由から、このアプリの開発は中断されました。&lt;/p>
-&lt;p>次期となるOGSP Disaster Preventionの開発にご期待ください。&lt;/p>&lt;/blockquote>
-&lt;h2 id="特徴">特徴
-&lt;/h2>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>EarthQuake on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/</link><description>Recent content in EarthQuake on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Tue, 08 Apr 2025 10:33:31 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/index.xml" rel="self" type="application/rss+xml"/><item><title>EarthQuake - デスクトップ版地震災害情報アプリ</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/about/</link><pubDate>Tue, 08 Apr 2025 10:33:31 +0900</pubDate><guid>https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/about/</guid><description>&lt;p>
+&lt;div class="admonition important">
+&lt;div class="admonition-title">Important&lt;/div>
+&lt;div class="admonition-content">
+パフォーマンス上の理由から、このアプリの開発は中断されました。
+次期となるOGSP Disaster Preventionの開発にご期待ください。
+&lt;/div>
+&lt;/div>
+## 特徴&lt;/p>
+&lt;ul>
 &lt;li>Avaloniaで書かれたクロスプラットフォームなアプリ (Windows, Mac, Linux)&lt;/li>
 &lt;li>PMTilesを使用したベクターマップの表示 （独自実装）&lt;/li>
 &lt;li>地震情報・震央分布図の表示&lt;/li>

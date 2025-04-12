@@ -3,7 +3,7 @@
 &lt;p>egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native&lt;/p>&lt;/blockquote>
 &lt;p>日本語にすると、&lt;/p>
 &lt;blockquote>
-&lt;p>Webとネイティブアプリケーションとして動作できる、&lt;a class="link" href="../../lang/Rust/Rust" >Rust&lt;/a>の使いやすい即時モードの&lt;a class="link" href="../GUI%e3%83%a9%e3%82%a4%e3%83%96%e3%83%a9%e3%83%aa" >GUIライブラリ&lt;/a>。&lt;/p>&lt;/blockquote>
+&lt;p>Webとネイティブアプリケーションとして動作できる、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/about/" >Rust&lt;/a>の使いやすい即時モードの&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/gui-library/" >GUIライブラリ&lt;/a>。&lt;/p>&lt;/blockquote>
 &lt;p>となりますね。&lt;/p>
 &lt;h3 id="即時モードについて">即時モードについて
 &lt;/h3>&lt;p>即時モードとは、アプリケーションが常に更新され続ける形のUI構築システムのことで、ウィンドウでは定期的に再描画処理が呼ばれる。&lt;/p>
