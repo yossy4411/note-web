@@ -1,1 +1,4 @@
-<a href="{{ .Get 0 }}" class="dead-link" data-toggle="tooltip" data-placement="top"></a>
+<span class="dead-link">
+    {{ .Get 0 }}
+    <span style="font-size: 1rem">（{{ default "リンク切れ" (.Get 1)}}）</span>
+</span>

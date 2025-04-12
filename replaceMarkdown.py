@@ -14,13 +14,14 @@ def resolve_path(original_path):
 
     return "/".join(result)
 
-def get_slugs(directory) -> dict[str, str]:
+def get_slugs(directory) -> dict[str, dict[str, bool | str]]:
     slug_cache = {}
     for file in directory.rglob("*.md"):
         with open(file, "r", encoding="utf-8") as file_reader:
             lines = file_reader.readlines()
             property_detected = False
             toml = False
+            draft = False
             for line in lines:
                 line = str(line) # strに変換
                 if not property_detected:
@@ -39,11 +40,19 @@ def get_slugs(directory) -> dict[str, str]:
                         else:
                             slug = line.split(":")[1].strip()
                         break
+                    if line.startswith("draft"):
+                        if toml:
+                            draft = line.split("=")[1].strip().strip('"')
+                        else:
+                            draft = line.split(":")[1].strip()
                     if line.startswith("---") or line.startswith("+++"):
                         slug = str(file.name.removesuffix(".md"))
                         break
             path = str(file.relative_to(directory)).removeprefix("./")
-            slug_cache[path] = slug
+            slug_cache[path] = {
+                "slug": slug,
+                "show": not draft,
+            }
     return slug_cache
 
 def replace_admonition(match):
@@ -98,11 +107,15 @@ if __name__ == '__main__':
                             # 存在しないファイルに対するリンクである。
                             # Hugoのショートコードに変換する。(dead link)
                             return "{{< dead \"" + link_text + "\" >}}"
+                        if not slug_cache[file_url_destination]["show"]:
+                            # draftのファイルへのリンクである。
+                            # Hugoのショートコードに変換する。(draft link)
+                            return "{{< draft \"" + link_text + "\" \"（非公開です）\" >}}"
                         prefix = '/'.join(file_url_destination.split("/")[:-1])
                         if prefix == "":
-                            destination = slug_cache[file_url_destination]
+                            destination = slug_cache[file_url_destination]["slug"]
                         else:
-                            destination = prefix + '/' + slug_cache[file_url_destination]
+                            destination = prefix + '/' + slug_cache[file_url_destination]["slug"]
                         if not destination.startswith("/"):
                             destination = '/' + destination
                         if not destination.endswith("/"):
