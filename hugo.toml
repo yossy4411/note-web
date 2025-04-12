@@ -6,3 +6,8 @@ ignoreFiles = ['README.md', 'LICENSE.md', 'content/templates/.*']
 
 defaultContentLanguage = 'ja'
 copyright = 'yossy4411 (おかゆ)'
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
