@@ -110,7 +110,7 @@ if __name__ == '__main__':
                         if not slug_cache[file_url_destination]["show"]:
                             # draftのファイルへのリンクである。
                             # Hugoのショートコードに変換する。(draft link)
-                            return "{{< draft \"" + link_text + "\" \"（非公開です）\" >}}"
+                            return "{{< dead \"" + link_text + "\" \"リンク先が非公開です\" >}}"
                         prefix = '/'.join(file_url_destination.split("/")[:-1])
                         if prefix == "":
                             destination = slug_cache[file_url_destination]["slug"]
