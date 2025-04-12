@@ -21,7 +21,7 @@ def get_slugs(directory) -> dict[str, dict[str, bool | str]]:
             lines = file_reader.readlines()
             property_detected = False
             toml = False
-            draft = False
+            draft = 'false'
             for line in lines:
                 line = str(line) # strに変換
                 if not property_detected:
@@ -51,7 +51,7 @@ def get_slugs(directory) -> dict[str, dict[str, bool | str]]:
             path = str(file.relative_to(directory)).removeprefix("./")
             slug_cache[path] = {
                 "slug": slug,
-                "show": not draft,
+                "show": draft in ["false", "False", "0", 0, False],
             }
     return slug_cache
 
