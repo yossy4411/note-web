@@ -46,6 +46,18 @@ def get_slugs(directory) -> dict[str, str]:
             slug_cache[path] = slug
     return slug_cache
 
+def replace_admonition(match):
+    # Admonitionをショートコードに置き換える処理を追加
+    # ここでは、Admonitionの形式を正規表現で検出し、ショートコードに変換する処理を実装します。
+    # 例: {{< admonition type="info" title="Example" >}}Content{{< /admonition >}}
+    type_ = match.group(1).strip().lower()
+    content = match.group(2)
+
+    # '> ' を除去
+    clean = re.sub(r'^>\s*', '', content, flags=re.MULTILINE)
+
+    return f'{{< admonition type="{type_}" >}}{clean}{{< /admonition >}}'
+
 
 if __name__ == '__main__':
     directory = Path("content")
@@ -99,11 +111,14 @@ if __name__ == '__main__':
                     else:
                         # 通常のファイルまたはディレクトリへのリンク
                         destination = '/' + file_url_absolute
-                    print(f'{original_url}\n -> {destination}')
+                    # print(f'{original_url}\n -> {destination}')
                     return f'[{link_text}]({file_url})'
 
             replaced1 = re.sub(r'\[(.*?)\]\((.*?)\)', replace_links, document)
 
             # 次に、アドモニションをショートコードの形に置き換える。
-            # replaced2 = replaceMarkdown.replace_admonition_to_shortcode(replaced1)
+            replaced2 = re.sub(r'>\s*\[!([A-Za-z]+)\]\s*\n((?:>.*(?:\n|$))+)', replace_admonition, replaced1, flags=re.MULTILINE)
 
+        with open(file, "w+", encoding="utf-8") as file_writer:
+            file_writer.write(replaced2)
+            print(f"Replaced: {file}")
