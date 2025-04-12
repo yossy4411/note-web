@@ -65,7 +65,7 @@ def replace_admonition(match):
     # '> ' を除去
     clean = re.sub(r'^>\s*', '', content, flags=re.MULTILINE)
 
-    return f'{{< admonition type="{type_}" >}}{clean}{{< /admonition >}}'
+    return f'{{{{< admonition type="{type_}" >}}}}{clean}{{{{< /admonition >}}}}'
 
 
 if __name__ == '__main__':
