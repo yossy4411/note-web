@@ -4,8 +4,7 @@ description:
 lead: 
 tags:
   - MOC
-aliases:
-  - GUIライブラリ
+aliases: []
 date: 2025-04-10T17:46:20+09:00
 lastmod: 2025-04-10T17:46:20+09:00
 draft: false

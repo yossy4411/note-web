@@ -8,7 +8,6 @@ tags:
   - Web
 aliases:
   - webgpu
-  - WebGPU
 date: 2025-04-08T14:35:29+09:00
 lastmod: 2025-04-08T14:35:29+09:00
 draft: true

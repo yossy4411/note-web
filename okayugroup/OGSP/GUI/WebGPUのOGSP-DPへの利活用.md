@@ -6,8 +6,7 @@ tags:
   - GPU
   - グラフィック
   - Web
-aliases:
-  - WebGPUのOGSP-DPへの利活用
+aliases: []
 created: 2025-04-01 18:37:30
 date: 2025-04-01 18:37:30
 draft: true

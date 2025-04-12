@@ -5,6 +5,7 @@ lead:
 tags: 
 aliases:
   - OGSP Disaster Prevention
+  - dp
 date: 2025-04-07T22:37:43+09:00
 lastmod: 2025-04-09
 draft: true
