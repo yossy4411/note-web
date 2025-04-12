@@ -97,7 +97,7 @@ if __name__ == '__main__':
                         if not file_url_destination in slug_cache:
                             # 存在しないファイルに対するリンクである。
                             # Hugoのショートコードに変換する。(dead link)
-                            return f"{{< dead {file_url_destination} >}}"
+                            return f"{{< dead {link_text} {file_url_destination} >}}"
                         prefix = '/'.join(file_url_destination.split("/")[:-1])
                         if prefix == "":
                             destination = slug_cache[file_url_destination]
@@ -112,7 +112,7 @@ if __name__ == '__main__':
                         # 通常のファイルまたはディレクトリへのリンク
                         destination = '/' + file_url_absolute
                     # print(f'{original_url}\n -> {destination}')
-                    return f'[{link_text}]({file_url})'
+                    return f'[{link_text}]({destination})'
 
             replaced1 = re.sub(r'\[(.*?)\]\((.*?)\)', replace_links, document)
 
