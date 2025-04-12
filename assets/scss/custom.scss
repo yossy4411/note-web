@@ -1,3 +1,7 @@
 .dead-link {
-  color: red;
+  color: #880000;
+  @media (prefers-color-scheme: dark) {
+    color: #ff9999;
+  }
 }
+
