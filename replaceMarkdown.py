@@ -75,17 +75,22 @@ if __name__ == '__main__':
                         file_url = f"{path}/{original_url}"
                     # さらに、相対パス表記を消す
                     file_url_absolute = resolve_path(file_url)
-                    if file_url_absolute.endswith(".md"):
+                    match = re.search(r'(.+?\.md)#(.+)', file_url_absolute)
+                    if file_url_absolute.endswith(".md") or match:
+                        if match:
+                            file_url_destination = match.group(1)
+                        else:
+                            file_url_destination = file_url_absolute
                         # Markdownファイルへのリンク
-                        if not file_url_absolute in slug_cache:
+                        if not file_url_destination in slug_cache:
                             # 存在しないファイルに対するリンクである。
                             # Hugoのショートコードに変換する。(dead link)
-                            return f"{{< dead {file_url_absolute} >}}"
-                        prefix = '/'.join(file_url_absolute.split("/")[:-1])
+                            return f"{{< dead {file_url_destination} >}}"
+                        prefix = '/'.join(file_url_destination.split("/")[:-1])
                         if prefix == "":
-                            destination = slug_cache[file_url_absolute]
+                            destination = slug_cache[file_url_destination]
                         else:
-                            destination = prefix + '/' + slug_cache[file_url_absolute]
+                            destination = prefix + '/' + slug_cache[file_url_destination]
                         if not destination.startswith("/"):
                             destination = '/' + destination
                         if not destination.endswith("/"):
