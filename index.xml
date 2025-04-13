@@ -1,4 +1,106 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yossy4411のノート</title><link>https://yossy4411.okayugroup.net/</link><description>Recent content on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Sat, 12 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年04月12日(土)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-12/</link><pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-12/</guid><description>&lt;h2 id="web版ノートの不具合について-第二弾">Web版ノートの不具合について 第二弾
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yossy4411のノート</title><link>https://yossy4411.okayugroup.net/</link><description>Recent content on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Sun, 13 Apr 2025 16:00:53 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/index.xml" rel="self" type="application/rss+xml"/><item><title>GitHub Copilot</title><link>https://yossy4411.okayugroup.net/develop/knowledge/ai/github-copilot/</link><pubDate>Sun, 13 Apr 2025 16:00:53 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/ai/github-copilot/</guid><description>&lt;h2 id="概要">概要
+&lt;/h2>&lt;p>GitHub CopilotはMicrosoftが開発した、コーディングに特化した&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/ai/about/" >AI&lt;/a>。&lt;/p>
+&lt;p>GPTなどの大規模LLMと、GitHubに存在する星の数ほどのコードを基にした学習データセットを組み合わせて作成されている。&lt;/p>
+&lt;p>特に、IDEと組み合わせて使われることが多い。&lt;/p>
+&lt;h2 id="使い方">使い方
+&lt;/h2>&lt;p>&lt;a class="link" href="https://github.com/features/copilot" target="_blank" rel="noopener"
+>GitHub Copilot&lt;/a>を契約し、VSCodeやJetbrains IDEなどのIDEでプラグインをインストールすることで使用できる。&lt;/p>
+&lt;p>なお、VSCodeユーザーは無料で使うことができる。&lt;/p>
+&lt;p>また、大学生以下は&lt;a class="link" href="https://github.com/education" target="_blank" rel="noopener"
+>GitHub Education Pack&lt;/a>で無償で使える。&lt;/p></description></item><item><title>AI</title><link>https://yossy4411.okayugroup.net/develop/knowledge/ai/about/</link><pubDate>Sun, 13 Apr 2025 15:53:05 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/ai/about/</guid><description>&lt;h2 id="概要">概要
+&lt;/h2>&lt;p>人工知能 (Artifical Intelligence ⇒ AI) は、コンピューターを用いて知能を知能を研究する科学の分野のことを指す語。&lt;br>
+または、言語の理解や推論、問題解決などの知的行動を人間の代わりにコンピューターに行わせる技術を指す。&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>最近のAIの技術の成長速度は非常に速く、4日ごとにトレンドが入れ替わると言って良い程（私見）です。&lt;/p>
+&lt;h2 id="コーディング">コーディング
+&lt;/h2>&lt;p>&lt;span class="dead-link">
+GitHub Copilot
+&lt;span style="font-size: 1rem">（リンク切れ）&lt;/span>
+&lt;/span>やCursorを使うことで、AIによってコーディングを自動化できる。&lt;/p>
+&lt;p>便利な反面、これには良くない点もあるかと思う。&lt;br>
+↪ &lt;span class="dead-link">
+AIにコード書かせてる奴ら、それでいいの？
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>&lt;a class="link" href="https://ja.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD" target="_blank" rel="noopener"
+>人工知能 - Wikipedia&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>2025年04月13日(日)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-13/</link><pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-13/</guid><description>&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;h3 id="journeystreetmapのカメラ操作等">JourneyStreetMapのカメラ操作等
+&lt;/h3>&lt;p>いつもどおり&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/about/" >JourneyStreetMap&lt;/a>の開発ですが、マップのパンとズームを実装していきます。&lt;/p>
+&lt;p>そういうことです。&lt;/p>
+&lt;h3 id="動画制作">動画制作
+&lt;/h3>&lt;p>メインチャンネルのShortsを投稿したい&lt;br>
+↑できなさそう&lt;/p>
+&lt;h2 id="春休み中にできなかった4つのこと">春休み中にできなかった4つのこと
+&lt;/h2>&lt;h4 id="1-journeystreetmapのリリース">1. JourneyStreetMapのリリース
+&lt;/h4>&lt;p>まあ分かってたけれども。&lt;/p>
+&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/about/" >Rust&lt;/a>や&lt;span class="dead-link">
+WebGPU
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>の勉強など、ちょっと難航しすぎたかもしれない。&lt;br>
+普通に別のプラットフォーム使っとけば良かった。&lt;/p>
+&lt;p>疲れてます。&lt;/p>
+&lt;p>ここ1週間のうちに完成できるように頑張りたい！&lt;/p>
+&lt;h3 id="2-メインチャンネルの動画投稿">2. メインチャンネルの動画投稿
+&lt;/h3>&lt;p>これに関してはいくつかアイデアはありました。その動画を作る時間がなかったのです。&lt;/p>
+&lt;p>&lt;strong>思いついていたアイデア集&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>3年間タイピングやってみた結果ｗｗ #shorts&lt;/li>
+&lt;li>緊急地震速報について&lt;/li>
+&lt;li>地震計作ってみた&lt;/li>
+&lt;/ul>
+&lt;p>いつ作るか？ → 4月中にどれか1つは作りたい。&lt;/p>
+&lt;h3 id="3-スマホの背景を推しだらけに">3. スマホの背景を推しだらけに
+&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/favorite/about/" >推し活&lt;/a>&lt;/p>
+&lt;p>AndroidのLive Wallpaper APIというものを知ったのが2024年11月。このアイデアを思いついたのは12月。それからずっと溜め込んでいたので、そろそろ解消したいと思って。&lt;/p>
+&lt;p>結局無理だったけど。
+スマホの加速度・ジャイロセンサを使ってぬいとかを動かせるやつが作りたいっていう願望を叶えてくれる人はいませんか。&lt;/p>
+&lt;div class="admonition tip">
+&lt;div class="admonition-title">Tip&lt;/div>
+&lt;div class="admonition-content">
+居ないから自作するんよね
+&lt;/div>
+&lt;/div>
+&lt;h3 id="4-歌い手ポータルサイトの開発スタート">4. 歌い手ポータルサイトの開発スタート
+&lt;/h3>&lt;p>リポジトリだけ作って&lt;/p>
+&lt;h2 id="体調">体調
+&lt;/h2>&lt;p>今日から毎日体調について書こうと思います。
+グラフ化したらめっちゃオモロそう&lt;/p>
+&lt;p>今日は天気痛のせいで頭痛がしました。&lt;/p>
+&lt;p>&lt;img src="https://yossy4411.okayugroup.net/assets/Pasted%20image%2020250413114933.png"
+loading="lazy"
+>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>体調&lt;/th>
+&lt;th>元気, 頭痛&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>就寝&lt;/td>
+&lt;td>24:05&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>起床&lt;/td>
+&lt;td>6:30&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>朝食&lt;/td>
+&lt;td>8:45&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>天気痛&lt;/td>
+&lt;td>true&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>2025年04月12日(土)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-12/</link><pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-12/</guid><description>&lt;h2 id="web版ノートの不具合について-第二弾">Web版ノートの不具合について 第二弾
 &lt;/h2>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-11/" >ノートの不具合&lt;/a>の続きになりますが、前回は「&lt;code>aliases&lt;/code>にファイル名を載せることで、リダイレクトによって正しいパスを指定できる。&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>」という術を使いましたよね。&lt;/p>
 &lt;p>よく考えたらこれでもだめな説が出てきました。&lt;/p>
 &lt;p>問題が発生するのはノートのセクション一覧です。&lt;br>
@@ -337,11 +439,33 @@ GC
 &lt;li>egui&lt;/li>
 &lt;li>Druid&lt;/li>
 &lt;li>Dioxus ←試験段階らしい、Reactライクだとかなんとか&lt;/li>
+&lt;/ul></description></item><item><title>知識・データ置き場</title><link>https://yossy4411.okayugroup.net/develop/knowledge/about/</link><pubDate>Tue, 08 Apr 2025 16:59:49 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/about/</guid><description>&lt;h2 id="ここは何">ここは何？
+&lt;/h2>&lt;p>自分が持ち得る開発に関する知識のまとめ&lt;/p>
+&lt;div class="admonition note">
+&lt;div class="admonition-title">Note&lt;/div>
+&lt;div class="admonition-content">
+どれだけ素晴らしいアイデアを思いついても隠して宝の持ち腐れにせず共有するエンジニアの鑑
+でも公開することにもデメリットはあるよね
+&lt;/div>
+&lt;/div>
+&lt;h2 id="リンク">リンク
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/about/" >ライブラリ&lt;/a>&lt;/li>
+&lt;li>&lt;span class="dead-link">
+プログラミング言語
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>&lt;/li>
+&lt;li>&lt;span class="dead-link">
+プラットフォーム
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/ai/about/" >AI&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>日記</title><link>https://yossy4411.okayugroup.net/diary/about/</link><pubDate>Tue, 08 Apr 2025 16:24:26 +0900</pubDate><guid>https://yossy4411.okayugroup.net/diary/about/</guid><description>&lt;h2 id="管理について">管理について
 &lt;/h2>&lt;p>2025/4/1から&lt;a class="link" href="https://yossy4411.okayugroup.net/about-me/" >yossy4411&lt;/a>が毎日書いています。&lt;br>
 殆どが「今日やったこと」とそれに関連して「わかったこと」しか書いてないと思います。&lt;/p>
 &lt;h2 id="目次">目次
 &lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-13/" >2025-04-13&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-12/" >2025-04-12&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-11/" >2025-04-11&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-10/" >2025-04-10&lt;/a>&lt;/li>
@@ -638,7 +762,7 @@ alt="Top Langs"
 GUIフレームワーク: Avalonia + SkiaSharp
 ↪ &lt;a class="link" href="https://github.com/yossy4411/EarthQuake" target="_blank" rel="noopener"
 >GitHub&lt;/a>&lt;/p>
-&lt;h3 id="hahahugoshortcode54s0hbhb">&lt;span class="dead-link">
+&lt;h3 id="hahahugoshortcode59s0hbhb">&lt;span class="dead-link">
 OGSP Disaster Prevention
 &lt;span style="font-size: 1rem">（リンク切れ）&lt;/span>
 &lt;/span>

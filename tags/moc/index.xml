@@ -61,11 +61,33 @@
 &lt;/h2>&lt;p>莉犬くん。&lt;/p>
 &lt;p>かわいい。&lt;br>
 声が好き。&lt;/p>
-&lt;p>莉犬くんもだけどその事務所の&lt;a class="link" href="https://yossy4411.okayugroup.net/favorite/stpr/about/" >STPR&lt;/a>も推してる。&lt;/p></description></item><item><title>日記</title><link>https://yossy4411.okayugroup.net/diary/about/</link><pubDate>Tue, 08 Apr 2025 16:24:26 +0900</pubDate><guid>https://yossy4411.okayugroup.net/diary/about/</guid><description>&lt;h2 id="管理について">管理について
+&lt;p>莉犬くんもだけどその事務所の&lt;a class="link" href="https://yossy4411.okayugroup.net/favorite/stpr/about/" >STPR&lt;/a>も推してる。&lt;/p></description></item><item><title>知識・データ置き場</title><link>https://yossy4411.okayugroup.net/develop/knowledge/about/</link><pubDate>Tue, 08 Apr 2025 16:59:49 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/about/</guid><description>&lt;h2 id="ここは何">ここは何？
+&lt;/h2>&lt;p>自分が持ち得る開発に関する知識のまとめ&lt;/p>
+&lt;div class="admonition note">
+&lt;div class="admonition-title">Note&lt;/div>
+&lt;div class="admonition-content">
+どれだけ素晴らしいアイデアを思いついても隠して宝の持ち腐れにせず共有するエンジニアの鑑
+でも公開することにもデメリットはあるよね
+&lt;/div>
+&lt;/div>
+&lt;h2 id="リンク">リンク
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/about/" >ライブラリ&lt;/a>&lt;/li>
+&lt;li>&lt;span class="dead-link">
+プログラミング言語
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>&lt;/li>
+&lt;li>&lt;span class="dead-link">
+プラットフォーム
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/ai/about/" >AI&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>日記</title><link>https://yossy4411.okayugroup.net/diary/about/</link><pubDate>Tue, 08 Apr 2025 16:24:26 +0900</pubDate><guid>https://yossy4411.okayugroup.net/diary/about/</guid><description>&lt;h2 id="管理について">管理について
 &lt;/h2>&lt;p>2025/4/1から&lt;a class="link" href="https://yossy4411.okayugroup.net/about-me/" >yossy4411&lt;/a>が毎日書いています。&lt;br>
 殆どが「今日やったこと」とそれに関連して「わかったこと」しか書いてないと思います。&lt;/p>
 &lt;h2 id="目次">目次
 &lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-13/" >2025-04-13&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-12/" >2025-04-12&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-11/" >2025-04-11&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-10/" >2025-04-10&lt;/a>&lt;/li>
@@ -264,7 +286,7 @@ alt="リリースの中で不安定だけど開発が一区切り着いたとき
 GUIフレームワーク: Avalonia + SkiaSharp
 ↪ &lt;a class="link" href="https://github.com/yossy4411/EarthQuake" target="_blank" rel="noopener"
 >GitHub&lt;/a>&lt;/p>
-&lt;h3 id="hahahugoshortcode54s0hbhb">&lt;span class="dead-link">
+&lt;h3 id="hahahugoshortcode59s0hbhb">&lt;span class="dead-link">
 OGSP Disaster Prevention
 &lt;span style="font-size: 1rem">（リンク切れ）&lt;/span>
 &lt;/span>
