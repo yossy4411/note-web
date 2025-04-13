@@ -14,6 +14,7 @@ slug: using-webgpu
 ---
 このドキュメントは[OGSP Disaster Prevention](disaster-prevention/OGSP%20Disaster%20Prevention.md)に関連します。
 ## WebGPUについて
-WebGPUは、MozillaやGoogle、Appleなどが共同で開発している、様々なグラフィックライブラリを抽象化するプロジェクトです。  
+[WebGPU](../../../develop/Knowledge/platform/graphics/webgpu/WebGPU.md)は、MozillaやGoogle、Appleなどが共同で開発している、様々なグラフィックライブラリを抽象化するプロジェクトです。  
+
 ## 何ができるのか
 WebGLやOpenGLと比べてもGPUのネイティブに近い場所で動作するため、超高速な描画やGPGPU演算処理が可能となります。
