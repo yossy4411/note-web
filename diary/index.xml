@@ -1,4 +1,51 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>日記 on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/diary/</link><description>Recent content in 日記 on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Sun, 13 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/diary/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年04月13日(日)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-13/</link><pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-13/</guid><description>&lt;h2 id="今日の作業">今日の作業
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>日記 on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/diary/</link><description>Recent content in 日記 on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Mon, 14 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/diary/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年04月14日(月)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-14/</link><pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-14/</guid><description>&lt;h2 id="体調">体調
+&lt;/h2>&lt;p>バチクソ眠いっす&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>体調&lt;/th>
+&lt;th>元気, 頭痛&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>就寝&lt;/td>
+&lt;td>24:40&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>起床&lt;/td>
+&lt;td>6:50&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>朝食&lt;/td>
+&lt;td>8:45&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>天気痛&lt;/td>
+&lt;td>false&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;h3 id="journeystreetmapを並行処理にしようとした">JourneyStreetMapを並行処理にしようとした
+&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/about/" >JSM&lt;/a>のマップ読み込みを、tokioによる並行処理にしてみませんか。ということについてです。&lt;/p>
+&lt;p>その利点は、読み込みの高速化ができる点です。&lt;/p>
+&lt;p>
+&lt;div class="admonition note">
+&lt;div class="admonition-title">Note&lt;/div>
+&lt;div class="admonition-content">
+まあ失敗したんですけどね
+&lt;/div>
+&lt;/div>
+並行処理って、メンバーをlockできるようにしないといけなかったり、色々めんどくさいんです。&lt;br>
+挙げ句の果てに、使っていたmacroquadのTexture2Dの生成はメインスレッドじゃないといけないわけです。&lt;/p>
+&lt;p>むっずっず、やっぱやーめた&lt;/p>
+&lt;h2 id="journeystreetmapにグリッドを追加">JourneyStreetMapにグリッドを追加
+&lt;/h2>&lt;p>&lt;img src="https://yossy4411.okayugroup.net/assets/Pasted%20image%2020250414233506.png"
+loading="lazy"
+>&lt;/p>
+&lt;p>バグだらけだし、見づらいし、横線に至っては実装できてない。&lt;br>
+すぐ直せるんだけど、もう眠いしやめます。&lt;/p></description></item><item><title>2025年04月13日(日)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-13/</link><pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-13/</guid><description>&lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;h3 id="journeystreetmapのカメラ操作等">JourneyStreetMapのカメラ操作等
 &lt;/h3>&lt;p>いつもどおり&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/about/" >JourneyStreetMap&lt;/a>の開発ですが、マップのパンとズームを実装していきます。&lt;/p>
 &lt;p>そういうことです。&lt;/p>
@@ -152,6 +199,7 @@ GC
 殆どが「今日やったこと」とそれに関連して「わかったこと」しか書いてないと思います。&lt;/p>
 &lt;h2 id="目次">目次
 &lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-14/" >2025-04-14&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-13/" >2025-04-13&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-12/" >2025-04-12&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-11/" >2025-04-11&lt;/a>&lt;/li>
