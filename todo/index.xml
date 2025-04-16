@@ -13,6 +13,7 @@
 ] [WebGPUのOGSP-DPへの利活用
 &lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
 &lt;/span>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Web3&lt;/li>
 &lt;/ul>
 &lt;h2 id="修正が必要-">修正が必要 ⏫
 &lt;/h2>&lt;h2 id="やりたいこと">やりたいこと
@@ -20,7 +21,9 @@
 &lt;/h2>&lt;ul>
 &lt;li>&lt;input disabled="" type="checkbox"> &lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/about/" >JourneyStreetMap&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;h2 id="完了">完了
+&lt;h2 id="完了修正済み">完了（修正済み）
+&lt;/h2>&lt;h2 id="完了開発停止">完了（開発停止）
+&lt;/h2>&lt;h2 id="予定なし">予定なし
 &lt;/h2>&lt;p>%% kanban:settings&lt;/p>
-&lt;pre tabindex="0">&lt;code>{&amp;#34;kanban-plugin&amp;#34;:&amp;#34;board&amp;#34;,&amp;#34;list-collapse&amp;#34;:[false,false,false,false,false,false,false,false]}
+&lt;pre tabindex="0">&lt;code>{&amp;#34;kanban-plugin&amp;#34;:&amp;#34;board&amp;#34;,&amp;#34;list-collapse&amp;#34;:[false,false,false,false,false,false,false,false,false,false]}
 &lt;/code>&lt;/pre>&lt;p>%%&lt;/p></description></item></channel></rss>
