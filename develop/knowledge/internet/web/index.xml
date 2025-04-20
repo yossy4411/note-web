@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ウェブ on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/web/</link><description>Recent content in ウェブ on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Sun, 20 Apr 2025 11:05:49 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/develop/knowledge/internet/web/index.xml" rel="self" type="application/rss+xml"/><item><title>World Wide Web</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/web/about/</link><pubDate>Sun, 20 Apr 2025 11:05:49 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/web/about/</guid><description>&lt;p>&lt;strong>World Wide Web&lt;/strong>は、[[インターネット]]で提供されるハイパーテキストシステムである。&lt;/p>
+&lt;p>これより下ではWorld Wide WebをW3と呼ぶこととする。&lt;/p>
+&lt;h2 id="概要">概要
+&lt;/h2>&lt;p>W3のウェブページの記述にはHTMLやXHTMLなどのハイパーテキストのマークアップ言語が使用される。&lt;/p>
+&lt;p>W3で使われるハイパーテキストというのは、そもそも、ドキュメント内に別のドキュメントのURL（ハイパーリンク）を埋め込むことで、インターネット上の文書同士を相互に参照可能にするシステムである。&lt;br>
+閲覧者は表示している文書中で、ハイパーリンクがつけられた箇所をクリックしたりしてイベントを発火することでリンク先の文書を表示（ナビゲート）させることができる。&lt;/p>
+&lt;p>情報を提供する側はウェブサーバーを公開し、利用者はウェブブラウザのようなサーバーの情報を閲覧するシステムを利用してアクセスする。&lt;br>
+このアクセスするためのソフトウェアをウェブクライアント、またはWWWクライアントと呼ぶ。&lt;br>
+ウェブクライアントのうちで、利用者による閲覧を目的としたものを特にウェブブラウザと呼んでいるのだが、そうでないものにはcurlやwget、&lt;code>requests&lt;/code>(Python) などがある。&lt;/p>
+&lt;p>1990年代のマルチメディアブームで最も普及したシステムの1つだが、今でも仕様が更新され続けている。&lt;/p>
+&lt;p>今ではハイパーテキストだけでなくバイナリを渡すようになっていたり、昔の枠組みを超えるような仕様が出てきたりしていて、アプリケーションの基盤をウェブ化することも行われている。&lt;/p>
+&lt;p>&lt;span class="dead-link">
+インターネット
+&lt;span style="font-size: 1rem">（リンク切れ）&lt;/span>
+&lt;/span>とW3は非常に混同されやすい。詳しくは&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/about/" >インターネット#インターネットとWebの違い&lt;/a>を参照。&lt;/p>
+&lt;h2 id="名称について">名称について
+&lt;/h2>&lt;p>World Wide Webの名称は、それぞれの単語を次のように展開できる。&lt;/p>
+&lt;table>
+&lt;tr>
+&lt;td>World&lt;/td>
+&lt;td>世界&lt;/td>
+&lt;td rowspan="2">世界規模の&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Wide&lt;/td>
+&lt;td>幅の大きな、広い&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Web&lt;/td>
+&lt;td>クモの巣&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;p>Webという単語はW3を表すのが現在では一般的だが、もともとはクモの巣を意味する単語である。これは、ドキュメント同士のつながりがクモの巣を意味するからである。&lt;/p>
+&lt;p>World Wide Webは、その頭文字を取って WWW と呼ばれる。&lt;/p>
+&lt;p>URLでの&lt;code>https://www.example.com&lt;/code>の&lt;code>www&lt;/code>は、World Wide Webのことを指している。&lt;/p>
+&lt;p>最後の部分を取って、Webと呼ばれることも多い。日本語でもウェブと呼ばれる。&lt;/p>
+&lt;h3 id="派生用語">派生用語
+&lt;/h3>&lt;ul>
+&lt;li>ウェブサイト (Website)&lt;/li>
+&lt;li>ウェブページ (Webpage)&lt;/li>
+&lt;li>ウェブブラウザ (Web browser)&lt;/li>
+&lt;li>ウェブサーバー (Web server)&lt;/li>
+&lt;li>ウェブアプリ (Web app)&lt;/li>
+&lt;li>Web API&lt;/li>
+&lt;li>WebSocket&lt;/li>
+&lt;li>ウェブフック (Webhook)&lt;/li>
+&lt;li>ウェブ検索 (Web search)&lt;/li>
+&lt;li>ウェブスクレイピング&lt;/li>
+&lt;li>ウェブホスティング&lt;/li>
+&lt;li>ウェブコンテンツ&lt;/li>
+&lt;li>WebM&lt;/li>
+&lt;li>WebP&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;ul>
+&lt;li>Web 2.0&lt;/li>
+&lt;li>Web3&lt;/li>
+&lt;li>ウェブビーコン (Web beacon)&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;ul>
+&lt;li>ウェブカメラ&lt;/li>
+&lt;li>ウェブ会議&lt;/li>
+&lt;li>ウェブニュース（ネットニュースとも）&lt;/li>
+&lt;/ul>
+&lt;h2 id="歴史">歴史
+&lt;/h2>&lt;h3 id="発端情報共有の必要性1989年">発端：情報共有の必要性（1989年）
+&lt;/h3>&lt;p>World Wide Webは、1989年にスイス・ジュネーブにあるCERN（欧州原子核研究機構）にて、&lt;strong>ティム・バーナーズ＝リー&lt;/strong>（Tim Berners-Lee）によって考案された。&lt;br>
+当時のCERNでは、世界中の研究者が共同で研究を進める中で、文書や研究結果を効率的に共有する仕組みが求められていた。&lt;/p>
+&lt;h3 id="初期の構成技術1990年">初期の構成技術（1990年）
+&lt;/h3>&lt;p>ティム・バーナーズ＝リーは、W3を構築するために以下の基本技術を提案・実装した：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>HTML（HyperText Markup Language）&lt;/strong>：文書構造を記述するためのマークアップ言語&lt;/li>
+&lt;li>&lt;strong>HTTP（HyperText Transfer Protocol）&lt;/strong>：文書を転送するための通信プロトコル&lt;/li>
+&lt;li>&lt;strong>URL（Uniform Resource Locator）&lt;/strong>：リソースの位置を示すアドレス指定方式&lt;/li>
+&lt;/ul>
+&lt;p>さらに、世界初のWebサーバーおよびWebブラウザである&lt;strong>WorldWideWeb&lt;/strong>（後にNexusと改名）も開発された。&lt;/p>
+&lt;h3 id="公開と普及1991年">公開と普及（1991年〜）
+&lt;/h3>&lt;p>1991年8月6日、CERNはW3の技術を世界に公開し、全世界で誰でも自由に使用できるようにした。&lt;br>
+これにより、Webは急速に普及を始め、1993年には米国のNCSAによってGUIベースのWebブラウザ「&lt;strong>Mosaic&lt;/strong>」が登場し、Webの一般利用が爆発的に拡大していった。&lt;/p>
+&lt;h3 id="w3cworld-wide-web-consortiumの設立1994年">W3C（World Wide Web Consortium）の設立（1994年）
+&lt;/h3>&lt;p>1994年、ティム・バーナーズ＝リーはWebの標準化と発展を目的として、&lt;strong>W3C（World Wide Web Consortium）&lt;/strong> を設立した。&lt;br>
+W3CはMIT（マサチューセッツ工科大学）を拠点とし、HTML、CSS、XML、SVGなど、Webの中核技術の標準化を進めている。&lt;/p>
+&lt;h3 id="現代への展開">現代への展開
+&lt;/h3>&lt;p>Webは静的なハイパーテキストの枠を超えて、JavaScriptによる動的なコンテンツ表示や、Webアプリケーション、WebSocket、HTTP/2・HTTP/3など、通信技術の進化とともに進化を続けている。&lt;br>
+また、近年では&lt;strong>Web3&lt;/strong>という言葉に代表されるように、ブロックチェーン技術との融合や、分散型Webの構想も登場しており、Webの未来はさらに広がりを見せている。&lt;/p>
+&lt;h2 id="技術">技術
+&lt;/h2>&lt;h3 id="仕組み">仕組み
+&lt;/h3>&lt;p>W3は、クライアントサーバーモデルに基づくシステムである。&lt;/p>
+&lt;p>W3上のドキュメントなどのリソースにアクセスするには、ブラウザに&lt;span class="dead-link">
+URI
+&lt;span style="font-size: 1rem">（リンク切れ）&lt;/span>
+&lt;/span>を入力するかリンクをたどるなどして、ブラウザに対象のリソースの場所を知らせる。そうすると、リソースに到達するための処理が始まる。&lt;/p>
+&lt;p>ここでは、&lt;code>http://www.example.com/home/&lt;/code>を用いて説明する。&lt;/p>
+&lt;p>まず、URIのサーバー名を表す部分 (&lt;code>www.example.com&lt;/code>) がDNSを通してIPアドレスに変換される。なお、IPアドレスが直接URIで指定されている場合はこの処理は行われない。&lt;/p>
+&lt;p>次に、URIのスキーム (&lt;code>http://&lt;/code>)に基づいて、IPアドレスに対応するウェブサーバーに対して接続を試みる。ここには主にHTMLが使われる。&lt;/p>
+&lt;p>要求を受け取ったウェブサーバーは、静的なリソースの場合は即座に対象のリソース(&lt;code>/home/&lt;/code>)を要求元へ返す（返答）。&lt;/p>
+&lt;p>
+&lt;div class="admonition info">
+&lt;div class="admonition-title">Info&lt;/div>
+&lt;div class="admonition-content">
+ちなみに、皆さんがよく見る &lt;strong>404 NOT FOUND&lt;/strong> はウェブサーバーが返している。
+&lt;/div>
+&lt;/div>
+返答を受け取ったウェブブラウザは、HTMLファイルやCSSに従いページをレンダリングしたり、画像などのメディアやリンクをはめ込むんだりする作業を行う。&lt;/p>
+&lt;p>これらを経て、最終的に画面上のページが生み出される。&lt;/p>
+&lt;p>&lt;strong>なお、Web APIの場合はこれらとは大きく違った処理が行われる。&lt;/strong> 詳しくはWeb APIを参照。&lt;/p>
+&lt;h3 id="標準規格">標準規格
+&lt;/h3>&lt;p>W3を構成する様々な概念は標準規格化されているが、その中でハイパーテキストを実現する最も基礎的な概念として以下の3つを挙げる。&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>名称&lt;/th>
+&lt;th>略称&lt;/th>
+&lt;th>内容&lt;/th>
+&lt;th>標準化団体&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Uniform Resource Locator&lt;/td>
+&lt;td>URL&lt;/td>
+&lt;td>リソース位置識別子&lt;/td>
+&lt;td>WHATWG&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Hypertext Transfer Protocol&lt;/td>
+&lt;td>HTTP&lt;/td>
+&lt;td>通信プロトコル&lt;/td>
+&lt;td>IETF&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Hypertext Markup Language&lt;/td>
+&lt;td>HTML&lt;/td>
+&lt;td>ハイパーテキストの構造&lt;/td>
+&lt;td>WHATWG&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>このほか、プログラムからのドキュメント操作を定義するDOM Standard、HTTPを抽象化したFetch Standardなど、様々な仕様が定義および整備されている。&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>また、Web APIの標準規格にはRest APIなどもある。&lt;/p></description></item></channel></rss>

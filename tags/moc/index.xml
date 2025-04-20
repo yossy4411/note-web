@@ -1,4 +1,108 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MOC on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/tags/moc/</link><description>Recent content in MOC on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Sat, 19 Apr 2025 20:59:41 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/tags/moc/index.xml" rel="self" type="application/rss+xml"/><item><title>安土桃山時代</title><link>https://yossy4411.okayugroup.net/school/juniorhigh/histories/azuchi-momoyama/azuchi-momoyama/</link><pubDate>Sat, 19 Apr 2025 21:59:41 +0900</pubDate><guid>https://yossy4411.okayugroup.net/school/juniorhigh/histories/azuchi-momoyama/azuchi-momoyama/</guid><description/></item><item><title>鎌倉時代</title><link>https://yossy4411.okayugroup.net/school/juniorhigh/histories/kamakura/kamakura/</link><pubDate>Sat, 19 Apr 2025 21:59:41 +0900</pubDate><guid>https://yossy4411.okayugroup.net/school/juniorhigh/histories/kamakura/kamakura/</guid><description/></item><item><title>古墳時代</title><link>https://yossy4411.okayugroup.net/school/juniorhigh/histories/kofun/kofun/</link><pubDate>Sat, 19 Apr 2025 21:59:41 +0900</pubDate><guid>https://yossy4411.okayugroup.net/school/juniorhigh/histories/kofun/kofun/</guid><description/></item><item><title>江戸時代</title><link>https://yossy4411.okayugroup.net/school/juniorhigh/histories/edo/edo/</link><pubDate>Sat, 19 Apr 2025 21:59:41 +0900</pubDate><guid>https://yossy4411.okayugroup.net/school/juniorhigh/histories/edo/edo/</guid><description/></item><item><title>室町時代</title><link>https://yossy4411.okayugroup.net/school/juniorhigh/histories/muromachi/muromachi/</link><pubDate>Sat, 19 Apr 2025 21:59:41 +0900</pubDate><guid>https://yossy4411.okayugroup.net/school/juniorhigh/histories/muromachi/muromachi/</guid><description/></item><item><title>奈良時代</title><link>https://yossy4411.okayugroup.net/school/juniorhigh/histories/nara/nara/</link><pubDate>Sat, 19 Apr 2025 21:59:41 +0900</pubDate><guid>https://yossy4411.okayugroup.net/school/juniorhigh/histories/nara/nara/</guid><description/></item><item><title>縄文時代</title><link>https://yossy4411.okayugroup.net/school/juniorhigh/histories/joumon/joumon/</link><pubDate>Sat, 19 Apr 2025 21:59:41 +0900</pubDate><guid>https://yossy4411.okayugroup.net/school/juniorhigh/histories/joumon/joumon/</guid><description>&lt;p>&lt;strong>縄文時代&lt;/strong>は、日本の先史時代の一つで、約1万3千年前から約2千3百年前まで続いたとされる時代。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MOC on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/tags/moc/</link><description>Recent content in MOC on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Sun, 20 Apr 2025 23:48:16 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/tags/moc/index.xml" rel="self" type="application/rss+xml"/><item><title>トランスポート層</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/about/</link><pubDate>Sun, 20 Apr 2025 23:48:16 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/about/</guid><description>&lt;p>&lt;strong>トランスポート層&lt;/strong>（英: Transport Layer）とは、通信ネットワークにおいて上位の&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/about/" >アプリケーション層&lt;/a>からのサービス要求に応じ、また下位のインターネット層に対してサービス要求を行う。&lt;/p>
+&lt;p>TCP/IPモデルにおいては、トランスポート層は4階層のうちの第3層のことで、トランスポート層はホストコンピュータ上の適切なアプリケーションプロセスにデータを配送する責任がある。ｋろえは、異なったアプリケーションプロセスからのデータのパケット化や、要求の送信元と要求先のポート番号の追加なども行う。&lt;/p>
+&lt;h2 id="主なプロトコル">主なプロトコル
+&lt;/h2>&lt;ul>
+&lt;li>TCP&lt;/li>
+&lt;li>UDP&lt;/li>
+&lt;li>QUIC&lt;/li>
+&lt;/ul></description></item><item><title>アプリケーション層</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/about/</link><pubDate>Sun, 20 Apr 2025 21:52:37 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/about/</guid><description>&lt;p>&lt;strong>アプリケーション層&lt;/strong>（英: Application Layer）とは、通信ネットワークにおいてホストが用いる共用のプロトコル（&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/protocol/about/" >IP&lt;/a>）とメソッドを示す抽象化レイヤーである。&lt;/p>
+&lt;p>TCP/IPモデルにおいては、アプリケーション層は4階層のうちの第4層にあたり、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/protocol/about/" >IP&lt;/a>のコンピューターネットワークを介したプロセス間通信に使われる通信プロトコルとインターフェースメソッドを含む。&lt;br>
+アプリケーションが標準化するのは通信のみで、クライアントサーバーモデルまたはP2Pのネットワーキング・モデルにおけるデータ交換の管理などはそれより下のトランスポート層が行う。&lt;/p></description></item><item><title>ウェブとインターネット</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/about/</link><pubDate>Sun, 20 Apr 2025 10:51:59 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/about/</guid><description>&lt;p>&lt;strong>インターネット&lt;/strong> (the Internet) は、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/protocol/about/" >インターネット・プロトコル&lt;/a>を用いて接続された、コンピューター同士の世界規模の情報通信網である。&lt;/p>
+&lt;p>略してネット。&lt;/p>
+&lt;h2 id="概要">概要
+&lt;/h2>&lt;p>インターネットは、異なる種類のネットワーク機器や回線、OSを使用していても、&lt;strong>共通の通信ルール（プロトコル）&lt;/strong> を用いることで相互に接続されている。この通信ルールの中心となるのが &lt;strong>TCP/IP (Transmission Control Protocol/ Internet Protocol)&lt;/strong> であり、これによって世界規模のネットワークが構築・維持されている。&lt;/p>
+&lt;h3 id="コンピュータネットワークでは">コンピュータネットワークでは
+&lt;/h3>&lt;p>コンピュータネットワークでは、コンピューターのMACアドレスなどで通信できるLAN同士を、IPで繋いだWANが、インターネットである。&lt;br>
+LAN間の通信交換ができれば、それはインターネットと呼べる。&lt;/p>
+&lt;p>つまり、たくさんのLAN同士を繋げた世界規模のネットワークが、一般の「インターネット」である。&lt;/p>
+&lt;h2 id="インターネットの構造">インターネットの構造
+&lt;/h2>&lt;p>インターネットはおおまかに、次のような階層構造で成り立つ。&lt;/p>
+&lt;p>なお、ここでは所要な用語を箇条書きで載せているが、これだけには限らない。&lt;/p>
+&lt;h3 id="ネットワークインターフェース層">ネットワークインターフェース層
+&lt;/h3>&lt;p>Wi-FiやEthernetなどの物理的な通信手段。&lt;/p>
+&lt;p>5Gや4G、LTEのスマホの通信方法もインターフェース層である。&lt;/p>
+&lt;ul>
+&lt;li>Wi-Fi&lt;/li>
+&lt;li>Ethernet&lt;/li>
+&lt;li>Bluetooth&lt;/li>
+&lt;li>LTE&lt;/li>
+&lt;li>4G&lt;/li>
+&lt;li>5G&lt;/li>
+&lt;li>LoRa&lt;/li>
+&lt;/ul>
+&lt;h3 id="インターネット層">インターネット層
+&lt;/h3>&lt;p>IPによってネットワーク上の住所（IPアドレス）を特定し、データを目的地に届ける。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/protocol/about/" >IP&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="トランスポート層">トランスポート層
+&lt;/h3>&lt;p>TCPやUDPによって、データの送信信頼性や順序、送るデータを管理する。&lt;/p>
+&lt;ul>
+&lt;li>TCP&lt;/li>
+&lt;li>UDP&lt;/li>
+&lt;/ul>
+&lt;h3 id="アプリケーション層">&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/about/" >アプリケーション層&lt;/a>
+&lt;/h3>&lt;p>HTTP、SSH、DNSなど、実際にユーザーの目に届く、ユーザーが使うサービスを提供する。&lt;/p>
+&lt;ul>
+&lt;li>HTTP&lt;/li>
+&lt;li>SSH&lt;/li>
+&lt;li>DNS&lt;/li>
+&lt;li>SSL&lt;/li>
+&lt;li>FTP&lt;/li>
+&lt;li>SFTP&lt;/li>
+&lt;li>VNC&lt;/li>
+&lt;li>RDP&lt;/li>
+&lt;/ul>
+&lt;h2 id="インターネットとwebの違い">インターネットとWebの違い
+&lt;/h2>&lt;p>しばしば混同されがちだが、インターネットは&lt;strong>通信網そのもの&lt;/strong>であり、&lt;span class="dead-link">
+World Wide Web (ウェブ)
+&lt;span style="font-size: 1rem">（リンク切れ）&lt;/span>
+&lt;/span> はその上で動く&lt;strong>サービスの一つ&lt;/strong>である。たとえば、メール、ファイル転送、オンラインゲームもインターネット上のサービスだ。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>インターネット&lt;/strong>
+コンピューター同士が相互に接続する通信網。&lt;/li>
+&lt;li>&lt;strong>インターネットを使ったサービス&lt;/strong>
+メールやファイル転送、動画配信、オンラインゲームなど、インターネット上で動作するサービスのこと。WWWはこちら側に当てはまる。&lt;/li>
+&lt;/ul>
+&lt;p>なお、「ウェブページ」や「ウェブサイト」は、これらとは&lt;strong>また別&lt;/strong>である。&lt;/p>
+&lt;h2 id="歴史">歴史
+&lt;/h2>&lt;p>インターネットの起源は1960年代の&lt;strong>ARPANET（アーパネット）&lt;/strong> にさかのぼる。これは米国国防総省の研究機関ARPAによって開発された、分散型通信ネットワークであった。&lt;br>
+その後、学術機関・企業へと広がり、1990年代以降、民間への普及とともに世界規模のネットワークへと発展した。&lt;/p>
+&lt;h2 id="現代の役割">現代の役割
+&lt;/h2>&lt;p>今日のインターネットは、個人の生活から企業、行政、教育医療、エンタメ、経済、金融に至るまで、社会全体に浸透している。特にスマートフォンやクラウドサービス、AI、IoTの普及によって、その重要性はますます高まっている。&lt;/p>
+&lt;h2 id="問題点">問題点
+&lt;/h2>&lt;p>問題のまとめは&lt;del>こちら&lt;/del>。（作成中）&lt;/p>
+&lt;p>&lt;strong>2010年代から、特にスマートフォンの普及によってインターネット上に接続するデバイスは急激に増加した。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>デバイスが増えたことで、デバイスに割り当てるためのIPアドレスが枯渇するといった問題が発生している。
+↪ IPアドレス枯渇問題&lt;/li>
+&lt;li>同じくデバイスが増えたことで、通信量も同時に増加した。これにより、サーバーやインフラが対応しきれずにラグや速度制限がかかってしまうような問題がある。
+↪ トラフィック問題&lt;/li>
+&lt;li>また、インターネットの格差が地域によって広がっており（情報格差）、例えば東京や大阪などの都市部では光回線や5Gが普及しているのに対して、地方や途上国ではインターネットが安定しないなどの問題がある。
+↪ デジタル・ディバイド&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>インターネットの急速な成長により、ユーザー側の対応も求められている。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>例えばSNSなどでは、正しい使い方が守られず犯罪行為に巻き込まれることが度々起こっている。
+↪ インターネットを悪用した犯罪行為&lt;/li>
+&lt;li>同じくSNSなどの普及で、誤った情報や勘違いが広く知れ渡りやすくなってしまっている問題がある。&lt;br>
+また、AIが生成した画像などのコンテンツが、実際の現実世界の情報と見分けがつかなくなってきており、これを見極められなかった人によって拡散されてしまう問題がある。
+↪ フェイクの拡散&lt;/li>
+&lt;li>インターネットは、自由でオープンな空間という思想に基づいて作られたものだが、これが文化の破壊や国のローカルルールと衝突する問題がある。有名な例としては、中国のグレートファイアウォールなどがある。&lt;br>
+↪ インターネットと現実の対立&lt;/li>
+&lt;li>インターネットの検索履歴やSNSの情報は監視（トラッキング）されており、それが広告代理人などに悪用されるプライバシー面でのリスクがある。
+これを防ぐために、OSSの開発も盛んになってきているが、依然ユーザーは注意を払う必要がある。
+↪ インターネットのプライバシーリスク&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>また、インターネットに古い機能が残っていたり、進化に追いつけていないことで発生する問題もある。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>古いプロトコルに脆弱性が見つかっているのに、それが未だに使われている場所がある。例えばFTPやTelnetは傍聴される危険性があり、セキュリティ面で推奨されない。
+↪ プロトコルのレガシー化&lt;/li>
+&lt;li>HTTPのウェブサイトは、傍聴の危険性がある。それでも、HTTPSを使用するには一定のコストがかかるため、導入が難しいという問題がある。
+↪ HTTPSのハードル&lt;/li>
+&lt;li>HTMLやCSS、JavaScriptの自由度が上がったことにより、多くのアプリケーションのウェブアプリ化（WASM）や、デザイン性を追求したウェブページの制作が進んできているが、それに含まれる画像やCSS等のメディア、JavaScriptが読み込み速度に影響を与えている。
+↪ ウェブページの肥大化&lt;/li>
+&lt;/ul></description></item><item><title>安土桃山時代</title><link>https://yossy4411.okayugroup.net/school/juniorhigh/histories/azuchi-momoyama/azuchi-momoyama/</link><pubDate>Sat, 19 Apr 2025 21:59:41 +0900</pubDate><guid>https://yossy4411.okayugroup.net/school/juniorhigh/histories/azuchi-momoyama/azuchi-momoyama/</guid><description/></item><item><title>鎌倉時代</title><link>https://yossy4411.okayugroup.net/school/juniorhigh/histories/kamakura/kamakura/</link><pubDate>Sat, 19 Apr 2025 21:59:41 +0900</pubDate><guid>https://yossy4411.okayugroup.net/school/juniorhigh/histories/kamakura/kamakura/</guid><description/></item><item><title>古墳時代</title><link>https://yossy4411.okayugroup.net/school/juniorhigh/histories/kofun/kofun/</link><pubDate>Sat, 19 Apr 2025 21:59:41 +0900</pubDate><guid>https://yossy4411.okayugroup.net/school/juniorhigh/histories/kofun/kofun/</guid><description/></item><item><title>江戸時代</title><link>https://yossy4411.okayugroup.net/school/juniorhigh/histories/edo/edo/</link><pubDate>Sat, 19 Apr 2025 21:59:41 +0900</pubDate><guid>https://yossy4411.okayugroup.net/school/juniorhigh/histories/edo/edo/</guid><description/></item><item><title>室町時代</title><link>https://yossy4411.okayugroup.net/school/juniorhigh/histories/muromachi/muromachi/</link><pubDate>Sat, 19 Apr 2025 21:59:41 +0900</pubDate><guid>https://yossy4411.okayugroup.net/school/juniorhigh/histories/muromachi/muromachi/</guid><description/></item><item><title>奈良時代</title><link>https://yossy4411.okayugroup.net/school/juniorhigh/histories/nara/nara/</link><pubDate>Sat, 19 Apr 2025 21:59:41 +0900</pubDate><guid>https://yossy4411.okayugroup.net/school/juniorhigh/histories/nara/nara/</guid><description/></item><item><title>縄文時代</title><link>https://yossy4411.okayugroup.net/school/juniorhigh/histories/joumon/joumon/</link><pubDate>Sat, 19 Apr 2025 21:59:41 +0900</pubDate><guid>https://yossy4411.okayugroup.net/school/juniorhigh/histories/joumon/joumon/</guid><description>&lt;p>&lt;strong>縄文時代&lt;/strong>は、日本の先史時代の一つで、約1万3千年前から約2千3百年前まで続いたとされる時代。&lt;/p>
 &lt;p>前: &lt;a class="link" href="https://yossy4411.okayugroup.net/school/juniorhigh/histories/bc/about/" >紀元前・旧石器時代&lt;/a> ／ 次: &lt;a class="link" href="https://yossy4411.okayugroup.net/school/juniorhigh/histories/yayoi/yayoi/" >弥生時代&lt;/a>&lt;/p>
 &lt;h2 id="土器">土器
 &lt;/h2>&lt;p>&lt;span class="dead-link">
@@ -24,12 +128,41 @@
 &lt;/h2>&lt;p>人々は女性を象った&lt;strong>土偶&lt;/strong>を作ってその周りにストーンサークル（環状列石）を築き、豊かな自然の恵みを願うためのまじないや祭りを行っていた。&lt;/p>
 &lt;h3 id="縄文時代の終わり">縄文時代の終わり
 &lt;/h3>&lt;p>稲作文化が中国から伝わり、次の&lt;a class="link" href="https://yossy4411.okayugroup.net/school/juniorhigh/histories/yayoi/yayoi/" >弥生時代&lt;/a>に移り変わっていった。&lt;/p></description></item><item><title>飛鳥時代</title><link>https://yossy4411.okayugroup.net/school/juniorhigh/histories/asuka/asuka/</link><pubDate>Sat, 19 Apr 2025 21:59:41 +0900</pubDate><guid>https://yossy4411.okayugroup.net/school/juniorhigh/histories/asuka/asuka/</guid><description/></item><item><title>平安時代</title><link>https://yossy4411.okayugroup.net/school/juniorhigh/histories/heian/heian/</link><pubDate>Sat, 19 Apr 2025 21:59:41 +0900</pubDate><guid>https://yossy4411.okayugroup.net/school/juniorhigh/histories/heian/heian/</guid><description/></item><item><title>弥生時代</title><link>https://yossy4411.okayugroup.net/school/juniorhigh/histories/yayoi/yayoi/</link><pubDate>Sat, 19 Apr 2025 21:59:41 +0900</pubDate><guid>https://yossy4411.okayugroup.net/school/juniorhigh/histories/yayoi/yayoi/</guid><description>&lt;p>弥生時代は、日本の先史時代の1つで、紀元前4年頃〜3世紀頃まで続いたとされる時代。&lt;/p>
-&lt;p>前: &lt;a class="link" href="https://yossy4411.okayugroup.net/school/juniorhigh/histories/joumon/joumon/" >縄文時代&lt;/a> ／ 次: &lt;a class="link" href="https://yossy4411.okayugroup.net/school/juniorhigh/histories/kofun/kofun/" >古墳時代&lt;/a>&lt;/p></description></item><item><title>紀元前と旧石器時代</title><link>https://yossy4411.okayugroup.net/school/juniorhigh/histories/bc/about/</link><pubDate>Sat, 19 Apr 2025 18:38:41 +0900</pubDate><guid>https://yossy4411.okayugroup.net/school/juniorhigh/histories/bc/about/</guid><description>&lt;p>次: &lt;a class="link" href="https://yossy4411.okayugroup.net/school/juniorhigh/histories/joumon/joumon/" >縄文時代&lt;/a>&lt;/p>
+&lt;p>前: &lt;a class="link" href="https://yossy4411.okayugroup.net/school/juniorhigh/histories/joumon/joumon/" >縄文時代&lt;/a> ／ 次: &lt;a class="link" href="https://yossy4411.okayugroup.net/school/juniorhigh/histories/kofun/kofun/" >古墳時代&lt;/a>&lt;/p>
+&lt;h2 id="稲作">稲作
+&lt;/h2>&lt;p>九州北部では、縄文時代の末頃の土器と一緒に水田の跡が見つかっている。&lt;/p>
+&lt;p>このことから、稲作は中国から中国大陸や朝鮮半島からの渡来人を通して九州から伝わっていったと考えられている。&lt;/p>
+&lt;p>稲作は日本の気候に適しており、西日本から東日本へと広がっていった。&lt;/p>
+&lt;h2 id="道具">道具
+&lt;/h2>&lt;p>木製のくわやすき作って田を耕し、川に木の杭を打ってせきとめて田に水が流れ込むようにして米を育てるようになった。&lt;/p>
+&lt;p>稲が実ってきたら穂を石包丁（&lt;span class="dead-link">
+磨製石器
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>）を使って摘み取り、それを高床倉庫に蓄えた。&lt;/p>
+&lt;p>また、米を炊いたり保存したりするための&lt;span class="dead-link">
+弥生土器
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>が生まれた。&lt;/p>
+&lt;h2 id="集落の発生">集落の発生
+&lt;/h2>&lt;p>渡来人たちはその地の人々と一緒にムラ（集落）をつくっていった。&lt;/p>
+&lt;p>米ができて土地がなくなってくると、クニ同士での争いが勃発するようになってくる。これにより、ムラには指導者が現れるようになり、ムラを守るために周囲に溝を掘ったり、監視塔を立てたりするようになった。&lt;/p>
+&lt;h2 id="ムラの併合と国の誕生">ムラの併合と国の誕生
+&lt;/h2>&lt;p>争いを繰り返すうちに弱いムラは強いムラを従えていくことになった。そのうち、政治的なまとまりを持つものが現れ、これをクニ（国）と呼ぶ。ムラの指導者だった人は、クニの王となった。&lt;/p>
+&lt;p>中国の歴史書には、漢の時代に倭に100あまりの小さな国があったことや、1世紀中頃に倭の名の国王が漢の皇帝に使節を送り、金印をもらって王の地位を認められたことなどが書いてある。&lt;/p>
+&lt;p>このことから、特に強くなったクニは、漢（中国）に認めてもらいたいと考えていたことが分かる。&lt;/p>
+&lt;h2 id="邪馬台国">邪馬台国
+&lt;/h2>&lt;p>3世紀の西日本では、邪馬台国を中心とした政治的なまとまりが生まれていた。&lt;/p>
+&lt;p>邪馬台国の女王である卑弥呼は、魏の皇帝に使節を送り、金印や銅鏡をもらった。&lt;/p>
+&lt;p>また、王から奴隷までの身分があり、農業を中心として既に税などの制度が生まれていたとされる。&lt;/p>
+&lt;p>邪馬台国の場所は大和とする説や九州北部とする説が有力とされているが、詳しい場所は分かっていない。&lt;/p></description></item><item><title>紀元前と旧石器時代</title><link>https://yossy4411.okayugroup.net/school/juniorhigh/histories/bc/about/</link><pubDate>Sat, 19 Apr 2025 18:38:41 +0900</pubDate><guid>https://yossy4411.okayugroup.net/school/juniorhigh/histories/bc/about/</guid><description>&lt;p>次: &lt;a class="link" href="https://yossy4411.okayugroup.net/school/juniorhigh/histories/joumon/joumon/" >縄文時代&lt;/a>&lt;/p>
 &lt;h2 id="紀元前とは">紀元前とは？
 &lt;/h2>&lt;p>紀元（西暦０年）よりも前の世代を指す。&lt;/p>
 &lt;p>紀元前１年は、西暦−１年と考えることができ、例えば西暦2025年から見た紀元前1年は、&lt;code>2025 - (-1) = 2026&lt;/code> より2026年前である。&lt;/p>
 &lt;h2 id="旧石器時代とは">旧石器時代とは？
-&lt;/h2>&lt;p>主に人類が打製石器を使っていた頃の世界史の区分。今から約3万年前〜1万3千年前。&lt;br>
+&lt;/h2>&lt;p>主に人類が&lt;span class="dead-link">
+打製石器
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>を使っていた頃の世界史の区分。今から約3万年前〜1万3千年前。&lt;br>
 なお、一部の研究では4万年前とする説もある。&lt;/p>
 &lt;p>石を削って道具を作り（打製石器）、肉食動物（マンモスなど）や植物などを食糧にしていたと考えられる。この頃の人類は既に火を操っており、焚き火や料理もできたそう。&lt;/p>
 &lt;p>住処は洞窟や小さな隠れ家のような場所。&lt;/p>
@@ -98,6 +231,7 @@
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/school/juniorhigh/histories/heian/heian/" >平安時代&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/school/juniorhigh/histories/kamakura/kamakura/" >鎌倉時代&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/school/juniorhigh/histories/muromachi/muromachi/" >室町時代&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/school/juniorhigh/histories/azuchi-momoyama/azuchi-momoyama/" >安土桃山時代&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/school/juniorhigh/histories/edo/edo/" >江戸時代&lt;/a>&lt;/li>
 &lt;li>明治時代&lt;/li>
 &lt;li>大正時代&lt;/li>
@@ -189,10 +323,12 @@
 &lt;/span>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/ai/about/" >AI&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>日記</title><link>https://yossy4411.okayugroup.net/diary/about/</link><pubDate>Tue, 08 Apr 2025 16:24:26 +0900</pubDate><guid>https://yossy4411.okayugroup.net/diary/about/</guid><description>&lt;h2 id="管理について">管理について
-&lt;/h2>&lt;p>2025/4/1から&lt;a class="link" href="https://yossy4411.okayugroup.net/about-me/" >yossy4411&lt;/a>が毎日書いています。&lt;br>
-殆どが「今日やったこと」とそれに関連して「わかったこと」しか書いてないと思います。&lt;/p>
+&lt;/h2>&lt;p>2025/4/1から&lt;a class="link" href="https://yossy4411.okayugroup.net/about-me/" >yossy4411&lt;/a>が毎日書いています。&lt;/p>
+&lt;p>殆どが今日の作業、あとは今日の体調を書いてます。&lt;/p>
+&lt;p>(*´･∀･)o[ゆっくりしていってね]o(･∀･`*)&lt;/p>
 &lt;h2 id="目次">目次
 &lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-20/" >2025-04-20&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-19/" >2025-04-19&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-18/" >2025-04-18&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-17/" >2025-04-17&lt;/a>&lt;/li>
@@ -398,7 +534,7 @@ alt="リリースの中で不安定だけど開発が一区切り着いたとき
 GUIフレームワーク: Avalonia + SkiaSharp
 ↪ &lt;a class="link" href="https://github.com/yossy4411/EarthQuake" target="_blank" rel="noopener"
 >GitHub&lt;/a>&lt;/p>
-&lt;h3 id="hahahugoshortcode68s0hbhb">&lt;span class="dead-link">
+&lt;h3 id="hahahugoshortcode86s0hbhb">&lt;span class="dead-link">
 OGSP Disaster Prevention
 &lt;span style="font-size: 1rem">（リンク切れ）&lt;/span>
 &lt;/span>

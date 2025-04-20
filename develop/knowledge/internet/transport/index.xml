@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>トランスポート層 on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/</link><description>Recent content in トランスポート層 on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Sun, 20 Apr 2025 23:48:16 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/index.xml" rel="self" type="application/rss+xml"/><item><title>トランスポート層</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/about/</link><pubDate>Sun, 20 Apr 2025 23:48:16 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/about/</guid><description>&lt;p>&lt;strong>トランスポート層&lt;/strong>（英: Transport Layer）とは、通信ネットワークにおいて上位の&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/about/" >アプリケーション層&lt;/a>からのサービス要求に応じ、また下位のインターネット層に対してサービス要求を行う。&lt;/p>
+&lt;p>TCP/IPモデルにおいては、トランスポート層は4階層のうちの第3層のことで、トランスポート層はホストコンピュータ上の適切なアプリケーションプロセスにデータを配送する責任がある。ｋろえは、異なったアプリケーションプロセスからのデータのパケット化や、要求の送信元と要求先のポート番号の追加なども行う。&lt;/p>
+&lt;h2 id="主なプロトコル">主なプロトコル
+&lt;/h2>&lt;ul>
+&lt;li>TCP&lt;/li>
+&lt;li>UDP&lt;/li>
+&lt;li>QUIC&lt;/li>
+&lt;/ul></description></item></channel></rss>
