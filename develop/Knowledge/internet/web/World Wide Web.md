@@ -1,14 +1,14 @@
 ---
-title: 
+title: World Wide Web
 description: 
 lead: 
 tags: 
 aliases: 
 date: 2025-04-20T11:05:49+09:00
 lastmod: 2025-04-20T11:05:49+09:00
-draft: true
-showContent: false
-slug:
+draft: false
+showContent: true
+slug: about
 ---
 **World Wide Web**は、[[インターネット]]で提供されるハイパーテキストシステムである。
 
