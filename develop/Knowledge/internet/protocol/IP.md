@@ -10,9 +10,9 @@ aliases:
   - インターネットプロトコル
 date: 2025-04-20T11:08:01+09:00
 lastmod: 2025-04-20T11:08:01+09:00
-draft: true
-showContent: false
-slug: protocol
+draft: false
+showContent: true
+slug: about
 ---
 
 インターネット・プロトコルは、パケット交換型ネットワークにおいてホスト間のパケット転送とルーティングを担う基本プロトコルで、IPv4とIPv6が主に利用される。
