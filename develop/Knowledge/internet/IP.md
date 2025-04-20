@@ -1,9 +1,11 @@
 ---
-title: プロトコル
+title: インターネット・プロトコル
 description: 
 lead: 
 tags: 
-aliases: 
+aliases:
+  - IP
+  - ip
 date: 2025-04-20T11:08:01+09:00
 lastmod: 2025-04-20T11:08:01+09:00
 draft: true
