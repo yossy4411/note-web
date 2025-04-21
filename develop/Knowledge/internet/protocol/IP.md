@@ -78,8 +78,8 @@ IPパケットは、共通ヘッダ部分とペイロード部分から構成さ
 - RDP
 
 トランスポート層
-- TCP
-- UDP
+- [TCP](../transport/tcp/TCP.md)
+- [UDP](../transport/udp/UDP.md)
 
 インターネット層
 - **IP**
