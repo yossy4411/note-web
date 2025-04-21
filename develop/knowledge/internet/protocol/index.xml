@@ -42,7 +42,7 @@
 &lt;/h2>&lt;h3 id="インターネット群">インターネット群
 &lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/about/" >アプリケーション層&lt;/a>&lt;/p>
 &lt;ul>
-&lt;li>HTTP&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/about/" >HTTP&lt;/a>&lt;/li>
 &lt;li>SSH&lt;/li>
 &lt;li>DNS&lt;/li>
 &lt;li>SSL&lt;/li>
@@ -53,8 +53,14 @@
 &lt;/ul>
 &lt;p>トランスポート層&lt;/p>
 &lt;ul>
-&lt;li>TCP&lt;/li>
-&lt;li>UDP&lt;/li>
+&lt;li>&lt;span class="dead-link">
+TCP
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>&lt;/li>
+&lt;li>&lt;span class="dead-link">
+UDP
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>&lt;/li>
 &lt;/ul>
 &lt;p>インターネット層&lt;/p>
 &lt;ul>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>HTTP on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/</link><description>Recent content in HTTP on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Mon, 21 Apr 2025 21:13:51 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/index.xml" rel="self" type="application/rss+xml"/><item><title>HTTP</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/about/</link><pubDate>Mon, 21 Apr 2025 21:13:51 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/about/</guid><description>&lt;p>&lt;strong>HTTP&lt;/strong> (Hypertext Transfer Protocol)は、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/about/" >インターネット&lt;/a>上でアプリケーション間コネクション上を行う、リクエスト／レスポンス型・ステートレス・メッセージ指向通信プロトコルである。&lt;/p>
+&lt;h2 id="概要">概要
+&lt;/h2>&lt;p>&lt;span class="dead-link">
+TCP
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>やQUIC (HTTP/3で関連)は、アプリケーション間のコネクション型通信を提供する(これを&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/about/" >トランスポート層&lt;/a>という)。HTTPは、このコネクション場を、リソースの要求と返答が、メッセージ単位で、１往復のクライアントリクエストとサーバーレスポンスという形で通信される。&lt;br>
+&amp;hellip;と定められている。&lt;/p>
+&lt;p>HTTPの発明によって、インターネットのリソースの公開とアクセスが容易になった。&lt;br>
+クライアントとサーバー間で接続が確立した後にメッセージを送るだけでデータが返ってくるため、これが実現される。&lt;/p>
+&lt;p>HTTPの発明目的であり、今でも使用されている場面が&lt;span class="dead-link">
+World Wide Web
+&lt;span style="font-size: 1rem">（リンク切れ）&lt;/span>
+&lt;/span>である。WebサーバーとWebブラウザは通常HTTPで通信し、返ってきたデータからページを組み立ててブラウザが表示している。&lt;/p>
+&lt;h2 id="歴史">歴史
+&lt;/h2>&lt;p>イギリスの物理学者ティム・バーナーズ＝リーは1990年末、ロバート・カイリューと共に初のWebブラウザとWebサーバを作成した。ブラウザには通信をするためのプロトコルが必要だったので、二人はHTTPの最初期のバージョン(HTTP/0.x) を設計した。&lt;/p>
+&lt;p>以来インターネットの大部分をHTTP通信が占めるようになり、1998年にはインターネット上の通信の75%がHTTPによるものになった。&lt;/p>
+&lt;p>最初期のHTTP/0.9の仕様書はもともと、紙1枚で済むような非常に簡素なものだったのだが、2度のバージョンアップを経た後のHTTP/1.1（現在でも使用される）の仕様書は実に176ページ近くの分量に膨れあがった。&lt;/p>
+&lt;h3 id="http09">HTTP/0.9
+&lt;/h3>&lt;p>1991年に最初にドキュメント化されたバージョン。メソッドはGETしかなかった。レスポンスは単純にドキュメントの内容で、サーバー側はレスポンスを返してコネクションを切断するだけだ。&lt;/p>
+&lt;p>これだけ単純だから１枚で済むわけだ。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-http" data-lang="http">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">GET /index.html
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="http10">HTTP/1.0
+&lt;/h3>&lt;p>1996年5月に発表された。仕様が RFC で扱われるようになった。メソッドに POST など、 GET 以外のものが増えた。&lt;/p>
+&lt;ul>
+&lt;li>レスポンスにヘッダーがつくようになった。&lt;/li>
+&lt;li>ヘッダーにHTTPステータスコードを含めるようになった。&lt;/li>
+&lt;li>HTTP/0.9 との区別のため、リクエストプロトコルにバージョンを含めることになった。&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-http" data-lang="http">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">GET&lt;/span> /index.html &lt;span style="color:#66d9ef">HTTP&lt;/span>&lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#ae81ff">1.0&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="http11">HTTP/1.1
+&lt;/h3>&lt;p>現代で使われるHTTPプロトコルバージョン 1つ目&lt;/p>
+&lt;p>1997年1月に初版が発表された。その後3回改訂され、現在はセマンティクス・キャッシングを除く部分が RFC 9112 で規定されている。&lt;/p>
+&lt;ul>
+&lt;li>Hostヘッダーフィールドの規定が追加された。&lt;/li>
+&lt;li>TLSがサポートされた。&lt;/li>
+&lt;li>Keep-Aliveがデフォルト化され、通信が高速化された。&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-http" data-lang="http">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">GET&lt;/span> /index.html &lt;span style="color:#66d9ef">HTTP&lt;/span>&lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#ae81ff">1.1&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Host&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#ae81ff">foo.example.com&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="http2">HTTP/2
+&lt;/h3>&lt;p>HTTP/2の目標はHTTP/1.1のトランザクション・セマンティクスとの完全な後方互換性を維持したまま非同期な接続の多重化、ヘッダ圧縮、リクエストとレスポンスのパイプライン化を実現することである。&lt;/p>
+&lt;ul>
+&lt;li>テキストベースからバイナリベースへ変化した。&lt;/li>
+&lt;li>ストリームを使ったデータ送受信の実現&lt;/li>
+&lt;li>サーバープッシュ型に対応した。&lt;/li>
+&lt;li>ヘッダの圧縮が可能になった。&lt;/li>
+&lt;/ul>
+&lt;h3 id="http3">HTTP/3
+&lt;/h3>&lt;p>HTTP/3ではTCPからQUICというプロトコルに変化した。QUICはUDPソケットの上で通信を行うため、安全性はもともと低かった。その信頼性はQUICが担保しており、TLSにも対応している。&lt;/p>
+&lt;ul>
+&lt;li>TCPからQUICへプロトコルを変更。&lt;/li>
+&lt;li>ハンドシェイクの高速化&lt;/li>
+&lt;li>通信がすべてTLS 1.3によって暗号化される。&lt;/li>
+&lt;/ul></description></item></channel></rss>
