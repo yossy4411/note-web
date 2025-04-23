@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yossy4411のノート</title><link>https://yossy4411.okayugroup.net/</link><description>Recent content on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Tue, 22 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年04月22日(火)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-22/</link><pubDate>Tue, 22 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-22/</guid><description>&lt;h2 id="今日の体調">今日の体調
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yossy4411のノート</title><link>https://yossy4411.okayugroup.net/</link><description>Recent content on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Wed, 23 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年04月23日(水)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-23/</link><pubDate>Wed, 23 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-23/</guid><description>&lt;h2 id="今日の体調">今日の体調
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>体調&lt;/th>
+&lt;th>元気&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>就寝&lt;/td>
+&lt;td>22:00&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>起床&lt;/td>
+&lt;td>6:30&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>朝食&lt;/td>
+&lt;td>6:50&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>天気痛&lt;/td>
+&lt;td>false&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;h3 id="nvidiaプロプライエタリドライバの話">NVIDIAプロプライエタリドライバの話
+&lt;/h3>&lt;p>多分、X11だとWaylandと比較して圧倒的にパフォーマンスが落ちるんですよ。&lt;/p>
+&lt;p>で、次にGPUはWaylandと相性が悪い（要検証）んです。&lt;/p>
+&lt;p>具体的に、WaylandセッションではGPUがFall offします。つまり、論理的にGPUへのアクセスが遮断されるというバグが存在しています。&lt;/p>
+&lt;p>これを修正するため、いくつかの検証を実施します。GPUの操作がFall offに与える影響についての検証です。&lt;/p>
+&lt;p>とは言いましても、GPUのFall offのトリガーが何なのかは全くわかりません。唯一分かっていることは、この問題はOptimusでUEFIからdiscrete GPUに切り替えたときに発生するということだけです。&lt;/p></description></item><item><title>2025年04月22日(火)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-22/</link><pubDate>Tue, 22 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-22/</guid><description>&lt;h2 id="今日の体調">今日の体調
 &lt;/h2>&lt;table>
 &lt;thead>
 &lt;tr>
@@ -1331,6 +1364,7 @@ GC
 &lt;p>(*´･∀･)o[ゆっくりしていってね]o(･∀･`*)&lt;/p>
 &lt;h2 id="目次">目次
 &lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-23/" >2025-04-23&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-22/" >2025-04-22&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-21/" >2025-04-21&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-20/" >2025-04-20&lt;/a>&lt;/li>
@@ -1637,7 +1671,7 @@ alt="Top Langs"
 GUIフレームワーク: Avalonia + SkiaSharp
 ↪ &lt;a class="link" href="https://github.com/yossy4411/EarthQuake" target="_blank" rel="noopener"
 >GitHub&lt;/a>&lt;/p>
-&lt;h3 id="hahahugoshortcode90s0hbhb">&lt;span class="dead-link">
+&lt;h3 id="hahahugoshortcode91s0hbhb">&lt;span class="dead-link">
 OGSP Disaster Prevention
 &lt;span style="font-size: 1rem">（リンク切れ）&lt;/span>
 &lt;/span>
@@ -1853,7 +1887,7 @@ alt="82 contributionsって書いてる画像"
 &lt;h2 id="xのスクショを自動化しようと思った">Xのスクショを自動化しようと思った
 &lt;/h2>&lt;p>いわゆるスクレイピングってやつです。
 Pythonでやるのも難しそうだし、そもそも需要がなさそうだったのでやめました。
-&lt;strong>手動でスクショ撮ってたほうが良い&lt;/strong>です。絶対に。&lt;/p></description></item><item><title/><link>https://yossy4411.okayugroup.net/excalidraw/drawing-2025-04-19-18/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/excalidraw/drawing-2025-04-19-18/</guid><description>&lt;p>==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: &amp;lsquo;Decompress current Excalidraw file&amp;rsquo;. For more info check in plugin settings under &amp;lsquo;Saving&amp;rsquo;&lt;/p>
+&lt;strong>手動でスクショ撮ってたほうが良い&lt;/strong>です。絶対に。&lt;/p></description></item><item><title/><link>https://yossy4411.okayugroup.net/excalidraw/drawing-2025-04-19-18.55.31.excalidraw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/excalidraw/drawing-2025-04-19-18.55.31.excalidraw/</guid><description>&lt;p>==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: &amp;lsquo;Decompress current Excalidraw file&amp;rsquo;. For more info check in plugin settings under &amp;lsquo;Saving&amp;rsquo;&lt;/p>
 &lt;h1 id="excalidraw-data">Excalidraw Data
 &lt;/h1>&lt;h2 id="text-elements">Text Elements
 &lt;/h2>&lt;p>歴史の分野についての画像の提示&lt;/p>
