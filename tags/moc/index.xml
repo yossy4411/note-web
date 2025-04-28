@@ -10,7 +10,7 @@ TCP
 UDP
 &lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
 &lt;/span>&lt;/li>
-&lt;li>QUIC&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>アプリケーション層</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/about/</link><pubDate>Sun, 20 Apr 2025 21:52:37 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/about/</guid><description>&lt;p>&lt;strong>アプリケーション層&lt;/strong>（英: Application Layer）とは、通信ネットワークにおいてホストが用いる共用のプロトコル（&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/protocol/about/" >IP&lt;/a>）とメソッドを示す抽象化レイヤーである。&lt;/p>
 &lt;p>TCP/IPモデルにおいては、アプリケーション層は4階層のうちの第4層にあたり、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/protocol/about/" >IP&lt;/a>のコンピューターネットワークを介したプロセス間通信に使われる通信プロトコルとインターフェースメソッドを含む。&lt;br>
 アプリケーションが標準化するのは通信のみで、クライアントサーバーモデルまたはP2Pのネットワーキング・モデルにおけるデータ交換の管理などはそれより下のトランスポート層が行う。&lt;/p></description></item><item><title>ウェブとインターネット</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/about/</link><pubDate>Sun, 20 Apr 2025 10:51:59 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/about/</guid><description>&lt;p>&lt;strong>インターネット&lt;/strong> (the Internet) は、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/protocol/about/" >インターネット・プロトコル&lt;/a>を用いて接続された、コンピューター同士の世界規模の情報通信網である。&lt;/p>
@@ -334,6 +334,8 @@ World Wide Web (ウェブ)
 &lt;p>(*´･∀･)o[ゆっくりしていってね]o(･∀･`*)&lt;/p>
 &lt;h2 id="目次">目次
 &lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-28/" >2025-04-28&lt;/a>&lt;/li>
+&lt;li>2025-04-26,27はありません。&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-25/" >2025-04-25&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-24/" >2025-04-24&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-23/" >2025-04-23&lt;/a>&lt;/li>
@@ -545,7 +547,7 @@ alt="リリースの中で不安定だけど開発が一区切り着いたとき
 GUIフレームワーク: Avalonia + SkiaSharp
 ↪ &lt;a class="link" href="https://github.com/yossy4411/EarthQuake" target="_blank" rel="noopener"
 >GitHub&lt;/a>&lt;/p>
-&lt;h3 id="hahahugoshortcode93s0hbhb">&lt;span class="dead-link">
+&lt;h3 id="hahahugoshortcode97s0hbhb">&lt;span class="dead-link">
 OGSP Disaster Prevention
 &lt;span style="font-size: 1rem">（リンク切れ）&lt;/span>
 &lt;/span>

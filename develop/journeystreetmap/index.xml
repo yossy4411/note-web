@@ -1,5 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JourneyStreetMap on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/develop/journeystreetmap/</link><description>Recent content in JourneyStreetMap on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Fri, 04 Apr 2025 21:24:04 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/develop/journeystreetmap/index.xml" rel="self" type="application/rss+xml"/><item><title>JourneyStreetMapとは</title><link>https://yossy4411.okayugroup.net/develop/journeystreetmap/about/</link><pubDate>Fri, 04 Apr 2025 15:50:47 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/journeystreetmap/about/</guid><description>&lt;h2 id="仕組み">仕組み
-&lt;/h2>&lt;h3 id="1-journeymapのデータを読み込む">1. JourneyMapのデータを読み込む
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JourneyStreetMap on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/develop/journeystreetmap/</link><description>Recent content in JourneyStreetMap on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Mon, 28 Apr 2025 20:45:40 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/develop/journeystreetmap/index.xml" rel="self" type="application/rss+xml"/><item><title>JSM開発停止</title><link>https://yossy4411.okayugroup.net/develop/journeystreetmap/jsm-is-not-longer-under-develop/</link><pubDate>Mon, 28 Apr 2025 20:45:40 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/journeystreetmap/jsm-is-not-longer-under-develop/</guid><description>&lt;p>本日(&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-28/" >2025-04-28&lt;/a>)をもちまして、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/about/" >JSM&lt;/a>の開発を一時的に終了させていただきます。&lt;/p>
+&lt;p>再開の目処は立っていません。&lt;/p>
+&lt;h2 id="理由">理由
+&lt;/h2>&lt;p>今まで、&lt;strong>JourneyStreetMap Project&lt;/strong>は私(&lt;a class="link" href="https://yossy4411.okayugroup.net/about-me/" >@yossy4411&lt;/a>) の余暇を削って開発してきました。&lt;/p>
+&lt;p>このプロジェクトの開発に乗り出した理由から開発を続けられた理由まで、これらは私の『友達とのゲーム体験をもっと楽しいものにしたい』という思いからでした。&lt;/p>
+&lt;p>ですが、知っての通り&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/about/" >OGSP&lt;/a>の開発や受験勉強など、私にはやりたいこと・やらなければいけないことがたくさんあります。&lt;br>
+これらを実現するためには、JSMの開発は早急に終える必要がありました。&lt;/p>
+&lt;p>このプロジェクトを始めた当初、開発は３週間ほどで終わらせるつもりでした。それが長引いて現在では２ヶ月間にスパンする形で食い込んでしまっています。&lt;/p>
+&lt;p>これを解決するためには、一度JSMの開発を諦め、やるべきことをこなすことに移行することが必要だと考えています。&lt;/p>
+&lt;h2 id="今後">今後
+&lt;/h2>&lt;p>今後は、私はおかゆグループの開発に戻ります。&lt;/p>
+&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/about/" >OGSP&lt;/a>の開発に加え、&lt;a class="link" href="https://yossy4411.okayugroup.net/favorite/about/" >推し活&lt;/a>系のいくつかのプロジェクトを進めていきます。&lt;/p>
+&lt;p>現在のTODOについては&lt;a class="link" href="https://yossy4411.okayugroup.net/todo/%e3%82%84%e3%82%8b%e3%81%93%e3%81%a8%e3%83%aa%e3%82%b9%e3%83%88%ef%bc%88%e3%81%99%e3%81%b9%e3%81%a6%ef%bc%89/" >やることリスト（すべて）&lt;/a>をご覧ください。&lt;/p></description></item><item><title>JourneyStreetMapとは</title><link>https://yossy4411.okayugroup.net/develop/journeystreetmap/about/</link><pubDate>Fri, 04 Apr 2025 15:50:47 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/journeystreetmap/about/</guid><description>&lt;p>
+&lt;div class="admonition warning">
+&lt;div class="admonition-title">Warning&lt;/div>
+&lt;div class="admonition-content">
+このプロジェクトは開発が停止しています。詳しくは&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/jsm-is-not-longer-under-develop/" >こちら&lt;/a>。
+&lt;/div>
+&lt;/div>
+## 仕組み&lt;/p>
+&lt;h3 id="1-journeymapのデータを読み込む">1. JourneyMapのデータを読み込む
 &lt;/h3>&lt;p>まず、&lt;a class="link" href="https://www.curseforge.com/minecraft/mc-mods/journeymap" target="_blank" rel="noopener"
 >JourneyMap&lt;/a>というのは、Minecraftでマップを表示するModです。&lt;/p>
 &lt;p>このModで保存されるワールドデータを抽出します。&lt;br>
@@ -12,4 +31,6 @@
 &lt;/h3>&lt;p>アプリ画面上で道路とか地点を追加したりします。&lt;/p>
 &lt;p>ここには&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/gui-library/" >GUIライブラリ&lt;/a>を使用するとやりやすいかもしれんね&lt;/p>
 &lt;h3 id="4-pmtilesにエクスポート">4. PMTilesにエクスポート
-&lt;/h3>&lt;p>PMTiles形式の１つのファイルにエクスポートすると使いやすいよね〜！&lt;/p></description></item></channel></rss>
+&lt;/h3>&lt;p>PMTiles形式の１つのファイルにエクスポートすると使いやすいよね〜！&lt;/p>
+&lt;h3 id="5-gsiとして見る">5. GSIとして見る
+&lt;/h3>&lt;p>例えばGoogle Mapsみたいなサービスのように、マイクラの地図も見られるように編集可能だったりします。&lt;/p></description></item></channel></rss>

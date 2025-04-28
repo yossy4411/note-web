@@ -1,4 +1,64 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yossy4411のノート</title><link>https://yossy4411.okayugroup.net/</link><description>Recent content on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Fri, 25 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年04月25日(金)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-25/</link><pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-25/</guid><description>&lt;h2 id="今日の体調">今日の体調
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yossy4411のノート</title><link>https://yossy4411.okayugroup.net/</link><description>Recent content on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Mon, 28 Apr 2025 21:39:46 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/index.xml" rel="self" type="application/rss+xml"/><item><title>QUIC</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/</link><pubDate>Mon, 28 Apr 2025 21:39:46 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/</guid><description>&lt;p>&lt;strong>QUIC&lt;/strong> (クイック) は、次世代型の&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/about/" >トランスポート層&lt;/a>の通信プロトコルである。&lt;/p>
+&lt;h2 id="概要">概要
+&lt;/h2>&lt;p>QUICは、&lt;span class="dead-link">
+UDP
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>を基礎にGoogleのJIM Roskindによって設計された、TLSを用いたセキュリティやUDPに由来する高速性などの面で優れている通信プロトコルである。&lt;/p>
+&lt;p>QUICは、エンドポイント間の多重化接続の集合体に対応しており、レイテンシ削減や接続の一時的な切断にも柔軟に対応できる。これらの理由から、HTTP/3にも採用されている。&lt;/p>
+&lt;h2 id="セキュリティ">セキュリティ
+&lt;/h2>&lt;p>&lt;span class="dead-link">
+UDP
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>では、そのハンドシェイクを行わないなどの仕様の上で、セキュリティ面が問題となっていた。これを解決するために、QUICではいくつかの独自の仕様を持っている。&lt;/p>
+&lt;p>QUICの接続は、すべてTLS1.3で暗号化されており、この規則を破ることはどんな場合においても&lt;strong>不可能&lt;/strong>である。また、接続時にはTLSハンドシェイクを行い、高効率で信頼性の高い通信ができるよう設計されている。&lt;/p>
+&lt;p>また、パケットロス時の再送処理なども実装されている。&lt;/p></description></item><item><title>JSM開発停止</title><link>https://yossy4411.okayugroup.net/develop/journeystreetmap/jsm-is-not-longer-under-develop/</link><pubDate>Mon, 28 Apr 2025 20:45:40 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/journeystreetmap/jsm-is-not-longer-under-develop/</guid><description>&lt;p>本日(&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-28/" >2025-04-28&lt;/a>)をもちまして、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/about/" >JSM&lt;/a>の開発を一時的に終了させていただきます。&lt;/p>
+&lt;p>再開の目処は立っていません。&lt;/p>
+&lt;h2 id="理由">理由
+&lt;/h2>&lt;p>今まで、&lt;strong>JourneyStreetMap Project&lt;/strong>は私(&lt;a class="link" href="https://yossy4411.okayugroup.net/about-me/" >@yossy4411&lt;/a>) の余暇を削って開発してきました。&lt;/p>
+&lt;p>このプロジェクトの開発に乗り出した理由から開発を続けられた理由まで、これらは私の『友達とのゲーム体験をもっと楽しいものにしたい』という思いからでした。&lt;/p>
+&lt;p>ですが、知っての通り&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/about/" >OGSP&lt;/a>の開発や受験勉強など、私にはやりたいこと・やらなければいけないことがたくさんあります。&lt;br>
+これらを実現するためには、JSMの開発は早急に終える必要がありました。&lt;/p>
+&lt;p>このプロジェクトを始めた当初、開発は３週間ほどで終わらせるつもりでした。それが長引いて現在では２ヶ月間にスパンする形で食い込んでしまっています。&lt;/p>
+&lt;p>これを解決するためには、一度JSMの開発を諦め、やるべきことをこなすことに移行することが必要だと考えています。&lt;/p>
+&lt;h2 id="今後">今後
+&lt;/h2>&lt;p>今後は、私はおかゆグループの開発に戻ります。&lt;/p>
+&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/about/" >OGSP&lt;/a>の開発に加え、&lt;a class="link" href="https://yossy4411.okayugroup.net/favorite/about/" >推し活&lt;/a>系のいくつかのプロジェクトを進めていきます。&lt;/p>
+&lt;p>現在のTODOについては&lt;a class="link" href="https://yossy4411.okayugroup.net/todo/%e3%82%84%e3%82%8b%e3%81%93%e3%81%a8%e3%83%aa%e3%82%b9%e3%83%88%ef%bc%88%e3%81%99%e3%81%b9%e3%81%a6%ef%bc%89/" >やることリスト（すべて）&lt;/a>をご覧ください。&lt;/p></description></item><item><title>2025年04月28日(月)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-28/</link><pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-28/</guid><description>&lt;p>一昨日(4/26)と昨日(27)で日記が取れませんでした。いそがしかったのです。ゴメンナサイ。&lt;/p>
+&lt;h2 id="今日の体調">今日の体調
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>体調&lt;/th>
+&lt;th>元気&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>就寝&lt;/td>
+&lt;td>22:00&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>起床&lt;/td>
+&lt;td>6:30&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>朝食&lt;/td>
+&lt;td>6:50&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>天気痛&lt;/td>
+&lt;td>false&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;h3 id="jsm-開発停止">JSM 開発停止
+&lt;/h3>&lt;p>本日をもちまして、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/about/" >JourneyStreetMap&lt;/a>の開発を一時終了とさせていただきます。理由としては、&lt;/p>
+&lt;ul>
+&lt;li>タスクがたまりすぎている&lt;/li>
+&lt;li>実現の難しさが露呈されてきた&lt;/li>
+&lt;/ul>
+&lt;p>の２点です。詳しくは&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/jsm-is-not-longer-under-develop/" >JSMの開発停止&lt;/a>をご覧ください。&lt;/p></description></item><item><title>2025年04月25日(金)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-25/</link><pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-25/</guid><description>&lt;h2 id="今日の体調">今日の体調
 &lt;/h2>&lt;p>元気だけどなんかイライラした&lt;/p>
 &lt;p>うん、なんで？&lt;/p>
 &lt;table>
@@ -34,7 +94,7 @@
 &lt;li>日本語入力の対応&lt;/li>
 &lt;li>BevyにDefaultPluginsを使用しない方法を編み出す（軽量化）&lt;/li>
 &lt;/ul>
-&lt;p>明日書く。眠い。&lt;/p></description></item><item><title>2025年04月24日(木)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-24/</link><pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-24/</guid><description>&lt;h2 id="今日の体調">今日の体調
+&lt;p>日本語入力への対応は、&lt;code>window.enable_ime = true&lt;/code>で実現可能でした。&lt;/p></description></item><item><title>2025年04月24日(木)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-24/</link><pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-24/</guid><description>&lt;h2 id="今日の体調">今日の体調
 &lt;/h2>&lt;table>
 &lt;thead>
 &lt;tr>
@@ -135,7 +195,7 @@
 &lt;/h2>&lt;p>&lt;span class="dead-link">
 TCP
 &lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
-&lt;/span>やQUIC (HTTP/3で関連)は、アプリケーション間のコネクション型通信を提供する(これを&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/about/" >トランスポート層&lt;/a>という)。HTTPは、このコネクション場を、リソースの要求と返答が、メッセージ単位で、１往復のクライアントリクエストとサーバーレスポンスという形で通信される。&lt;br>
+&lt;/span>や&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a> (HTTP/3で関連)は、アプリケーション間のコネクション型通信を提供する(これを&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/about/" >トランスポート層&lt;/a>という)。HTTPは、このコネクション場を、リソースの要求と返答が、メッセージ単位で、１往復のクライアントリクエストとサーバーレスポンスという形で通信される。&lt;br>
 &amp;hellip;と定められている。&lt;/p>
 &lt;p>HTTPの発明によって、インターネットのリソースの公開とアクセスが容易になった。&lt;br>
 クライアントとサーバー間で接続が確立した後にメッセージを送るだけでデータが返ってくるため、これが実現される。&lt;/p>
@@ -178,9 +238,12 @@ World Wide Web
 &lt;li>ヘッダの圧縮が可能になった。&lt;/li>
 &lt;/ul>
 &lt;h3 id="http3">HTTP/3
-&lt;/h3>&lt;p>HTTP/3ではTCPからQUICというプロトコルに変化した。QUICはUDPソケットの上で通信を行うため、安全性はもともと低かった。その信頼性はQUICが担保しており、TLSにも対応している。&lt;/p>
+&lt;/h3>&lt;p>HTTP/3ではTCPから&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>というプロトコルに変化した。QUICはUDPソケットの上で通信を行うため、安全性はもともと低かった。その信頼性はQUICが担保しており、TLSにも対応している。&lt;/p>
 &lt;ul>
-&lt;li>TCPからQUICへプロトコルを変更。&lt;/li>
+&lt;li>&lt;span class="dead-link">
+TCP
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>から&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>へプロトコルを変更。&lt;/li>
 &lt;li>ハンドシェイクの高速化&lt;/li>
 &lt;li>通信がすべてTLS 1.3によって暗号化される。&lt;/li>
 &lt;/ul></description></item><item><title>2025年04月21日(月)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-21/</link><pubDate>Mon, 21 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-21/</guid><description>&lt;h2 id="今日の体調">今日の体調
@@ -231,7 +294,7 @@ TCP
 UDP
 &lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
 &lt;/span>&lt;/li>
-&lt;li>QUIC&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>アプリケーション層</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/about/</link><pubDate>Sun, 20 Apr 2025 21:52:37 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/about/</guid><description>&lt;p>&lt;strong>アプリケーション層&lt;/strong>（英: Application Layer）とは、通信ネットワークにおいてホストが用いる共用のプロトコル（&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/protocol/about/" >IP&lt;/a>）とメソッドを示す抽象化レイヤーである。&lt;/p>
 &lt;p>TCP/IPモデルにおいては、アプリケーション層は4階層のうちの第4層にあたり、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/protocol/about/" >IP&lt;/a>のコンピューターネットワークを介したプロセス間通信に使われる通信プロトコルとインターフェースメソッドを含む。&lt;br>
 アプリケーションが標準化するのは通信のみで、クライアントサーバーモデルまたはP2Pのネットワーキング・モデルにおけるデータ交換の管理などはそれより下のトランスポート層が行う。&lt;/p></description></item><item><title>インターネット・プロトコル</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/protocol/about/</link><pubDate>Sun, 20 Apr 2025 11:08:01 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/protocol/about/</guid><description>&lt;p>インターネット・プロトコルは、パケット交換型ネットワークにおいてホスト間のパケット転送とルーティングを担う基本プロトコルで、IPv4とIPv6が主に利用される。&lt;/p>
@@ -1434,6 +1497,8 @@ GC
 &lt;p>(*´･∀･)o[ゆっくりしていってね]o(･∀･`*)&lt;/p>
 &lt;h2 id="目次">目次
 &lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-28/" >2025-04-28&lt;/a>&lt;/li>
+&lt;li>2025-04-26,27はありません。&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-25/" >2025-04-25&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-24/" >2025-04-24&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-23/" >2025-04-23&lt;/a>&lt;/li>
@@ -1743,7 +1808,7 @@ alt="Top Langs"
 GUIフレームワーク: Avalonia + SkiaSharp
 ↪ &lt;a class="link" href="https://github.com/yossy4411/EarthQuake" target="_blank" rel="noopener"
 >GitHub&lt;/a>&lt;/p>
-&lt;h3 id="hahahugoshortcode93s0hbhb">&lt;span class="dead-link">
+&lt;h3 id="hahahugoshortcode97s0hbhb">&lt;span class="dead-link">
 OGSP Disaster Prevention
 &lt;span style="font-size: 1rem">（リンク切れ）&lt;/span>
 &lt;/span>
@@ -1899,8 +1964,15 @@ GC
 &lt;p>また、main関数内の変数&lt;code>a&lt;/code>は&lt;code>fn main&lt;/code>→&lt;code>custom_function&lt;/code>→&lt;code>println!&lt;/code>のように移動しています。
 println!関数に渡ったあと、その関数内でスコープを抜けるときに変数はメモリ上から破棄されます。&lt;/p>
 &lt;blockquote>
-&lt;p>つまり、custom_function関数でaを使ったあとにはもう値は存在しないこととなります。&lt;/p>&lt;/blockquote>&lt;/blockquote></description></item><item><title>JourneyStreetMapとは</title><link>https://yossy4411.okayugroup.net/develop/journeystreetmap/about/</link><pubDate>Fri, 04 Apr 2025 15:50:47 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/journeystreetmap/about/</guid><description>&lt;h2 id="仕組み">仕組み
-&lt;/h2>&lt;h3 id="1-journeymapのデータを読み込む">1. JourneyMapのデータを読み込む
+&lt;p>つまり、custom_function関数でaを使ったあとにはもう値は存在しないこととなります。&lt;/p>&lt;/blockquote>&lt;/blockquote></description></item><item><title>JourneyStreetMapとは</title><link>https://yossy4411.okayugroup.net/develop/journeystreetmap/about/</link><pubDate>Fri, 04 Apr 2025 15:50:47 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/journeystreetmap/about/</guid><description>&lt;p>
+&lt;div class="admonition warning">
+&lt;div class="admonition-title">Warning&lt;/div>
+&lt;div class="admonition-content">
+このプロジェクトは開発が停止しています。詳しくは&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/jsm-is-not-longer-under-develop/" >こちら&lt;/a>。
+&lt;/div>
+&lt;/div>
+## 仕組み&lt;/p>
+&lt;h3 id="1-journeymapのデータを読み込む">1. JourneyMapのデータを読み込む
 &lt;/h3>&lt;p>まず、&lt;a class="link" href="https://www.curseforge.com/minecraft/mc-mods/journeymap" target="_blank" rel="noopener"
 >JourneyMap&lt;/a>というのは、Minecraftでマップを表示するModです。&lt;/p>
 &lt;p>このModで保存されるワールドデータを抽出します。&lt;br>
@@ -1913,7 +1985,9 @@ println!関数に渡ったあと、その関数内でスコープを抜けると
 &lt;/h3>&lt;p>アプリ画面上で道路とか地点を追加したりします。&lt;/p>
 &lt;p>ここには&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/gui-library/" >GUIライブラリ&lt;/a>を使用するとやりやすいかもしれんね&lt;/p>
 &lt;h3 id="4-pmtilesにエクスポート">4. PMTilesにエクスポート
-&lt;/h3>&lt;p>PMTiles形式の１つのファイルにエクスポートすると使いやすいよね〜！&lt;/p></description></item><item><title>2025年04月04日(金)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-04/</link><pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-04/</guid><description>&lt;h2 id="今日の作業">今日の作業
+&lt;/h3>&lt;p>PMTiles形式の１つのファイルにエクスポートすると使いやすいよね〜！&lt;/p>
+&lt;h3 id="5-gsiとして見る">5. GSIとして見る
+&lt;/h3>&lt;p>例えばGoogle Mapsみたいなサービスのように、マイクラの地図も見られるように編集可能だったりします。&lt;/p></description></item><item><title>2025年04月04日(金)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-04/</link><pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-04/</guid><description>&lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;ul>
 &lt;li>ノート整理&lt;/li>
 &lt;li>Web版のノートを作る&lt;/li>
@@ -2549,10 +2623,7 @@ j2x3bVIAj2/rAnACscf2WmcDpgL7ACwAoO8WAmQDMO9lb0TgDZoQA1Dvo2/6Anvjh2+JbwgBQAIXAVWQ
 &lt;h2 id="修正が必要-">修正が必要 ⏫
 &lt;/h2>&lt;h2 id="やりたいこと">やりたいこと
 &lt;/h2>&lt;h2 id="進行中">進行中
-&lt;/h2>&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> &lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/about/" >JourneyStreetMap&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="一時停止中">一時停止中
+&lt;/h2>&lt;h2 id="一時停止中">一時停止中
 &lt;/h2>&lt;ul>
 &lt;li>&lt;input disabled="" type="checkbox"> YouTubeやれ&lt;/li>
 &lt;/ul>
@@ -2562,6 +2633,7 @@ j2x3bVIAj2/rAnACscf2WmcDpgL7ACwAoO8WAmQDMO9lb0TgDZoQA1Dvo2/6Anvjh2+JbwgBQAIXAVWQ
 &lt;/h2>&lt;p>&lt;strong>完了&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/_index/" >EarthQuake.Desktop&lt;/a>&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/about/" >JourneyStreetMap&lt;/a> ✅ 2025-04-28&lt;/li>
 &lt;/ul>
 &lt;h2 id="予定なし">予定なし
 &lt;/h2>&lt;hr>

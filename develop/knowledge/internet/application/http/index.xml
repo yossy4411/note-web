@@ -3,7 +3,7 @@
 &lt;/h2>&lt;p>&lt;span class="dead-link">
 TCP
 &lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
-&lt;/span>やQUIC (HTTP/3で関連)は、アプリケーション間のコネクション型通信を提供する(これを&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/about/" >トランスポート層&lt;/a>という)。HTTPは、このコネクション場を、リソースの要求と返答が、メッセージ単位で、１往復のクライアントリクエストとサーバーレスポンスという形で通信される。&lt;br>
+&lt;/span>や&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a> (HTTP/3で関連)は、アプリケーション間のコネクション型通信を提供する(これを&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/about/" >トランスポート層&lt;/a>という)。HTTPは、このコネクション場を、リソースの要求と返答が、メッセージ単位で、１往復のクライアントリクエストとサーバーレスポンスという形で通信される。&lt;br>
 &amp;hellip;と定められている。&lt;/p>
 &lt;p>HTTPの発明によって、インターネットのリソースの公開とアクセスが容易になった。&lt;br>
 クライアントとサーバー間で接続が確立した後にメッセージを送るだけでデータが返ってくるため、これが実現される。&lt;/p>
@@ -46,9 +46,12 @@ World Wide Web
 &lt;li>ヘッダの圧縮が可能になった。&lt;/li>
 &lt;/ul>
 &lt;h3 id="http3">HTTP/3
-&lt;/h3>&lt;p>HTTP/3ではTCPからQUICというプロトコルに変化した。QUICはUDPソケットの上で通信を行うため、安全性はもともと低かった。その信頼性はQUICが担保しており、TLSにも対応している。&lt;/p>
+&lt;/h3>&lt;p>HTTP/3ではTCPから&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>というプロトコルに変化した。QUICはUDPソケットの上で通信を行うため、安全性はもともと低かった。その信頼性はQUICが担保しており、TLSにも対応している。&lt;/p>
 &lt;ul>
-&lt;li>TCPからQUICへプロトコルを変更。&lt;/li>
+&lt;li>&lt;span class="dead-link">
+TCP
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>から&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>へプロトコルを変更。&lt;/li>
 &lt;li>ハンドシェイクの高速化&lt;/li>
 &lt;li>通信がすべてTLS 1.3によって暗号化される。&lt;/li>
 &lt;/ul></description></item></channel></rss>
