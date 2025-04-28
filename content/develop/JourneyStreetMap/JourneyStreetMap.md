@@ -12,6 +12,8 @@ draft: false
 showContent: true
 slug: about
 ---
+> [!WARNING]
+> このプロジェクトは開発が停止しています。詳しくは[こちら](JSMの開発停止.md)。
 ## 仕組み
 
 ### 1. JourneyMapのデータを読み込む
@@ -33,3 +35,5 @@ slug: about
 ### 4. PMTilesにエクスポート
 PMTiles形式の１つのファイルにエクスポートすると使いやすいよね〜！
 
+### 5. GSIとして見る
+例えばGoogle Mapsみたいなサービスのように、マイクラの地図も見られるように編集可能だったりします。
