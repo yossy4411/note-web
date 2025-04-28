@@ -12,6 +12,8 @@ draft: false
 showContent: true
 slug: about
 ---
+> [!WARNING]
+> このプロジェクトは開発が停止しています。詳しくは[こちら](JSMの開発停止.md)。
 ## 仕組み
 
 ### 1. JourneyMapのデータを読み込む
