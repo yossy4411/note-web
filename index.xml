@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yossy4411のノート</title><link>https://yossy4411.okayugroup.net/</link><description>Recent content on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Mon, 28 Apr 2025 21:39:46 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/index.xml" rel="self" type="application/rss+xml"/><item><title>QUIC</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/</link><pubDate>Mon, 28 Apr 2025 21:39:46 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/</guid><description>&lt;p>&lt;strong>QUIC&lt;/strong> (クイック) は、次世代型の&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/about/" >トランスポート層&lt;/a>の通信プロトコルである。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yossy4411のノート</title><link>https://yossy4411.okayugroup.net/</link><description>Recent content on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Tue, 29 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年04月29日(火)</title><link>https://yossy4411.okayugroup.net/diary/2025-04-29/</link><pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04-29/</guid><description>&lt;h2 id="今日の体調">今日の体調
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>体調&lt;/th>
+&lt;th>元気&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>就寝&lt;/td>
+&lt;td>22:50&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>起床&lt;/td>
+&lt;td>6:10&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>朝食&lt;/td>
+&lt;td>6:50&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>天気痛&lt;/td>
+&lt;td>false&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;h3 id="動画編集ソフトの設計">動画編集ソフトの設計
+&lt;/h3>&lt;p>ChatGPTと協力して良い感じに編集ソフトを作ります。&lt;/p>
+&lt;p>別のドキュメントを用意する予定です。&lt;/p></description></item><item><title>QUIC</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/</link><pubDate>Mon, 28 Apr 2025 21:39:46 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/</guid><description>&lt;p>&lt;strong>QUIC&lt;/strong> (クイック) は、次世代型の&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/about/" >トランスポート層&lt;/a>の通信プロトコルである。&lt;/p>
 &lt;h2 id="概要">概要
 &lt;/h2>&lt;p>QUICは、&lt;span class="dead-link">
 UDP
@@ -1497,6 +1527,7 @@ GC
 &lt;p>(*´･∀･)o[ゆっくりしていってね]o(･∀･`*)&lt;/p>
 &lt;h2 id="目次">目次
 &lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-29/" >2025-04-29&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-28/" >2025-04-28&lt;/a>&lt;/li>
 &lt;li>2025-04-26,27はありません。&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-25/" >2025-04-25&lt;/a>&lt;/li>
@@ -1808,7 +1839,7 @@ alt="Top Langs"
 GUIフレームワーク: Avalonia + SkiaSharp
 ↪ &lt;a class="link" href="https://github.com/yossy4411/EarthQuake" target="_blank" rel="noopener"
 >GitHub&lt;/a>&lt;/p>
-&lt;h3 id="hahahugoshortcode97s0hbhb">&lt;span class="dead-link">
+&lt;h3 id="hahahugoshortcode98s0hbhb">&lt;span class="dead-link">
 OGSP Disaster Prevention
 &lt;span style="font-size: 1rem">（リンク切れ）&lt;/span>
 &lt;/span>
