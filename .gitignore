@@ -1,5 +1,8 @@
+# IDE specific files
 .idea
 .vscode
 *.iml
 
+# Generated files
 public/
+resources/_gen/
