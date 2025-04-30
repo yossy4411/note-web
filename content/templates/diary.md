@@ -4,10 +4,7 @@ description: <% tp.date.now("YYYY年M月D日") %>の日記
 tags: 
 date: <% tp.date.now("YYYY-MM-DD") %>
 ---
-<%
-tp.file.rename(tp.date.now()) 
-%>
-
+<% tp.file.rename(tp.date.now()) %>
 ## 今日の体調
 
 | 体調  | 元気    |
