@@ -6,9 +6,9 @@ tags:
 aliases: 
 date: 2025-04-30T21:17:33+09:00
 lastmod: 2025-04-30T21:17:33+09:00
-draft: true
+draft: false
 showContent: false
-slug:
+slug: "1.1"
 ---
 **HTTP/1.1**は、一般的に使用される[HTTP](HTTP.md)のバージョンの１つである。
 
