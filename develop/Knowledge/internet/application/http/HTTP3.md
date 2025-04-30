@@ -20,7 +20,7 @@ HTTP/3は、RFCドラフト「HTTP over QUIC」をベースとしている。[QU
 
 ## 特徴
 ### QUICプロトコルベース
-HTTP/3は、TCP/IP接続から進化して、[UDP](../../transport/udp/UDP.md)上に築かれた[QUIC](../../transport/quic/QUIC.md)という新しいプロトコルを使用する。これにより、0-RTT接続が可能である。
+HTTP/3は、TCP/IP接続から進化して、[UDP](../../transport/udp/UDP.md)上に築かれた[QUIC](../../transport/quic/QUIC.md)という新しいプロトコルを使用する。これにより、[0-RTT接続](0-RTT接続.md)が可能である。
 
 また、QUICの機能を活かし、再接続なしで接続の再開ができる。
 
