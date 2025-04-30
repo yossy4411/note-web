@@ -3,7 +3,8 @@ title: HTTP/2
 description: 
 lead: HTTP/2は、HTTP/1.1 の課題を解決するために開発された次世代のプロトコルである。
 tags: 
-aliases: 
+aliases:
+  - HTTP/2
 date: 2025-04-30T22:29:46+09:00
 lastmod: 2025-04-30T22:29:46+09:00
 draft: false

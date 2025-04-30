@@ -3,12 +3,13 @@ title: HTTP/3
 description: 
 lead: 
 tags: 
-aliases: 
+aliases:
+  - HTTP/3
 date: 2025-04-30T22:52:22+09:00
 lastmod: 2025-04-30T22:52:22+09:00
-draft: true
+draft: false
 showContent: false
-slug:
+slug: "3"
 ---
 **HTTP/3** は、[HTTP2](HTTP2.md)に続く[HTTP](HTTP.md)の3つ目のメジャーバージョンであり、最新版である。2022年に RFC 9114 によって正式化された。
 

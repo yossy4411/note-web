@@ -3,7 +3,8 @@ title: HTTP/1.1
 description: 
 lead: 
 tags: 
-aliases: 
+aliases:
+  - HTTP/1.1
 date: 2025-04-30T21:17:33+09:00
 lastmod: 2025-04-30T21:17:33+09:00
 draft: false
