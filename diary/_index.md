@@ -1,5 +1,5 @@
 ---
-title: 2025年
+title: 日記
 description: 
 draft: false
 ---
