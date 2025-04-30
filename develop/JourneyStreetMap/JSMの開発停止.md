@@ -10,7 +10,7 @@ draft: false
 showContent: false
 slug: jsm-is-not-longer-under-develop
 ---
-本日([2025-04-28](../../diary/2025年/2025年4月/2025-04-28.md))をもちまして、[JSM](JourneyStreetMap.md)の開発を一時的に終了させていただきます。
+本日([2025-04-28](../../diary/2025/2025-04/2025-04-28.md))をもちまして、[JSM](JourneyStreetMap.md)の開発を一時的に終了させていただきます。
 
 再開の目処は立っていません。
 
