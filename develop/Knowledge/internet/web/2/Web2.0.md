@@ -3,7 +3,8 @@ title: Web2.0
 description: 
 lead: 
 tags: 
-aliases: []
+aliases:
+  - Web2
 date: 2025-05-01T20:13:05+09:00
 lastmod: 2025-05-01T20:13:05+09:00
 draft: false
