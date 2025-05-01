@@ -8,7 +8,7 @@ date: 2025-05-01T19:59:00+09:00
 lastmod: 2025-05-01T19:59:00+09:00
 draft: false
 showContent: true
-slug:
+slug: about
 ---
 **Web 1.0**は、現代のWeb2やWeb3よりも前の時代の[Web](../World%20Wide%20Web.md)を示す語である。
 
