@@ -3,7 +3,8 @@ title: TCP/IP
 description: 
 lead: 
 tags: 
-aliases: 
+aliases:
+  - TCP/IP
 date: 2025-05-01T19:27:06+09:00
 lastmod: 2025-05-01T19:27:06+09:00
 draft: true
