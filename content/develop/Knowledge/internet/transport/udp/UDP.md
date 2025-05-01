@@ -8,7 +8,7 @@ date: 2025-04-21T00:01:13+09:00
 lastmod: 2025-04-21T00:01:13+09:00
 draft: false
 showContent: true
-slug:
+slug: about
 ---
 **User Datagram Protocol**（ユーザ データグラム プロトコル、**UDP**）は[IP](../../protocol/IP.md)ネットワーク上のアプリケーション間データグラム送信を実現する通信プロトコルである。
 
