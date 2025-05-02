@@ -2,13 +2,7 @@
 &lt;p>TCP/IPモデルにおいては、トランスポート層は4階層のうちの第3層のことで、トランスポート層はホストコンピュータ上の適切なアプリケーションプロセスにデータを配送する責任がある。ｋろえは、異なったアプリケーションプロセスからのデータのパケット化や、要求の送信元と要求先のポート番号の追加なども行う。&lt;/p>
 &lt;h2 id="主なプロトコル">主なプロトコル
 &lt;/h2>&lt;ul>
-&lt;li>&lt;span class="dead-link">
-TCP
-&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
-&lt;/span>&lt;/li>
-&lt;li>&lt;span class="dead-link">
-UDP
-&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
-&lt;/span>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/tcp/about/" >TCP&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/udp/about/" >UDP&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>&lt;/li>
 &lt;/ul></description></item></channel></rss>

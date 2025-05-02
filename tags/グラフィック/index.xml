@@ -17,8 +17,8 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">if&lt;/span> ui.button(&lt;span style="color:#e6db74">&amp;#34;Increment&amp;#34;&lt;/span>).clicked() {
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> age &lt;span style="color:#f92672">+=&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ui.label(format!(&lt;span style="color:#e6db74">&amp;#34;Hello &amp;#39;&lt;/span>&lt;span style="color:#e6db74">{name}&lt;/span>&lt;span style="color:#e6db74">&amp;#39;, age &lt;/span>&lt;span style="color:#e6db74">{age}&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>));
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ui.image(egui::include_image!(&lt;span style="color:#e6db74">&amp;#34;ferris.png&amp;#34;&lt;/span>));
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ui.label(&lt;span style="color:#a6e22e">format!&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;Hello &amp;#39;&lt;/span>&lt;span style="color:#e6db74">{name}&lt;/span>&lt;span style="color:#e6db74">&amp;#39;, age &lt;/span>&lt;span style="color:#e6db74">{age}&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>));
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ui.image(egui::&lt;span style="color:#a6e22e">include_image!&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;ferris.png&amp;#34;&lt;/span>));
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>やっぱりわかりやすいね。&lt;/p>
 &lt;p>他のGUIライブラリとは違って、ボタンのクリックの処理がイベントハンドラではないところが少し気になると思うが、&lt;code>clicked()&lt;/code>はボタンが押された瞬間だけ&lt;code>true&lt;/code>になるため、これでボタンの押された処理が実装できる。&lt;/p>
 &lt;p>私は以前Scratchをやっていましたが、それにとても近いと思います。&lt;/p></description></item></channel></rss>

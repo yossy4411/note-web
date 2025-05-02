@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>インターネット on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/</link><description>Recent content in インターネット on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Sun, 20 Apr 2025 10:51:59 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/develop/knowledge/internet/index.xml" rel="self" type="application/rss+xml"/><item><title>ウェブとインターネット</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/about/</link><pubDate>Sun, 20 Apr 2025 10:51:59 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/about/</guid><description>&lt;p>&lt;strong>インターネット&lt;/strong> (the Internet) は、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/protocol/about/" >インターネット・プロトコル&lt;/a>を用いて接続された、コンピューター同士の世界規模の情報通信網である。&lt;/p>
 &lt;p>略してネット。&lt;/p>
 &lt;h2 id="概要">概要
-&lt;/h2>&lt;p>インターネットは、異なる種類のネットワーク機器や回線、OSを使用していても、&lt;strong>共通の通信ルール（プロトコル）&lt;/strong> を用いることで相互に接続されている。この通信ルールの中心となるのが &lt;strong>TCP/IP (Transmission Control Protocol/ Internet Protocol)&lt;/strong> であり、これによって世界規模のネットワークが構築・維持されている。&lt;/p>
+&lt;/h2>&lt;p>インターネットは、異なる種類のネットワーク機器や回線、OSを使用していても、&lt;strong>共通の通信ルール（プロトコル）&lt;/strong> を用いることで相互に接続されている。この通信ルールの中心となるのが &lt;span class="dead-link">
+TCP/IP
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span> であり、これによって世界規模のネットワークが構築・維持されている。&lt;/p>
 &lt;h3 id="コンピュータネットワークでは">コンピュータネットワークでは
 &lt;/h3>&lt;p>コンピュータネットワークでは、コンピューターのMACアドレスなどで通信できるLAN同士を、IPで繋いだWANが、インターネットである。&lt;br>
 LAN間の通信交換ができれば、それはインターネットと呼べる。&lt;/p>

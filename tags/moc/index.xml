@@ -1,22 +1,86 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MOC on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/tags/moc/</link><description>Recent content in MOC on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Sun, 20 Apr 2025 23:48:16 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/tags/moc/index.xml" rel="self" type="application/rss+xml"/><item><title>トランスポート層</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/about/</link><pubDate>Sun, 20 Apr 2025 23:48:16 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/about/</guid><description>&lt;p>&lt;strong>トランスポート層&lt;/strong>（英: Transport Layer）とは、通信ネットワークにおいて上位の&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/about/" >アプリケーション層&lt;/a>からのサービス要求に応じ、また下位のインターネット層に対してサービス要求を行う。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MOC on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/tags/moc/</link><description>Recent content in MOC on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Wed, 30 Apr 2025 18:44:10 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/tags/moc/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年4月</title><link>https://yossy4411.okayugroup.net/diary/2025-04/</link><pubDate>Wed, 30 Apr 2025 18:44:10 +0900</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04/</guid><description>&lt;h2 id="日記">日記
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/2025-04-30/" >2025-04-30&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/2025-04-29/" >2025-04-29&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/2025-04-28/" >2025-04-28&lt;/a>&lt;/li>
+&lt;li>2025-04-26,27はありません。&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/2025-04-25/" >2025-04-25&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/2025-04-24/" >2025-04-24&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/2025-04-23/" >2025-04-23&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/2025-04-22/" >2025-04-22&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/2025-04-21/" >2025-04-21&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/2025-04-20/" >2025-04-20&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/2025-04-19/" >2025-04-19&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/2025-04-18/" >2025-04-18&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/2025-04-17/" >2025-04-17&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/2025-04-16/" >2025-04-16&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/2025-04-15/" >2025-04-15&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/2025-04-14/" >2025-04-14&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/2025-04-13/" >2025-04-13&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/2025-04-12/" >2025-04-12&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/2025-04-11/" >2025-04-11&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/2025-04-10/" >2025-04-10&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/2025-04-09/" >2025-04-09&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/2025-04-08/" >2025-04-08&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/2025-04-07/" >2025-04-07&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/2025-04-06/" >2025-04-06&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/2025-04-05/" >2025-04-05&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/2025-04-04/" >2025-04-04&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/2025-04-03/" >2025-04-03&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="今月のまとめ">今月のまとめ
+&lt;/h2>&lt;ul>
+&lt;li>ノートの作成&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/about/" >JSM&lt;/a>の開発&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/jsm-is-not-longer-under-develop/" >JSMの開発停止&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="今月のニュース">今月のニュース
+&lt;/h2>&lt;h3 id="国内">国内
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>大阪・関西万博の開幕 (4/13)&lt;/strong>
+行ってきましたが、めっちゃ面白かったです。今度ブログを書こうと思います。&lt;br>
+さて、これは2.9兆円の経済効果を目指しており、日本のライフサイエンスや持続可能な社会の実現への一歩を踏み出すこととなります。&lt;/li>
+&lt;li>&lt;strong>新年度予算が成立&lt;/strong>
+予算内で、社会保障費が過去最大を更新しました。これは、高齢化と医療福祉の強化によるものだと考えられます。&lt;/li>
+&lt;li>&lt;strong>10万円の商品券配布&lt;/strong>
+結局のところ、国民からの「バラマキ疑惑」の意見が多く寄せられたため、石破首相が謝罪し中止となりました。&lt;/li>
+&lt;li>&lt;strong>Apple Intelligenceが日本語に対応し、iPhoneでも利用可能に&lt;/strong>
+これは、Appleが開発したAIで、スマホ上でローカルに動作します。プライバシーを保護しながら、ユーザーの高度なタスクに柔軟に対応するなどのUXの向上が期待されています。&lt;/li>
+&lt;li>百日せきの患者数が4100人に達した
+これは、去年1年間の患者数を上回っており、4月20日時点でも増加傾向が続いています。&lt;/li>
+&lt;/ul>
+&lt;h3 id="国外">国外
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>トランプ関税の発動 (4/2)&lt;/strong>
+アメリカのトランプ大統領が多くの国に対して包括的な貿易関税を課し、全輸入品に10%の基準関税を導入しました。これは国際貿易に大きな影響を及ぼし、特に中国やEUとの関係に緊張を生じさせました。&lt;br>
+市場の反応は大きく、株価の変動とドル安が起こりました。&lt;/li>
+&lt;li>&lt;strong>フランシスコ法王の逝去とコンクラーヴェの発表 (4/21)&lt;/strong>
+フランシスコ法王が88歳で逝去し、5月7日から新法王を選出するためのコンクラーヴェが開催されることが発表されました。これはカトリック教会の未来に大きな影響を与える出来事で、世界中の信者から注目を集めました。&lt;/li>
+&lt;li>&lt;strong>スペインとポルトガルの大規模停電（4月28日）&lt;/strong>
+スペインとポルトガルで大規模な停電が発生し、鉄道の遅延など交通機関に影響が出ました。これは大型連休中の観光客にも影響を与え、日本人観光客の混乱が報じられました。&lt;/li>
+&lt;li>&lt;strong>ガザの人道支援危機&lt;/strong>&lt;br>
+ガザでは人道支援活動が制限され、暴力の激化と人道ニーズの急増により、状況が危機的になっています（4月26日）。これは国際社会の対応を求める声が高まっています。&lt;/li>
+&lt;li>&lt;strong>ベネズエラの石油輸出制限&lt;/strong>
+トランプ大統領がベネズエラの石油輸出をさらに制限する制裁を命じ、同国の経済に打撃を与えました（4月25日）。これは地政学的緊張を高める要因となりました。&lt;/li>
+&lt;/ul></description></item><item><title>トランスポート層</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/about/</link><pubDate>Sun, 20 Apr 2025 23:48:16 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/about/</guid><description>&lt;p>&lt;strong>トランスポート層&lt;/strong>（英: Transport Layer）とは、通信ネットワークにおいて上位の&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/about/" >アプリケーション層&lt;/a>からのサービス要求に応じ、また下位のインターネット層に対してサービス要求を行う。&lt;/p>
 &lt;p>TCP/IPモデルにおいては、トランスポート層は4階層のうちの第3層のことで、トランスポート層はホストコンピュータ上の適切なアプリケーションプロセスにデータを配送する責任がある。ｋろえは、異なったアプリケーションプロセスからのデータのパケット化や、要求の送信元と要求先のポート番号の追加なども行う。&lt;/p>
 &lt;h2 id="主なプロトコル">主なプロトコル
 &lt;/h2>&lt;ul>
-&lt;li>&lt;span class="dead-link">
-TCP
-&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
-&lt;/span>&lt;/li>
-&lt;li>&lt;span class="dead-link">
-UDP
-&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
-&lt;/span>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/tcp/about/" >TCP&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/udp/about/" >UDP&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>アプリケーション層</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/about/</link><pubDate>Sun, 20 Apr 2025 21:52:37 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/about/</guid><description>&lt;p>&lt;strong>アプリケーション層&lt;/strong>（英: Application Layer）とは、通信ネットワークにおいてホストが用いる共用のプロトコル（&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/protocol/about/" >IP&lt;/a>）とメソッドを示す抽象化レイヤーである。&lt;/p>
-&lt;p>TCP/IPモデルにおいては、アプリケーション層は4階層のうちの第4層にあたり、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/protocol/about/" >IP&lt;/a>のコンピューターネットワークを介したプロセス間通信に使われる通信プロトコルとインターフェースメソッドを含む。&lt;br>
+&lt;p>&lt;span class="dead-link">
+TCP/IP
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>モデルにおいては、アプリケーション層は4階層のうちの第4層にあたり、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/protocol/about/" >IP&lt;/a>のコンピューターネットワークを介したプロセス間通信に使われる通信プロトコルとインターフェースメソッドを含む。&lt;br>
 アプリケーションが標準化するのは通信のみで、クライアントサーバーモデルまたはP2Pのネットワーキング・モデルにおけるデータ交換の管理などはそれより下のトランスポート層が行う。&lt;/p></description></item><item><title>ウェブとインターネット</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/about/</link><pubDate>Sun, 20 Apr 2025 10:51:59 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/about/</guid><description>&lt;p>&lt;strong>インターネット&lt;/strong> (the Internet) は、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/protocol/about/" >インターネット・プロトコル&lt;/a>を用いて接続された、コンピューター同士の世界規模の情報通信網である。&lt;/p>
 &lt;p>略してネット。&lt;/p>
 &lt;h2 id="概要">概要
-&lt;/h2>&lt;p>インターネットは、異なる種類のネットワーク機器や回線、OSを使用していても、&lt;strong>共通の通信ルール（プロトコル）&lt;/strong> を用いることで相互に接続されている。この通信ルールの中心となるのが &lt;strong>TCP/IP (Transmission Control Protocol/ Internet Protocol)&lt;/strong> であり、これによって世界規模のネットワークが構築・維持されている。&lt;/p>
+&lt;/h2>&lt;p>インターネットは、異なる種類のネットワーク機器や回線、OSを使用していても、&lt;strong>共通の通信ルール（プロトコル）&lt;/strong> を用いることで相互に接続されている。この通信ルールの中心となるのが &lt;span class="dead-link">
+TCP/IP
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span> であり、これによって世界規模のネットワークが構築・維持されている。&lt;/p>
 &lt;h3 id="コンピュータネットワークでは">コンピュータネットワークでは
 &lt;/h3>&lt;p>コンピュータネットワークでは、コンピューターのMACアドレスなどで通信できるLAN同士を、IPで繋いだWANが、インターネットである。&lt;br>
 LAN間の通信交換ができれば、それはインターネットと呼べる。&lt;/p>
@@ -333,38 +397,11 @@ World Wide Web (ウェブ)
 &lt;p>殆どが今日の作業、あとは今日の体調を書いてます。&lt;/p>
 &lt;p>(*´･∀･)o[ゆっくりしていってね]o(･∀･`*)&lt;/p>
 &lt;h2 id="目次">目次
-&lt;/h2>&lt;ul>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-29/" >2025-04-29&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-28/" >2025-04-28&lt;/a>&lt;/li>
-&lt;li>2025-04-26,27はありません。&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-25/" >2025-04-25&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-24/" >2025-04-24&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-23/" >2025-04-23&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-22/" >2025-04-22&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-21/" >2025-04-21&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-20/" >2025-04-20&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-19/" >2025-04-19&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-18/" >2025-04-18&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-17/" >2025-04-17&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-16/" >2025-04-16&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-15/" >2025-04-15&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-14/" >2025-04-14&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-13/" >2025-04-13&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-12/" >2025-04-12&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-11/" >2025-04-11&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-10/" >2025-04-10&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-09/" >2025-04-09&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-08/" >2025-04-08&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-07/" >2025-04-07&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-06/" >2025-04-06&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-05/" >2025-04-05&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-04/" >2025-04-04&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04-03/" >2025-04-03&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;details>
-&lt;summary>2025年3月以前のアーカイブ&lt;/summary>
-ここには何もありません。
-&lt;/details></description></item><item><title>EarthQuake - デスクトップ版地震災害情報アプリ</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/about/</link><pubDate>Tue, 08 Apr 2025 10:33:31 +0900</pubDate><guid>https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/about/</guid><description>&lt;p>
+&lt;/h2>&lt;h3 id="2025年">2025年
+&lt;/h3>&lt;ul>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/index/" >4月&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/index/" >5月&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>EarthQuake - デスクトップ版地震災害情報アプリ</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/about/</link><pubDate>Tue, 08 Apr 2025 10:33:31 +0900</pubDate><guid>https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/about/</guid><description>&lt;p>
 &lt;div class="admonition important">
 &lt;div class="admonition-title">Important&lt;/div>
 &lt;div class="admonition-content">
@@ -548,7 +585,7 @@ alt="リリースの中で不安定だけど開発が一区切り着いたとき
 GUIフレームワーク: Avalonia + SkiaSharp
 ↪ &lt;a class="link" href="https://github.com/yossy4411/EarthQuake" target="_blank" rel="noopener"
 >GitHub&lt;/a>&lt;/p>
-&lt;h3 id="hahahugoshortcode98s0hbhb">&lt;span class="dead-link">
+&lt;h3 id="hahahugoshortcode112s0hbhb">&lt;span class="dead-link">
 OGSP Disaster Prevention
 &lt;span style="font-size: 1rem">（リンク切れ）&lt;/span>
 &lt;/span>

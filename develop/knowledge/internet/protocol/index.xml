@@ -37,7 +37,10 @@
 &lt;li>送信元・宛先IPアドレス&lt;/li>
 &lt;/ul>
 &lt;h2 id="実装">実装
-&lt;/h2>&lt;p>多くのオペレーティングシステムやネットワーク機器には、TCP/IPスタックとしてIPv4およびIPv6の実装が組み込まれている。代表的な実装には、BSD系のネットワークスタック、Linuxカーネルのネットワークサブシステム、商用ルータOSなどがある。&lt;/p>
+&lt;/h2>&lt;p>多くのオペレーティングシステムやネットワーク機器には、&lt;span class="dead-link">
+TCP/IP
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>スタックとしてIPv4およびIPv6の実装が組み込まれている。代表的な実装には、BSD系のネットワークスタック、Linuxカーネルのネットワークサブシステム、商用ルータOSなどがある。&lt;/p>
 &lt;h2 id="関連項目">関連項目
 &lt;/h2>&lt;h3 id="インターネット群">インターネット群
 &lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/about/" >アプリケーション層&lt;/a>&lt;/p>
@@ -53,14 +56,8 @@
 &lt;/ul>
 &lt;p>トランスポート層&lt;/p>
 &lt;ul>
-&lt;li>&lt;span class="dead-link">
-TCP
-&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
-&lt;/span>&lt;/li>
-&lt;li>&lt;span class="dead-link">
-UDP
-&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
-&lt;/span>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/tcp/about/" >TCP&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/udp/about/" >UDP&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>インターネット層&lt;/p>
 &lt;ul>

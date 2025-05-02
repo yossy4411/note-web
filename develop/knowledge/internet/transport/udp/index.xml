@@ -1,1 +1,101 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>UDP on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/udp/</link><description>Recent content in UDP on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate/><atom:link href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/udp/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>UDP on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/udp/</link><description>Recent content in UDP on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Mon, 21 Apr 2025 00:01:13 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/udp/index.xml" rel="self" type="application/rss+xml"/><item><title>UDP</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/udp/about/</link><pubDate>Mon, 21 Apr 2025 00:01:13 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/udp/about/</guid><description>&lt;p>&lt;strong>User Datagram Protocol&lt;/strong>（ユーザ データグラム プロトコル、&lt;strong>UDP&lt;/strong>）は&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/protocol/about/" >IP&lt;/a>ネットワーク上のアプリケーション間データグラム送信を実現する通信プロトコルである。&lt;/p>
+&lt;h2 id="概要">概要
+&lt;/h2>&lt;p>UDPは、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/tcp/about/" >TCP&lt;/a>と同じく、アプリケーション間のデータ送信を担当する。しかし、TCPとは異なり、UDPは以下のような信頼性を保証する機能を持たない。&lt;/p>
+&lt;ul>
+&lt;li>パケットの到達保証&lt;/li>
+&lt;li>パケット順序の維持&lt;/li>
+&lt;li>再送制御&lt;/li>
+&lt;/ul>
+&lt;p>つまり、パケットが入れ替わったり届かない可能性がないということである。&lt;/p>
+&lt;p>その代わり、UDPは&lt;strong>処理コストが小さく、速度が速い&lt;/strong>という特性があるため、&lt;strong>リアルタイム性が重要な通信&lt;/strong>に適している。&lt;/p>
+&lt;h2 id="用途">用途
+&lt;/h2>&lt;p>UDPは以下のような用途で使用されている。&lt;/p>
+&lt;ul>
+&lt;li>DNS&lt;/li>
+&lt;li>VoIP&lt;/li>
+&lt;li>オンラインゲーム&lt;/li>
+&lt;li>動画配信・ストリーミング&lt;/li>
+&lt;li>ネットワークブロードキャスト&lt;/li>
+&lt;li>NTP&lt;/li>
+&lt;/ul>
+&lt;p>これらのアプリケーションでは、パケット損失よりもレイテンシの低さが重要されるため、UDPが適しているのだ。&lt;/p>
+&lt;h2 id="ヘッダ構造">ヘッダ構造
+&lt;/h2>&lt;p>UDPのヘッダは非常にシンプルで、わずか8バイトで構成される。&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>フィールド&lt;/th>
+&lt;th>サイズ (bit)&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>送信元ポート番号&lt;/td>
+&lt;td>16&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>宛先ポート番号&lt;/td>
+&lt;td>16&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>データ長&lt;/td>
+&lt;td>16&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>チェックサム&lt;/td>
+&lt;td>16&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="tcpとの比較">TCPとの比較
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>特徴&lt;/th>
+&lt;th>UDP&lt;/th>
+&lt;th>TCP&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>コネクション&lt;/td>
+&lt;td>なし&lt;/td>
+&lt;td>あり&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>信頼性&lt;/td>
+&lt;td>低い（欠落の可能性あり）&lt;/td>
+&lt;td>高い（到達・順序保証）&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>軽量性&lt;/td>
+&lt;td>高い（高速）&lt;/td>
+&lt;td>低め（ヘッダが大きい）&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>通信順序の保証&lt;/td>
+&lt;td>なし&lt;/td>
+&lt;td>あり&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>速度&lt;/td>
+&lt;td>高速&lt;/td>
+&lt;td>やや遅い&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>TCPは郵便配達、UDPは伝書鳩のように考えてもらえればよい。&lt;/p>
+&lt;h2 id="デメリット">デメリット
+&lt;/h2>&lt;p>先程から何度か言っているように、UDPは安全性が保証されない。&lt;/p>
+&lt;h3 id="パケットロス時の再送処理がない">パケットロス時の再送処理がない
+&lt;/h3>&lt;p>パケットというのは、情報通信における転送データのかたまりのことである。&lt;br>
+&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/protocol/about/" >IP&lt;/a>では、大きなデータがある場合、それは一度に処理されず、いくつかのパケットに分割され転送される。&lt;/p>
+&lt;p>パケットロスというのは、このパケットが転送の途中で失われることであり、これが発生した場合にはデータの一部が欠落することになる。そうすると、例えば画像の一部が崩壊したりゲームのプレイヤーが意図しない動きをすることになる。&lt;/p>
+&lt;p>これを防ぐため、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/tcp/about/" >TCP&lt;/a>や&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>には一定時間後に正常にデータが宛先に送信されたことを検証して、必要に応じて不足したパケットを送り直す処理（再送処理）が存在するのだが、&lt;strong>この処理はUDPには存在しない&lt;/strong>。&lt;/p>
+&lt;h3 id="パケットの順番が入れ替わる">パケットの順番が入れ替わる
+&lt;/h3>&lt;p>&lt;strong>UDPでは送信側のパケットの順番が保証されない&lt;/strong>。というのも、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/tcp/about/" >TCP&lt;/a>などのプロトコルでは、転送されたパケットは送信元から送信された順番で宛先に到達するが、UDPではこれが入れ替わることがある。&lt;/p>
+&lt;p>同じルートを同じ速度で走ればその順番のまま届くと考えるかもしれないが、ネットワークのルートは変化しがちなのでそう上手くはいかない。&lt;br>
+パケットの順番が入れ替わるタイミングというのは、レールのポイントが切り替わったときや渋滞に引っかかったときをイメージしてもらえばわかりやすい。&lt;/p>
+&lt;h3 id="対処法">対処法
+&lt;/h3>&lt;p>これらのデメリットを解消するために生まれたプロトコルが&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>であり、ここでは再送処理やパケットの順番の保証が実装されている。その他、TLS1.3で暗号化されていたり、様々な工夫が加えられている。&lt;/p>
+&lt;p>ただしそこまでの重装備が必要ない場合は、パケットロスを受け入れるか、独自で再送処理を実装するなどの工夫を行うことを推奨する。&lt;/p></description></item></channel></rss>

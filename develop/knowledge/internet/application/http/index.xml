@@ -1,9 +1,152 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>HTTP on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/</link><description>Recent content in HTTP on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Mon, 21 Apr 2025 21:13:51 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/index.xml" rel="self" type="application/rss+xml"/><item><title>HTTP</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/about/</link><pubDate>Mon, 21 Apr 2025 21:13:51 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/about/</guid><description>&lt;p>&lt;strong>HTTP&lt;/strong> (Hypertext Transfer Protocol)は、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/about/" >インターネット&lt;/a>上でアプリケーション間コネクション上を行う、リクエスト／レスポンス型・ステートレス・メッセージ指向通信プロトコルである。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>HTTP on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/</link><description>Recent content in HTTP on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Wed, 30 Apr 2025 22:52:22 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/index.xml" rel="self" type="application/rss+xml"/><item><title>HTTP/3</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/3/</link><pubDate>Wed, 30 Apr 2025 22:52:22 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/3/</guid><description>&lt;p>&lt;strong>HTTP/3&lt;/strong> は、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/%222%22/" >HTTP2&lt;/a>に続く&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/about/" >HTTP&lt;/a>の3つ目のメジャーバージョンであり、最新版である。2022年に RFC 9114 によって正式化された。&lt;/p>
 &lt;h2 id="概要">概要
-&lt;/h2>&lt;p>&lt;span class="dead-link">
-TCP
+&lt;/h2>&lt;p>HTTP/3は、RFCドラフト「HTTP over QUIC」をベースとしている。&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>はGoogleによってはじめに開発された、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/about/" >トランスポート層&lt;/a>のプロトコルである。&lt;/p>
+&lt;p>もっとも、通信プロトコルの基盤が&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/tcp/about/" >TCP&lt;/a>から&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/udp/about/" >UDP&lt;/a>ベースの&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>に変化したことが最大の変化である。&lt;/p>
+&lt;h2 id="特徴">特徴
+&lt;/h2>&lt;h3 id="quicプロトコルベース">QUICプロトコルベース
+&lt;/h3>&lt;p>HTTP/3は、&lt;span class="dead-link">
+TCP/IP
 &lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
-&lt;/span>や&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a> (HTTP/3で関連)は、アプリケーション間のコネクション型通信を提供する(これを&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/about/" >トランスポート層&lt;/a>という)。HTTPは、このコネクション場を、リソースの要求と返答が、メッセージ単位で、１往復のクライアントリクエストとサーバーレスポンスという形で通信される。&lt;br>
+&lt;/span>接続から進化して、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/udp/about/" >UDP&lt;/a>上に築かれた&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>という新しいプロトコルを使用する。これにより、&lt;span class="dead-link">
+0-RTT接続
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>が可能である。&lt;/p>
+&lt;p>また、QUICの機能を活かし、再接続なしで接続の再開ができる。&lt;/p>
+&lt;h3 id="真並列通信">真・並列通信
+&lt;/h3>&lt;p>TCPの越えられなかった制限を超え、パケットロスがあっても他ストリームには影響しないというUDPの特性を活かす。これによって、Head-of-Line Blockingが完全に解消できる。&lt;/p>
+&lt;h3 id="tlsの内蔵">TLSの内蔵
+&lt;/h3>&lt;p>QUICでは暗号化(TLS 1.3)が標準化されていて、通信は常にセキュアである。ハンドシェイクと暗号化処理が一体化しており、高速かつ安全に通信を行うことができる設計。&lt;/p>
+&lt;h2 id="課題">課題
+&lt;/h2>&lt;ul>
+&lt;li>UDPをブロックする設計のネットワークではそもそも使用できない。&lt;/li>
+&lt;li>実装が複雑なため、マイナーな言語やツールでは非対応の部分がある。&lt;/li>
+&lt;/ul>
+&lt;h2 id="比較">比較
+&lt;/h2>&lt;p>(ChatGPTによる生成)&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>項目&lt;/th>
+&lt;th>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/%221.1%22/" >HTTP1.1&lt;/a>&lt;/th>
+&lt;th>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/%222%22/" >HTTP/2&lt;/a>&lt;/th>
+&lt;th>HTTP/3&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>通信方式&lt;/td>
+&lt;td>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/tcp/about/" >TCP&lt;/a>&lt;/td>
+&lt;td>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/tcp/about/" >TCP&lt;/a>&lt;/td>
+&lt;td>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/udp/about/" >UDP&lt;/a>（+&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>）&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>マルチプレクシング&lt;/td>
+&lt;td>×（順番に処理）&lt;/td>
+&lt;td>◯（1接続で並列）&lt;/td>
+&lt;td>◎（独立して並列）&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>HOL問題&lt;/td>
+&lt;td>×（がっつり）&lt;/td>
+&lt;td>△（少しあり）&lt;/td>
+&lt;td>◎（完全解消）&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>暗号化&lt;/td>
+&lt;td>任意（TLS対応）&lt;/td>
+&lt;td>任意（TLS推奨）&lt;/td>
+&lt;td>強制（TLS 1.3内蔵）&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ヘッダ圧縮&lt;/td>
+&lt;td>×&lt;/td>
+&lt;td>◯（HPACK）&lt;/td>
+&lt;td>◯（QPACK）&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>サーバープッシュ&lt;/td>
+&lt;td>×&lt;/td>
+&lt;td>◯（あり）&lt;/td>
+&lt;td>△（非推奨傾向）&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>HTTP/2</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/2/</link><pubDate>Wed, 30 Apr 2025 22:29:46 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/2/</guid><description>&lt;p>&lt;strong>HTTP/2&lt;/strong> は、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/%221.1%22/" >HTTP/1.1&lt;/a>の課題を解決するために開発された次世代のプロトコルであり、2015年に RFC 7540 により標準化された。Googleが開発した SPDY プロトコルをベースにしており、パフォーマンスと効率に特化している。&lt;/p>
+&lt;h2 id="特徴">特徴
+&lt;/h2>&lt;h3 id="バイナリプロトコル">バイナリプロトコル
+&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/about/" >HTTP/1.x&lt;/a>まではテキストベースだったものが、HTTP/2では完全にバイナリ形式になった。これにより、パース処理が高速になり、エラーも減る。&lt;/p>
+&lt;h3 id="マルチプレクシング">マルチプレクシング
+&lt;/h3>&lt;p>1つのTCP接続中に複数のリクエスト・レスポンスを&lt;strong>並列に&lt;/strong>処理可能となった。&lt;br>
+すなわち、これで順番待ちがなくなり、Head-of-Line Blocking問題を軽減することができる。&lt;/p>
+&lt;h3 id="ストリーム制御">ストリーム制御
+&lt;/h3>&lt;p>各リクエストは「ストリーム」という単位で管理。&lt;/p>
+&lt;p>ストリームには優先順位やフローの制御が可能である。&lt;/p>
+&lt;h3 id="サーバープッシュ">サーバープッシュ
+&lt;/h3>&lt;p>クライアントがリクエストする前に、&lt;strong>サーバーが必要になりそうなリソースを先に送信&lt;/strong>できる（例：ウェブページが含むCSSやJS）。&lt;/p>
+&lt;h3 id="ヘッダ圧縮hpack">ヘッダ圧縮（HPACK）
+&lt;/h3>&lt;p>冗長なヘッダ情報を&lt;strong>効率良く圧縮&lt;/strong>することで、通信量を削減できる。&lt;/p>
+&lt;h2 id="課題">課題
+&lt;/h2>&lt;ul>
+&lt;li>TCPベースのため、パケットロス時にそれを待つために全ストリームが止まる。これがまだ残ってるHOL問題。これは、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/%223%22/" >HTTP/3&lt;/a>で解消されることとなる。&lt;/li>
+&lt;li>サーバープッシュは扱いが難しく、現状あまり普及していない。&lt;/li>
+&lt;/ul></description></item><item><title>HTTP/1.1</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/1.1/</link><pubDate>Wed, 30 Apr 2025 21:17:33 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/1.1/</guid><description>&lt;p>&lt;strong>HTTP/1.1&lt;/strong>は、一般的に使用される&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/about/" >HTTP&lt;/a>のバージョンの１つである。&lt;/p>
+&lt;p>このバージョンでは、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/about/" >HTTP/1.0&lt;/a>の制限の多くを解決し、効率化と機能性を向上した。&lt;/p>
+&lt;h2 id="特徴">特徴
+&lt;/h2>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/about/" >HTTP/1.0&lt;/a>からは、以下の変更があった。&lt;/p>
+&lt;h3 id="持続接続">持続接続
+&lt;/h3>&lt;p>HTTP/1.0ではリクエストごとにTCP接続を初期化してトランスミッション後にはそれを切断していたが、1.1ではKeep-Aliveがデフォルトで有効になった。&lt;/p>
+&lt;p>これにより、同じ接続で複数のリクエストを送信できるため、オーバーヘッドの削減と高速化が可能である。&lt;/p>
+&lt;h3 id="パイプライン処理">パイプライン処理
+&lt;/h3>&lt;p>持続接続のおかげで、一つのTCP接続で&lt;strong>複数のリクエストを同時に送信&lt;/strong>可能となる。
+ただし、レスポンス順序は固定されるため、後続が前の処理を待つ、Head-of-Line Blockingが発生しやすい。&lt;/p>
+&lt;h3 id="hostの必須化">HOSTの必須化
+&lt;/h3>&lt;p>バーチャルホスト（一つのIPに複数のサイト）に対応できるようになった。&lt;/p>
+&lt;pre tabindex="0">&lt;code>HOST: okayugroup.com
+&lt;/code>&lt;/pre>&lt;p>これは、HOSTヘッダによってサーバー側でリクエスト先の判別が可能になったからである。&lt;/p>
+&lt;ul>
+&lt;li>Hostヘッダーフィールドの規定の追加&lt;/li>
+&lt;li>TLSサポート&lt;/li>
+&lt;li>Keep-Aliveのデフォルト化&lt;/li>
+&lt;/ul>
+&lt;h3 id="キャッシュ制御">キャッシュ制御
+&lt;/h3>&lt;p>&lt;code>Cache-Control&lt;/code>, &lt;code>ETag&lt;/code>, &lt;code>If-Modified-Since&lt;/code> など、HTTPキャッシュを制御するための細かいヘッダが導入された。&lt;/p>
+&lt;p>これによって、データの節約とレスポンスの高速化ができた。&lt;/p>
+&lt;h2 id="メソッド">メソッド
+&lt;/h2>&lt;ul>
+&lt;li>GET&lt;/li>
+&lt;li>POST&lt;/li>
+&lt;li>HEAD&lt;/li>
+&lt;li>PUT&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/li>
+&lt;li>DELETE&lt;sup id="fnref1:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/li>
+&lt;li>OPTIONS&lt;/li>
+&lt;li>TRACE&lt;/li>
+&lt;li>CONNECT&lt;/li>
+&lt;/ul>
+&lt;h2 id="歴史">歴史
+&lt;/h2>&lt;ul>
+&lt;li>RFC 2068として1997年に初登場&lt;/li>
+&lt;li>RFC 2616（1999年）で改訂&lt;/li>
+&lt;li>RFC 7230～7235で2014年に仕様が再整理&lt;/li>
+&lt;/ul>
+&lt;p>現代でも一部古いウェブサイトで使用されている。Windows10の&lt;code>curl&lt;/code>ではデフォルトでHTTP/1.1が使用されていたりする。&lt;/p>
+&lt;p>現在の標準は&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/%222%22/" >HTTP/2&lt;/a>であり既に古くなっているものだが、仕組みが単純なために組み込みアプリケーションでも使われることもある。&lt;/p>
+&lt;h2 id="課題点">課題点
+&lt;/h2>&lt;p>HTTP/1.1は多くの改善をもたらしたが、時代が進むにつれて以下のような課題も浮き彫りに：&lt;/p>
+&lt;ul>
+&lt;li>Head-of-Line Blockingにより、同時通信の効率が低下。&lt;/li>
+&lt;li>多数のTCP接続が必要なため、&lt;strong>接続数の制限・ラウンドトリップ遅延が問題&lt;/strong>に。&lt;/li>
+&lt;li>バイナリではなくテキストベースのため、パースに時間がかかる。&lt;/li>
+&lt;/ul>
+&lt;p>これらの課題を解決するために、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/%222%22/" >HTTP/2&lt;/a>や&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/%223%22/" >HTTP/3&lt;/a>が後継として登場した。&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>HTTP/1.0で存在していたが、HTTP/1.1で正式に実装されたもの。&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>HTTP</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/about/</link><pubDate>Mon, 21 Apr 2025 21:13:51 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/about/</guid><description>&lt;p>&lt;strong>HTTP&lt;/strong> (Hypertext Transfer Protocol)は、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/about/" >インターネット&lt;/a>上でアプリケーション間コネクション上を行う、リクエスト／レスポンス型・ステートレス・メッセージ指向通信プロトコルである。&lt;/p>
+&lt;h2 id="概要">概要
+&lt;/h2>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/tcp/about/" >TCP&lt;/a>や&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a> (HTTP/3で関連)は、アプリケーション間のコネクション型通信を提供する(これを&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/about/" >トランスポート層&lt;/a>という)。HTTPは、このコネクション場を、リソースの要求と返答が、メッセージ単位で、１往復のクライアントリクエストとサーバーレスポンスという形で通信される。&lt;br>
 &amp;hellip;と定められている。&lt;/p>
 &lt;p>HTTPの発明によって、インターネットのリソースの公開とアクセスが容易になった。&lt;br>
 クライアントとサーバー間で接続が確立した後にメッセージを送るだけでデータが返ってくるため、これが実現される。&lt;/p>
@@ -28,7 +171,8 @@ World Wide Web
 &lt;/ul>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-http" data-lang="http">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">GET&lt;/span> /index.html &lt;span style="color:#66d9ef">HTTP&lt;/span>&lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#ae81ff">1.0&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="http11">HTTP/1.1
-&lt;/h3>&lt;p>現代で使われるHTTPプロトコルバージョン 1つ目&lt;/p>
+&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/%221.1%22/" >HTTP/1.1&lt;/a>&lt;/p>
+&lt;p>現代で使われるHTTPプロトコルバージョンの1つである。&lt;/p>
 &lt;p>1997年1月に初版が発表された。その後3回改訂され、現在はセマンティクス・キャッシングを除く部分が RFC 9112 で規定されている。&lt;/p>
 &lt;ul>
 &lt;li>Hostヘッダーフィールドの規定が追加された。&lt;/li>
@@ -38,7 +182,8 @@ World Wide Web
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-http" data-lang="http">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">GET&lt;/span> /index.html &lt;span style="color:#66d9ef">HTTP&lt;/span>&lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#ae81ff">1.1&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Host&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#ae81ff">foo.example.com&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="http2">HTTP/2
-&lt;/h3>&lt;p>HTTP/2の目標はHTTP/1.1のトランザクション・セマンティクスとの完全な後方互換性を維持したまま非同期な接続の多重化、ヘッダ圧縮、リクエストとレスポンスのパイプライン化を実現することである。&lt;/p>
+&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/%222%22/" >HTTP/2&lt;/a>&lt;/p>
+&lt;p>HTTP/2の目標はHTTP/1.1のトランザクション・セマンティクスとの完全な後方互換性を維持したまま非同期な接続の多重化、ヘッダ圧縮、リクエストとレスポンスのパイプライン化を実現することである。&lt;/p>
 &lt;ul>
 &lt;li>テキストベースからバイナリベースへ変化した。&lt;/li>
 &lt;li>ストリームを使ったデータ送受信の実現&lt;/li>
@@ -46,12 +191,10 @@ World Wide Web
 &lt;li>ヘッダの圧縮が可能になった。&lt;/li>
 &lt;/ul>
 &lt;h3 id="http3">HTTP/3
-&lt;/h3>&lt;p>HTTP/3ではTCPから&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>というプロトコルに変化した。QUICはUDPソケットの上で通信を行うため、安全性はもともと低かった。その信頼性はQUICが担保しており、TLSにも対応している。&lt;/p>
+&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/%223%22/" >HTTP/3&lt;/a>&lt;/p>
+&lt;p>HTTP/3ではTCPから&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>というプロトコルに変化した。QUICはUDPソケットの上で通信を行うため、安全性はもともと低かった。その信頼性はQUICが担保しており、TLSにも対応している。&lt;/p>
 &lt;ul>
-&lt;li>&lt;span class="dead-link">
-TCP
-&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
-&lt;/span>から&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>へプロトコルを変更。&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/tcp/about/" >TCP&lt;/a>から&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>へプロトコルを変更。&lt;/li>
 &lt;li>ハンドシェイクの高速化&lt;/li>
 &lt;li>通信がすべてTLS 1.3によって暗号化される。&lt;/li>
 &lt;/ul></description></item></channel></rss>
