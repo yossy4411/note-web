@@ -1,5 +1,6 @@
 import re
 from pathlib import Path
+from urllib.parse import unquote
 
 def resolve_path(original_path):
     # ..みたいな相対パスを消す
@@ -99,9 +100,11 @@ if __name__ == '__main__':
                         # ここで、相対パスを絶対パスに変換する処理を行う
                         # 例えば、URLが "/blog/example.md" から飛ぶ "../docs/guide.md" のリンクの場合、"/docs/guide.md" に変換する
                         if path == "/":
-                            file_url = f"{original_url}"
+                            file_url_encoded = f"{original_url}"
                         else:
-                            file_url = f"{path}/{original_url}"
+                            file_url_encoded = f"{path}/{original_url}"
+                        # ここで、URLエンコードをデコードする
+                        file_url = unquote(file_url_encoded)
                         # さらに、相対パス表記を消す
                         file_url_absolute = resolve_path(file_url)
                         match = re.search(r'(.+?\.md)#(.+)', file_url_absolute)
