@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yossy4411のノート</title><link>https://yossy4411.okayugroup.net/</link><description>Recent content on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Thu, 01 May 2025 20:13:05 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/index.xml" rel="self" type="application/rss+xml"/><item><title>Web2.0</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/web/2/about/</link><pubDate>Thu, 01 May 2025 20:13:05 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/web/2/about/</guid><description>&lt;p>&lt;strong>Web 2.0&lt;/strong>、または&lt;strong>Web2&lt;/strong>は、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/web/1/about/" >Web1.0&lt;/a>から進化し、ウェブサイトにユーザーが参加することができるようになった時代を指す語である。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yossy4411のノート</title><link>https://yossy4411.okayugroup.net/</link><description>Recent content on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Fri, 02 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年05月02日(金)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-02/</link><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-02/</guid><description>&lt;h2 id="今日の体調">今日の体調
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>体調&lt;/th>
+&lt;th>元気&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>就寝&lt;/td>
+&lt;td>23:00&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>起床&lt;/td>
+&lt;td>6:30&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>朝食&lt;/td>
+&lt;td>6:50&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>天気痛&lt;/td>
+&lt;td>false&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;h3 id="ogsp-server-nodeとか">OGSP Server Nodeとか
+&lt;/h3>&lt;p>&lt;span class="dead-link">
+OGSP Server Node
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>にて、ドキュメントを用意するんやで&lt;/p>
+&lt;h2 id="メモ">メモ
+&lt;/h2>&lt;p>そういえば、この頃全体的に「〜だ。」の口調でWikiっぽく書いてるんですけど、「〜です。」「〜ます。」とか「〜だよ」でカジュアルに攻めってったほうが良いんかな？と思いまして。&lt;/p>
+&lt;p>まあでも一番書きやすくて、論文とかにするときも使い勝手が良いので「〜だ。」で良いと思うんですけどね。&lt;strong>コメントよろ。&lt;/strong>&lt;/p></description></item><item><title>Web2.0</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/web/2/about/</link><pubDate>Thu, 01 May 2025 20:13:05 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/web/2/about/</guid><description>&lt;p>&lt;strong>Web 2.0&lt;/strong>、または&lt;strong>Web2&lt;/strong>は、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/web/1/about/" >Web1.0&lt;/a>から進化し、ウェブサイトにユーザーが参加することができるようになった時代を指す語である。&lt;/p>
 &lt;p>読み方は、主に&lt;strong>ウェブツー&lt;/strong>と呼ばれることが多い。&lt;/p>
 &lt;h2 id="概要">概要
 &lt;/h2>&lt;p>Web2は、2004年頃から2010年代中盤から始まり、今のインターネットの主役となる立ち位置に君臨している。Tim O&amp;rsquo;Reillyが初出とされるワードで、この後に&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/web/1/about/" >Web1.0&lt;/a>という単語が造られた。&lt;/p>
@@ -37,7 +72,10 @@
 &lt;h2 id="補足">補足
 &lt;/h2>&lt;p>Web 1.0という用語は、一般的にあまり用いられていない。これは、Web 1.0という単語が、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/web/2/about/" >Web 2.0&lt;/a>の概念ができてから後付けされたからである。&lt;/p>
 &lt;p>Web 2.0が発達してから、それ以前をなんと呼ぶかと議論になったときに決まったのだと思うが、詳しくは知らない。&lt;/p></description></item><item><title>2025年5月</title><link>https://yossy4411.okayugroup.net/diary/2025-05/</link><pubDate>Thu, 01 May 2025 18:21:27 +0900</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/</guid><description>&lt;h2 id="日記">日記
-&lt;/h2></description></item><item><title>2025年05月01日(木)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-01/</link><pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-01/</guid><description>&lt;h2 id="今日の体調">今日の体調
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-02/" >2025-05-02&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-01/" >2025-05-01&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>2025年05月01日(木)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-01/</link><pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-01/</guid><description>&lt;h2 id="今日の体調">今日の体調
 &lt;/h2>&lt;p>授業中寝とるわ&lt;/p>
 &lt;table>
 &lt;thead>
@@ -66,8 +104,8 @@
 &lt;/tbody>
 &lt;/table>
 &lt;h2 id="今日の作業">今日の作業
-&lt;/h2>&lt;h3 id="ノート整理">ノート整理
-&lt;/h3>&lt;p>Web3系を書いたつもりです。&lt;/p></description></item><item><title>HTTP/3</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/3/</link><pubDate>Wed, 30 Apr 2025 22:52:22 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/3/</guid><description>&lt;p>&lt;strong>HTTP/3&lt;/strong> は、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/%222%22/" >HTTP2&lt;/a>に続く&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/about/" >HTTP&lt;/a>の3つ目のメジャーバージョンであり、最新版である。2022年に RFC 9114 によって正式化された。&lt;/p>
+&lt;/h2>&lt;h3 id="web系を書く">Web系を書く
+&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/web/1/about/" >Web1.0&lt;/a>とか&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/web/2/about/" >Web2&lt;/a>について書きました。&lt;/p></description></item><item><title>HTTP/3</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/3/</link><pubDate>Wed, 30 Apr 2025 22:52:22 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/3/</guid><description>&lt;p>&lt;strong>HTTP/3&lt;/strong> は、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/%222%22/" >HTTP2&lt;/a>に続く&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/about/" >HTTP&lt;/a>の3つ目のメジャーバージョンであり、最新版である。2022年に RFC 9114 によって正式化された。&lt;/p>
 &lt;h2 id="概要">概要
 &lt;/h2>&lt;p>HTTP/3は、RFCドラフト「HTTP over QUIC」をベースとしている。&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>はGoogleによってはじめに開発された、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/about/" >トランスポート層&lt;/a>のプロトコルである。&lt;/p>
 &lt;p>もっとも、通信プロトコルの基盤が&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/tcp/about/" >TCP&lt;/a>から&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/udp/about/" >UDP&lt;/a>ベースの&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>に変化したことが最大の変化である。&lt;/p>
@@ -908,7 +946,7 @@ TCP/IP
 &lt;li>4G&lt;/li>
 &lt;li>5G&lt;/li>
 &lt;li>LoRa&lt;/li>
-&lt;/ul></description></item><item><title>World Wide Web</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/web/about/</link><pubDate>Sun, 20 Apr 2025 11:05:49 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/web/about/</guid><description>&lt;p>&lt;strong>World Wide Web&lt;/strong>は、[[インターネット]]で提供されるハイパーテキストシステムである。&lt;/p>
+&lt;/ul></description></item><item><title>World Wide Web</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/web/about/</link><pubDate>Sun, 20 Apr 2025 11:05:49 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/web/about/</guid><description>&lt;p>&lt;strong>World Wide Web&lt;/strong>は、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/about/" >インターネット&lt;/a>で提供されるハイパーテキストシステムである。&lt;/p>
 &lt;p>これより下ではWorld Wide WebをW3と呼ぶこととする。&lt;/p>
 &lt;h2 id="概要">概要
 &lt;/h2>&lt;p>W3のウェブページの記述にはHTMLやXHTMLなどのハイパーテキストのマークアップ言語が使用される。&lt;/p>
@@ -919,10 +957,7 @@ TCP/IP
 ウェブクライアントのうちで、利用者による閲覧を目的としたものを特にウェブブラウザと呼んでいるのだが、そうでないものにはcurlやwget、&lt;code>requests&lt;/code>(Python) などがある。&lt;/p>
 &lt;p>1990年代のマルチメディアブームで最も普及したシステムの1つだが、今でも仕様が更新され続けている。&lt;/p>
 &lt;p>今ではハイパーテキストだけでなくバイナリを渡すようになっていたり、昔の枠組みを超えるような仕様が出てきたりしていて、アプリケーションの基盤をウェブ化することも行われている。&lt;/p>
-&lt;p>&lt;span class="dead-link">
-インターネット
-&lt;span style="font-size: 1rem">（リンク切れ）&lt;/span>
-&lt;/span>とW3は非常に混同されやすい。詳しくは&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/about/" >インターネット#インターネットとWebの違い&lt;/a>を参照。&lt;/p>
+&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/about/" >インターネット&lt;/a>とW3は非常に混同されやすい。詳しくは&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/about/" >インターネット#インターネットとWebの違い&lt;/a>を参照。&lt;/p>
 &lt;h2 id="名称について">名称について
 &lt;/h2>&lt;p>World Wide Webの名称は、それぞれの単語を次のように展開できる。&lt;/p>
 &lt;table>
@@ -1104,7 +1139,7 @@ LAN間の通信交換ができれば、それはインターネットと呼べ�
 &lt;li>RDP&lt;/li>
 &lt;/ul>
 &lt;h2 id="インターネットとwebの違い">インターネットとWebの違い
-&lt;/h2>&lt;p>しばしば混同されがちだが、インターネットは&lt;strong>通信網そのもの&lt;/strong>であり、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/web/about/" >World Wide Web (ウェブ)&lt;/a> はその上で動く&lt;strong>サービスの一つ&lt;/strong>である。たとえば、メール、ファイル転送、オンラインゲームもインターネット上のサービスだ。&lt;/p>
+&lt;/h2>&lt;p>しばしば混同されがちだが、インターネットは&lt;strong>通信網そのもの&lt;/strong>であり、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/web/about/" >World Wide Web&lt;/a> はその上で動く&lt;strong>サービスの一つ&lt;/strong>である。たとえば、メール、ファイル転送、オンラインゲームもインターネット上のサービスだ。&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>インターネット&lt;/strong>
 コンピューター同士が相互に接続する通信網。&lt;/li>
