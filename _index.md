@@ -23,7 +23,9 @@ title = ''
 ## GitHub Repo
 このノートはGitHubとObsidianによって、[こちら](https://github.com/yossy4411/note)にて公開されています。  
 ノートの内容はCC0ライセンスで公開されており、自由に利用できます。ただし、画像や商標権はその著作者に帰属しますので、注意してください。  
-なお、[/develop/knowledge/](/develop/knowledge/)ディレクトリ内に関しては[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)ライセンスをかけています。ご注意ください。
+
+> [!WARNING]
+> なお、[/develop/knowledge/](/develop/knowledge/)ディレクトリ内に関しては[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)ライセンスをかけています。ご注意ください。
 
 また、このウェブサイト自体はHugoによって静的に管理されており、ソースコードは[GitHub](https://github.com/yossy4411/note-web)に公開されています。  
 毎日朝6時と夜18時に自動でビルドされており、最新の情報が反映されています。
