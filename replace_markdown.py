@@ -8,7 +8,10 @@ def resolve_path(original_path):
         if a == ".":
             continue
         elif a == "..":
-            result.pop()
+            if len(result) > 0:
+                result.pop()
+            else:
+                print("Warning: ..が多すぎるようです。無効として扱います。")
         else:
             result.append(a)
 
