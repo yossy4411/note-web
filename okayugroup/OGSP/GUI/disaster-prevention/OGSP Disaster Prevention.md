@@ -8,10 +8,9 @@ aliases:
   - dp
 date: 2025-04-07T22:37:43+09:00
 lastmod: 2025-04-09
-draft: true
-showContent: false
+draft: false
+showContent: true
 slug: about
-moc: true
 ---
 ## 特徴
 このプロジェクトの最大の特徴は、[Rust](../../../../develop/Knowledge/lang/Rust/Rust.md)のメモリ安全性[^1]と高速性を活用した軽量な動作だと思います。  

@@ -6,8 +6,8 @@ tags:
 aliases: 
 date: 2025-05-01T21:36:14+09:00
 lastmod: 2025-05-01T21:36:14+09:00
-draft: true
-showContent: false
+draft: false
+showContent: true
 slug:
 ---
 **OGSP Server Node** (**おかゆグループ地震計プロジェクト サーバーノード**)は、[OGSP Disaster Network](../disaster-network/OGSP%20Disaster%20Network.md)におけるサーバー層のノードを提供するプログラムの総称である。
