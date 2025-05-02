@@ -28,10 +28,7 @@
 しかも、この操作は中央の組織に託されているため、一度プラットフォーム上でBANされたら、もう「終了」である。意図しないものであっても、だ。&lt;/p>
 &lt;h2 id="問題の解決に向けて">問題の解決に向けて
 &lt;/h2>&lt;p>これらの問題を解決するための新しい思想が、Web3である。&lt;/p>
-&lt;p>Web3が実現した場所はごく少数であるが、この達成に向けて多数のオープンソースコミュニティや企業が動いていることもまた事実だ。&lt;/p></description></item><item><title>Web1.0</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/web/1/about/</link><pubDate>Thu, 01 May 2025 19:59:00 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/web/1/about/</guid><description>&lt;p>&lt;strong>Web 1.0&lt;/strong>は、現代の&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/web/2/about/" >Web2&lt;/a>やWeb3よりも前の時代の&lt;span class="dead-link">
-Web
-&lt;span style="font-size: 1rem">（リンク切れ）&lt;/span>
-&lt;/span>を示す語である。&lt;/p>
+&lt;p>Web3が実現した場所はごく少数であるが、この達成に向けて多数のオープンソースコミュニティや企業が動いていることもまた事実だ。&lt;/p></description></item><item><title>Web1.0</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/web/1/about/</link><pubDate>Thu, 01 May 2025 19:59:00 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/web/1/about/</guid><description>&lt;p>&lt;strong>Web 1.0&lt;/strong>は、現代の&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/web/2/about/" >Web2&lt;/a>やWeb3よりも前の時代の&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/web/about/" >Web&lt;/a>を示す語である。&lt;/p>
 &lt;p>正式な読み方はウェブ ワン・ドット・ゼロであるが、&lt;strong>ウェブワン&lt;/strong>や&lt;strong>ウェブいってんぜろ&lt;/strong>と呼ばれることもある。&lt;/p>
 &lt;h2 id="概要">概要
 &lt;/h2>&lt;p>Web 1.0は主に1990年代から2000年代前半でよくあった形式の、読み取り専用のウェブサイトのことを指す。この時代には、ブログや企業発信が活発化してきたという背景がある。&lt;/p>
@@ -313,9 +310,7 @@ TCP/IP
 &lt;h2 id="概要">概要
 &lt;/h2>&lt;p>OGSP Disaster Networkでは、大きく分けてサーバー層、センサー層、レシーバ層の3つのレイヤーがある。サーバーを介して相互に通信が可能であり、これらすべてのレイヤーがWeb3のノードとして機能する。&lt;/p>
 &lt;p>これらのレイヤーは、次のイラストのように結びついている。&lt;/p>
-&lt;p>&lt;img src="https://yossy4411.okayugroup.net/assets/Pasted%20image%2020250429230205.png"
-loading="lazy"
->&lt;/p>
+&lt;p>![](/assets/Pasted image 20250429230205.png)&lt;/p>
 &lt;p>センサーとサーバー間は速度を最優先としており、UDPで投げるだけである。このため、安全性は担保されない。あくまで「送信するためのデバイス」として捉えるのが正しい。&lt;br>
 だがここには、トークンの認証などでセキュリティ上のリスクがあると言える。&lt;/p>
 &lt;p>サーバー層とレシーバ層では主に&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/about/" >HTTP/3&lt;/a>を使用し、完全な暗号化を使用できる。&lt;/p>
@@ -617,10 +612,7 @@ loading="lazy"
 &amp;hellip;と定められている。&lt;/p>
 &lt;p>HTTPの発明によって、インターネットのリソースの公開とアクセスが容易になった。&lt;br>
 クライアントとサーバー間で接続が確立した後にメッセージを送るだけでデータが返ってくるため、これが実現される。&lt;/p>
-&lt;p>HTTPの発明目的であり、今でも使用されている場面が&lt;span class="dead-link">
-World Wide Web
-&lt;span style="font-size: 1rem">（リンク切れ）&lt;/span>
-&lt;/span>である。WebサーバーとWebブラウザは通常HTTPで通信し、返ってきたデータからページを組み立ててブラウザが表示している。&lt;/p>
+&lt;p>HTTPの発明目的であり、今でも使用されている場面が&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/web/about/" >World Wide Web&lt;/a>である。WebサーバーとWebブラウザは通常HTTPで通信し、返ってきたデータからページを組み立ててブラウザが表示している。&lt;/p>
 &lt;h2 id="歴史">歴史
 &lt;/h2>&lt;p>イギリスの物理学者ティム・バーナーズ＝リーは1990年末、ロバート・カイリューと共に初のWebブラウザとWebサーバを作成した。ブラウザには通信をするためのプロトコルが必要だったので、二人はHTTPの最初期のバージョン(HTTP/0.x) を設計した。&lt;/p>
 &lt;p>以来インターネットの大部分をHTTP通信が占めるようになり、1998年にはインターネット上の通信の75%がHTTPによるものになった。&lt;/p>
@@ -695,9 +687,7 @@ World Wide Web
 &lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;h3 id="何だこれ">何だこれ！！！
 &lt;/h3>&lt;p>「俺のこと静的に見てる人いいね見た人もやる」&lt;/p>
-&lt;p>&lt;img src="https://yossy4411.okayugroup.net/assets/Pasted%20image%2020250421210554.png"
-loading="lazy"
->&lt;/p>
+&lt;p>![](/assets/Pasted image 20250421210554.png)&lt;/p>
 &lt;p>一応解説しておくと、サーバー側に存在するHTMLファイルは多くの場合に静的です。&lt;/p>
 &lt;h3 id="はよアプリつくれ">はよアプリつくれ
 &lt;/h3>&lt;p>受験生なんだからタスクは早めに終わらせておけ。&lt;/p></description></item><item><title>UDP</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/udp/about/</link><pubDate>Mon, 21 Apr 2025 00:01:13 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/udp/about/</guid><description>&lt;p>&lt;strong>User Datagram Protocol&lt;/strong>（ユーザ データグラム プロトコル、&lt;strong>UDP&lt;/strong>）は&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/protocol/about/" >IP&lt;/a>ネットワーク上のアプリケーション間データグラム送信を実現する通信プロトコルである。&lt;/p>
@@ -805,10 +795,7 @@ loading="lazy"
 &lt;/h2>&lt;p>TCPは通信プロトコルである。&lt;br>
 TCPではポート、ソケット、コネクションの概念が導入され、IPネットワークのホスト上にあるアプリケーション同士がコネクションを通じて通信する。&lt;br>
 確立されたコネクションは、TCPが定める制御機構によって到着が保証され、破壊（エラー）が検出され、流量や輻輳が制御されており、これを通信路としてバイトストリームが伝達される。&lt;/p>
-&lt;p>TCPを用いることで、インターネットにおける到達保証付きアプリケーション間メッセージ通信が可能になる。このため、ファイル転送や電子メール、&lt;span class="dead-link">
-World Wide Web
-&lt;span style="font-size: 1rem">（リンク切れ）&lt;/span>
-&lt;/span>、リモートデバイス管理などの様々な&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/about/" >インターネットアプリケーション&lt;/a>で使用される。&lt;/p>
+&lt;p>TCPを用いることで、インターネットにおける到達保証付きアプリケーション間メッセージ通信が可能になる。このため、ファイル転送や電子メール、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/web/about/" >World Wide Web&lt;/a>、リモートデバイス管理などの様々な&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/about/" >インターネットアプリケーション&lt;/a>で使用される。&lt;/p>
 &lt;h3 id="特徴">特徴
 &lt;/h3>&lt;h3 id="コネクションの確立3-way-ハンドシェイク">コネクションの確立（3-way ハンドシェイク）
 &lt;/h3>&lt;p>通信前にクライアントとサーバー間で接続を確立する。これにより、信頼できる通信チャネルが形成される。&lt;/p>
@@ -1117,10 +1104,7 @@ LAN間の通信交換ができれば、それはインターネットと呼べ�
 &lt;li>RDP&lt;/li>
 &lt;/ul>
 &lt;h2 id="インターネットとwebの違い">インターネットとWebの違い
-&lt;/h2>&lt;p>しばしば混同されがちだが、インターネットは&lt;strong>通信網そのもの&lt;/strong>であり、&lt;span class="dead-link">
-World Wide Web (ウェブ)
-&lt;span style="font-size: 1rem">（リンク切れ）&lt;/span>
-&lt;/span> はその上で動く&lt;strong>サービスの一つ&lt;/strong>である。たとえば、メール、ファイル転送、オンラインゲームもインターネット上のサービスだ。&lt;/p>
+&lt;/h2>&lt;p>しばしば混同されがちだが、インターネットは&lt;strong>通信網そのもの&lt;/strong>であり、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/web/about/" >World Wide Web (ウェブ)&lt;/a> はその上で動く&lt;strong>サービスの一つ&lt;/strong>である。たとえば、メール、ファイル転送、オンラインゲームもインターネット上のサービスだ。&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>インターネット&lt;/strong>
 コンピューター同士が相互に接続する通信網。&lt;/li>
@@ -1522,16 +1506,12 @@ World Wide Web (ウェブ)
 &lt;/tbody>
 &lt;/table>
 &lt;p>今日まじ寒かったよな？自転車漕いでて凍えそうなったで&lt;/p>
-&lt;p>&lt;img src="https://yossy4411.okayugroup.net/assets/Pasted%20image%2020250415211001.png"
-loading="lazy"
->&lt;/p>
+&lt;p>![](/assets/Pasted image 20250415211001.png)&lt;/p>
 &lt;p>12℃、そりゃ寒いわ&lt;/p>
 &lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;h3 id="jsmの開発">&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/about/" >JSM&lt;/a>の開発
 &lt;/h3>&lt;p>いつもどおり。本当に最近はこれ一強です。なんかマイクラワールドで鉄道を作るらしく、それにぴったりな設計にしたいですよね。（またタスクが増えた）&lt;/p>
-&lt;p>&lt;img src="https://yossy4411.okayugroup.net/assets/Pasted%20image%2020250415210652.png"
-loading="lazy"
->&lt;/p>
+&lt;p>![](/assets/Pasted image 20250415210652.png)&lt;/p>
 &lt;p>どうです？グリッドを調整したんですよ。褒めてくれ。&lt;/p></description></item><item><title>2025年04月14日(月)</title><link>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-14/</link><pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-14/</guid><description>&lt;h2 id="体調">体調
 &lt;/h2>&lt;p>バチクソ眠いっす&lt;/p>
 &lt;table>
@@ -1575,9 +1555,7 @@ loading="lazy"
 挙げ句の果てに、使っていたmacroquadのTexture2Dの生成はメインスレッドじゃないといけないわけです。&lt;/p>
 &lt;p>むっずっず、やっぱやーめた&lt;/p>
 &lt;h2 id="journeystreetmapにグリッドを追加">JourneyStreetMapにグリッドを追加
-&lt;/h2>&lt;p>&lt;img src="https://yossy4411.okayugroup.net/assets/Pasted%20image%2020250414233506.png"
-loading="lazy"
->&lt;/p>
+&lt;/h2>&lt;p>![](/assets/Pasted image 20250414233506.png)&lt;/p>
 &lt;p>バグだらけだし、見づらいし、横線に至っては実装できてない。&lt;br>
 すぐ直せるんだけど、もう眠いしやめます。&lt;/p></description></item><item><title>GitHub Copilot</title><link>https://yossy4411.okayugroup.net/develop/knowledge/ai/github-copilot/</link><pubDate>Sun, 13 Apr 2025 16:00:53 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/ai/github-copilot/</guid><description>&lt;h2 id="概要">概要
 &lt;/h2>&lt;p>GitHub CopilotはMicrosoftが開発した、コーディングに特化した&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/ai/about/" >AI&lt;/a>。&lt;/p>
@@ -1593,10 +1571,7 @@ loading="lazy"
 または、言語の理解や推論、問題解決などの知的行動を人間の代わりにコンピューターに行わせる技術を指す。&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
 &lt;p>最近のAIの技術の成長速度は非常に速く、4日ごとにトレンドが入れ替わると言って良い程（私見）です。&lt;/p>
 &lt;h2 id="コーディング">コーディング
-&lt;/h2>&lt;p>&lt;span class="dead-link">
-GitHub Copilot
-&lt;span style="font-size: 1rem">（リンク切れ）&lt;/span>
-&lt;/span>やCursorを使うことで、AIによってコーディングを自動化できる。&lt;/p>
+&lt;/h2>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/ai/" >GitHub Copilot&lt;/a>やCursorを使うことで、AIによってコーディングを自動化できる。&lt;/p>
 &lt;p>便利な反面、これには良くない点もあるかと思う。&lt;br>
 ↪ &lt;span class="dead-link">
 AIにコード書かせてる奴ら、それでいいの？
@@ -1653,9 +1628,7 @@ WebGPU
 &lt;/h2>&lt;p>今日から毎日体調について書こうと思います。
 グラフ化したらめっちゃオモロそう&lt;/p>
 &lt;p>今日は天気痛のせいで頭痛がしました。&lt;/p>
-&lt;p>&lt;img src="https://yossy4411.okayugroup.net/assets/Pasted%20image%2020250413114933.png"
-loading="lazy"
->&lt;/p>
+&lt;p>![](/assets/Pasted image 20250413114933.png)&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -2092,7 +2065,7 @@ alt="リリースの中で不安定だけど開発が一区切り着いたとき
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/about/" >OGSP&lt;/a>&lt;/li>
 &lt;li>&lt;span class="dead-link">
 OGSP Disaster Prevention
-&lt;span style="font-size: 1rem">（リンク切れ）&lt;/span>
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
 &lt;/span>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/about/" >EarthQuake.desktop&lt;/a>&lt;/li>
 &lt;li>&lt;span class="dead-link">
@@ -2122,17 +2095,12 @@ WebGPU
 今後このノートに勉強系も追加する可能性もなきにしもアラブ首長国連邦。&lt;br>
 特に江戸時代ね。世界史・地理は多分行ける。&lt;/p>
 &lt;h2 id="広告審査が通った話">広告審査が通った話
-&lt;/h2>&lt;p>&lt;img src="https://yossy4411.okayugroup.net/assets/Pasted%20image%2020250408215622.png"
-loading="lazy"
-alt="okayugroup.net サイトに広告を表示できる状態です"
->
+&lt;/h2>&lt;p>![okayugroup.net サイトに広告を表示できる状態です](/assets/Pasted image 20250408215622.png)
 長かった。本当に長かった。&lt;/p>
 &lt;p>あとはここから&lt;br>
 イ ン プ レ 数 を 伸 ば す だ け で す ね 。&lt;br>
 ↑実質一番つらいのはこれ
-&lt;img src="https://yossy4411.okayugroup.net/assets/Pasted%20image%2020250408215823.png"
-loading="lazy"
->
+![](/assets/Pasted image 20250408215823.png)
 ガチで稼いでる感ハンパねぇｗｗｗ&lt;/p></description></item><item><title>yossy4411に関する情報</title><link>https://yossy4411.okayugroup.net/about-me/</link><pubDate>Mon, 07 Apr 2025 22:50:08 +0900</pubDate><guid>https://yossy4411.okayugroup.net/about-me/</guid><description>&lt;h2 id="github">GitHub
 &lt;/h2>&lt;p>(&lt;a class="link" href="https://github.com/yossy4411/yossy4411/blob/main/README.md?plain=1" target="_blank" rel="noopener"
 >GitHub&lt;/a>よりコピー)&lt;/p>
@@ -2334,7 +2302,7 @@ GUIフレームワーク: Avalonia + SkiaSharp
 >GitHub&lt;/a>&lt;/p>
 &lt;h3 id="hahahugoshortcode112s0hbhb">&lt;span class="dead-link">
 OGSP Disaster Prevention
-&lt;span style="font-size: 1rem">（リンク切れ）&lt;/span>
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
 &lt;/span>
 &lt;/h3>&lt;p>パフォーマンスを最大化した最新鋭の設計&lt;br>
 言語: &lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/about/" >Rust&lt;/a>
@@ -2410,9 +2378,7 @@ publish_branch: gh-pages
 &lt;li>トップページの追加&lt;/li>
 &lt;li>左サイドのメニューの追加&lt;/li>
 &lt;li>ソーシャルアイコンの追加
-&lt;img src="https://yossy4411.okayugroup.net/assets/Pasted%20image%2020250405155132.png"
-loading="lazy"
->&lt;/li>
+![](/assets/Pasted image 20250405155132.png)&lt;/li>
 &lt;/ul>
 &lt;h3 id="buy-me-a-coffeeの登録">Buy Me a Coffeeの登録
 &lt;/h3>&lt;p>まず銀行口座が要るらしい。
@@ -2517,10 +2483,7 @@ println!関数に渡ったあと、その関数内でスコープを抜けると
 &lt;li>Web版のノートを作る&lt;/li>
 &lt;/ul>
 &lt;p>&lt;strong>82 Contributions!?&lt;/strong>
-&lt;img src="https://yossy4411.okayugroup.net/assets/Pasted%20image%2020250405154547.png"
-loading="lazy"
-alt="82 contributionsって書いてる画像"
->&lt;/p></description></item><item><title>怪しいXアカウントの調査結果</title><link>https://yossy4411.okayugroup.net/favorite/stpr/stpr-family-festival-account/</link><pubDate>Thu, 03 Apr 2025 20:44:39 +0900</pubDate><guid>https://yossy4411.okayugroup.net/favorite/stpr/stpr-family-festival-account/</guid><description>&lt;p>Xで&lt;a class="link" href="https://yossy4411.okayugroup.net/favorite/stpr/about/" >STPR&lt;/a> Family Festivalの詐欺を行うアカウントを見つけたので調査報告。&lt;/p>
+![82 contributionsって書いてる画像](/assets/Pasted image 20250405154547.png)&lt;/p></description></item><item><title>怪しいXアカウントの調査結果</title><link>https://yossy4411.okayugroup.net/favorite/stpr/stpr-family-festival-account/</link><pubDate>Thu, 03 Apr 2025 20:44:39 +0900</pubDate><guid>https://yossy4411.okayugroup.net/favorite/stpr/stpr-family-festival-account/</guid><description>&lt;p>Xで&lt;a class="link" href="https://yossy4411.okayugroup.net/favorite/stpr/about/" >STPR&lt;/a> Family Festivalの詐欺を行うアカウントを見つけたので調査報告。&lt;/p>
 &lt;h2 id="結論調査結果">結論：調査結果
 &lt;/h2>&lt;ul>
 &lt;li>メアドの入力の時点では特に何も起こらないが、今後そのメアドが悪用される可能性あり&lt;/li>
@@ -2569,7 +2532,7 @@ Pythonでやるのも難しそうだし、そもそも需要がなさそうだ�
 &lt;/h2>&lt;ul>
 &lt;li>&lt;span class="dead-link">
 ] [OGSP Disaster Prevention
-&lt;span style="font-size: 1rem">（リンク切れ）&lt;/span>
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
 &lt;/span>&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> プロジェクト管理を容易にしよう&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> PMTiles.NETにWriteの処理を追加&lt;/li>

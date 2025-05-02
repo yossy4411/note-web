@@ -150,10 +150,7 @@ TCP/IP
 &amp;hellip;と定められている。&lt;/p>
 &lt;p>HTTPの発明によって、インターネットのリソースの公開とアクセスが容易になった。&lt;br>
 クライアントとサーバー間で接続が確立した後にメッセージを送るだけでデータが返ってくるため、これが実現される。&lt;/p>
-&lt;p>HTTPの発明目的であり、今でも使用されている場面が&lt;span class="dead-link">
-World Wide Web
-&lt;span style="font-size: 1rem">（リンク切れ）&lt;/span>
-&lt;/span>である。WebサーバーとWebブラウザは通常HTTPで通信し、返ってきたデータからページを組み立ててブラウザが表示している。&lt;/p>
+&lt;p>HTTPの発明目的であり、今でも使用されている場面が&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/web/about/" >World Wide Web&lt;/a>である。WebサーバーとWebブラウザは通常HTTPで通信し、返ってきたデータからページを組み立ててブラウザが表示している。&lt;/p>
 &lt;h2 id="歴史">歴史
 &lt;/h2>&lt;p>イギリスの物理学者ティム・バーナーズ＝リーは1990年末、ロバート・カイリューと共に初のWebブラウザとWebサーバを作成した。ブラウザには通信をするためのプロトコルが必要だったので、二人はHTTPの最初期のバージョン(HTTP/0.x) を設計した。&lt;/p>
 &lt;p>以来インターネットの大部分をHTTP通信が占めるようになり、1998年にはインターネット上の通信の75%がHTTPによるものになった。&lt;/p>

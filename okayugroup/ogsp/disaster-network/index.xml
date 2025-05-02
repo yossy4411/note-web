@@ -2,9 +2,7 @@
 &lt;h2 id="概要">概要
 &lt;/h2>&lt;p>OGSP Disaster Networkでは、大きく分けてサーバー層、センサー層、レシーバ層の3つのレイヤーがある。サーバーを介して相互に通信が可能であり、これらすべてのレイヤーがWeb3のノードとして機能する。&lt;/p>
 &lt;p>これらのレイヤーは、次のイラストのように結びついている。&lt;/p>
-&lt;p>&lt;img src="https://yossy4411.okayugroup.net/assets/Pasted%20image%2020250429230205.png"
-loading="lazy"
->&lt;/p>
+&lt;p>![](/assets/Pasted image 20250429230205.png)&lt;/p>
 &lt;p>センサーとサーバー間は速度を最優先としており、UDPで投げるだけである。このため、安全性は担保されない。あくまで「送信するためのデバイス」として捉えるのが正しい。&lt;br>
 だがここには、トークンの認証などでセキュリティ上のリスクがあると言える。&lt;/p>
 &lt;p>サーバー層とレシーバ層では主に&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/about/" >HTTP/3&lt;/a>を使用し、完全な暗号化を使用できる。&lt;/p>
