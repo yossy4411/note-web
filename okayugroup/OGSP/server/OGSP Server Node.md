@@ -35,7 +35,7 @@ OGSP Server NodeはWeb3の実現のためにサーバー同士でP2Pを構築す
 
 この特性を利用して、AIの推論をより高速に完了したり、より精度の高い震源特定などの計算を実行したりできる。
 ### 3. ブロックチェーンでの信頼性の確保
-収集したデータ計算処理の結果と
+センサーから収集したデータとデータの計算処理の結果は、ブロックチェーンに書き込まれ、定期的にP2Pで
 ### 4. APIハンドリング
 OGSP Server Nodeは"偏らないデータを簡単に取得できること"を目標とするため、データを取得するための方法としてAPIを提供する。
 
@@ -76,3 +76,22 @@ OGSP Server Nodeのコードはオープンソースであり、GitHubで公開�
 これに対応するためには、最も手っ取り早い方法としては**予報業務をしない**ことである。代わりに、地震計の加速度を直接配信するなどの方法を使う。
 
 また、気象庁に特別に許可を貰うことも方法としては考えられるが、それはハードルが高すぎるのでまだ挑戦はしない。
+
+## 開発
+### 開発環境
+OGSP Server Official Nodeの開発環境は以下のとおりである。
+
+- Go
+- [go-libp2p](https://github.com/libp2p/go-libp2p) - libp2pの公式Go実装
+- [quic-go](https://github.com/quic-go/quic-go/) - [QUIC](../../../develop/Knowledge/internet/transport/quic/QUIC.md)と[HTTP/3](../../../develop/Knowledge/internet/application/http/HTTP3.md)のGo実装
+- [echo](https://github.com/labstack/echo) - 高パフォーマンスのGoサーバーフレームワーク
+- [Nix](https://github.com/NixOS/nix) - 環境ツール
+
+### GitHub Repository
+公式のものは、[GitHub - okayugroup/ogsp-server-node](https://github.com/okayugroup/ogsp-server-node)である。（現在は非公開）
+
+また、このリポジトリをフォークして独自のサーバーノードを作成することも許可されている。
+### Contribution
+また、IssueやPRを開いて開発に貢献 (Contribute) することもできる。
+
+この辺りのプロジェクトの整理は、容易ができ次第**ナレッジベースツールで公開**する予定。
