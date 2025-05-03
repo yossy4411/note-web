@@ -8,10 +8,7 @@
 &lt;/ul>
 &lt;h2 id="検討中">検討中
 &lt;/h2>&lt;ul>
-&lt;li>&lt;span class="dead-link">
-] [OGSP Disaster Prevention
-&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
-&lt;/span>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> &lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/disaster-prevention/about/" >OGSP Disaster Prevention&lt;/a>&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> プロジェクト管理を容易にしよう&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> PMTiles.NETにWriteの処理を追加&lt;/li>
 &lt;/ul>

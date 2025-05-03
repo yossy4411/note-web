@@ -755,10 +755,7 @@ GC
 &lt;/h3>&lt;p>これらに情報を書き加えました。&lt;/p>
 &lt;ul>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/about/" >OGSP&lt;/a>&lt;/li>
-&lt;li>&lt;span class="dead-link">
-OGSP Disaster Prevention
-&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
-&lt;/span>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/disaster-prevention/about/" >OGSP Disaster Prevention&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/about/" >EarthQuake.desktop&lt;/a>&lt;/li>
 &lt;li>&lt;span class="dead-link">
 wgpu

@@ -1,1 +1,77 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OGSP Server Node on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/server/</link><description>Recent content in OGSP Server Node on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate/><atom:link href="https://yossy4411.okayugroup.net/okayugroup/ogsp/server/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OGSP Server Node on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/server/</link><description>Recent content in OGSP Server Node on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Thu, 01 May 2025 21:36:14 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/okayugroup/ogsp/server/index.xml" rel="self" type="application/rss+xml"/><item><title>おかゆグループ地震計プロジェクト サーバーノード</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/server/ogsp-server-node/</link><pubDate>Thu, 01 May 2025 21:36:14 +0900</pubDate><guid>https://yossy4411.okayugroup.net/okayugroup/ogsp/server/ogsp-server-node/</guid><description>&lt;p>&lt;strong>OGSP Server Node&lt;/strong> (&lt;strong>おかゆグループ地震計プロジェクト サーバーノード&lt;/strong>)は、&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/disaster-network/about/" >OGSP Disaster Network&lt;/a>におけるサーバー層のノードを提供するプログラムの総称である。&lt;/p>
+&lt;p>コードはオープンソースで公開されており、自由に改変できる。&lt;/p>
+&lt;p>なお、このうち公式のプログラムは&lt;strong>OGSP Server Official Node&lt;/strong>と呼ぶ。&lt;/p>
+&lt;h2 id="概要">概要
+&lt;/h2>&lt;p>このアプリケーション内では、以下の処理を行うことを目標とする。&lt;/p>
+&lt;ul>
+&lt;li>センサーノードからデータの収集&lt;/li>
+&lt;li>収集したデータの整理&lt;/li>
+&lt;li>データのブロックチェーンへの書き込みと他ノードへの共有&lt;/li>
+&lt;li>AIなどでデータを処理と警報などの発表&lt;/li>
+&lt;li>APIハンドリング&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;div class="admonition note">
+&lt;div class="admonition-title">Note&lt;/div>
+&lt;div class="admonition-content">
+P2Pなどの部分は実装予備段階です。これにはコンピューターが複数台必要であるため、その予算が確保できていないことが主な理由です。
+&lt;/div>
+&lt;/div>
+## 設計&lt;/p>
+&lt;h3 id="1-データ収集">1. データ収集
+&lt;/h3>&lt;p>OGSP Server Nodeは、&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/disaster-network/about/" >OGSP Disaster Network&lt;/a>におけるセンサー層からデータを収集する役割を担っており、このセンサーとはUDPで通信を行う。なお、導入の壁を減らすためにポート開放はサーバー側でのみ行い、センサー側のポート開放は必要ない。&lt;/p>
+&lt;p>ただし、UDPのみでなおかつポート開放をしない環境では、サーバーがセンサーに通信を行うことはできないため、ここではIPv6のエニーキャストなどの技術を使用して対応する。&lt;/p>
+&lt;h3 id="2-ネットワークコンピューティングを使用した高度な計算">2. ネットワークコンピューティングを使用した高度な計算
+&lt;/h3>&lt;p>OGSP Server NodeはWeb3の実現のためにサーバー同士でP2Pを構築する。このP2Pを用いることで、高度な計算を分担して超並列計算を行うことができる。&lt;/p>
+&lt;p>この特性を利用して、AIの推論をより高速に完了したり、より精度の高い震源特定などの計算を実行したりできる。&lt;/p>
+&lt;h3 id="3-ブロックチェーンでの信頼性の確保">3. ブロックチェーンでの信頼性の確保
+&lt;/h3>&lt;p>センサーから収集したデータとデータの計算処理の結果は、ブロックチェーンに書き込まれ、定期的にP2Pで&lt;/p>
+&lt;h3 id="4-apiハンドリング">4. APIハンドリング
+&lt;/h3>&lt;p>OGSP Server Nodeは&amp;quot;偏らないデータを簡単に取得できること&amp;quot;を目標とするため、データを取得するための方法としてAPIを提供する。&lt;/p>
+&lt;p>ここには最新技術を取り入れ、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/%223%22/" >HTTP/3&lt;/a>および&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>プロトコルを用いて高速かつ安全な通信を保証する。&lt;/p>
+&lt;h3 id="注1-コードの改変について">注1: コードの改変について
+&lt;/h3>&lt;p>OGSP Server Nodeのコードはオープンソースであり、GitHubで公開されている。これは自由に改変して公開することのできるMITライセンスなどを実装するつもりであるが、ここで問題がある。&lt;/p>
+&lt;p>悪意のある変更を含むサーバーノードがネットワークに参加することもできてしまうため、これが秩序を壊したりウイルスを仕込む可能性があるということだ。&lt;/p>
+&lt;p>これはプログラムの中に署名を組み、公式のホワイトリストに含まれる公開鍵で認証 (Ed25519など) を行うことで対応できる。&lt;/p>
+&lt;h2 id="問題点">問題点
+&lt;/h2>&lt;h3 id="気象業務法と予報許可">気象業務法と予報許可
+&lt;/h3>&lt;p>このプロジェクトの開発拠点とターゲットは日本であるため、勿論==日本の法律に従ったうえで==進める必要がある。ここで問題となるのが、気象業務法だ。&lt;/p>
+&lt;p>&lt;strong>&lt;a class="link" href="https://laws.e-gov.go.jp/law/327AC0000000165/#Mp-Ch_3" target="_blank" rel="noopener"
+>気象業務法 第十七条&lt;/a>&lt;/strong> では以下のように定められている。&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>第十七条&lt;/strong>&lt;/p>
+&lt;p>気象庁以外の者が気象、地象、津波、高潮、波浪又は洪水の予報の業務（以下「予報業務」という。）を行おうとする場合は、気象庁長官の許可を受けなければならない。&lt;br>
+&lt;strong>２&lt;/strong> 前項の許可（以下この章において「許可」という。）は、予報業務の目的及び範囲（土砂崩れ（崖崩れ、土石流及び地滑りをいう。以下同じ。）、高潮、波浪又は洪水の予報の業務（以下「気象関連現象予報業務」という。）をその範囲に含む予報業務の許可にあつては、当該気象関連現象予報業務のための気象の予想を行うか否かの別を含む。第十九条第一項及び第四十六条第三号において同じ。）を定めて行う。&lt;br>
+&lt;strong>３&lt;/strong> 噴火、火山ガスの放出、土砂崩れ、津波、高潮又は洪水の予報の業務（以下「特定予報業務」という。）をその範囲に含む予報業務の許可については、当該特定予報業務に係る予報業務の目的は、第十九条の三の規定による説明を受けた者にのみ利用させるものに限られるものとする。&lt;/p>&lt;/blockquote>
+&lt;p>これに基くと、&lt;/p>
+&lt;blockquote>
+&lt;p>予報業務を行おうとする場合は、気象庁長官の許可を受けなければならない。&lt;/p>&lt;/blockquote>
+&lt;p>という部分で問題が発生することが分かるだろう。&lt;/p>
+&lt;p>まず、予報業務許可というものは&lt;strong>存在する&lt;/strong>。気象庁に連絡して審査を受ければよい。&lt;br>
+だがしかし、予報業務許可というものは特定の個人や機関に対して下りるものである。&lt;/p>
+&lt;p>このようなWeb3ネットワークは、１つの個人や団体が管理するものではなく、参加者全員が所有するもの、と考えるべきである。というのも、Web3は責任や管理の権限を分散するという思想に基づいているためである。&lt;/p>
+&lt;p>例えば「&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/about/" >おかゆグループ&lt;/a>」に対して予報業務許可が下りた場合でも、おかゆグループが直轄しないサーバーを管理する個人や団体はそれを持っていないため、サーバーの中の予報サービス系の処理は、おかゆグループによるサーバーが独占することとなる。&lt;br>
+これはWeb3の思想に&lt;strong>反する&lt;/strong>。&lt;/p>
+&lt;p>これに対応するためには、最も手っ取り早い方法としては&lt;strong>予報業務をしない&lt;/strong>ことである。代わりに、地震計の加速度を直接配信するなどの方法を使う。&lt;/p>
+&lt;p>また、気象庁に特別に許可を貰うことも方法としては考えられるが、それはハードルが高すぎるのでまだ挑戦はしない。&lt;/p>
+&lt;h2 id="開発">開発
+&lt;/h2>&lt;h3 id="開発環境">開発環境
+&lt;/h3>&lt;p>OGSP Server Official Nodeの開発環境は以下のとおりである。&lt;/p>
+&lt;ul>
+&lt;li>Go&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/libp2p/go-libp2p" target="_blank" rel="noopener"
+>go-libp2p&lt;/a> - libp2pの公式Go実装&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/quic-go/quic-go/" target="_blank" rel="noopener"
+>quic-go&lt;/a> - &lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>と&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/%223%22/" >HTTP/3&lt;/a>のGo実装&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/labstack/echo" target="_blank" rel="noopener"
+>echo&lt;/a> - 高パフォーマンスのGoサーバーフレームワーク&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/NixOS/nix" target="_blank" rel="noopener"
+>Nix&lt;/a> - 環境ツール&lt;/li>
+&lt;/ul>
+&lt;h3 id="github-repository">GitHub Repository
+&lt;/h3>&lt;p>公式のものは、&lt;a class="link" href="https://github.com/okayugroup/ogsp-server-node" target="_blank" rel="noopener"
+>GitHub - okayugroup/ogsp-server-node&lt;/a>である。（現在は非公開）&lt;/p>
+&lt;p>また、このリポジトリをフォークして独自のサーバーノードを作成することも許可されている。&lt;/p>
+&lt;h3 id="contribution">Contribution
+&lt;/h3>&lt;p>また、IssueやPRを開いて開発に貢献 (Contribute) することもできる。&lt;/p>
+&lt;p>この辺りのプロジェクトの整理は、容易ができ次第&lt;strong>ナレッジベースツールで公開&lt;/strong>する予定。&lt;/p></description></item></channel></rss>
