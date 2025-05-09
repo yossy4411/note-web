@@ -1,4 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>トランスポート層 on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/</link><description>Recent content in トランスポート層 on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Sun, 20 Apr 2025 23:48:16 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/index.xml" rel="self" type="application/rss+xml"/><item><title>トランスポート層</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/about/</link><pubDate>Sun, 20 Apr 2025 23:48:16 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/about/</guid><description>&lt;p>&lt;strong>トランスポート層&lt;/strong>（英: Transport Layer）とは、通信ネットワークにおいて上位の&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/about/" >アプリケーション層&lt;/a>からのサービス要求に応じ、また下位のインターネット層に対してサービス要求を行う。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>トランスポート層 on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/</link><description>Recent content in トランスポート層 on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Fri, 09 May 2025 18:22:33 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/index.xml" rel="self" type="application/rss+xml"/><item><title>どうしてTCPとQUICは相互通信ができるのか？</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/how-quic-mutual-connection/</link><pubDate>Fri, 09 May 2025 18:22:33 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/how-quic-mutual-connection/</guid><description>&lt;h2 id="動機">動機
+&lt;/h2>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/udp/about/" >UDP&lt;/a>を学んでいくと、何故&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/tcp/about/" >TCP&lt;/a>が相互的に通信ができるのか気になってきませんか？&lt;/p>
+&lt;p>ましてや&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>に至っては、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/udp/about/" >UDP&lt;/a>の上に作られたプロトコルのくせに&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/keep-alive/" >Keep-Alive&lt;/a>が使えるってもう訳わかんなくなってくるんです。&lt;/p>
+&lt;h2 id="tcpの双方向通信">TCPの双方向通信
+&lt;/h2>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/tcp/about/" >TCP&lt;/a>で双方向通信が実現できる理由は、NATの仕組みを理解すればすぐ分かるはずです。&lt;/p>
+&lt;p>TCPがコネクションを確立すると、NATは、LANとWANの&lt;code>IPアドレス:ポート&lt;/code>の変換テーブルを作成します。この変換テーブルは、コネクションが切断される（通信が生きていると判定されなくなる）まで残ります。&lt;/p>
+&lt;p>コネクションが切れると、通信が切れたと判断されて変換テーブルはすぐに削除されます。&lt;/p>
+&lt;p>ちなみに変換テーブルがコネクションが存在する間に置き換わってしまうと、別の場所にパケットが届くようになってしまいますｗｗ&lt;/p>
+&lt;h2 id="udpだと">UDPだと&amp;hellip;
+&lt;/h2>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/udp/about/" >UDP&lt;/a>は、その性質上コネクションを確立&lt;strong>しません&lt;/strong>（これをデータグラム方式という、UDP = User Datagram Protocol）。&lt;br>
+そのため、まずまず双方向通信するように設計されていないのです。&lt;br>
+また、このときのNATの変換テーブルはどのタイミングで削除されるかというと&amp;hellip;&lt;/p>
+&lt;p>&lt;strong>しばらく通信がなかったとき&lt;/strong>&lt;/p>
+&lt;p>です。&lt;/p>
+&lt;p>つまり、リクエストに対してレスポンスを返すまでに時間がかかりすぎると、別の宛先にパケットが届いたり、到達できなかったりします。&lt;/p>
+&lt;p>しかもUDPの仕組み上、パケットが正しく届いたかどうかを知ることもできません。&lt;/p>
+&lt;h2 id="それを解決するのがquicなのだ">それを解決するのがQUICなのだ！
+&lt;/h2>&lt;p>これを踏まえると、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>では&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/%223%22/" >HTTP/3&lt;/a>として&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/keep-alive/" >Keep-Alive&lt;/a>が使える理由がはっきりしてきます。&lt;/p>
+&lt;p>その理由はズバリ！&lt;/p>
+&lt;div class="admonition important">
+&lt;div class="admonition-title">Important&lt;/div>
+&lt;div class="admonition-content">
+Googleが実装したから！
+&lt;/div>
+&lt;/div>
+&lt;p>え、内容うっすって？&lt;br>
+でもこんな簡単なことが私は理解できていなかったのです。面白いですね。&lt;/p>
+&lt;ul>
+&lt;li>パケットが正しく届いたかどうかを確認する&lt;/li>
+&lt;li>Heartbeatを送信して接続を維持する&lt;/li>
+&lt;li>NATの標準ポートで通信できる&lt;/li>
+&lt;/ul>
+&lt;p>そういうのが、QUICです。UDPのダメな点を直してくれています。&lt;/p>
+&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/about/" >HTTP&lt;/a>の標準に合うようにUDPの上に作ったプロトコルがQUICですので、接続を確立することができます。接続を確立したあと、TCPの場合はコネクションが切れたかどうかでNATはテーブルの破棄を行いますが、QUICの場合は定期的にping用のパケットを送ることで、接続を維持します。&lt;br>
+これでUDPでもNATが壊れないんですね！🤯&lt;/p>
+&lt;h2 id="udp単体でも双方向通信は一応できる">UDP単体でも双方向通信は一応できる
+&lt;/h2>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/protocol/about/" >IPのパケット構造&lt;/a>と&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/udp/about/" >UDPのヘッダ構造&lt;/a>的に見て、リクエスト元の&lt;span class="dead-link">
+IPアドレス
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>とポートは分かるので、サーバーがそこに対してUDPでデータを投げれば済む話ではある。&lt;/p>
+&lt;p>クライアント側に関しては、NATのテーブルが残る限り、LANからWANへの送信パケットはもちろん、WANからLANへの受信パケットも転送できる。そのため、UDPサーバーを送信と同じポートで待機すれば済む。&lt;/p>
+&lt;p>ちなみに送信に何のポートを使うのかはこういう感じで作れるらしい。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>sock&lt;span style="color:#f92672">.&lt;/span>bind((&lt;span style="color:#e6db74">&amp;#34;0.0.0.0&amp;#34;&lt;/span>, &lt;span style="color:#ae81ff">12345&lt;/span>))
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>よく分からんね&lt;/p></description></item><item><title>トランスポート層</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/about/</link><pubDate>Sun, 20 Apr 2025 23:48:16 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/about/</guid><description>&lt;p>&lt;strong>トランスポート層&lt;/strong>（英: Transport Layer）とは、通信ネットワークにおいて上位の&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/about/" >アプリケーション層&lt;/a>からのサービス要求に応じ、また下位のインターネット層に対してサービス要求を行う。&lt;/p>
 &lt;p>TCP/IPモデルにおいては、トランスポート層は4階層のうちの第3層のことで、トランスポート層はホストコンピュータ上の適切なアプリケーションプロセスにデータを配送する責任がある。ｋろえは、異なったアプリケーションプロセスからのデータのパケット化や、要求の送信元と要求先のポート番号の追加なども行う。&lt;/p>
 &lt;h2 id="主なプロトコル">主なプロトコル
 &lt;/h2>&lt;ul>

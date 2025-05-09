@@ -7,7 +7,7 @@ TCPではポート、ソケット、コネクションの概念が導入され�
 &lt;h3 id="特徴">特徴
 &lt;/h3>&lt;h3 id="コネクションの確立3-way-ハンドシェイク">コネクションの確立（3-way ハンドシェイク）
 &lt;/h3>&lt;p>通信前にクライアントとサーバー間で接続を確立する。これにより、信頼できる通信チャネルが形成される。&lt;/p>
-&lt;p>接続を確立してからデータを転送するが、確立された接続はそのまま残すことができる(Keep-Alive) ので、たくさんのデータを送信するためにも使われる。&lt;/p>
+&lt;p>接続を確立してからデータを転送するが、確立された接続はそのまま残すことができる(&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/keep-alive/" >Keep-Alive&lt;/a>) ので、たくさんのデータを送信するためにも使われる。&lt;/p>
 &lt;h3 id="信頼性の保証">信頼性の保証
 &lt;/h3>&lt;p>各パケットに&lt;strong>シーケンス番号&lt;/strong>を持たせて順序を管理し、&lt;strong>ACK（確認応答）&lt;/strong> で受信の確認を行う。届いていないパケットは自動的に再送される（再送処理）。&lt;/p>
 &lt;h3 id="順序制御">順序制御

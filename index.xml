@@ -1,4 +1,89 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yossy4411のノート</title><link>https://yossy4411.okayugroup.net/</link><description>Recent content on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Thu, 08 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年05月08日(木)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-08/</link><pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-08/</guid><description>&lt;h2 id="今日の体調">今日の体調
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yossy4411のノート</title><link>https://yossy4411.okayugroup.net/</link><description>Recent content on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Fri, 09 May 2025 18:26:35 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/index.xml" rel="self" type="application/rss+xml"/><item><title>Keep-Alive接続について</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/keep-alive/</link><pubDate>Fri, 09 May 2025 18:26:35 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/keep-alive/</guid><description>&lt;p>&lt;strong>Keep-Alive&lt;/strong>、または&lt;strong>Keep-Alive接続&lt;/strong>とは、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/about/" >HTTP&lt;/a>において、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/tcp/about/" >TCP&lt;/a>接続を切断させずに持続的に接続を行うことである。&lt;/p>
+&lt;p>HTTPの仕組みとして、データを転送するときには、ハンドシェイクを行って接続を確立し、そのあとにリクエスト本体を送信する。Keep-Aliveは、その確立された接続を、接続したままにする仕組みである。&lt;/p>
+&lt;p>Keep-Aliveを使用しない場合、リクエストを送信する度にハンドシェイクなどの処理を行う必要があり、時間がかかる。Keep-Aliveの登場は、主に無駄な時間を減らすことが目的である。&lt;/p></description></item><item><title>どうしてTCPとQUICは相互通信ができるのか？</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/how-quic-mutual-connection/</link><pubDate>Fri, 09 May 2025 18:22:33 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/how-quic-mutual-connection/</guid><description>&lt;h2 id="動機">動機
+&lt;/h2>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/udp/about/" >UDP&lt;/a>を学んでいくと、何故&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/tcp/about/" >TCP&lt;/a>が相互的に通信ができるのか気になってきませんか？&lt;/p>
+&lt;p>ましてや&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>に至っては、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/udp/about/" >UDP&lt;/a>の上に作られたプロトコルのくせに&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/keep-alive/" >Keep-Alive&lt;/a>が使えるってもう訳わかんなくなってくるんです。&lt;/p>
+&lt;h2 id="tcpの双方向通信">TCPの双方向通信
+&lt;/h2>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/tcp/about/" >TCP&lt;/a>で双方向通信が実現できる理由は、NATの仕組みを理解すればすぐ分かるはずです。&lt;/p>
+&lt;p>TCPがコネクションを確立すると、NATは、LANとWANの&lt;code>IPアドレス:ポート&lt;/code>の変換テーブルを作成します。この変換テーブルは、コネクションが切断される（通信が生きていると判定されなくなる）まで残ります。&lt;/p>
+&lt;p>コネクションが切れると、通信が切れたと判断されて変換テーブルはすぐに削除されます。&lt;/p>
+&lt;p>ちなみに変換テーブルがコネクションが存在する間に置き換わってしまうと、別の場所にパケットが届くようになってしまいますｗｗ&lt;/p>
+&lt;h2 id="udpだと">UDPだと&amp;hellip;
+&lt;/h2>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/udp/about/" >UDP&lt;/a>は、その性質上コネクションを確立&lt;strong>しません&lt;/strong>（これをデータグラム方式という、UDP = User Datagram Protocol）。&lt;br>
+そのため、まずまず双方向通信するように設計されていないのです。&lt;br>
+また、このときのNATの変換テーブルはどのタイミングで削除されるかというと&amp;hellip;&lt;/p>
+&lt;p>&lt;strong>しばらく通信がなかったとき&lt;/strong>&lt;/p>
+&lt;p>です。&lt;/p>
+&lt;p>つまり、リクエストに対してレスポンスを返すまでに時間がかかりすぎると、別の宛先にパケットが届いたり、到達できなかったりします。&lt;/p>
+&lt;p>しかもUDPの仕組み上、パケットが正しく届いたかどうかを知ることもできません。&lt;/p>
+&lt;h2 id="それを解決するのがquicなのだ">それを解決するのがQUICなのだ！
+&lt;/h2>&lt;p>これを踏まえると、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>では&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/%223%22/" >HTTP/3&lt;/a>として&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/keep-alive/" >Keep-Alive&lt;/a>が使える理由がはっきりしてきます。&lt;/p>
+&lt;p>その理由はズバリ！&lt;/p>
+&lt;div class="admonition important">
+&lt;div class="admonition-title">Important&lt;/div>
+&lt;div class="admonition-content">
+Googleが実装したから！
+&lt;/div>
+&lt;/div>
+&lt;p>え、内容うっすって？&lt;br>
+でもこんな簡単なことが私は理解できていなかったのです。面白いですね。&lt;/p>
+&lt;ul>
+&lt;li>パケットが正しく届いたかどうかを確認する&lt;/li>
+&lt;li>Heartbeatを送信して接続を維持する&lt;/li>
+&lt;li>NATの標準ポートで通信できる&lt;/li>
+&lt;/ul>
+&lt;p>そういうのが、QUICです。UDPのダメな点を直してくれています。&lt;/p>
+&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/about/" >HTTP&lt;/a>の標準に合うようにUDPの上に作ったプロトコルがQUICですので、接続を確立することができます。接続を確立したあと、TCPの場合はコネクションが切れたかどうかでNATはテーブルの破棄を行いますが、QUICの場合は定期的にping用のパケットを送ることで、接続を維持します。&lt;br>
+これでUDPでもNATが壊れないんですね！🤯&lt;/p>
+&lt;h2 id="udp単体でも双方向通信は一応できる">UDP単体でも双方向通信は一応できる
+&lt;/h2>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/protocol/about/" >IPのパケット構造&lt;/a>と&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/udp/about/" >UDPのヘッダ構造&lt;/a>的に見て、リクエスト元の&lt;span class="dead-link">
+IPアドレス
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>とポートは分かるので、サーバーがそこに対してUDPでデータを投げれば済む話ではある。&lt;/p>
+&lt;p>クライアント側に関しては、NATのテーブルが残る限り、LANからWANへの送信パケットはもちろん、WANからLANへの受信パケットも転送できる。そのため、UDPサーバーを送信と同じポートで待機すれば済む。&lt;/p>
+&lt;p>ちなみに送信に何のポートを使うのかはこういう感じで作れるらしい。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>sock&lt;span style="color:#f92672">.&lt;/span>bind((&lt;span style="color:#e6db74">&amp;#34;0.0.0.0&amp;#34;&lt;/span>, &lt;span style="color:#ae81ff">12345&lt;/span>))
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>よく分からんね&lt;/p></description></item><item><title>2025年05月09日(金)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-09/</link><pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-09/</guid><description>&lt;h2 id="今日の体調">今日の体調
+&lt;/h2>&lt;p>最近寝るの遅すぎ 授業中に寝ようとすんなよ&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>体調&lt;/th>
+&lt;th>元気&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>就寝&lt;/td>
+&lt;td>24:00&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>起床&lt;/td>
+&lt;td>6:45&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>朝食&lt;/td>
+&lt;td>6:55&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>天気痛&lt;/td>
+&lt;td>false&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;h3 id="ノートの活用">ノートの活用
+&lt;/h3>&lt;p>このノートを活用する時が来たかもしれん&lt;/p>
+&lt;p>といっても、Obsidianって万能なんです&lt;/p>
+&lt;p>国語とかはノートとして使えばいいし&lt;/p>
+&lt;p>しかも$\frac{1}{x}\sqrt{x} = x^{-\frac{1}{2}}$ みたいな式も書けるんですよ&lt;br>
+応用すれば$\ce{H2O}$（水）とか$\ce{SO4^{2-}}$（硫酸塩）みたいに化学式も書けちゃうんですよ&lt;/p>
+&lt;p>リンク機能とかも上手く活用すれば知識ノートとしてじゅうぶんに利用できるレベル！&lt;/p>
+&lt;p>さて、授業内容とかをこのノートにちゃっとまとめてしまえば、全国の同級生の勉強に役立つかもしれないじゃないですか&lt;br>
+&lt;a class="link" href="https://yossy4411.okayugroup.net" target="_blank" rel="noopener"
+>ウェブ上&lt;/a>でどこでも見れるようになってるじゃないですか&lt;/p>
+&lt;blockquote>
+&lt;p>これを見越してたちょっと前の俺天才すぎるやろ&lt;/p>&lt;/blockquote></description></item><item><title>2025年05月08日(木)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-08/</link><pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-08/</guid><description>&lt;h2 id="今日の体調">今日の体調
 &lt;/h2>&lt;p>寝る時間が遅すぎる&lt;br>
 不健康&lt;/p>
 &lt;table>
@@ -305,6 +390,7 @@ P2Pなどの部分は実装予備段階です。これにはコンピュータ�
 &lt;/h2>&lt;p>Web 1.0という用語は、一般的にあまり用いられていない。これは、Web 1.0という単語が、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/web/2/about/" >Web 2.0&lt;/a>の概念ができてから後付けされたからである。&lt;/p>
 &lt;p>Web 2.0が発達してから、それ以前をなんと呼ぶかと議論になったときに決まったのだと思うが、詳しくは知らない。&lt;/p></description></item><item><title>2025年5月</title><link>https://yossy4411.okayugroup.net/diary/2025-05/</link><pubDate>Thu, 01 May 2025 18:21:27 +0900</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/</guid><description>&lt;h2 id="日記">日記
 &lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-09/" >2025-05-09&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-08/" >2025-05-08&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-07/" >2025-05-07&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-06/" >2025-05-06&lt;/a>&lt;/li>
@@ -438,7 +524,7 @@ TCP/IP
 &lt;h2 id="特徴">特徴
 &lt;/h2>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/about/" >HTTP/1.0&lt;/a>からは、以下の変更があった。&lt;/p>
 &lt;h3 id="持続接続">持続接続
-&lt;/h3>&lt;p>HTTP/1.0ではリクエストごとにTCP接続を初期化してトランスミッション後にはそれを切断していたが、1.1ではKeep-Aliveがデフォルトで有効になった。&lt;/p>
+&lt;/h3>&lt;p>HTTP/1.0ではリクエストごとにTCP接続を初期化してトランスミッション後にはそれを切断していたが、1.1では&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/keep-alive/" >Keep-Alive&lt;/a>がデフォルトで有効になった。&lt;/p>
 &lt;p>これにより、同じ接続で複数のリクエストを送信できるため、オーバーヘッドの削減と高速化が可能である。&lt;/p>
 &lt;h3 id="パイプライン処理">パイプライン処理
 &lt;/h3>&lt;p>持続接続のおかげで、一つのTCP接続で&lt;strong>複数のリクエストを同時に送信&lt;/strong>可能となる。
@@ -912,7 +998,7 @@ TCP/IP
 &lt;ul>
 &lt;li>Hostヘッダーフィールドの規定が追加された。&lt;/li>
 &lt;li>TLSがサポートされた。&lt;/li>
-&lt;li>Keep-Aliveがデフォルト化され、通信が高速化された。&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/keep-alive/" >Keep-Alive&lt;/a>がデフォルト化され、通信が高速化された。&lt;/li>
 &lt;/ul>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-http" data-lang="http">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">GET&lt;/span> /index.html &lt;span style="color:#66d9ef">HTTP&lt;/span>&lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#ae81ff">1.1&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Host&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#ae81ff">foo.example.com&lt;/span>
@@ -1075,7 +1161,7 @@ TCPではポート、ソケット、コネクションの概念が導入され�
 &lt;h3 id="特徴">特徴
 &lt;/h3>&lt;h3 id="コネクションの確立3-way-ハンドシェイク">コネクションの確立（3-way ハンドシェイク）
 &lt;/h3>&lt;p>通信前にクライアントとサーバー間で接続を確立する。これにより、信頼できる通信チャネルが形成される。&lt;/p>
-&lt;p>接続を確立してからデータを転送するが、確立された接続はそのまま残すことができる(Keep-Alive) ので、たくさんのデータを送信するためにも使われる。&lt;/p>
+&lt;p>接続を確立してからデータを転送するが、確立された接続はそのまま残すことができる(&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/keep-alive/" >Keep-Alive&lt;/a>) ので、たくさんのデータを送信するためにも使われる。&lt;/p>
 &lt;h3 id="信頼性の保証">信頼性の保証
 &lt;/h3>&lt;p>各パケットに&lt;strong>シーケンス番号&lt;/strong>を持たせて順序を管理し、&lt;strong>ACK（確認応答）&lt;/strong> で受信の確認を行う。届いていないパケットは自動的に再送される（再送処理）。&lt;/p>
 &lt;h3 id="順序制御">順序制御
