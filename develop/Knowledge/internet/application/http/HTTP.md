@@ -59,7 +59,7 @@ GET /index.html HTTP/1.0
 
 - Hostヘッダーフィールドの規定が追加された。
 - TLSがサポートされた。
-- Keep-Aliveがデフォルト化され、通信が高速化された。
+- [Keep-Alive](Keep-Alive.md)がデフォルト化され、通信が高速化された。
 
 
 ```http
