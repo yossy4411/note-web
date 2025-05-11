@@ -1,4 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yossy4411のノート</title><link>https://yossy4411.okayugroup.net/</link><description>Recent content on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Sat, 10 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年05月10日(土)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-10/</link><pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-10/</guid><description>&lt;h2 id="今日の体調">今日の体調
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yossy4411のノート</title><link>https://yossy4411.okayugroup.net/</link><description>Recent content on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Sun, 11 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年05月11日(日)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-11/</link><pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-11/</guid><description>&lt;h2 id="今日の体調">今日の体調
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>体調&lt;/th>
+&lt;th>元気&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>就寝&lt;/td>
+&lt;td>22:00&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>起床&lt;/td>
+&lt;td>6:30&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>朝食&lt;/td>
+&lt;td>6:50&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>天気痛&lt;/td>
+&lt;td>false&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;h3 id="地震計にbleを実装してみる">地震計にBLEを実装してみる
+&lt;/h3>&lt;p>かなり時間がかかりましたが、ちゃんと動きました。BLEって電波弱いんですよ。受信機の近くに置いてないと難しい。&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/okayugroup/ogsp-seismometer-esp32/blob/a9d3e7b1f258393b59954cf9ddbd481d1afc3f57/src/bin/main.rs" target="_blank" rel="noopener"
+>コード&lt;/a>&lt;/p></description></item><item><title>2025年05月10日(土)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-10/</link><pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-10/</guid><description>&lt;h2 id="今日の体調">今日の体調
 &lt;/h2>&lt;p>春はあけぼの&lt;/p>
 &lt;p>今日は雨&lt;/p>
 &lt;table>
@@ -422,6 +453,8 @@ P2Pなどの部分は実装予備段階です。これにはコンピュータ�
 &lt;/h2>&lt;p>Web 1.0という用語は、一般的にあまり用いられていない。これは、Web 1.0という単語が、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/web/2/about/" >Web 2.0&lt;/a>の概念ができてから後付けされたからである。&lt;/p>
 &lt;p>Web 2.0が発達してから、それ以前をなんと呼ぶかと議論になったときに決まったのだと思うが、詳しくは知らない。&lt;/p></description></item><item><title>2025年5月</title><link>https://yossy4411.okayugroup.net/diary/2025-05/</link><pubDate>Thu, 01 May 2025 18:21:27 +0900</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/</guid><description>&lt;h2 id="日記">日記
 &lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-11/" >2025-05-11&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-10/" >2025-05-10&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-09/" >2025-05-09&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-08/" >2025-05-08&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-07/" >2025-05-07&lt;/a>&lt;/li>
@@ -1640,7 +1673,7 @@ LAN間の通信交換ができれば、それはインターネットと呼べ�
 &lt;p>石を削って道具を作り（打製石器）、肉食動物（マンモスなど）や植物などを食糧にしていたと考えられる。この頃の人類は既に火を操っており、焚き火や料理もできたそう。&lt;/p>
 &lt;p>住処は洞窟や小さな隠れ家のような場所。&lt;/p>
 &lt;p>日本人が日本列島にやってきたのもこの時代（&lt;span class="dead-link">
-日本の形成
+日本に人がやってきたとき
 &lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
 &lt;/span>）。&lt;/p></description></item><item><title>学校ネタ</title><link>https://yossy4411.okayugroup.net/school/about/</link><pubDate>Sat, 19 Apr 2025 12:09:04 +0900</pubDate><guid>https://yossy4411.okayugroup.net/school/about/</guid><description>&lt;p>学校で学んだことや面白いと思ったことをまとめる場所です。&lt;/p>
 &lt;h2 id="中学校">中学校
