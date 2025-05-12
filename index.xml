@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yossy4411のノート</title><link>https://yossy4411.okayugroup.net/</link><description>Recent content on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Sun, 11 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年05月11日(日)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-11/</link><pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-11/</guid><description>&lt;h2 id="今日の体調">今日の体調
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yossy4411のノート</title><link>https://yossy4411.okayugroup.net/</link><description>Recent content on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Mon, 12 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年05月12日(月)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-12/</link><pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-12/</guid><description>&lt;h2 id="今日の体調">今日の体調
+&lt;/h2>&lt;p>はよ寝ろカスがよぉ&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>体調&lt;/th>
+&lt;th>元気&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>就寝&lt;/td>
+&lt;td>24:20&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>起床&lt;/td>
+&lt;td>6:30&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>朝食&lt;/td>
+&lt;td>6:50&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>天気痛&lt;/td>
+&lt;td>false&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;h3 id="地震計の開発">地震計の開発
+&lt;/h3>&lt;p>ついに！Wi-Fi (Networking) の実装まで来ましたよ！UDPしか使うつもり無いですけど。&lt;/p>
+&lt;p>そして、プログラムのサイズが肥大化してきております。やっぱりWi-Fi関連は重たいですね。&lt;br>
+フラッシュメモリ大きめにしてくれてありがとう。&lt;/p></description></item><item><title>2025年05月11日(日)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-11/</link><pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-11/</guid><description>&lt;h2 id="今日の体調">今日の体調
 &lt;/h2>&lt;table>
 &lt;thead>
 &lt;tr>
@@ -453,6 +485,7 @@ P2Pなどの部分は実装予備段階です。これにはコンピュータ�
 &lt;/h2>&lt;p>Web 1.0という用語は、一般的にあまり用いられていない。これは、Web 1.0という単語が、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/web/2/about/" >Web 2.0&lt;/a>の概念ができてから後付けされたからである。&lt;/p>
 &lt;p>Web 2.0が発達してから、それ以前をなんと呼ぶかと議論になったときに決まったのだと思うが、詳しくは知らない。&lt;/p></description></item><item><title>2025年5月</title><link>https://yossy4411.okayugroup.net/diary/2025-05/</link><pubDate>Thu, 01 May 2025 18:21:27 +0900</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/</guid><description>&lt;h2 id="日記">日記
 &lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-12/" >2025-05-12&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-11/" >2025-05-11&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-10/" >2025-05-10&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-09/" >2025-05-09&lt;/a>&lt;/li>
@@ -1660,22 +1693,33 @@ LAN間の通信交換ができれば、それはインターネットと呼べ�
 &lt;/h2>&lt;p>3世紀の西日本では、邪馬台国を中心とした政治的なまとまりが生まれていた。&lt;/p>
 &lt;p>邪馬台国の女王である卑弥呼は、魏の皇帝に使節を送り、金印や銅鏡をもらった。&lt;/p>
 &lt;p>また、王から奴隷までの身分があり、農業を中心として既に税などの制度が生まれていたとされる。&lt;/p>
-&lt;p>邪馬台国の場所は大和とする説や九州北部とする説が有力とされているが、詳しい場所は分かっていない。&lt;/p></description></item><item><title>紀元前と旧石器時代</title><link>https://yossy4411.okayugroup.net/school/juniorhigh/histories/bc/about/</link><pubDate>Sat, 19 Apr 2025 18:38:41 +0900</pubDate><guid>https://yossy4411.okayugroup.net/school/juniorhigh/histories/bc/about/</guid><description>&lt;p>次: &lt;a class="link" href="https://yossy4411.okayugroup.net/school/juniorhigh/histories/joumon/joumon/" >縄文時代&lt;/a>&lt;/p>
+&lt;p>邪馬台国の場所は大和とする説や九州北部とする説が有力とされているが、詳しい場所は分かっていない。&lt;/p></description></item><item><title>日本の形成</title><link>https://yossy4411.okayugroup.net/school/juniorhigh/histories/bc/%E6%97%A5%E6%9C%AC%E3%81%AB%E4%BA%BA%E3%81%8C%E3%82%84%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%9F%E3%81%A8%E3%81%8D/</link><pubDate>Sat, 19 Apr 2025 21:13:41 +0900</pubDate><guid>https://yossy4411.okayugroup.net/school/juniorhigh/histories/bc/%E6%97%A5%E6%9C%AC%E3%81%AB%E4%BA%BA%E3%81%8C%E3%82%84%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%9F%E3%81%A8%E3%81%8D/</guid><description>&lt;p>日本列島に新人がやってきたのは約4万年前で、これは&lt;a class="link" href="https://yossy4411.okayugroup.net/school/juniorhigh/histories/bc/about/" >旧石器時代&lt;/a>にあたります。&lt;/p>
+&lt;p>この頃は氷河期が明けたすぐの頃で、今より気温がずっと低く、氷河のために海水面も下がっていたため、人間は大陸と北海道の間の狭い海峡を渡って日本列島に到達できました。日本列島には、それより前に渡ってきたナウマンゾウやマンモス、オオツノジカなどの大型の動物がいて、それらを狩って生活しました。&lt;/p>
+&lt;p>それから2万年の月日が過ぎ、気温も上昇して海水面も徐々に上がっていくことで、今の日本の姿になっていったと考えられています。&lt;/p>
+&lt;h2 id="日本列島の形成">日本列島の形成
+&lt;/h2>&lt;p>また、これよりもっと前は、実は日本は大陸の一部でした。&lt;/p>
+&lt;p>そこから2つの島の破片として大陸から離れ、プレートに連動してまた2つの破片は接続しました。&lt;/p>
+&lt;p>なお、2つの島の境目をフォッサマグナといい、この場所には木曽山脈がある。糸魚川 - 静岡構造線や中央構造線などの主要な断層帯がある場所でもあります。&lt;/p></description></item><item><title>打製石器</title><link>https://yossy4411.okayugroup.net/school/juniorhigh/histories/bc/dasei-sekki/</link><pubDate>Sat, 19 Apr 2025 18:46:52 +0900</pubDate><guid>https://yossy4411.okayugroup.net/school/juniorhigh/histories/bc/dasei-sekki/</guid><description>&lt;p>&lt;strong>打製石器&lt;/strong>は、石を打ち砕いて作った&lt;span class="dead-link">
+石器
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>のことです。&lt;/p>
+&lt;p>ちなみに、磨いて作ったものは&lt;span class="dead-link">
+磨製石器
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>といいます。&lt;/p>
+&lt;p>代表的なものは&lt;strong>黒曜石&lt;/strong>で作られたもので、黒曜石は非常に断面が鋭く、肉などを切るのに重宝したそう。&lt;/p>
+&lt;p>&lt;img src="https://yossy4411.okayugroup.net/assets/dasei-sekki.png"
+loading="lazy"
+>&lt;/p></description></item><item><title>紀元前と旧石器時代</title><link>https://yossy4411.okayugroup.net/school/juniorhigh/histories/bc/about/</link><pubDate>Sat, 19 Apr 2025 18:38:41 +0900</pubDate><guid>https://yossy4411.okayugroup.net/school/juniorhigh/histories/bc/about/</guid><description>&lt;p>次: &lt;a class="link" href="https://yossy4411.okayugroup.net/school/juniorhigh/histories/joumon/joumon/" >縄文時代&lt;/a>&lt;/p>
 &lt;h2 id="紀元前とは">紀元前とは？
 &lt;/h2>&lt;p>紀元（西暦０年）よりも前の世代を指す。&lt;/p>
 &lt;p>紀元前１年は、西暦−１年と考えることができ、例えば西暦2025年から見た紀元前1年は、&lt;code>2025 - (-1) = 2026&lt;/code> より2026年前である。&lt;/p>
 &lt;h2 id="旧石器時代とは">旧石器時代とは？
-&lt;/h2>&lt;p>主に人類が&lt;span class="dead-link">
-打製石器
-&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
-&lt;/span>を使っていた頃の世界史の区分。今から約3万年前〜1万3千年前。&lt;br>
+&lt;/h2>&lt;p>主に人類が&lt;a class="link" href="https://yossy4411.okayugroup.net/school/juniorhigh/histories/bc/dasei-sekki/" >打製石器&lt;/a>を使っていた頃の世界史の区分。今から約3万年前〜1万3千年前。&lt;br>
 なお、一部の研究では4万年前とする説もある。&lt;/p>
 &lt;p>石を削って道具を作り（打製石器）、肉食動物（マンモスなど）や植物などを食糧にしていたと考えられる。この頃の人類は既に火を操っており、焚き火や料理もできたそう。&lt;/p>
 &lt;p>住処は洞窟や小さな隠れ家のような場所。&lt;/p>
-&lt;p>日本人が日本列島にやってきたのもこの時代（&lt;span class="dead-link">
-日本に人がやってきたとき
-&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
-&lt;/span>）。&lt;/p></description></item><item><title>学校ネタ</title><link>https://yossy4411.okayugroup.net/school/about/</link><pubDate>Sat, 19 Apr 2025 12:09:04 +0900</pubDate><guid>https://yossy4411.okayugroup.net/school/about/</guid><description>&lt;p>学校で学んだことや面白いと思ったことをまとめる場所です。&lt;/p>
+&lt;p>日本人が日本列島にやってきたのもこの時代（&lt;a class="link" href="https://yossy4411.okayugroup.net/school/juniorhigh/histories/bc/" >日本に人がやってきたとき&lt;/a>）。&lt;/p></description></item><item><title>学校ネタ</title><link>https://yossy4411.okayugroup.net/school/about/</link><pubDate>Sat, 19 Apr 2025 12:09:04 +0900</pubDate><guid>https://yossy4411.okayugroup.net/school/about/</guid><description>&lt;p>学校で学んだことや面白いと思ったことをまとめる場所です。&lt;/p>
 &lt;h2 id="中学校">中学校
 &lt;/h2>&lt;p>勉強面などのノートがあります。&lt;/p>
 &lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/school/juniorhigh/about/" >中学校の学習&lt;/a>にて詳しく書いています。&lt;/p></description></item><item><title>中学校の学習</title><link>https://yossy4411.okayugroup.net/school/juniorhigh/about/</link><pubDate>Sat, 19 Apr 2025 11:51:07 +0900</pubDate><guid>https://yossy4411.okayugroup.net/school/juniorhigh/about/</guid><description>&lt;h2 id="概要">概要
