@@ -1,6 +1,5 @@
 ---
-title: プログラミング言語
-description: Programming language
+title: エンジニアリングに関する言語
+description: 
 draft: false
 ---
-言語を分けて置いてます。

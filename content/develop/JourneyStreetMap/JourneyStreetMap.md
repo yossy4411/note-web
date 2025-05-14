@@ -23,14 +23,14 @@ slug: about
 →Anvilファイルフォーマット、NBTデータ
 
 ### 2. アプリ画面に表示
-> 適当に[Rust](../Knowledge/lang/Rust/Rust.md)で組んどくかー
+> 適当に[Rust](../Knowledge/lang/programming/Rust/Rust.md)で組んどくかー
 
 うぇい。
 
 ### 3. マップデータを編集
 アプリ画面上で道路とか地点を追加したりします。
 
-ここには[GUIライブラリ](../Knowledge/libs/GUIライブラリ.md)を使用するとやりやすいかもしれんね
+ここには[GUIライブラリ](../Knowledge/libs/ui/GUIライブラリ.md)を使用するとやりやすいかもしれんね
 
 ### 4. PMTilesにエクスポート
 PMTiles形式の１つのファイルにエクスポートすると使いやすいよね〜！
