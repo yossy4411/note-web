@@ -11,13 +11,13 @@ draft: false
 showContent: true
 slug: about
 ---
-**iced** ([crates.io](https://crates.io/crates/iced), [GitHub](https://github.com/iced-rs/iced))は[Rust](../../../lang/Rust/Rust.md)で書かれた[GUIライブラリ](../GUIライブラリ.md)の1つであり、宣言的なUIの定義が特徴である。
+**iced** ([crates.io](https://crates.io/crates/iced), [GitHub](https://github.com/iced-rs/iced))は[Rust](../../../lang/programming/Rust/Rust.md)で書かれた[GUIライブラリ](../GUIライブラリ.md)の1つであり、宣言的なUIの定義が特徴である。
 ## 特徴
 > A cross-platform GUI library for Rust focused on simplicity and type-safety. Inspired by [Elm](https://elm-lang.org/).
 
 日本語にすると、
 
-> 単純性と型安全性に注視した[Rust](../../../lang/Rust/Rust.md)のクラスプラットフォームGUIライブラリ。Elmにインスパイアされました。
+> 単純性と型安全性に注視した[Rust](../../../lang/programming/Rust/Rust.md)のクラスプラットフォームGUIライブラリ。Elmにインスパイアされました。
 
 となりますね。
 

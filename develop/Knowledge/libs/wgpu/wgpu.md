@@ -14,7 +14,7 @@ showContent: false
 slug: about
 ---
 ## 概要
-[`wgpu`](https://github.com/gfx-rs/wgpu)は[WebGPU](../../platform/graphics/webgpu/WebGPU.md)のAPIを[Rust](../../lang/Rust/Rust.md)で実装した[クレート](../../lang/Rust/crate.md)。  
+[`wgpu`](https://github.com/gfx-rs/wgpu)は[WebGPU](../../platform/graphics/webgpu/WebGPU.md)のAPIを[Rust](../../lang/programming/Rust/Rust.md)で実装した[クレート](../../lang/programming/Rust/crate.md)。  
 ↪ https://wgpu.rs/
 
 Windows, MacOS, Linux, Web (WASM) の複数プラットフォームで動作する。

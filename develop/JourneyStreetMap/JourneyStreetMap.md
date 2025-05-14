@@ -23,7 +23,7 @@ slug: about
 →Anvilファイルフォーマット、NBTデータ
 
 ### 2. アプリ画面に表示
-> 適当に[Rust](../Knowledge/lang/Rust/Rust.md)で組んどくかー
+> 適当に[Rust](../Knowledge/lang/programming/Rust/Rust.md)で組んどくかー
 
 うぇい。
 

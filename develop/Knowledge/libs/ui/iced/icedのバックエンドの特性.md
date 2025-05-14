@@ -11,7 +11,7 @@ draft: true
 slug: iced-backend
 ---
 ## `tiny-skia`を使うとどうなるか
-`tiny-skia`はSkiaを基にした軽量な[[../../../lang/Rust/_index|Rust]]のライブラリです。
+`tiny-skia`はSkiaを基にした軽量な[[../../../lang/programming/Rust/_index|Rust]]のライブラリです。
 
 まずこいつ、遅いです。
 
