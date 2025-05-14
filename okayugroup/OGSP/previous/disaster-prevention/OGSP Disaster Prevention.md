@@ -23,7 +23,7 @@ GCのないRustはC#よりも高速かつ少ないリソースでも動くと考
 ## 技術的情報
 **依存関係**
 - [wgpu](../../../../develop/Knowledge/libs/wgpu/wgpu.md)
-- [iced](../../../../develop/Knowledge/libs/iced/iced.md)
+- [iced](../../../../develop/Knowledge/libs/ui/iced/iced.md)
 
 [^1]: [所有権](../../../../develop/Knowledge/lang/Rust/所有権.md)システムによって保証されている。
 [^2]: 詳しくは[やることリスト（すべて）](../../../../TODO/やることリスト（すべて）.md)をご覧ください。

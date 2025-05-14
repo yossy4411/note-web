@@ -1,5 +1,5 @@
 ---
-title: ライブラリとか
+title: ライブラリ
 description: 
 draft: false
 aliases:

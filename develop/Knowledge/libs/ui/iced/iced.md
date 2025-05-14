@@ -17,7 +17,7 @@ slug: about
 
 日本語にすると、
 
-> 単純性と型安全性に注視した[Rust](../../lang/Rust/Rust.md)のクラスプラットフォームGUIライブラリ。Elmにインスパイアされました。
+> 単純性と型安全性に注視した[Rust](../../../lang/Rust/Rust.md)のクラスプラットフォームGUIライブラリ。Elmにインスパイアされました。
 
 となりますね。
 
@@ -46,9 +46,9 @@ slug: about
     - カスタムウィジェットやスタイルを実装できるので、自由度が高い。
 
 ## バックエンド
-icedはバックエンドに[wgpu](../wgpu/wgpu.md)を採用している。  
+icedはバックエンドに[wgpu](../../wgpu/wgpu.md)を採用している。  
 また、パフォーマンスこそまずまずだが、tiny-skiaにも対応している。  
-↪[icedのバックエンドの特性](../../../../okayugroup/OGSP/previous/icedのバックエンドの特性.md)
+↪[icedのバックエンドの特性](../../../../../okayugroup/OGSP/previous/icedのバックエンドの特性.md)
 
 ## サンプルコード
 
