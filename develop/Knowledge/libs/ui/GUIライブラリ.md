@@ -11,15 +11,12 @@ draft: false
 showContent: true
 slug: gui-library
 ---
-
 GUI（グラフィカルユーザーインターフェース）を表示するための[ライブラリ](ライブラリ.md)。
 
 ここでは私が知る限りのGUIライブラリおよびGUIフレームワークを書いておく。
-
-※Webについては別の場所で書こうと思っていて、完成した頃にリンクを貼ります
 ## Rust
-- [egui](egui/egui.md)
-- [iced](iced/iced.md)
+- [egui](ui/egui/egui.md)
+- [iced](ui/iced/iced.md)
 - Tauri
 - Druid (開発停止)
 - Slint
