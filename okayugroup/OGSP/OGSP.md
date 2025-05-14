@@ -59,12 +59,12 @@ slug: about
 同時に受信システムへのデータ送信も行います。
 
 ## 受信システム・アプリ開発
-### [EarthQuake](GUI/EarthQuake/EarthQuake.desktop.md) - デスクトップ版地震災害情報アプリ
+### [EarthQuake](previous/EarthQuake/EarthQuake.desktop.md) - デスクトップ版地震災害情報アプリ
 パフォーマンスの理由で開発停止  
 言語: C#  
 GUIフレームワーク: Avalonia + SkiaSharp
 ↪ [GitHub](https://github.com/yossy4411/EarthQuake)
-### [OGSP Disaster Prevention](GUI/disaster-prevention/OGSP%20Disaster%20Prevention.md)
+### [OGSP Disaster Prevention](previous/disaster-prevention/OGSP%20Disaster%20Prevention.md)
 パフォーマンスを最大化した最新鋭の設計  
  言語: [Rust](../../develop/Knowledge/lang/Rust/Rust.md)
  GUIフレームワーク: `iced` (変更の可能性あり) + `wgpu` + Skia (`skia-safe`)

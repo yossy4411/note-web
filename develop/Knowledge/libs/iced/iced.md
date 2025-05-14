@@ -48,7 +48,7 @@ slug: about
 ## バックエンド
 icedはバックエンドに[wgpu](../wgpu/wgpu.md)を採用している。  
 また、パフォーマンスこそまずまずだが、tiny-skiaにも対応している。  
-↪[icedのバックエンドの特性](../../../../okayugroup/OGSP/GUI/icedのバックエンドの特性.md)
+↪[icedのバックエンドの特性](../../../../okayugroup/OGSP/previous/icedのバックエンドの特性.md)
 
 ## サンプルコード
 
