@@ -7,7 +7,7 @@ aliases:
   - クレート
 date: 2025-04-08T15:29:13+09:00
 lastmod: 2025-04-08T15:29:13+09:00
-draft: true
+draft: false
 showContent: false
 slug:
 ---

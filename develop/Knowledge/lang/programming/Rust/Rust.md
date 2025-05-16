@@ -33,6 +33,7 @@ fn main() {
 
 そう、とても単純なのである。これはRustの単純な構文と、マクロのおかげである。
 ## 用語集
+- [crate](crate.md)
 - [所有権](所有権.md)
 - [rustc](rustc.md) - Rust compiler
 - [デリファレンス](デリファレンス.md)
