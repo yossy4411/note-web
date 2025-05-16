@@ -1,7 +1,8 @@
+import ast
+import json
 import re
 from pathlib import Path
 from urllib.parse import unquote
-
 def resolve_path(original_path):
     # ..みたいな相対パスを消す
     result = []
@@ -43,6 +44,10 @@ def get_slugs(directory) -> dict[str, dict[str, bool | str]]:
                             slug = line.split("=")[1].strip().strip('"')
                         else:
                             slug = line.split(":")[1].strip()
+                        try:
+                            slug = ast.literal_eval(slug)
+                        except (ValueError, SyntaxError):
+                            pass
                         break
                     if line.startswith("draft"):
                         if toml:
@@ -99,7 +104,7 @@ if __name__ == '__main__':
                     else: # 内部リンク
                         # ここで、相対パスを絶対パスに変換する処理を行う
                         # 例えば、URLが "/blog/example.md" から飛ぶ "../docs/guide.md" のリンクの場合、"/docs/guide.md" に変換する
-                        if path == "/":
+                        if path == "/" or original_url.startswith("/"):
                             file_url_encoded = f"{original_url}"
                         else:
                             file_url_encoded = f"{path}/{original_url}"
