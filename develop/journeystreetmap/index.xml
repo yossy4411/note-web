@@ -10,7 +10,7 @@
 &lt;h2 id="今後">今後
 &lt;/h2>&lt;p>今後は、私はおかゆグループの開発に戻ります。&lt;/p>
 &lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/about/" >OGSP&lt;/a>の開発に加え、&lt;a class="link" href="https://yossy4411.okayugroup.net/favorite/about/" >推し活&lt;/a>系のいくつかのプロジェクトを進めていきます。&lt;/p>
-&lt;p>現在のTODOについては&lt;a class="link" href="https://yossy4411.okayugroup.net/todo/%e3%82%84%e3%82%8b%e3%81%93%e3%81%a8%e3%83%aa%e3%82%b9%e3%83%88%ef%bc%88%e3%81%99%e3%81%b9%e3%81%a6%ef%bc%89/" >やることリスト（すべて）&lt;/a>をご覧ください。&lt;/p></description></item><item><title>JourneyStreetMapとは</title><link>https://yossy4411.okayugroup.net/develop/journeystreetmap/about/</link><pubDate>Fri, 04 Apr 2025 15:50:47 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/journeystreetmap/about/</guid><description>&lt;p>
+&lt;p>現在のTODOについては&lt;a class="link" href="https://yossy4411.okayugroup.net/todo-all/" >やることリスト（すべて）&lt;/a>をご覧ください。&lt;/p></description></item><item><title>JourneyStreetMapとは</title><link>https://yossy4411.okayugroup.net/develop/journeystreetmap/about/</link><pubDate>Fri, 04 Apr 2025 15:50:47 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/journeystreetmap/about/</guid><description>&lt;p>
 &lt;div class="admonition warning">
 &lt;div class="admonition-title">Warning&lt;/div>
 &lt;div class="admonition-content">
@@ -25,11 +25,11 @@
 →Anvilファイルフォーマット、NBTデータ&lt;/p>
 &lt;h3 id="2-アプリ画面に表示">2. アプリ画面に表示
 &lt;/h3>&lt;blockquote>
-&lt;p>適当に&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/about/" >Rust&lt;/a>で組んどくかー&lt;/p>&lt;/blockquote>
+&lt;p>適当に&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/about/" >Rust&lt;/a>で組んどくかー&lt;/p>&lt;/blockquote>
 &lt;p>うぇい。&lt;/p>
 &lt;h3 id="3-マップデータを編集">3. マップデータを編集
 &lt;/h3>&lt;p>アプリ画面上で道路とか地点を追加したりします。&lt;/p>
-&lt;p>ここには&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/gui-library/" >GUIライブラリ&lt;/a>を使用するとやりやすいかもしれんね&lt;/p>
+&lt;p>ここには&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/ui/gui-library/" >GUIライブラリ&lt;/a>を使用するとやりやすいかもしれんね&lt;/p>
 &lt;h3 id="4-pmtilesにエクスポート">4. PMTilesにエクスポート
 &lt;/h3>&lt;p>PMTiles形式の１つのファイルにエクスポートすると使いやすいよね〜！&lt;/p>
 &lt;h3 id="5-gsiとして見る">5. GSIとして見る

@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>グラフィック on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/tags/%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3%E3%83%83%E3%82%AF/</link><description>Recent content in グラフィック on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Thu, 10 Apr 2025 17:35:48 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/tags/%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3%E3%83%83%E3%82%AF/index.xml" rel="self" type="application/rss+xml"/><item><title>egui</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/egui/about/</link><pubDate>Thu, 10 Apr 2025 17:35:48 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/libs/egui/about/</guid><description>&lt;h2 id="特徴">特徴
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>グラフィック on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/tags/%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3%E3%83%83%E3%82%AF/</link><description>Recent content in グラフィック on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/tags/%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3%E3%83%83%E3%82%AF/index.xml" rel="self" type="application/rss+xml"/><item><title>egui</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/ui/egui/about/</link><pubDate>Thu, 10 Apr 2025 17:35:48 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/libs/ui/egui/about/</guid><description>&lt;h2 id="特徴">特徴
 &lt;/h2>&lt;blockquote>
 &lt;p>egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native&lt;/p>&lt;/blockquote>
 &lt;p>日本語にすると、&lt;/p>
 &lt;blockquote>
-&lt;p>Webとネイティブアプリケーションとして動作できる、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/about/" >Rust&lt;/a>の使いやすい即時モードの&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/gui-library/" >GUIライブラリ&lt;/a>。&lt;/p>&lt;/blockquote>
+&lt;p>Webとネイティブアプリケーションとして動作できる、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/about/" >Rust&lt;/a>の使いやすい即時モードの&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/ui/gui-library/" >GUIライブラリ&lt;/a>。&lt;/p>&lt;/blockquote>
 &lt;p>となりますね。&lt;/p>
 &lt;h3 id="即時モードについて">即時モードについて
 &lt;/h3>&lt;p>即時モードとは、アプリケーションが常に更新され続ける形のUI構築システムのことで、ウィンドウでは定期的に再描画処理が呼ばれる。&lt;/p>
@@ -21,4 +21,65 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ui.image(egui::&lt;span style="color:#a6e22e">include_image!&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;ferris.png&amp;#34;&lt;/span>));
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>やっぱりわかりやすいね。&lt;/p>
 &lt;p>他のGUIライブラリとは違って、ボタンのクリックの処理がイベントハンドラではないところが少し気になると思うが、&lt;code>clicked()&lt;/code>はボタンが押された瞬間だけ&lt;code>true&lt;/code>になるため、これでボタンの押された処理が実装できる。&lt;/p>
-&lt;p>私は以前Scratchをやっていましたが、それにとても近いと思います。&lt;/p></description></item></channel></rss>
+&lt;p>私は以前Scratchをやっていましたが、それにとても近いと思います。&lt;/p></description></item><item><title>wgpu</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/wgpu/about/</link><pubDate>Tue, 08 Apr 2025 14:49:09 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/libs/wgpu/about/</guid><description>&lt;p>&lt;strong>wgpu&lt;/strong>は&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/platform/graphics/webgpu/about/" >WebGPU&lt;/a>のAPIを&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/about/" >Rust&lt;/a>で実装した&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/" >クレート&lt;/a>である。&lt;/p>
+&lt;p>
+&lt;div class="admonition important">
+&lt;div class="admonition-title">Important&lt;/div>
+&lt;div class="admonition-content">
+ラッパーではなく、WebGPUの設計に則ってRustで実装された、ピュアRustのライブラリである。
+&lt;/div>
+&lt;/div>
+wgpuは、Windows, MacOS, Linux, Web (WASM) の複数プラットフォームで動作する。&lt;/p>
+&lt;p>Rustのメモリ安全性を活かし、GPUのリソースを安全に管理したり、楽に並行処理が可能である。また、直接的に非同期処理をサポートしている。&lt;/p>
+&lt;h3 id="wgslシェーダー">WGSLシェーダー
+&lt;/h3>&lt;p>WebGPUのシェーダーはWGSL (拡張子&lt;code>.wgsl&lt;/code>)で定義する。この構文はRustに非常に似ている。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-wgsl" data-lang="wgsl">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// 頂点シェーダ
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#a6e22e">@vertex&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">fn&lt;/span> vs_main(&lt;span style="color:#a6e22e">@builtin&lt;/span>(vertex_index) vertex_index: u32) -&amp;gt; &lt;span style="color:#a6e22e">@builtin&lt;/span>(position) vec4&lt;span style="color:#f92672">&amp;lt;&lt;/span>f32&lt;span style="color:#f92672">&amp;gt;&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">let&lt;/span> positions &lt;span style="color:#f92672">=&lt;/span> array&lt;span style="color:#f92672">&amp;lt;&lt;/span>vec2&lt;span style="color:#f92672">&amp;lt;&lt;/span>f32&lt;span style="color:#f92672">&amp;gt;&lt;/span>, &lt;span style="color:#ae81ff">3&lt;/span>&lt;span style="color:#f92672">&amp;gt;&lt;/span>(
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> vec2&lt;span style="color:#f92672">&amp;lt;&lt;/span>f32&lt;span style="color:#f92672">&amp;gt;&lt;/span>(&lt;span style="color:#ae81ff">0.0&lt;/span>, &lt;span style="color:#ae81ff">0.5&lt;/span>), &lt;span style="color:#75715e">// 上
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> vec2&lt;span style="color:#f92672">&amp;lt;&lt;/span>f32&lt;span style="color:#f92672">&amp;gt;&lt;/span>(&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">0.5&lt;/span>, &lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">0.5&lt;/span>), &lt;span style="color:#75715e">// 左下
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> vec2&lt;span style="color:#f92672">&amp;lt;&lt;/span>f32&lt;span style="color:#f92672">&amp;gt;&lt;/span>(&lt;span style="color:#ae81ff">0.5&lt;/span>, &lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">0.5&lt;/span>) &lt;span style="color:#75715e">// 右下
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> );
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">let&lt;/span> pos &lt;span style="color:#f92672">=&lt;/span> positions[vertex_index];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> vec4&lt;span style="color:#f92672">&amp;lt;&lt;/span>f32&lt;span style="color:#f92672">&amp;gt;&lt;/span>(pos, &lt;span style="color:#ae81ff">0.0&lt;/span>, &lt;span style="color:#ae81ff">1.0&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// フラグメントシェーダ
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#a6e22e">@fragment&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">fn&lt;/span> fs_main() -&amp;gt; &lt;span style="color:#a6e22e">@location&lt;/span>(&lt;span style="color:#ae81ff">0&lt;/span>) vec4&lt;span style="color:#f92672">&amp;lt;&lt;/span>f32&lt;span style="color:#f92672">&amp;gt;&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> vec4&lt;span style="color:#f92672">&amp;lt;&lt;/span>f32&lt;span style="color:#f92672">&amp;gt;&lt;/span>(&lt;span style="color:#ae81ff">1.0&lt;/span>, &lt;span style="color:#ae81ff">0.0&lt;/span>, &lt;span style="color:#ae81ff">0.0&lt;/span>, &lt;span style="color:#ae81ff">1.0&lt;/span>); &lt;span style="color:#960050;background-color:#1e0010">#&lt;/span>FF0000FF
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>詳しくは別のドキュメントで説明する&amp;hellip;&lt;/p>
+&lt;h2 id="リンク">リンク
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/gfx-rs/wgpu" target="_blank" rel="noopener"
+>GitHub&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://wgpu.rs/" target="_blank" rel="noopener"
+>公式サイト&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>WebGPUについて</title><link>https://yossy4411.okayugroup.net/develop/knowledge/platform/graphics/webgpu/about/</link><pubDate>Tue, 08 Apr 2025 14:35:29 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/platform/graphics/webgpu/about/</guid><description>&lt;h2 id="概要">概要
+&lt;/h2>&lt;p>&lt;strong>WebGPU&lt;/strong>は、グラフィカル処理とGPGPUのための将来的な標準とAPIのためのワーキングネームである。「モダンな3D画像処理と計算機能」を提供することを目的としている。&lt;br>
+Apple, Google, Microsoft, Mozillaを含むさまざまな組織のエンジニアが協力して、&lt;a class="link" href="https://ja.wikipedia.org/wiki/World_Wide_Web_Consortium" title="World Wide Web Consortium"
+target="_blank" rel="noopener"
+>W3C&lt;/a>の&lt;em>GPU for the Web&lt;/em>コミュニティグループで開発される。&lt;/p>
+&lt;p>VulkanやMetal、Direct3Dをラップするような形で、クロスプラットフォームに動作するAPIの提供を行う。&lt;/p>
+&lt;h2 id="実装設計">実装・設計
+&lt;/h2>&lt;p>設計の中心となるヘッダーファイルは&lt;a class="link" href="https://raw.githubusercontent.com/webgpu-native/webgpu-headers/main/webgpu.h" target="_blank" rel="noopener"
+>webgpu.h&lt;/a>で提供されている。これには関数や構造体などの「設計書」のみが定義されており、中身は別のライブラリに存在する。&lt;/p>
+&lt;h3 id="rust">Rust
+&lt;/h3>&lt;p>WebGPUの設計書に基づいて純粋な&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/about/" >Rust&lt;/a>でそれを実装したものが&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/wgpu/about/" >wgpu&lt;/a>だ。主にMozilla FirefoxやRustの&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/ui/gui-library/" >GUIライブラリ&lt;/a>で使用されている。&lt;/p>
+&lt;h2 id="c">C++
+&lt;/h2>&lt;p>WebGPUをC++で実装したものが、&lt;a class="link" href="https://github.com/eliemichel/WebGPU-Cpp" target="_blank" rel="noopener"
+>WebGPU-C++&lt;/a>や&lt;a class="link" href="https://github.com/google/dawn" target="_blank" rel="noopener"
+>Dawn&lt;/a>である。特にDawnはGoogleによって開発されており、Google Chromeに搭載されている。&lt;/p>
+&lt;h2 id="ブラウザの対応">ブラウザの対応
+&lt;/h2>&lt;h3 id="google-chrome">Google Chrome
+&lt;/h3>&lt;p>Google Chromeでは、バージョン113以上で正式にサポートされている。&lt;br>
+同じくMicrosoft Edgeもバージョン113以上で対応している。&lt;/p>
+&lt;h3 id="safari">Safari
+&lt;/h3>&lt;p>SafariはMetalを通してWebGPUをサポートするが、現時点ではプレビュー版でサポートされている。&lt;/p>
+&lt;p>また、フラグで&lt;code>WebGPU = true&lt;/code>を設定することでプレビュー版でなくても使用できる。&lt;/p>
+&lt;h2 id="firefox">Firefox
+&lt;/h2>&lt;p>Mozilla Firefoxは、残念ながらデフォルトではサポートされない。代わりに&lt;code>dom.webgpu.enabled&lt;/code>フラグを有効化することでサポートされる。&lt;/p>
+&lt;p>W3CにMozillaが参加しているので、じきに正式サポートされるはずだ。&lt;/p></description></item></channel></rss>

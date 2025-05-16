@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>手続き型プログラミング言語 on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/procedural/</link><description>Recent content in 手続き型プログラミング言語 on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Fri, 16 May 2025 13:50:02 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/procedural/index.xml" rel="self" type="application/rss+xml"/><item><title>手続き型プログラミング</title><link>https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/procedural/about/</link><pubDate>Fri, 16 May 2025 13:50:02 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/procedural/about/</guid><description>&lt;p>&lt;strong>手続き型プログラミング&lt;/strong> (英: Procedural programming) は、コンピュータが実行すべき命令や手続きを、順に記述していくことでプログラムを構成するスタイルの&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/paradime/" >プログラミングパラダイム&lt;/a>である。&lt;/p>
+&lt;p>『手続き』は、言語によってはサブルーチン、関数、メソッドなどと呼ばれることもあるが、手続き型においてはほぼ同じものとしてみなされている。&lt;/p>
+&lt;h2 id="概要">概要
+&lt;/h2>&lt;p>手続き型では、プログラムはコードを上から下へ順番に動作する。また、関数に共通処理をまとめることもできる。ただし、関数の定義も上から下へ実行されることが多く、定義の順序が重要となる。&lt;/p>
+&lt;h2 id="言語">言語
+&lt;/h2>&lt;p>主要な言語でいうとこのような感じになる。&lt;/p>
+&lt;h3 id="特化">特化
+&lt;/h3>&lt;ul>
+&lt;li>C&lt;/li>
+&lt;li>Pascal&lt;/li>
+&lt;li>Fortran&lt;/li>
+&lt;li>BASIC&lt;/li>
+&lt;/ul>
+&lt;h3 id="マルチパラダイム">マルチパラダイム
+&lt;/h3>&lt;ul>
+&lt;li>Python&lt;/li>
+&lt;li>JavaScript&lt;/li>
+&lt;li>Ruby&lt;/li>
+&lt;li>Swift&lt;/li>
+&lt;li>C++&lt;/li>
+&lt;li>Go&lt;/li>
+&lt;/ul>
+&lt;h2 id="コード">コード
+&lt;/h2>&lt;p>手続き型プログラミング言語のコードは、まさに順序付けされた工程リストだ。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">sum&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> array[], &lt;span style="color:#66d9ef">int&lt;/span> length) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> sum &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> (&lt;span style="color:#66d9ef">int&lt;/span> i &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>; i &lt;span style="color:#f92672">&amp;lt;&lt;/span> length; i&lt;span style="color:#f92672">++&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> sum &lt;span style="color:#f92672">+=&lt;/span> array[i];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> sum;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> numbers[] &lt;span style="color:#f92672">=&lt;/span> {&lt;span style="color:#ae81ff">10&lt;/span>, &lt;span style="color:#ae81ff">20&lt;/span>, &lt;span style="color:#ae81ff">30&lt;/span>, &lt;span style="color:#ae81ff">40&lt;/span>, &lt;span style="color:#ae81ff">50&lt;/span>};
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> length &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#66d9ef">sizeof&lt;/span>(numbers) &lt;span style="color:#f92672">/&lt;/span> &lt;span style="color:#66d9ef">sizeof&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> numbers_sum &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">sum&lt;/span>(numbers, length);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">float&lt;/span> average;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> average &lt;span style="color:#f92672">=&lt;/span> (&lt;span style="color:#66d9ef">float&lt;/span>)numbers_sum &lt;span style="color:#f92672">/&lt;/span> length;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;平均は %.2f です&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>, average);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>これは、配列numbersから平均を導くコードである。実行結果は&lt;/p>
+&lt;pre tabindex="0">&lt;code>平均は 30 です
+&lt;/code>&lt;/pre>&lt;p>となる。&lt;/p>
+&lt;p>関数&lt;code>sum&lt;/code>を定義した後に関数&lt;code>main&lt;/code>を呼び出しているため正常に実行できるが、&lt;code>sum&lt;/code>を&lt;code>main&lt;/code>の下に定義するとコンパイルエラーとなる。（最近のgccは許してくれること多いけど）&lt;/p>
+&lt;h2 id="備考">備考
+&lt;/h2>&lt;p>なお、この「上から下へ実行される」というルールは他のプログラミング言語でもよくみられるものだ。並列処理でない限りはほとんどの言語がこのルールに則って動く。&lt;/p>
+&lt;p>しかも、C#などの一部のマルチパラダイム言語ではローカルスコープで定義したラムダ式や関数は定義より上からは呼び出せないため、手続き型のパラダイムが顕著に現れている例だといえる。&lt;/p></description></item></channel></rss>

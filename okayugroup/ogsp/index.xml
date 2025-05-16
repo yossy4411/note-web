@@ -62,86 +62,16 @@
 &lt;/h2>&lt;p>地震計から収集したデータを集める場所がサーバーです。&lt;/p>
 &lt;p>同時に受信システムへのデータ送信も行います。&lt;/p>
 &lt;h2 id="受信システムアプリ開発">受信システム・アプリ開発
-&lt;/h2>&lt;h3 id="earthquake---デスクトップ版地震災害情報アプリ">&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/about/" >EarthQuake&lt;/a> - デスクトップ版地震災害情報アプリ
+&lt;/h2>&lt;h3 id="earthquake---デスクトップ版地震災害情報アプリ">&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/previous/earthquake/about/" >EarthQuake&lt;/a> - デスクトップ版地震災害情報アプリ
 &lt;/h3>&lt;p>パフォーマンスの理由で開発停止&lt;br>
 言語: C#&lt;br>
 GUIフレームワーク: Avalonia + SkiaSharp
 ↪ &lt;a class="link" href="https://github.com/yossy4411/EarthQuake" target="_blank" rel="noopener"
 >GitHub&lt;/a>&lt;/p>
-&lt;h3 id="ogsp-disaster-prevention">&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/disaster-prevention/about/" >OGSP Disaster Prevention&lt;/a>
+&lt;h3 id="ogsp-disaster-prevention">&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/application/disaster-prevention/about/" >OGSP Disaster Prevention&lt;/a>
 &lt;/h3>&lt;p>パフォーマンスを最大化した最新鋭の設計&lt;br>
-言語: &lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/about/" >Rust&lt;/a>
-GUIフレームワーク: &lt;code>iced&lt;/code> (変更の可能性あり) + &lt;code>wgpu&lt;/code> + Skia (&lt;code>skia-safe&lt;/code>)&lt;/p></description></item><item><title>おかゆグループ地震計プロジェクト</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/about/</link><pubDate>Mon, 07 Apr 2025 22:38:56 +0900</pubDate><guid>https://yossy4411.okayugroup.net/okayugroup/ogsp/about/</guid><description>&lt;h2 id="概要">概要
-&lt;/h2>&lt;p>おかゆグループ地震系プロジェクト（Okayu Group Seismometer Project、略称: OGSP）は、オープンソースで地震観測網および災害対策網を構築するプロジェクト。&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Field&lt;/th>
-&lt;th>Value&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>主導&lt;/td>
-&lt;td>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/about/" >おかゆグループ&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>参考&lt;/td>
-&lt;td>&lt;a class="link" href="https://www.jma.go.jp" target="_blank" rel="noopener"
->気象庁&lt;/a>&lt;br>&lt;a class="link" href="https://www.bosai.go.jp" target="_blank" rel="noopener"
->NIED&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>プラットフォーム&lt;/td>
-&lt;td>GitHub (リンクなし)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>予算&lt;/td>
-&lt;td>0円+&lt;a class="link" href="https://yossy4411.okayugroup.net/about-me/" >yossy4411&lt;/a>のお小遣い&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="なぜオープンソース">なぜオープンソース？
-&lt;/h2>&lt;p>私は「防災」は&lt;strong>みんなでつくる&lt;/strong>ものであるべきであって、他人や政府に頼りっきりになるべきではないと思っております。そのためのカギとなる考え方が&lt;strong>オープンソース&lt;/strong>だったわけです。&lt;/p>
-&lt;p>オープンソースは、ソフトウェアを公開された場所に置くことで、使用や改変、協力的な開発ができる開発の方法で、対比されるのが「クローズドソース」です。&lt;br>
-※&amp;ldquo;オープンソース&amp;quot;という言葉が指すものは、考え方だったり開発モデルだったりする。ややこしくてごめんね&lt;/p>
-&lt;h3 id="メリット">メリット
-&lt;/h3>&lt;p>オープンソースにすることで、政府組織外で運営されることによって発生する様々な問題の解消が可能になります。&lt;/p>
-&lt;ul>
-&lt;li>透明性の向上&lt;/li>
-&lt;li>柔軟性の向上&lt;/li>
-&lt;li>互換性の向上&lt;/li>
-&lt;li>バグの削減&lt;/li>
-&lt;li>責任の分散&lt;/li>
-&lt;li>災害への意識の向上&lt;/li>
-&lt;/ul>
-&lt;h3 id="デメリット">デメリット
-&lt;/h3>&lt;p>オープンソースになることによって発生するデメリットもあります。&lt;/p>
-&lt;ul>
-&lt;li>収入源が得られない （開発資金の調達が難しい）&lt;/li>
-&lt;li>ハッキングの対象になりやすい （逆に修正もしやすいが）&lt;/li>
-&lt;li>開発スピードの低下 （公開することで他人からも見やすくする必要があるため）
-これ以外にもデメリットはあると思います。判明次第付け足していきます。&lt;/li>
-&lt;/ul>
-&lt;h2 id="地震計開発">地震計開発
-&lt;/h2>&lt;p>地震計は、加速度データから震度を計測します。&lt;br>
-収集したデータは&lt;a class="link" href="#%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e9%96%8b%e7%99%ba" >サーバー&lt;/a>へ送信されます。&lt;/p>
-&lt;p>現在ではESP32マイコンを使い、開発を進めています。&lt;br>
-言語: C++ (Arduino/PlatformIO)&lt;br>
-↪ &lt;a class="link" href="https://github.com/yossy4411/ogsp-seismometer-esp32" target="_blank" rel="noopener"
->OGSP-Seismometer-ESP32 (GitHub)&lt;/a>&lt;/p>
-&lt;p>また、スマホに内蔵される加速度センサを使って、スマホを地震計にすることで新しく地震計を作製することなく地震観測が可能になるプロジェクトもアイデアとして浮かんでいます。&lt;/p>
-&lt;h2 id="サーバー開発">サーバー開発
-&lt;/h2>&lt;p>地震計から収集したデータを集める場所がサーバーです。&lt;/p>
-&lt;p>同時に受信システムへのデータ送信も行います。&lt;/p>
-&lt;h2 id="受信システムアプリ開発">受信システム・アプリ開発
-&lt;/h2>&lt;h3 id="earthquake---デスクトップ版地震災害情報アプリ">&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/about/" >EarthQuake&lt;/a> - デスクトップ版地震災害情報アプリ
-&lt;/h3>&lt;p>パフォーマンスの理由で開発停止&lt;br>
-言語: C#&lt;br>
-GUIフレームワーク: Avalonia + SkiaSharp
-↪ &lt;a class="link" href="https://github.com/yossy4411/EarthQuake" target="_blank" rel="noopener"
->GitHub&lt;/a>&lt;/p>
-&lt;h3 id="ogsp-disaster-prevention">&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/disaster-prevention/about/" >OGSP Disaster Prevention&lt;/a>
-&lt;/h3>&lt;p>パフォーマンスを最大化した最新鋭の設計&lt;br>
-言語: &lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/about/" >Rust&lt;/a>
-GUIフレームワーク: &lt;code>iced&lt;/code> (変更の可能性あり) + &lt;code>wgpu&lt;/code> + Skia (&lt;code>skia-safe&lt;/code>)&lt;/p></description></item></channel></rss>
+言語: &lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/about/" >Rust&lt;/a>
+GUIフレームワーク: &lt;code>iced&lt;/code> (変更の可能性あり) + &lt;code>wgpu&lt;/code> + Skia (&lt;code>skia-safe&lt;/code>)&lt;/p></description></item><item><title>おかゆグループ</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/design.excalidraw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/okayugroup/ogsp/design.excalidraw/</guid><description>&lt;p>&lt;a class="link" href="https://okayugroup.com" target="_blank" rel="noopener"
+>おかゆグループ&lt;/a>は、『学生だからできること』をモットーに活動する、同好会のようなものです。&lt;/p>
+&lt;p>私によって創設・管理されていますが、成長させるのは&amp;quot;みんな&amp;quot;です！&lt;/p>
+&lt;p>メンバー２人しかいないから誰か来てくれ〜(´；ω；｀)&lt;/p></description></item></channel></rss>

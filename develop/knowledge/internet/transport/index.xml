@@ -15,7 +15,7 @@
 &lt;p>つまり、リクエストに対してレスポンスを返すまでに時間がかかりすぎると、別の宛先にパケットが届いたり、到達できなかったりします。&lt;/p>
 &lt;p>しかもUDPの仕組み上、パケットが正しく届いたかどうかを知ることもできません。&lt;/p>
 &lt;h2 id="それを解決するのがquicなのだ">それを解決するのがQUICなのだ！
-&lt;/h2>&lt;p>これを踏まえると、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>では&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/%223%22/" >HTTP/3&lt;/a>として&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/keep-alive/" >Keep-Alive&lt;/a>が使える理由がはっきりしてきます。&lt;/p>
+&lt;/h2>&lt;p>これを踏まえると、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>では&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/3/" >HTTP/3&lt;/a>として&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/keep-alive/" >Keep-Alive&lt;/a>が使える理由がはっきりしてきます。&lt;/p>
 &lt;p>その理由はズバリ！&lt;/p>
 &lt;div class="admonition important">
 &lt;div class="admonition-title">Important&lt;/div>

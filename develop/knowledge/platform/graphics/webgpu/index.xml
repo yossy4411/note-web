@@ -1,1 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WebGPU on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/develop/knowledge/platform/graphics/webgpu/</link><description>Recent content in WebGPU on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate/><atom:link href="https://yossy4411.okayugroup.net/develop/knowledge/platform/graphics/webgpu/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WebGPU on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/develop/knowledge/platform/graphics/webgpu/</link><description>Recent content in WebGPU on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/develop/knowledge/platform/graphics/webgpu/index.xml" rel="self" type="application/rss+xml"/><item><title>WebGPUについて</title><link>https://yossy4411.okayugroup.net/develop/knowledge/platform/graphics/webgpu/about/</link><pubDate>Tue, 08 Apr 2025 14:35:29 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/platform/graphics/webgpu/about/</guid><description>&lt;h2 id="概要">概要
+&lt;/h2>&lt;p>&lt;strong>WebGPU&lt;/strong>は、グラフィカル処理とGPGPUのための将来的な標準とAPIのためのワーキングネームである。「モダンな3D画像処理と計算機能」を提供することを目的としている。&lt;br>
+Apple, Google, Microsoft, Mozillaを含むさまざまな組織のエンジニアが協力して、&lt;a class="link" href="https://ja.wikipedia.org/wiki/World_Wide_Web_Consortium" title="World Wide Web Consortium"
+target="_blank" rel="noopener"
+>W3C&lt;/a>の&lt;em>GPU for the Web&lt;/em>コミュニティグループで開発される。&lt;/p>
+&lt;p>VulkanやMetal、Direct3Dをラップするような形で、クロスプラットフォームに動作するAPIの提供を行う。&lt;/p>
+&lt;h2 id="実装設計">実装・設計
+&lt;/h2>&lt;p>設計の中心となるヘッダーファイルは&lt;a class="link" href="https://raw.githubusercontent.com/webgpu-native/webgpu-headers/main/webgpu.h" target="_blank" rel="noopener"
+>webgpu.h&lt;/a>で提供されている。これには関数や構造体などの「設計書」のみが定義されており、中身は別のライブラリに存在する。&lt;/p>
+&lt;h3 id="rust">Rust
+&lt;/h3>&lt;p>WebGPUの設計書に基づいて純粋な&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/about/" >Rust&lt;/a>でそれを実装したものが&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/wgpu/about/" >wgpu&lt;/a>だ。主にMozilla FirefoxやRustの&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/ui/gui-library/" >GUIライブラリ&lt;/a>で使用されている。&lt;/p>
+&lt;h2 id="c">C++
+&lt;/h2>&lt;p>WebGPUをC++で実装したものが、&lt;a class="link" href="https://github.com/eliemichel/WebGPU-Cpp" target="_blank" rel="noopener"
+>WebGPU-C++&lt;/a>や&lt;a class="link" href="https://github.com/google/dawn" target="_blank" rel="noopener"
+>Dawn&lt;/a>である。特にDawnはGoogleによって開発されており、Google Chromeに搭載されている。&lt;/p>
+&lt;h2 id="ブラウザの対応">ブラウザの対応
+&lt;/h2>&lt;h3 id="google-chrome">Google Chrome
+&lt;/h3>&lt;p>Google Chromeでは、バージョン113以上で正式にサポートされている。&lt;br>
+同じくMicrosoft Edgeもバージョン113以上で対応している。&lt;/p>
+&lt;h3 id="safari">Safari
+&lt;/h3>&lt;p>SafariはMetalを通してWebGPUをサポートするが、現時点ではプレビュー版でサポートされている。&lt;/p>
+&lt;p>また、フラグで&lt;code>WebGPU = true&lt;/code>を設定することでプレビュー版でなくても使用できる。&lt;/p>
+&lt;h2 id="firefox">Firefox
+&lt;/h2>&lt;p>Mozilla Firefoxは、残念ながらデフォルトではサポートされない。代わりに&lt;code>dom.webgpu.enabled&lt;/code>フラグを有効化することでサポートされる。&lt;/p>
+&lt;p>W3CにMozillaが参加しているので、じきに正式サポートされるはずだ。&lt;/p></description></item></channel></rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>EarthQuake on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/previous/earthquake/</link><description>Recent content in EarthQuake on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Tue, 08 Apr 2025 10:33:31 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/okayugroup/ogsp/previous/earthquake/index.xml" rel="self" type="application/rss+xml"/><item><title>EarthQuake - デスクトップ版地震災害情報アプリ</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/previous/earthquake/about/</link><pubDate>Tue, 08 Apr 2025 10:33:31 +0900</pubDate><guid>https://yossy4411.okayugroup.net/okayugroup/ogsp/previous/earthquake/about/</guid><description>&lt;p>
+&lt;div class="admonition important">
+&lt;div class="admonition-title">Important&lt;/div>
+&lt;div class="admonition-content">
+パフォーマンス上の理由から、このアプリの開発は中断されました。
+次期となるOGSP Disaster Preventionの開発にご期待ください。
+&lt;/div>
+&lt;/div>
+## 特徴&lt;/p>
+&lt;ul>
+&lt;li>Avaloniaで書かれたクロスプラットフォームなアプリ (Windows, Mac, Linux)&lt;/li>
+&lt;li>PMTilesを使用したベクターマップの表示 （独自実装）&lt;/li>
+&lt;li>地震情報・震央分布図の表示&lt;/li>
+&lt;/ul>
+&lt;h2 id="リリース">リリース
+&lt;/h2>&lt;p>正式なリリースは&lt;a class="link" href="https://github.com/yossy4411/EarthQuake/releases" target="_blank" rel="noopener"
+>GitHub&lt;/a>に、プレリリースバージョンは&lt;a class="link" href="https://archive.okayugroup.com/public/EarthQuake/releases/" target="_blank" rel="noopener"
+>おかゆグループ アーカイブ&lt;/a>にて公開されています。&lt;br>
+とても分かりづらいですが、画像にするならこんな感じ。
+&lt;img src="https://yossy4411.okayugroup.net/assets/EarthQuake-StagedRelease.svg"
+loading="lazy"
+alt="リリースの中で不安定だけど開発が一区切り着いたときにプレリリースバージョン、機能の追加が終了しリリースの準備ができた段階で正式リリースを出しています。"
+>&lt;/p>
+&lt;h3 id="バージョン履歴">バージョン履歴
+&lt;/h3>&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/yossy4411/EarthQuake/releases/tag/v0.1.1" target="_blank" rel="noopener"
+>v0.1.1&lt;/a> - 2024年12月22日
+マップにPMTilesを使用、バグ修正&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/yossy4411/EarthQuake/releases/tag/v0.1.0" target="_blank" rel="noopener"
+>v0.1.0&lt;/a> - 2024年9月23日
+最初のリリース&lt;/li>
+&lt;li>&lt;a class="link" href="https://archive.okayugroup.com/public/EarthQuake/releases/pre-20240722" target="_blank" rel="noopener"
+>pre-20240722&lt;/a> - 2024年7月22日&lt;/li>
+&lt;li>&lt;a class="link" href="https://archive.okayugroup.com/public/EarthQuake/releases/pre-20240528" target="_blank" rel="noopener"
+>pre-20240528&lt;/a> - 2024年5月28日&lt;/li>
+&lt;/ul></description></item></channel></rss>

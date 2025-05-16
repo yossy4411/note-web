@@ -1,52 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ライブラリとか on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/</link><description>Recent content in ライブラリとか on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Thu, 10 Apr 2025 17:46:20 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/develop/knowledge/libs/index.xml" rel="self" type="application/rss+xml"/><item><title>GUIライブラリまとめ</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/gui-library/</link><pubDate>Thu, 10 Apr 2025 17:46:20 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/libs/gui-library/</guid><description>&lt;p>GUI（グラフィカルユーザーインターフェース）を表示するための&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/about/" >ライブラリ&lt;/a>。&lt;/p>
-&lt;p>ここでは私が知る限りのGUIライブラリおよびGUIフレームワークを書いておく。&lt;/p>
-&lt;p>※Webについては別の場所で書こうと思っていて、完成した頃にリンクを貼ります&lt;/p>
-&lt;h2 id="rust">Rust
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ライブラリ on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/</link><description>Recent content in ライブラリ on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Fri, 04 Apr 2025 17:23:16 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/develop/knowledge/libs/index.xml" rel="self" type="application/rss+xml"/><item><title>ライブラリとは</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/about/</link><pubDate>Fri, 04 Apr 2025 17:23:16 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/libs/about/</guid><description>&lt;p>&lt;strong>ライブラリ&lt;/strong>（英: library）は、汎用性の高い複数のプログラムを再利用可能な形でひとまとまりにしたものである。実行可能な形式でない場合が多く、ソフトウェア開発の上で機能を拡張するものとして利用される。&lt;/p>
+&lt;p>プログラムの集合ではあるが、その組み込むファイルがソースコードの場合や、オブジェクトコード、リンクライブラリのバイナリで提供される場合など、その方法は様々である。&lt;/p>
+&lt;p>ライブラリをプログラムに紐づけることを、リンクという。リンクの仕方として、動的リンクや静的リンクなどがある。&lt;/p>
+&lt;h2 id="サブセクション">サブセクション
 &lt;/h2>&lt;ul>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/egui/about/" >egui&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/iced/about/" >iced&lt;/a>&lt;/li>
-&lt;li>Tauri&lt;/li>
-&lt;li>Druid (開発停止)&lt;/li>
-&lt;li>Slint&lt;/li>
-&lt;/ul>
-&lt;h2 id="flutter">Flutter
-&lt;/h2>&lt;p>Flutterはそのもの全体がUIフレームワークだと言えるだろう。&lt;/p>
-&lt;h2 id="c">C#
-&lt;/h2>&lt;ul>
-&lt;li>WinForms&lt;/li>
-&lt;li>WPF&lt;/li>
-&lt;li>WinAPI&lt;/li>
-&lt;li>MAUI&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;ul>
-&lt;li>Avalonia&lt;/li>
-&lt;li>UNO Platform&lt;/li>
-&lt;li>Xamarin (開発停止)&lt;/li>
-&lt;/ul>
-&lt;h2 id="go">Go
-&lt;/h2>&lt;ul>
-&lt;li>Gio&lt;/li>
-&lt;/ul>
-&lt;h2 id="c-1">C++
-&lt;/h2>&lt;ul>
-&lt;li>Qt&lt;/li>
-&lt;li>Xamarin C++&lt;/li>
-&lt;/ul></description></item><item><title>ライブラリとは</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/about/</link><pubDate>Fri, 04 Apr 2025 17:23:16 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/libs/about/</guid><description>&lt;h2 id="ライブラリとは">ライブラリとは
-&lt;/h2>&lt;p>ソフトウェアの開発の上で機能を拡張するやつだと思っていたら良いと思います。
-知らんけど。&lt;/p>
-&lt;h2 id="目次">目次
-&lt;/h2>&lt;ul>
-&lt;li>&lt;span class="dead-link">
-wgpu
-&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
-&lt;/span>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/iced/about/" >iced&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/ui/gui-library/" >GUIライブラリ&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="関連項目">関連項目
 &lt;/h2>&lt;ul>
-&lt;li>&lt;span class="dead-link">
-crate
-&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
-&lt;/span>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/" >crate&lt;/a>&lt;/li>
 &lt;/ul></description></item></channel></rss>

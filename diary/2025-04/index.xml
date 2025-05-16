@@ -613,10 +613,7 @@
 &lt;h2 id="春休み中にできなかった4つのこと">春休み中にできなかった4つのこと
 &lt;/h2>&lt;h4 id="1-journeystreetmapのリリース">1. JourneyStreetMapのリリース
 &lt;/h4>&lt;p>まあ分かってたけれども。&lt;/p>
-&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/about/" >Rust&lt;/a>や&lt;span class="dead-link">
-WebGPU
-&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
-&lt;/span>の勉強など、ちょっと難航しすぎたかもしれない。&lt;br>
+&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/about/" >Rust&lt;/a>や&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/platform/graphics/webgpu/about/" >WebGPU&lt;/a>の勉強など、ちょっと難航しすぎたかもしれない。&lt;br>
 普通に別のプラットフォーム使っとけば良かった。&lt;/p>
 &lt;p>疲れてます。&lt;/p>
 &lt;p>ここ1週間のうちに完成できるように頑張りたい！&lt;/p>
@@ -716,18 +713,15 @@ WebGPU
 これを修正するために作業を致しました。&lt;/p>
 &lt;p>ファイル名が一致しないファイルにエイリアスを追加しました。&lt;/p></description></item><item><title>2025年04月10日(木)</title><link>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-10/</link><pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-10/</guid><description>&lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;h3 id="journeystreetmapをeguiに移植">&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/about/" >journeystreetmap&lt;/a>をeguiに移植
-&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/2025-04-09/" >昨日分かったこと&lt;/a>の制作)なのですが、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/iced/about/" >iced&lt;/a>では少し融通がきかないなというわけでeguiに移植したいと思います。&lt;/p>
+&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/2025-04-09/" >昨日分かったこと&lt;/a>の制作)なのですが、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/ui/iced/about/" >iced&lt;/a>では少し融通がきかないなというわけでeguiに移植したいと思います。&lt;/p>
 &lt;p>普通に&lt;code>Image&lt;/code>を&lt;code>ui.put&lt;/code>して良いパフォーマンスが得られたら良いんですがね、そう上手くはいかなそうです。&lt;br>
-もし別の方法を考える必要があった場合は、&lt;span class="dead-link">
-wgpu
-&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
-&lt;/span>で直接描画を行うなど、プリミティブなやり方を取ります。&lt;/p></description></item><item><title>2025年04月09日(水)</title><link>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-09/</link><pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-09/</guid><description>&lt;h2 id="今日の作業">今日の作業
+もし別の方法を考える必要があった場合は、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/wgpu/about/" >wgpu&lt;/a>で直接描画を行うなど、プリミティブなやり方を取ります。&lt;/p></description></item><item><title>2025年04月09日(水)</title><link>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-09/</link><pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-09/</guid><description>&lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;h3 id="ノート整理">ノート整理
 &lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/2025-04-08/" >昨日&lt;/a>の続きです。&lt;/p>
 &lt;ul>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/about/" >JourneyStreetMap&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/about/" >OGSP&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/iced/about/" >iced&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/ui/iced/about/" >iced&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/favorite/stpr/about/" >STPR&lt;/a>&lt;/li>
 &lt;li>&lt;span class="dead-link">
 GC
@@ -755,16 +749,10 @@ GC
 &lt;/h3>&lt;p>これらに情報を書き加えました。&lt;/p>
 &lt;ul>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/about/" >OGSP&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/disaster-prevention/about/" >OGSP Disaster Prevention&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/about/" >EarthQuake.desktop&lt;/a>&lt;/li>
-&lt;li>&lt;span class="dead-link">
-wgpu
-&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
-&lt;/span>&lt;/li>
-&lt;li>&lt;span class="dead-link">
-WebGPU
-&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
-&lt;/span>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/application/disaster-prevention/about/" >OGSP Disaster Prevention&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/previous/earthquake/about/" >EarthQuake.desktop&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/wgpu/about/" >wgpu&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/platform/graphics/webgpu/about/" >WebGPU&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h3 id="ノートのリンクを修正">ノートのリンクを修正
 &lt;/h3>&lt;p>&lt;code>().md&lt;/code>形式のリンクはObsidianで一般的に使用されますが、これはHugoでは使えません。&lt;/p>

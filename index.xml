@@ -1,4 +1,436 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yossy4411のノート</title><link>https://yossy4411.okayugroup.net/</link><description>Recent content on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Tue, 13 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年05月13日(火)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-13/</link><pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-13/</guid><description>&lt;h2 id="今日の体調">今日の体調
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yossy4411のノート</title><link>https://yossy4411.okayugroup.net/</link><description>Recent content on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Fri, 16 May 2025 19:36:09 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/index.xml" rel="self" type="application/rss+xml"/><item><title>ライセンスについて</title><link>https://yossy4411.okayugroup.net/license/</link><pubDate>Fri, 16 May 2025 19:36:09 +0900</pubDate><guid>https://yossy4411.okayugroup.net/license/</guid><description>&lt;p>このノートのライセンスは、基本的に&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank" rel="noopener"
+>クリエイティブ・コモンズ 表示 4.0 国際&lt;/a> (CC BY 4.0)&lt;/li>
+&lt;li>&lt;a class="link" href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja" target="_blank" rel="noopener"
+>クリエイティブ・コモンズ 表示-継承 4.0 国際&lt;/a> (CC BY-SA 4.0)
+の２つです。&lt;/li>
+&lt;/ul>
+&lt;h2 id="ライセンスの意味">ライセンスの意味
+&lt;/h2>&lt;p>クリエイティブ・コモンズとは、著作物を正しく再利用できるようにすることを目的とした、様々なレベルのライセンスを定めているプロジェクト及び非営利団体の名称です。&lt;/p>
+&lt;p>そのうち、&lt;strong>表示 4.0 国際&lt;/strong>は１つのレベルです。ここでは以下のことが許可されています。&lt;/p>
+&lt;ul>
+&lt;li>共有（複製、再配布、商用利用を含む）&lt;/li>
+&lt;li>翻案（リミックス、改変、マージを含む）&lt;/li>
+&lt;/ul>
+&lt;p>ただし、以下のことを守ってほしいです。&lt;/p>
+&lt;ul>
+&lt;li>表示
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://creativecommons.org/licenses/by/4.0/deed.ja#ref-appropriate-credit" target="_blank" rel="noopener"
+>適切なクレジット&lt;/a> を表示し、ライセンスへのリンクを提供する。&lt;/li>
+&lt;li>変更があったら&lt;a class="link" href="https://creativecommons.org/licenses/by/4.0/deed.ja#ref-indicate-changes" target="_blank" rel="noopener"
+>その旨&lt;/a> を示す。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>これらは合理的であればどのような方法でも構いませんが、許諾者があなたを支持するような表記は除きます。&lt;/p>
+&lt;p>また、&lt;strong>表示-継承 4.0 国際&lt;/strong>は、上のものに守ってほしいことに以下の要項を追加したものです。&lt;/p>
+&lt;ul>
+&lt;li>継承
+これは、私のコンテンツをリミックスしたり、改変したり、加工した場合には、同じライセンス、つまり&lt;strong>表示-継承 4.0 国際&lt;/strong>で配布してください、ということです。&lt;/li>
+&lt;/ul>
+&lt;h2 id="ライセンスが課される場所">ライセンスが課される場所
+&lt;/h2>&lt;p>基本的な部分は&lt;strong>CC BY 4.0&lt;/strong>で公開されますが、&lt;a class="link" href="//develop/knowledge/" >知識ノート&lt;/a>ではWikipediaの情報を載せているので&lt;strong>CC BY-SA 4.0&lt;/strong>で公開しています。知識ノートのライセンスの詳細については&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/about/" >知識置き場&lt;/a>をご覧ください。&lt;/p></description></item><item><title>C++</title><link>https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/c++/</link><pubDate>Fri, 16 May 2025 15:24:13 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/c++/</guid><description>&lt;p>&lt;strong>C++&lt;/strong> (&lt;strong>シープラスプラス&lt;/strong>) は、汎用プログラミング言語のひとつである。&lt;br>
+C言語の特徴を継承しつつ、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/procedural/about/" >手続き型プログラミング&lt;/a>や抽象・&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/object-orient/about/" >オブジェクト指向プログラミング&lt;/a>、ジェネリックプログラミングなどの複数の&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/paradime/" >プログラミングパラダイム&lt;/a>が組み合わせられている（マルチパラダイムプログラミングの）言語である。&lt;/p>
+&lt;p>ハードウェアを直接操作するような低水準言語としても、複雑なソフトウェアを開発する高水準言語としても使用できる。&lt;/p>
+&lt;h2 id="概要">概要
+&lt;/h2>&lt;p>C++は歴史を遡るとかなり古い。&lt;/p>
+&lt;p>1979年、C with Classesの開発が開始され、途中大規模ソフトウェアの開発はSimulaが有用だということに気がついた。そのため、その特徴を取り入れつつ、クラスと派生クラス、型付けの強化、インライン関数、デフォルト引数の機能をCに追加したものを、1985年10月に最初の商用リリースした。&lt;/p>
+&lt;p>1983年にはC with ClassesはC++に改名された。&lt;/p>
+&lt;hr>
+&lt;p>あのさー、C++を説明するのはむずくないか？ｗ&lt;/p></description></item><item><title>関数型プログラミング</title><link>https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/functional/about/</link><pubDate>Fri, 16 May 2025 14:46:01 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/functional/about/</guid><description>&lt;p>&lt;strong>関数型プログラミング&lt;/strong> (英: Functional programming)とは、数学的な意味での『関数』を主に使用する&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/paradime/" >プログラミングパラダイム&lt;/a>である。&lt;/p>
+&lt;p>関数型プログラミングを推奨している言語を、&lt;strong>関数型プログラミング言語&lt;/strong> (functional programming language) というが、略して&lt;strong>関数型言語&lt;/strong> (functional language)と呼ぶこともある。&lt;/p>
+&lt;h2 id="概要">概要
+&lt;/h2>&lt;p>関数型プログラミングでは、関数を軸にプログラミングを行う。&lt;br>
+ここでの関数とは、数学的な関数、すなわち参照透過性をもつものを指す。&lt;/p>
+&lt;p>&lt;strong>参照透過性&lt;/strong>とは、数学的な関数と同じように、引数が同じであれば同じ値を返す性質である。&lt;br>
+例としてこのPythonコードを見ていただく。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">def&lt;/span> &lt;span style="color:#a6e22e">expression&lt;/span>(x):
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> x &lt;span style="color:#f92672">**&lt;/span> &lt;span style="color:#ae81ff">2&lt;/span> &lt;span style="color:#75715e"># xの2乗&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>ここでは、$x=3$のときには$9$、$x=4$のときは$16$のように、引数が同じときは常に同じ値を返す。&lt;/p>
+&lt;p>関数プログラミングでは、関数を使って組み立てた式が軸となっている。プログラミング言語ではよく「関数を実行する」や「関数を呼び出す」と表現するが、関数型プログラミング言語では「式を評価する」という表現もよく使われる。&lt;/p>
+&lt;h2 id="言語">言語
+&lt;/h2>&lt;p>主要な言語は以下の通り。&lt;/p>
+&lt;h3 id="特化">特化
+&lt;/h3>&lt;ul>
+&lt;li>Elm&lt;/li>
+&lt;li>Scala&lt;/li>
+&lt;li>Haskell&lt;/li>
+&lt;li>LISP&lt;/li>
+&lt;/ul>
+&lt;h3 id="マルチパラダイム">マルチパラダイム
+&lt;/h3>&lt;ul>
+&lt;li>Python&lt;/li>
+&lt;li>JavaScript&lt;/li>
+&lt;li>Ruby&lt;/li>
+&lt;li>Kotlin&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/about/" >Rust&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>手続き型プログラミング</title><link>https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/procedural/about/</link><pubDate>Fri, 16 May 2025 13:50:02 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/procedural/about/</guid><description>&lt;p>&lt;strong>手続き型プログラミング&lt;/strong> (英: Procedural programming) は、コンピュータが実行すべき命令や手続きを、順に記述していくことでプログラムを構成するスタイルの&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/paradime/" >プログラミングパラダイム&lt;/a>である。&lt;/p>
+&lt;p>『手続き』は、言語によってはサブルーチン、関数、メソッドなどと呼ばれることもあるが、手続き型においてはほぼ同じものとしてみなされている。&lt;/p>
+&lt;h2 id="概要">概要
+&lt;/h2>&lt;p>手続き型では、プログラムはコードを上から下へ順番に動作する。また、関数に共通処理をまとめることもできる。ただし、関数の定義も上から下へ実行されることが多く、定義の順序が重要となる。&lt;/p>
+&lt;h2 id="言語">言語
+&lt;/h2>&lt;p>主要な言語でいうとこのような感じになる。&lt;/p>
+&lt;h3 id="特化">特化
+&lt;/h3>&lt;ul>
+&lt;li>C&lt;/li>
+&lt;li>Pascal&lt;/li>
+&lt;li>Fortran&lt;/li>
+&lt;li>BASIC&lt;/li>
+&lt;/ul>
+&lt;h3 id="マルチパラダイム">マルチパラダイム
+&lt;/h3>&lt;ul>
+&lt;li>Python&lt;/li>
+&lt;li>JavaScript&lt;/li>
+&lt;li>Ruby&lt;/li>
+&lt;li>Swift&lt;/li>
+&lt;li>C++&lt;/li>
+&lt;li>Go&lt;/li>
+&lt;/ul>
+&lt;h2 id="コード">コード
+&lt;/h2>&lt;p>手続き型プログラミング言語のコードは、まさに順序付けされた工程リストだ。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">sum&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> array[], &lt;span style="color:#66d9ef">int&lt;/span> length) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> sum &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> (&lt;span style="color:#66d9ef">int&lt;/span> i &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>; i &lt;span style="color:#f92672">&amp;lt;&lt;/span> length; i&lt;span style="color:#f92672">++&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> sum &lt;span style="color:#f92672">+=&lt;/span> array[i];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> sum;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> numbers[] &lt;span style="color:#f92672">=&lt;/span> {&lt;span style="color:#ae81ff">10&lt;/span>, &lt;span style="color:#ae81ff">20&lt;/span>, &lt;span style="color:#ae81ff">30&lt;/span>, &lt;span style="color:#ae81ff">40&lt;/span>, &lt;span style="color:#ae81ff">50&lt;/span>};
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> length &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#66d9ef">sizeof&lt;/span>(numbers) &lt;span style="color:#f92672">/&lt;/span> &lt;span style="color:#66d9ef">sizeof&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> numbers_sum &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">sum&lt;/span>(numbers, length);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">float&lt;/span> average;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> average &lt;span style="color:#f92672">=&lt;/span> (&lt;span style="color:#66d9ef">float&lt;/span>)numbers_sum &lt;span style="color:#f92672">/&lt;/span> length;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;平均は %.2f です&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>, average);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>これは、配列numbersから平均を導くコードである。実行結果は&lt;/p>
+&lt;pre tabindex="0">&lt;code>平均は 30 です
+&lt;/code>&lt;/pre>&lt;p>となる。&lt;/p>
+&lt;p>関数&lt;code>sum&lt;/code>を定義した後に関数&lt;code>main&lt;/code>を呼び出しているため正常に実行できるが、&lt;code>sum&lt;/code>を&lt;code>main&lt;/code>の下に定義するとコンパイルエラーとなる。（最近のgccは許してくれること多いけど）&lt;/p>
+&lt;h2 id="備考">備考
+&lt;/h2>&lt;p>なお、この「上から下へ実行される」というルールは他のプログラミング言語でもよくみられるものだ。並列処理でない限りはほとんどの言語がこのルールに則って動く。&lt;/p>
+&lt;p>しかも、C#などの一部のマルチパラダイム言語ではローカルスコープで定義したラムダ式や関数は定義より上からは呼び出せないため、手続き型のパラダイムが顕著に現れている例だといえる。&lt;/p></description></item><item><title>プログラミングパラダイム</title><link>https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/paradime/</link><pubDate>Fri, 16 May 2025 13:22:28 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/paradime/</guid><description>&lt;p>&lt;strong>プログラミングパラダイム&lt;/strong>とは、プログラミングにおける考え方のスタイルのことである。&lt;/p>
+&lt;h2 id="概要">概要
+&lt;/h2>&lt;p>プログラミングパラダイムは、プログラマーにとってどのようにプログラミングを行うべきかという見方を与えるものである。&lt;/p>
+&lt;p>プログラミングパラダイムでは、推奨されていることや禁じられていることがある程度決まっているが、厳密に定義している書類やウェブサイトは&lt;strong>存在しない&lt;/strong>。そのため、ある意味暗黙的なルールとなっている部分がある。&lt;/p>
+&lt;p>それぞれの言語ではプログラミングパラダイムが顕著に表れる部分がある。また、複数のプログラミングパラダイムを使用している言語（マルチパラダイムプログラミング言語）も存在する。&lt;/p>
+&lt;h2 id="プログラミングパラダイムの種類">プログラミングパラダイムの種類
+&lt;/h2>&lt;h3 id="オブジェクト指向">オブジェクト指向
+&lt;/h3>&lt;p>「オブジェクト」でプログラムを構築する考え方。&lt;br>
+データの構造と手続きを1つにまとめたものをオブジェクトとして扱う（らしい）。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">class&lt;/span> &lt;span style="color:#a6e22e">MyObject&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">class&lt;/span> &lt;span style="color:#a6e22e">void&lt;/span> MyFunction() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(&lt;span style="color:#e6db74">&amp;#34;Hello World&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> } &lt;span style="color:#75715e">// これが手続き（関数）&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>} &lt;span style="color:#75715e">// これがオブジェクト（クラス）&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>主なオブジェクト指向プログラミング言語&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Objective-C&lt;/li>
+&lt;li>C++&lt;/li>
+&lt;li>C#&lt;/li>
+&lt;li>Java&lt;/li>
+&lt;li>Python&lt;/li>
+&lt;/ul>
+&lt;p>詳しくは&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/object-orient/about/" >オブジェクト指向プログラミング&lt;/a>を参照。&lt;/p>
+&lt;h3 id="手続き型">手続き型
+&lt;/h3>&lt;p>一連の手続きや関数でプログラムを構築する考え方。&lt;br>
+コードは上から下へ順番に実行される。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// 関数の定義
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">void&lt;/span> &lt;span style="color:#a6e22e">greet&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;Hello, world!&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// 変数の宣言と初期化
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">int&lt;/span> a &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">5&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> b &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">3&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> sum &lt;span style="color:#f92672">=&lt;/span> a &lt;span style="color:#f92672">+&lt;/span> b;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// 関数の呼び出し
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#a6e22e">greet&lt;/span>();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;Sum: %d&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>, sum);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// 条件分岐
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">if&lt;/span> (sum &lt;span style="color:#f92672">&amp;gt;&lt;/span> &lt;span style="color:#ae81ff">5&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;Sum is greater than 5&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> } &lt;span style="color:#66d9ef">else&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;Sum is 5 or less&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// ループ
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">for&lt;/span> (&lt;span style="color:#66d9ef">int&lt;/span> i &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>; i &lt;span style="color:#f92672">&amp;lt;&lt;/span> &lt;span style="color:#ae81ff">5&lt;/span>; i&lt;span style="color:#f92672">++&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;i: %d&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>, i);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>主な手続き型プログラミング言語&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>C&lt;/li>
+&lt;li>Pascal&lt;/li>
+&lt;li>BASIC&lt;/li>
+&lt;li>Python&lt;/li>
+&lt;/ul>
+&lt;p>詳しくは&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/procedural/about/" >手続き型プログラミング&lt;/a>を参照。&lt;/p>
+&lt;h2 id="関数型">関数型
+&lt;/h2>&lt;p>データを変えず、関数の組み合わせだけでプログラムを構築する考え方。&lt;br>
+&lt;a class="link" href="#%e6%89%8b%e7%b6%9a%e3%81%8d%e5%9e%8b" >手続き型&lt;/a>との大きな違いは、変数が不変（イミュータブル）だという点。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-js" data-lang="js">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">const&lt;/span> &lt;span style="color:#a6e22e">addOne&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">x&lt;/span> =&amp;gt; &lt;span style="color:#a6e22e">x&lt;/span> &lt;span style="color:#f92672">+&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">console&lt;/span>.&lt;span style="color:#a6e22e">log&lt;/span>(&lt;span style="color:#a6e22e">addOne&lt;/span>(&lt;span style="color:#ae81ff">3&lt;/span>)); &lt;span style="color:#75715e">// 4（xは変わらない）
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>主な関数型プログラミング言語&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Haskell&lt;/li>
+&lt;li>Elixir&lt;/li>
+&lt;li>JavaScript&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/about/" >Rust&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>詳しくは&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/functional/about/" >関数型プログラミング&lt;/a>を参照。&lt;/p></description></item><item><title>2025年05月16日(金)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-16/</link><pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-16/</guid><description>&lt;h2 id="今日の体調">今日の体調
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>体調&lt;/th>
+&lt;th>元気&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>就寝&lt;/td>
+&lt;td>23:40&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>起床&lt;/td>
+&lt;td>6:20&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>朝食&lt;/td>
+&lt;td>6:45&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>天気痛&lt;/td>
+&lt;td>false&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;h3 id="vulkanの勉強">Vulkanの勉強
+&lt;/h3>&lt;p>正直OpenGLとVulanのパフォーマンスの違いが分かっていなかったので、まとめます。&lt;/p>
+&lt;p>skia-safeを通して、可能な限り高頻度に1万個の円を描画します。&lt;br>
+中央値（体感）を抽出するとこんな感じです。&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>経過時間 Vulkan [ms]&lt;/th>
+&lt;th>経過時間 OpenGL [ms]&lt;/th>
+&lt;th>行われた操作&lt;/th>
+&lt;th>操作の働いた場所&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>0&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>開始&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>0.125&lt;/td>
+&lt;td>0.221&lt;/td>
+&lt;td>クリア&lt;/td>
+&lt;td>SKCanvas&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.619&lt;/td>
+&lt;td>2.471&lt;/td>
+&lt;td>タスクの追加&lt;/td>
+&lt;td>SKCanvas&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3.643&lt;/td>
+&lt;td>2.642&lt;/td>
+&lt;td>GPUへの同期&lt;/td>
+&lt;td>Skia → GPU&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3.681&lt;/td>
+&lt;td>9.705&lt;/td>
+&lt;td>レンダリング(注１)&lt;/td>
+&lt;td>GPU&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>(注１): Vulkanでは並列処理でタスクをGPUに渡す操作を行う。&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>なお、Vulkanは低レベルなため、再描画の度にSurfaceを作成する必要があります。その部分は除外しています&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>。&lt;/p>
+&lt;p>OpenGLよりVulkanのほうが最終的なレンダリング時間が少ないように見えますが、これはVulkanが並列処理を扱うことが可能なためです。レンダリングが完了するまで待つようにすると、8msくらいになります。&lt;/p>
+&lt;p>総合的にみればVulkanのほうがOpenGLより速いのですがね。&lt;/p>
+&lt;h3 id="ドキュメントの設置">ドキュメントの設置
+&lt;/h3>&lt;ul>
+&lt;li>&lt;span class="dead-link">
+地震計
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/paradime/" >プログラミングパラダイム&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/platform/graphics/webgpu/about/" >WebGPU&lt;/a>
+この辺りの追加・修正を行いました。&lt;/li>
+&lt;/ul>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>この部分の時間を計測すると0.01msぐらいで、考慮しなくても良いくらいだと思います。&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>2025年05月15日(木)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-15/</link><pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-15/</guid><description>&lt;h2 id="今日の体調">今日の体調
+&lt;/h2>&lt;p>結構寝た気になった&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>体調&lt;/th>
+&lt;th>元気&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>就寝&lt;/td>
+&lt;td>23:30&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>起床&lt;/td>
+&lt;td>6:15&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>朝食&lt;/td>
+&lt;td>6:45&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>天気痛&lt;/td>
+&lt;td>false&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;h3 id="openglとvulkanの勉強">OpenGLとVulkanの勉強
+&lt;/h3>&lt;p>skia-safeのバックエンドにグラフィックライブラリを仕込んでGPUレンダリングができると聞きつけてやってきました。OpenGLは結構簡単に書けるのですが、問題はVulkanです。&lt;/p>
+&lt;p>今日は眠いので明日の俺に託す。&lt;/p>
+&lt;div class="admonition tip">
+&lt;div class="admonition-title">Tip&lt;/div>
+&lt;div class="admonition-content">
+ちなみにVulkanはバルカンって読むらしい&lt;br>
+バルカン半島かな？
+&lt;/div>
+&lt;/div></description></item><item><title>オブジェクト指向プログラミング</title><link>https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/object-orient/about/</link><pubDate>Wed, 14 May 2025 21:58:46 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/object-orient/about/</guid><description>&lt;p>&lt;strong>オブジェクト指向&lt;/strong> (オブジェクトしこう、英: object-oriented) とは、プログラミングのために用いられる考え方の1つである。根源的には、既に存在していた&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/paradime/" >プログラミングパラダイム&lt;/a>を説明するためにできた言葉であり、それはGUIとも密接に関係しているものだった。&lt;/p>
+&lt;p>このパラダイムを組み込んだプログラミングを&lt;strong>オブジェクト指向プログラミング&lt;/strong> (Object-Oriented Programming) と呼び、OOPと略される。&lt;/p>
+&lt;h2 id="オブジェクトとは">オブジェクトとは
+&lt;/h2>&lt;p>プログラミング的な観点では、データ構造とその手続きを一つにまとめたものを指しており、例えばC++, C#, Java言語のクラスなどがあたる。&lt;/p>
+&lt;h2 id="発案">発案
+&lt;/h2>&lt;p>オブジェクト指向（object-oriented）という言葉自体は、1972年から80年にかけて開発されたプログラミング言語「Smalltalk」の開発者が、その言語設計を説明する過程で誕生している。&lt;br>
+しかし、1960年代末の「Simula」プログラミング言語の開発者たちの中では、先にジョーク的に使用された記録もあり、明確にはわからない。&lt;/p>
+&lt;h2 id="言語">言語
+&lt;/h2>&lt;p>オブジェクト指向プログラミングができる言語は非常に多い。そのため、主要な言語に絞る。&lt;/p>
+&lt;h3 id="特化">特化
+&lt;/h3>&lt;p>ほぼすべてをオブジェクトとして扱う、オブジェクト指向プログラミングの言語は以下の通り。&lt;/p>
+&lt;ul>
+&lt;li>Java&lt;/li>
+&lt;li>C# (最近はマルチパラダイムになりつつある)&lt;/li>
+&lt;li>Smalltalk - 元祖オブジェクト指向&lt;/li>
+&lt;li>Ruby&lt;/li>
+&lt;li>Objective-C&lt;/li>
+&lt;li>Dart&lt;/li>
+&lt;/ul>
+&lt;h3 id="マルチパラダイム">マルチパラダイム
+&lt;/h3>&lt;p>マルチパラダイム言語なうち、OOP的なプログラミングができる言語は以下の通り。&lt;/p>
+&lt;ul>
+&lt;li>Python&lt;/li>
+&lt;li>JavaScript&lt;/li>
+&lt;li>&lt;span class="dead-link">
+Rust
+&lt;span style="font-size: 1rem">（リンク切れ）&lt;/span>
+&lt;/span>&lt;/li>
+&lt;li>Swift&lt;/li>
+&lt;li>Kotlin&lt;/li>
+&lt;li>Scala&lt;/li>
+&lt;li>C++&lt;/li>
+&lt;li>Go&lt;/li>
+&lt;li>PHP&lt;/li>
+&lt;li>TypeScript&lt;/li>
+&lt;/ul>
+&lt;h2 id="コーディング">コーディング
+&lt;/h2>&lt;p>オブジェクト指向では、主に&lt;strong>クラス&lt;/strong>・&lt;strong>継承&lt;/strong>・&lt;strong>メソッド&lt;/strong>・&lt;strong>インスタンス&lt;/strong>などを組み合わせてプログラミングを行う。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># クラスの定義&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">class&lt;/span> &lt;span style="color:#a6e22e">Animal&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">def&lt;/span> &lt;span style="color:#a6e22e">__init__&lt;/span>(self, name):
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> self&lt;span style="color:#f92672">.&lt;/span>name &lt;span style="color:#f92672">=&lt;/span> name
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">def&lt;/span> &lt;span style="color:#a6e22e">speak&lt;/span>(self):
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> print(&lt;span style="color:#e6db74">f&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>&lt;span style="color:#e6db74">{&lt;/span>self&lt;span style="color:#f92672">.&lt;/span>name&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> が鳴いています！&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># クラス継承（DogはAnimalの子）&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">class&lt;/span> &lt;span style="color:#a6e22e">Dog&lt;/span>(Animal):
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">def&lt;/span> &lt;span style="color:#a6e22e">speak&lt;/span>(self):
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> print(&lt;span style="color:#e6db74">f&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>&lt;span style="color:#e6db74">{&lt;/span>self&lt;span style="color:#f92672">.&lt;/span>name&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74">：「ワン」&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># さらに別のクラス（継承の多様性）&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">class&lt;/span> &lt;span style="color:#a6e22e">Cat&lt;/span>(Animal):
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">def&lt;/span> &lt;span style="color:#a6e22e">speak&lt;/span>(self):
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> print(&lt;span style="color:#e6db74">f&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>&lt;span style="color:#e6db74">{&lt;/span>self&lt;span style="color:#f92672">.&lt;/span>name&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74">：「ニャー」&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># オブジェクト（インスタンス）を作る&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>dog &lt;span style="color:#f92672">=&lt;/span> Dog(&lt;span style="color:#e6db74">&amp;#34;ポチ&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cat &lt;span style="color:#f92672">=&lt;/span> Cat(&lt;span style="color:#e6db74">&amp;#34;タマ&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>dog&lt;span style="color:#f92672">.&lt;/span>speak() &lt;span style="color:#75715e"># → ポチ：「ワン」&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cat&lt;span style="color:#f92672">.&lt;/span>speak() &lt;span style="color:#75715e"># → タマ：「ニャー」&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title/><link>https://yossy4411.okayugroup.net/develop/knowledge/lang/about/</link><pubDate>Wed, 14 May 2025 21:55:06 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/lang/about/</guid><description>&lt;p>ここでは、プログラミングに関係する言語、例えば&lt;span class="dead-link">
+プログラミング言語
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>、マークアップ言語、スクリプト言語などについて述べる。&lt;/p></description></item><item><title>2025年05月14日(水)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-14/</link><pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-14/</guid><description>&lt;h2 id="今日の体調">今日の体調
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>体調&lt;/th>
+&lt;th>元気&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>就寝&lt;/td>
+&lt;td>23:00&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>起床&lt;/td>
+&lt;td>6:30&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>朝食&lt;/td>
+&lt;td>6:50&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>天気痛&lt;/td>
+&lt;td>false&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="長期休みに入るよ">長期休みに入るよ
+&lt;/h2>&lt;p>ついこの前GWだったのに、春季大会の影響で私は木曜から日曜まで4日間休みになります。&lt;/p>
+&lt;p>この4日間でちょっと受験勉強と、動画編集アプリの作成を頑張っていきたいところですね。&lt;/p></description></item><item><title>2025年05月13日(火)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-13/</link><pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-13/</guid><description>&lt;h2 id="今日の体調">今日の体調
 &lt;/h2>&lt;p>春暁だわ&lt;/p>
 &lt;table>
 &lt;thead>
@@ -28,7 +460,10 @@
 &lt;/table>
 &lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;h3 id="地震計にudpを実装したよ">地震計にUDPを実装したよ
-&lt;/h3>&lt;p>通信のライブラリとしてembassy-netとsmoltcpを使ってるんだけど、こいつら&lt;span class="dead-link">
+&lt;/h3>&lt;p>&lt;span class="dead-link">
+地震計
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>には通信のライブラリとしてembassy-netとsmoltcpを使ってるんだけど、こいつら&lt;span class="dead-link">
 IPv4
 &lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
 &lt;/span>のDHCPには対応してた。でも&lt;span class="dead-link">
@@ -64,7 +499,10 @@ IPv6
 &lt;/table>
 &lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;h3 id="地震計の開発">地震計の開発
-&lt;/h3>&lt;p>ついに！Wi-Fi (Networking) の実装まで来ましたよ！UDPしか使うつもり無いですけど。&lt;/p>
+&lt;/h3>&lt;p>ついに！&lt;span class="dead-link">
+地震計
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>にWi-Fi (Networking) を実装するところまで来ましたよ！&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/udp/about/" >UDP&lt;/a>しか使うつもり無いですけど。&lt;/p>
 &lt;p>そして、プログラムのサイズが肥大化してきております。やっぱりWi-Fi関連は重たいですね。&lt;br>
 フラッシュメモリ大きめにしてくれてありがとう。&lt;/p></description></item><item><title>2025年05月11日(日)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-11/</link><pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-11/</guid><description>&lt;h2 id="今日の体調">今日の体調
 &lt;/h2>&lt;table>
@@ -96,6 +534,10 @@ IPv6
 &lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;h3 id="地震計にbleを実装してみる">地震計にBLEを実装してみる
 &lt;/h3>&lt;p>かなり時間がかかりましたが、ちゃんと動きました。BLEって電波弱いんですよ。受信機の近くに置いてないと難しい。&lt;/p>
+&lt;span class="dead-link">
+地震計
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>
 &lt;p>&lt;a class="link" href="https://github.com/okayugroup/ogsp-seismometer-esp32/blob/a9d3e7b1f258393b59954cf9ddbd481d1afc3f57/src/bin/main.rs" target="_blank" rel="noopener"
 >コード&lt;/a>&lt;/p></description></item><item><title>2025年05月10日(土)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-10/</link><pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-10/</guid><description>&lt;h2 id="今日の体調">今日の体調
 &lt;/h2>&lt;p>春はあけぼの&lt;/p>
@@ -128,7 +570,10 @@ IPv6
 &lt;/table>
 &lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;h3 id="地震計の開発">地震計の開発
-&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-09/" >2025-05-09&lt;/a>から引き続き地震計の開発を行ってます&lt;/p>
+&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-09/" >2025-05-09&lt;/a>から引き続き&lt;span class="dead-link">
+地震計
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>の開発を行ってます&lt;/p>
 &lt;p>今日は震度の割り出しまで進みました。明日は送信をできたらいいけど、多分学校のノート整理とかやります。ありがとうございました。&lt;/p></description></item><item><title>Keep-Alive接続について</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/keep-alive/</link><pubDate>Fri, 09 May 2025 18:26:35 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/keep-alive/</guid><description>&lt;p>&lt;strong>Keep-Alive&lt;/strong>、または&lt;strong>Keep-Alive接続&lt;/strong>とは、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/about/" >HTTP&lt;/a>において、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/tcp/about/" >TCP&lt;/a>接続を切断させずに持続的に接続を行うことである。&lt;/p>
 &lt;p>HTTPの仕組みとして、データを転送するときには、ハンドシェイクを行って接続を確立し、そのあとにリクエスト本体を送信する。Keep-Aliveは、その確立された接続を、接続したままにする仕組みである。&lt;/p>
 &lt;p>Keep-Aliveを使用しない場合、リクエストを送信する度にハンドシェイクなどの処理を行う必要があり、時間がかかる。Keep-Aliveの登場は、主に無駄な時間を減らすことが目的である。&lt;/p></description></item><item><title>どうしてTCPとQUICは相互通信ができるのか？</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/how-quic-mutual-connection/</link><pubDate>Fri, 09 May 2025 18:22:33 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/how-quic-mutual-connection/</guid><description>&lt;h2 id="動機">動機
@@ -148,7 +593,7 @@ IPv6
 &lt;p>つまり、リクエストに対してレスポンスを返すまでに時間がかかりすぎると、別の宛先にパケットが届いたり、到達できなかったりします。&lt;/p>
 &lt;p>しかもUDPの仕組み上、パケットが正しく届いたかどうかを知ることもできません。&lt;/p>
 &lt;h2 id="それを解決するのがquicなのだ">それを解決するのがQUICなのだ！
-&lt;/h2>&lt;p>これを踏まえると、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>では&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/%223%22/" >HTTP/3&lt;/a>として&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/keep-alive/" >Keep-Alive&lt;/a>が使える理由がはっきりしてきます。&lt;/p>
+&lt;/h2>&lt;p>これを踏まえると、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>では&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/3/" >HTTP/3&lt;/a>として&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/keep-alive/" >Keep-Alive&lt;/a>が使える理由がはっきりしてきます。&lt;/p>
 &lt;p>その理由はズバリ！&lt;/p>
 &lt;div class="admonition important">
 &lt;div class="admonition-title">Important&lt;/div>
@@ -336,7 +781,7 @@ IPアドレス
 &lt;h2 id="石川に居ます">石川に居ます
 &lt;/h2>&lt;p>作業は一旦停止と思いきや、色々とやりたいことをまとめたりしています。&lt;/p>
 &lt;ul>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/disaster-prevention/about/" >OGSP Disaster Prevention&lt;/a>の新しい設計を定義しています。&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/application/disaster-prevention/about/" >OGSP Disaster Prevention&lt;/a>の新しい設計を定義しています。&lt;/li>
 &lt;li>新しい編集ソフト「空織」を設計し始めました。&lt;/li>
 &lt;/ul></description></item><item><title>2025年05月03日(土)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-03/</link><pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-03/</guid><description>&lt;h2 id="今日の体調">今日の体調
 &lt;/h2>&lt;p>朝が早い&lt;/p>
@@ -402,10 +847,10 @@ IPアドレス
 &lt;/table>
 &lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;h3 id="ogsp-server-nodeとか">OGSP Server Nodeとか
-&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/server/" >OGSP Server Node&lt;/a>にて、ドキュメントを用意するんやで&lt;/p>
+&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/server/server-node-official/" >OGSP Server Node&lt;/a>にて、ドキュメントを用意するんやで&lt;/p>
 &lt;h2 id="メモ">メモ
 &lt;/h2>&lt;p>そういえば、この頃全体的に「〜だ。」の口調でWikiっぽく書いてるんですけど、「〜です。」「〜ます。」とか「〜だよ」でカジュアルに攻めってったほうが良いんかな？と思いまして。&lt;/p>
-&lt;p>まあでも一番書きやすくて、論文とかにするときも使い勝手が良いので「〜だ。」で良いと思うんですけどね。&lt;strong>コメントよろ。&lt;/strong>&lt;/p></description></item><item><title>おかゆグループ地震計プロジェクト サーバーノード</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/server/ogsp-server-node/</link><pubDate>Thu, 01 May 2025 21:36:14 +0900</pubDate><guid>https://yossy4411.okayugroup.net/okayugroup/ogsp/server/ogsp-server-node/</guid><description>&lt;p>&lt;strong>OGSP Server Node&lt;/strong> (&lt;strong>おかゆグループ地震計プロジェクト サーバーノード&lt;/strong>)は、&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/disaster-network/about/" >OGSP Disaster Network&lt;/a>におけるサーバー層のノードを提供するプログラムの総称である。&lt;/p>
+&lt;p>まあでも一番書きやすくて、論文とかにするときも使い勝手が良いので「〜だ。」で良いと思うんですけどね。&lt;strong>コメントよろ。&lt;/strong>&lt;/p></description></item><item><title>おかゆグループ地震計プロジェクト サーバーノード</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/server/server-node-official/</link><pubDate>Thu, 01 May 2025 21:36:14 +0900</pubDate><guid>https://yossy4411.okayugroup.net/okayugroup/ogsp/server/server-node-official/</guid><description>&lt;p>&lt;strong>OGSP Server Node&lt;/strong> (&lt;strong>おかゆグループ地震計プロジェクト サーバーノード&lt;/strong>)は、&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/network/about/" >OGSP Disaster Network&lt;/a>におけるサーバー層のノードを提供するプログラムの総称である。&lt;/p>
 &lt;p>コードはオープンソースで公開されており、自由に改変できる。&lt;/p>
 &lt;p>なお、このうち公式のプログラムは&lt;strong>OGSP Server Official Node&lt;/strong>と呼ぶ。&lt;/p>
 &lt;h2 id="概要">概要
@@ -426,7 +871,7 @@ P2Pなどの部分は実装予備段階です。これにはコンピュータ�
 &lt;/div>
 ## 設計&lt;/p>
 &lt;h3 id="1-データ収集">1. データ収集
-&lt;/h3>&lt;p>OGSP Server Nodeは、&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/disaster-network/about/" >OGSP Disaster Network&lt;/a>におけるセンサー層からデータを収集する役割を担っており、このセンサーとはUDPで通信を行う。なお、導入の壁を減らすためにポート開放はサーバー側でのみ行い、センサー側のポート開放は必要ない。&lt;/p>
+&lt;/h3>&lt;p>OGSP Server Nodeは、&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/network/about/" >OGSP Disaster Network&lt;/a>におけるセンサー層からデータを収集する役割を担っており、このセンサーとはUDPで通信を行う。なお、導入の壁を減らすためにポート開放はサーバー側でのみ行い、センサー側のポート開放は必要ない。&lt;/p>
 &lt;p>ただし、UDPのみでなおかつポート開放をしない環境では、サーバーがセンサーに通信を行うことはできないため、ここではIPv6のエニーキャストなどの技術を使用して対応する。&lt;/p>
 &lt;h3 id="2-ネットワークコンピューティングを使用した高度な計算">2. ネットワークコンピューティングを使用した高度な計算
 &lt;/h3>&lt;p>OGSP Server NodeはWeb3の実現のためにサーバー同士でP2Pを構築する。このP2Pを用いることで、高度な計算を分担して超並列計算を行うことができる。&lt;/p>
@@ -435,7 +880,7 @@ P2Pなどの部分は実装予備段階です。これにはコンピュータ�
 &lt;/h3>&lt;p>センサーから収集したデータとデータの計算処理の結果は、ブロックチェーンに書き込まれ、定期的にP2Pで&lt;/p>
 &lt;h3 id="4-apiハンドリング">4. APIハンドリング
 &lt;/h3>&lt;p>OGSP Server Nodeは&amp;quot;偏らないデータを簡単に取得できること&amp;quot;を目標とするため、データを取得するための方法としてAPIを提供する。&lt;/p>
-&lt;p>ここには最新技術を取り入れ、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/%223%22/" >HTTP/3&lt;/a>および&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>プロトコルを用いて高速かつ安全な通信を保証する。&lt;/p>
+&lt;p>ここには最新技術を取り入れ、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/3/" >HTTP/3&lt;/a>および&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>プロトコルを用いて高速かつ安全な通信を保証する。&lt;/p>
 &lt;h3 id="注1-コードの改変について">注1: コードの改変について
 &lt;/h3>&lt;p>OGSP Server Nodeのコードはオープンソースであり、GitHubで公開されている。これは自由に改変して公開することのできるMITライセンスなどを実装するつもりであるが、ここで問題がある。&lt;/p>
 &lt;p>悪意のある変更を含むサーバーノードがネットワークに参加することもできてしまうため、これが秩序を壊したりウイルスを仕込む可能性があるということだ。&lt;/p>
@@ -469,7 +914,7 @@ P2Pなどの部分は実装予備段階です。これにはコンピュータ�
 &lt;li>&lt;a class="link" href="https://github.com/libp2p/go-libp2p" target="_blank" rel="noopener"
 >go-libp2p&lt;/a> - libp2pの公式Go実装&lt;/li>
 &lt;li>&lt;a class="link" href="https://github.com/quic-go/quic-go/" target="_blank" rel="noopener"
->quic-go&lt;/a> - &lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>と&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/%223%22/" >HTTP/3&lt;/a>のGo実装&lt;/li>
+>quic-go&lt;/a> - &lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>と&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/3/" >HTTP/3&lt;/a>のGo実装&lt;/li>
 &lt;li>&lt;a class="link" href="https://github.com/labstack/echo" target="_blank" rel="noopener"
 >echo&lt;/a> - 高パフォーマンスのGoサーバーフレームワーク&lt;/li>
 &lt;li>&lt;a class="link" href="https://github.com/NixOS/nix" target="_blank" rel="noopener"
@@ -477,11 +922,11 @@ P2Pなどの部分は実装予備段階です。これにはコンピュータ�
 &lt;/ul>
 &lt;h3 id="github-repository">GitHub Repository
 &lt;/h3>&lt;p>公式のものは、&lt;a class="link" href="https://github.com/okayugroup/ogsp-server-node" target="_blank" rel="noopener"
->GitHub - okayugroup/ogsp-server-node&lt;/a>である。（現在は非公開）&lt;/p>
-&lt;p>また、このリポジトリをフォークして独自のサーバーノードを作成することも許可されている。&lt;/p>
+>GitHub - okayugroup/ogsp-server-node&lt;/a>である。（現時点では非公開）&lt;/p>
+&lt;p>また、このリポジトリをフォークして独自のサーバーノードを作成することも許可する（非公開なためまだ不可能ではあるが）。&lt;/p>
 &lt;h3 id="contribution">Contribution
 &lt;/h3>&lt;p>また、IssueやPRを開いて開発に貢献 (Contribute) することもできる。&lt;/p>
-&lt;p>この辺りのプロジェクトの整理は、容易ができ次第&lt;strong>ナレッジベースツールで公開&lt;/strong>する予定。&lt;/p></description></item><item><title>Web2.0</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/web/2/about/</link><pubDate>Thu, 01 May 2025 20:13:05 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/web/2/about/</guid><description>&lt;p>&lt;strong>Web 2.0&lt;/strong>、または&lt;strong>Web2&lt;/strong>は、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/web/1/about/" >Web1.0&lt;/a>から進化し、ウェブサイトにユーザーが参加することができるようになった時代を指す語である。&lt;/p>
+&lt;p>この辺りのプロジェクトの整理は、用意ができ次第&lt;strong>ナレッジベースツールで公開&lt;/strong>する予定。&lt;/p></description></item><item><title>Web2.0</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/web/2/about/</link><pubDate>Thu, 01 May 2025 20:13:05 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/web/2/about/</guid><description>&lt;p>&lt;strong>Web 2.0&lt;/strong>、または&lt;strong>Web2&lt;/strong>は、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/web/1/about/" >Web1.0&lt;/a>から進化し、ウェブサイトにユーザーが参加することができるようになった時代を指す語である。&lt;/p>
 &lt;p>読み方は、主に&lt;strong>ウェブツー&lt;/strong>と呼ばれることが多い。&lt;/p>
 &lt;h2 id="概要">概要
 &lt;/h2>&lt;p>Web2は、2004年頃から2010年代中盤から始まり、今のインターネットの主役となる立ち位置に君臨している。Tim O&amp;rsquo;Reillyが初出とされるワードで、この後に&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/web/1/about/" >Web1.0&lt;/a>という単語が造られた。&lt;/p>
@@ -521,6 +966,9 @@ P2Pなどの部分は実装予備段階です。これにはコンピュータ�
 &lt;/h2>&lt;p>Web 1.0という用語は、一般的にあまり用いられていない。これは、Web 1.0という単語が、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/web/2/about/" >Web 2.0&lt;/a>の概念ができてから後付けされたからである。&lt;/p>
 &lt;p>Web 2.0が発達してから、それ以前をなんと呼ぶかと議論になったときに決まったのだと思うが、詳しくは知らない。&lt;/p></description></item><item><title>2025年5月</title><link>https://yossy4411.okayugroup.net/diary/2025-05/</link><pubDate>Thu, 01 May 2025 18:21:27 +0900</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/</guid><description>&lt;h2 id="日記">日記
 &lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-16/" >2025-05-16&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-15/" >2025-05-15&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-14/" >2025-05-14&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-13/" >2025-05-13&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-12/" >2025-05-12&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-11/" >2025-05-11&lt;/a>&lt;/li>
@@ -564,7 +1012,7 @@ P2Pなどの部分は実装予備段階です。これにはコンピュータ�
 &lt;/table>
 &lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;h3 id="web系を書く">Web系を書く
-&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/web/1/about/" >Web1.0&lt;/a>とか&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/web/2/about/" >Web2&lt;/a>について書きました。&lt;/p></description></item><item><title>HTTP/3</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/3/</link><pubDate>Wed, 30 Apr 2025 22:52:22 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/3/</guid><description>&lt;p>&lt;strong>HTTP/3&lt;/strong> は、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/%222%22/" >HTTP2&lt;/a>に続く&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/about/" >HTTP&lt;/a>の3つ目のメジャーバージョンであり、最新版である。2022年に RFC 9114 によって正式化された。&lt;/p>
+&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/web/1/about/" >Web1.0&lt;/a>とか&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/web/2/about/" >Web2&lt;/a>について書きました。&lt;/p></description></item><item><title>HTTP/3</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/3/</link><pubDate>Wed, 30 Apr 2025 22:52:22 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/3/</guid><description>&lt;p>&lt;strong>HTTP/3&lt;/strong> は、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/2/" >HTTP2&lt;/a>に続く&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/about/" >HTTP&lt;/a>の3つ目のメジャーバージョンであり、最新版である。2022年に RFC 9114 によって正式化された。&lt;/p>
 &lt;h2 id="概要">概要
 &lt;/h2>&lt;p>HTTP/3は、RFCドラフト「HTTP over QUIC」をベースとしている。&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>はGoogleによってはじめに開発された、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/about/" >トランスポート層&lt;/a>のプロトコルである。&lt;/p>
 &lt;p>もっとも、通信プロトコルの基盤が&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/tcp/about/" >TCP&lt;/a>から&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/udp/about/" >UDP&lt;/a>ベースの&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>に変化したことが最大の変化である。&lt;/p>
@@ -593,8 +1041,8 @@ TCP/IP
 &lt;thead>
 &lt;tr>
 &lt;th>項目&lt;/th>
-&lt;th>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/%221.1%22/" >HTTP1.1&lt;/a>&lt;/th>
-&lt;th>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/%222%22/" >HTTP/2&lt;/a>&lt;/th>
+&lt;th>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/1.1/" >HTTP1.1&lt;/a>&lt;/th>
+&lt;th>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/2/" >HTTP/2&lt;/a>&lt;/th>
 &lt;th>HTTP/3&lt;/th>
 &lt;/tr>
 &lt;/thead>
@@ -636,7 +1084,7 @@ TCP/IP
 &lt;td>△（非推奨傾向）&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>HTTP/2</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/2/</link><pubDate>Wed, 30 Apr 2025 22:29:46 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/2/</guid><description>&lt;p>&lt;strong>HTTP/2&lt;/strong> は、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/%221.1%22/" >HTTP/1.1&lt;/a>の課題を解決するために開発された次世代のプロトコルであり、2015年に RFC 7540 により標準化された。Googleが開発した SPDY プロトコルをベースにしており、パフォーマンスと効率に特化している。&lt;/p>
+&lt;/table></description></item><item><title>HTTP/2</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/2/</link><pubDate>Wed, 30 Apr 2025 22:29:46 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/2/</guid><description>&lt;p>&lt;strong>HTTP/2&lt;/strong> は、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/1.1/" >HTTP/1.1&lt;/a>の課題を解決するために開発された次世代のプロトコルであり、2015年に RFC 7540 により標準化された。Googleが開発した SPDY プロトコルをベースにしており、パフォーマンスと効率に特化している。&lt;/p>
 &lt;h2 id="特徴">特徴
 &lt;/h2>&lt;h3 id="バイナリプロトコル">バイナリプロトコル
 &lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/about/" >HTTP/1.x&lt;/a>まではテキストベースだったものが、HTTP/2では完全にバイナリ形式になった。これにより、パース処理が高速になり、エラーも減る。&lt;/p>
@@ -652,7 +1100,7 @@ TCP/IP
 &lt;/h3>&lt;p>冗長なヘッダ情報を&lt;strong>効率良く圧縮&lt;/strong>することで、通信量を削減できる。&lt;/p>
 &lt;h2 id="課題">課題
 &lt;/h2>&lt;ul>
-&lt;li>TCPベースのため、パケットロス時にそれを待つために全ストリームが止まる。これがまだ残ってるHOL問題。これは、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/%223%22/" >HTTP/3&lt;/a>で解消されることとなる。&lt;/li>
+&lt;li>TCPベースのため、パケットロス時にそれを待つために全ストリームが止まる。これがまだ残ってるHOL問題。これは、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/3/" >HTTP/3&lt;/a>で解消されることとなる。&lt;/li>
 &lt;li>サーバープッシュは扱いが難しく、現状あまり普及していない。&lt;/li>
 &lt;/ul></description></item><item><title>HTTP/1.1</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/1.1/</link><pubDate>Wed, 30 Apr 2025 21:17:33 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/1.1/</guid><description>&lt;p>&lt;strong>HTTP/1.1&lt;/strong>は、一般的に使用される&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/about/" >HTTP&lt;/a>のバージョンの１つである。&lt;/p>
 &lt;p>このバージョンでは、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/about/" >HTTP/1.0&lt;/a>の制限の多くを解決し、効率化と機能性を向上した。&lt;/p>
@@ -694,7 +1142,7 @@ TCP/IP
 &lt;li>RFC 7230～7235で2014年に仕様が再整理&lt;/li>
 &lt;/ul>
 &lt;p>現代でも一部古いウェブサイトで使用されている。Windows10の&lt;code>curl&lt;/code>ではデフォルトでHTTP/1.1が使用されていたりする。&lt;/p>
-&lt;p>現在の標準は&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/%222%22/" >HTTP/2&lt;/a>であり既に古くなっているものだが、仕組みが単純なために組み込みアプリケーションでも使われることもある。&lt;/p>
+&lt;p>現在の標準は&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/2/" >HTTP/2&lt;/a>であり既に古くなっているものだが、仕組みが単純なために組み込みアプリケーションでも使われることもある。&lt;/p>
 &lt;h2 id="課題点">課題点
 &lt;/h2>&lt;p>HTTP/1.1は多くの改善をもたらしたが、時代が進むにつれて以下のような課題も浮き彫りに：&lt;/p>
 &lt;ul>
@@ -702,7 +1150,7 @@ TCP/IP
 &lt;li>多数のTCP接続が必要なため、&lt;strong>接続数の制限・ラウンドトリップ遅延が問題&lt;/strong>に。&lt;/li>
 &lt;li>バイナリではなくテキストベースのため、パースに時間がかかる。&lt;/li>
 &lt;/ul>
-&lt;p>これらの課題を解決するために、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/%222%22/" >HTTP/2&lt;/a>や&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/%223%22/" >HTTP/3&lt;/a>が後継として登場した。&lt;/p>
+&lt;p>これらの課題を解決するために、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/2/" >HTTP/2&lt;/a>や&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/3/" >HTTP/3&lt;/a>が後継として登場した。&lt;/p>
 &lt;div class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
@@ -803,7 +1251,7 @@ TCP/IP
 &lt;/table>
 &lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;p>主にノート整理です。&lt;/p>
-&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/tcp/about/" >TCP&lt;/a>, &lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/udp/about/" >UDP&lt;/a>, &lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>, &lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/about/" >HTTP&lt;/a>などを書きました。&lt;/p></description></item><item><title>OGSP Disaster Network</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/disaster-network/about/</link><pubDate>Tue, 29 Apr 2025 22:27:19 +0900</pubDate><guid>https://yossy4411.okayugroup.net/okayugroup/ogsp/disaster-network/about/</guid><description>&lt;p>&lt;strong>OGSP Disaster Network&lt;/strong> (&lt;strong>おかゆグループ地震計プロジェクト災害ネットワーク&lt;/strong>) は、&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/about/" >おかゆグループ&lt;/a>が現在開発中の&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/about/" >OGSP&lt;/a>のWeb3ネットワークの一つであり、地震波データを始めとした様々な災害関連情報の共有に使用される。&lt;/p>
+&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/tcp/about/" >TCP&lt;/a>, &lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/udp/about/" >UDP&lt;/a>, &lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>, &lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/about/" >HTTP&lt;/a>などを書きました。&lt;/p></description></item><item><title>OGSP Disaster Network</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/network/about/</link><pubDate>Tue, 29 Apr 2025 22:27:19 +0900</pubDate><guid>https://yossy4411.okayugroup.net/okayugroup/ogsp/network/about/</guid><description>&lt;p>&lt;strong>OGSP Disaster Network&lt;/strong> (&lt;strong>おかゆグループ地震計プロジェクト災害ネットワーク&lt;/strong>) は、&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/about/" >おかゆグループ&lt;/a>が現在開発中の&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/about/" >OGSP&lt;/a>のWeb3ネットワークの一つであり、地震波データを始めとした様々な災害関連情報の共有に使用される。&lt;/p>
 &lt;h2 id="概要">概要
 &lt;/h2>&lt;p>OGSP Disaster Networkでは、大きく分けてサーバー層、センサー層、レシーバ層の3つのレイヤーがある。サーバーを介して相互に通信が可能であり、これらすべてのレイヤーがWeb3のノードとして機能する。&lt;/p>
 &lt;p>これらのレイヤーは、次のイラストのように結びついている。&lt;/p>
@@ -829,7 +1277,31 @@ TCP/IP
 ネットワーク上にトップを作らないことで、ネットワークを独自に実装したりサーバーを自由に改変したり、そういったものに柔軟に対応できるようになる。&lt;/li>
 &lt;li>&lt;strong>自助・共助の促成&lt;/strong>
 災害発生時には、「自助」「共助」「公助」の3つの助けがあるが、このうち「公助」は国によるもののため大規模災害時には行き届かない場合がある。こういった場合に、コミュニティ内のデータを活かして自助・共助を促成するためである。&lt;/li>
-&lt;/ol></description></item><item><title>2025年04月29日(火)</title><link>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-29/</link><pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-29/</guid><description>&lt;h2 id="今日の体調">今日の体調
+&lt;/ol>
+&lt;p>これにより、以前より&lt;strong>柔軟&lt;/strong>で&lt;strong>地域に寄り添った&lt;/strong>防災環境の構築が可能になると考えている。&lt;/p>
+&lt;h3 id="冗長性の確保">冗長性の確保
+&lt;/h3>&lt;p>分散型にすることは、つまりサーバー（ノード）を複数用意することでもある。これによって、ネットワークの冗長性も同時に確保できる。&lt;/p>
+&lt;p>冗長性というのは、例えばどれかのサーバーがダウンした場合でも、ネットワーク全体が崩壊せず動作し続けられるということである。このネットワークでは、トップを決定せずに柔軟に役割を変えられるように設計されているため、すべてのノードがダウンしない限りは動作し続けられるはずだ。&lt;/p>
+&lt;p>冗長化はこのような災害ネットワークで非常に重要である。災害発生時には以下のリスクが伴う。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>サーバーの停止&lt;/strong>
+&lt;ul>
+&lt;li>停電&lt;/li>
+&lt;li>安全装置の作動&lt;/li>
+&lt;li>火災&lt;/li>
+&lt;li>物理的な遮断&lt;/li>
+&lt;li>コンピューターの破損&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>ネットワークの混雑&lt;/strong>
+&lt;ul>
+&lt;li>災害掲示板の設立&lt;/li>
+&lt;li>ニュース、災害サイトへのアクセス集中&lt;/li>
+&lt;li>電話&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>冗長化することで、ネットワーク全体がCDNのような役割をし、リクエストを最適な場所に分散できる。分散することでわざわざ遠いサーバーにアクセスすることを減らし、滞納を最小限にする。&lt;/p></description></item><item><title>2025年04月29日(火)</title><link>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-29/</link><pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-29/</guid><description>&lt;h2 id="今日の体調">今日の体調
 &lt;/h2>&lt;p>やる気ゴリゴリ削がれました&lt;/p>
 &lt;table>
 &lt;thead>
@@ -871,7 +1343,7 @@ TCP/IP
 &lt;p>一回作ってみてどんな感じなのか調べてみます。&lt;/p></description></item><item><title>QUIC</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/</link><pubDate>Mon, 28 Apr 2025 21:39:46 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/</guid><description>&lt;p>&lt;strong>QUIC&lt;/strong> (クイック) は、次世代型の&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/about/" >トランスポート層&lt;/a>の通信プロトコルである。&lt;/p>
 &lt;h2 id="概要">概要
 &lt;/h2>&lt;p>QUICは、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/udp/about/" >UDP&lt;/a>を基礎にGoogleのJIM Roskindによって設計された、TLSを用いたセキュリティやUDPに由来する高速性などの面で優れている通信プロトコルである。&lt;/p>
-&lt;p>QUICは、エンドポイント間の多重化接続の集合体に対応しており、レイテンシ削減や接続の一時的な切断にも柔軟に対応できる。これらの理由から、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/%223%22/" >HTTP/3&lt;/a>にも採用されている。&lt;/p>
+&lt;p>QUICは、エンドポイント間の多重化接続の集合体に対応しており、レイテンシ削減や接続の一時的な切断にも柔軟に対応できる。これらの理由から、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/3/" >HTTP/3&lt;/a>にも採用されている。&lt;/p>
 &lt;h2 id="特徴">特徴
 &lt;/h2>&lt;h3 id="セキュリティが高い">セキュリティが高い
 &lt;/h3>&lt;p>QUICの接続は、すべてTLS1.3で暗号化されており、この規則を破ることはどんな場合においても&lt;strong>不可能&lt;/strong>である。また、接続時にはTLSハンドシェイクを行い、高効率で信頼性の高い通信ができるよう設計されている。&lt;/p>
@@ -936,7 +1408,7 @@ TCP/IP
 &lt;h2 id="今後">今後
 &lt;/h2>&lt;p>今後は、私はおかゆグループの開発に戻ります。&lt;/p>
 &lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/about/" >OGSP&lt;/a>の開発に加え、&lt;a class="link" href="https://yossy4411.okayugroup.net/favorite/about/" >推し活&lt;/a>系のいくつかのプロジェクトを進めていきます。&lt;/p>
-&lt;p>現在のTODOについては&lt;a class="link" href="https://yossy4411.okayugroup.net/todo/%e3%82%84%e3%82%8b%e3%81%93%e3%81%a8%e3%83%aa%e3%82%b9%e3%83%88%ef%bc%88%e3%81%99%e3%81%b9%e3%81%a6%ef%bc%89/" >やることリスト（すべて）&lt;/a>をご覧ください。&lt;/p></description></item><item><title>2025年04月28日(月)</title><link>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-28/</link><pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-28/</guid><description>&lt;p>一昨日(4/26)と昨日(27)で日記が取れませんでした。いそがしかったのです。ゴメンナサイ。&lt;/p>
+&lt;p>現在のTODOについては&lt;a class="link" href="https://yossy4411.okayugroup.net/todo-all/" >やることリスト（すべて）&lt;/a>をご覧ください。&lt;/p></description></item><item><title>2025年04月28日(月)</title><link>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-28/</link><pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-28/</guid><description>&lt;p>一昨日(4/26)と昨日(27)で日記が取れませんでした。いそがしかったのです。ゴメンナサイ。&lt;/p>
 &lt;h2 id="今日の体調">今日の体調
 &lt;/h2>&lt;table>
 &lt;thead>
@@ -1127,7 +1599,7 @@ TCP/IP
 &lt;/ul>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-http" data-lang="http">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">GET&lt;/span> /index.html &lt;span style="color:#66d9ef">HTTP&lt;/span>&lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#ae81ff">1.0&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="http11">HTTP/1.1
-&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/%221.1%22/" >HTTP/1.1&lt;/a>&lt;/p>
+&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/1.1/" >HTTP/1.1&lt;/a>&lt;/p>
 &lt;p>現代で使われるHTTPプロトコルバージョンの1つである。&lt;/p>
 &lt;p>1997年1月に初版が発表された。その後3回改訂され、現在はセマンティクス・キャッシングを除く部分が RFC 9112 で規定されている。&lt;/p>
 &lt;ul>
@@ -1138,7 +1610,7 @@ TCP/IP
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-http" data-lang="http">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">GET&lt;/span> /index.html &lt;span style="color:#66d9ef">HTTP&lt;/span>&lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#ae81ff">1.1&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Host&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#ae81ff">foo.example.com&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="http2">HTTP/2
-&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/%222%22/" >HTTP/2&lt;/a>&lt;/p>
+&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/2/" >HTTP/2&lt;/a>&lt;/p>
 &lt;p>HTTP/2の目標はHTTP/1.1のトランザクション・セマンティクスとの完全な後方互換性を維持したまま非同期な接続の多重化、ヘッダ圧縮、リクエストとレスポンスのパイプライン化を実現することである。&lt;/p>
 &lt;ul>
 &lt;li>テキストベースからバイナリベースへ変化した。&lt;/li>
@@ -1147,7 +1619,7 @@ TCP/IP
 &lt;li>ヘッダの圧縮が可能になった。&lt;/li>
 &lt;/ul>
 &lt;h3 id="http3">HTTP/3
-&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/%223%22/" >HTTP/3&lt;/a>&lt;/p>
+&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/3/" >HTTP/3&lt;/a>&lt;/p>
 &lt;p>HTTP/3ではTCPから&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>というプロトコルに変化した。QUICはUDPソケットの上で通信を行うため、安全性はもともと低かった。その信頼性はQUICが担保しており、TLSにも対応している。&lt;/p>
 &lt;ul>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/tcp/about/" >TCP&lt;/a>から&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>へプロトコルを変更。&lt;/li>
@@ -2100,10 +2572,7 @@ AIにコード書かせてる奴ら、それでいいの？
 &lt;h2 id="春休み中にできなかった4つのこと">春休み中にできなかった4つのこと
 &lt;/h2>&lt;h4 id="1-journeystreetmapのリリース">1. JourneyStreetMapのリリース
 &lt;/h4>&lt;p>まあ分かってたけれども。&lt;/p>
-&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/about/" >Rust&lt;/a>や&lt;span class="dead-link">
-WebGPU
-&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
-&lt;/span>の勉強など、ちょっと難航しすぎたかもしれない。&lt;br>
+&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/about/" >Rust&lt;/a>や&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/platform/graphics/webgpu/about/" >WebGPU&lt;/a>の勉強など、ちょっと難航しすぎたかもしれない。&lt;br>
 普通に別のプラットフォーム使っとけば良かった。&lt;/p>
 &lt;p>疲れてます。&lt;/p>
 &lt;p>ここ1週間のうちに完成できるように頑張りたい！&lt;/p>
@@ -2201,15 +2670,18 @@ WebGPU
 &lt;/h2>&lt;h3 id="ノートのurlをuglyとして扱う">ノートのURLをuglyとして扱う
 &lt;/h3>&lt;p>&lt;a class="link" href="#%e3%83%8e%e3%83%bc%e3%83%88%e3%81%ae%e4%b8%8d%e5%85%b7%e5%90%88" >ノートの不具合&lt;/a>でも説明した通り、正しいURLが指定されないバグがあります。&lt;br>
 これを修正するために作業を致しました。&lt;/p>
-&lt;p>ファイル名が一致しないファイルにエイリアスを追加しました。&lt;/p></description></item><item><title>GUIライブラリまとめ</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/gui-library/</link><pubDate>Thu, 10 Apr 2025 17:46:20 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/libs/gui-library/</guid><description>&lt;p>GUI（グラフィカルユーザーインターフェース）を表示するための&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/about/" >ライブラリ&lt;/a>。&lt;/p>
+&lt;p>ファイル名が一致しないファイルにエイリアスを追加しました。&lt;/p></description></item><item><title>GUIライブラリまとめ</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/ui/gui-library/</link><pubDate>Thu, 10 Apr 2025 17:46:20 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/libs/ui/gui-library/</guid><description>&lt;p>GUI（グラフィカルユーザーインターフェース）を表示するための&lt;span class="dead-link">
+ライブラリ
+&lt;span style="font-size: 1rem">（リンク切れ）&lt;/span>
+&lt;/span>。&lt;/p>
 &lt;p>ここでは私が知る限りのGUIライブラリおよびGUIフレームワークを書いておく。&lt;/p>
-&lt;p>※Webについては別の場所で書こうと思っていて、完成した頃にリンクを貼ります&lt;/p>
 &lt;h2 id="rust">Rust
 &lt;/h2>&lt;ul>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/egui/about/" >egui&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/iced/about/" >iced&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/ui/egui/about/" >egui&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/ui/iced/about/" >iced&lt;/a>&lt;/li>
 &lt;li>Tauri&lt;/li>
 &lt;li>Druid (開発停止)&lt;/li>
+&lt;li>Xilem&lt;/li>
 &lt;li>Slint&lt;/li>
 &lt;/ul>
 &lt;h2 id="flutter">Flutter
@@ -2235,12 +2707,12 @@ WebGPU
 &lt;/h2>&lt;ul>
 &lt;li>Qt&lt;/li>
 &lt;li>Xamarin C++&lt;/li>
-&lt;/ul></description></item><item><title>egui</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/egui/about/</link><pubDate>Thu, 10 Apr 2025 17:35:48 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/libs/egui/about/</guid><description>&lt;h2 id="特徴">特徴
+&lt;/ul></description></item><item><title>egui</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/ui/egui/about/</link><pubDate>Thu, 10 Apr 2025 17:35:48 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/libs/ui/egui/about/</guid><description>&lt;h2 id="特徴">特徴
 &lt;/h2>&lt;blockquote>
 &lt;p>egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native&lt;/p>&lt;/blockquote>
 &lt;p>日本語にすると、&lt;/p>
 &lt;blockquote>
-&lt;p>Webとネイティブアプリケーションとして動作できる、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/about/" >Rust&lt;/a>の使いやすい即時モードの&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/gui-library/" >GUIライブラリ&lt;/a>。&lt;/p>&lt;/blockquote>
+&lt;p>Webとネイティブアプリケーションとして動作できる、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/about/" >Rust&lt;/a>の使いやすい即時モードの&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/ui/gui-library/" >GUIライブラリ&lt;/a>。&lt;/p>&lt;/blockquote>
 &lt;p>となりますね。&lt;/p>
 &lt;h3 id="即時モードについて">即時モードについて
 &lt;/h3>&lt;p>即時モードとは、アプリケーションが常に更新され続ける形のUI構築システムのことで、ウィンドウでは定期的に再描画処理が呼ばれる。&lt;/p>
@@ -2260,12 +2732,9 @@ WebGPU
 &lt;p>他のGUIライブラリとは違って、ボタンのクリックの処理がイベントハンドラではないところが少し気になると思うが、&lt;code>clicked()&lt;/code>はボタンが押された瞬間だけ&lt;code>true&lt;/code>になるため、これでボタンの押された処理が実装できる。&lt;/p>
 &lt;p>私は以前Scratchをやっていましたが、それにとても近いと思います。&lt;/p></description></item><item><title>2025年04月10日(木)</title><link>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-10/</link><pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-10/</guid><description>&lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;h3 id="journeystreetmapをeguiに移植">&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/about/" >journeystreetmap&lt;/a>をeguiに移植
-&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/2025-04-09/" >昨日分かったこと&lt;/a>の制作)なのですが、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/iced/about/" >iced&lt;/a>では少し融通がきかないなというわけでeguiに移植したいと思います。&lt;/p>
+&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/2025-04-09/" >昨日分かったこと&lt;/a>の制作)なのですが、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/ui/iced/about/" >iced&lt;/a>では少し融通がきかないなというわけでeguiに移植したいと思います。&lt;/p>
 &lt;p>普通に&lt;code>Image&lt;/code>を&lt;code>ui.put&lt;/code>して良いパフォーマンスが得られたら良いんですがね、そう上手くはいかなそうです。&lt;br>
-もし別の方法を考える必要があった場合は、&lt;span class="dead-link">
-wgpu
-&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
-&lt;/span>で直接描画を行うなど、プリミティブなやり方を取ります。&lt;/p></description></item><item><title>STPR</title><link>https://yossy4411.okayugroup.net/favorite/stpr/about/</link><pubDate>Wed, 09 Apr 2025 18:15:01 +0900</pubDate><guid>https://yossy4411.okayugroup.net/favorite/stpr/about/</guid><description>&lt;h2 id="企業">企業
+もし別の方法を考える必要があった場合は、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/wgpu/about/" >wgpu&lt;/a>で直接描画を行うなど、プリミティブなやり方を取ります。&lt;/p></description></item><item><title>STPR</title><link>https://yossy4411.okayugroup.net/favorite/stpr/about/</link><pubDate>Wed, 09 Apr 2025 18:15:01 +0900</pubDate><guid>https://yossy4411.okayugroup.net/favorite/stpr/about/</guid><description>&lt;h2 id="企業">企業
 &lt;/h2>&lt;p>&lt;a class="link" href="https://ja.wikipedia.org/wiki/STPR" target="_blank" rel="noopener"
 >株式会社STPR&lt;/a>はすとぷりのリーダー、ななもり。（本名 柏原真人）が設立した株式会社である。
 渋谷ヒカリエに本社オフィスを備え、またシンガポールにもオフィスを持つ。&lt;/p>
@@ -2358,69 +2827,48 @@ wgpu
 &lt;/h2>&lt;p>莉犬くん。&lt;/p>
 &lt;p>かわいい。&lt;br>
 声が好き。&lt;/p>
-&lt;p>莉犬くんもだけどその事務所の&lt;a class="link" href="https://yossy4411.okayugroup.net/favorite/stpr/about/" >STPR&lt;/a>も推してる。&lt;/p></description></item><item><title>Iced - RustのGUIライブラリ</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/iced/about/</link><pubDate>Wed, 09 Apr 2025 15:50:19 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/libs/iced/about/</guid><description>&lt;h2 id="特徴">特徴
+&lt;p>莉犬くんもだけどその事務所の&lt;a class="link" href="https://yossy4411.okayugroup.net/favorite/stpr/about/" >STPR&lt;/a>も推してる。&lt;/p></description></item><item><title>Iced</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/ui/iced/about/</link><pubDate>Wed, 09 Apr 2025 15:50:19 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/libs/ui/iced/about/</guid><description>&lt;p>&lt;strong>iced&lt;/strong> (&lt;a class="link" href="https://crates.io/crates/iced" target="_blank" rel="noopener"
+>crates.io&lt;/a>, &lt;a class="link" href="https://github.com/iced-rs/iced" target="_blank" rel="noopener"
+>GitHub&lt;/a>)は&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/about/" >Rust&lt;/a>で書かれた&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/ui/gui-library/" >GUIライブラリ&lt;/a>の1つであり、宣言的なUIの定義が特徴である。&lt;/p>
+&lt;h2 id="特徴">特徴
 &lt;/h2>&lt;blockquote>
 &lt;p>A cross-platform GUI library for Rust focused on simplicity and type-safety. Inspired by &lt;a class="link" href="https://elm-lang.org/" target="_blank" rel="noopener"
 >Elm&lt;/a>.&lt;/p>&lt;/blockquote>
 &lt;p>日本語にすると、&lt;/p>
 &lt;blockquote>
-&lt;p>単純性と型安全性に注視した&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/about/" >Rust&lt;/a>のクラスプラットフォームGUIライブラリ。Elmにインスパイアされました。&lt;/p>&lt;/blockquote>
+&lt;p>単純性と型安全性に注視した&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/about/" >Rust&lt;/a>のクラスプラットフォームGUIライブラリ。Elmにインスパイアされました。&lt;/p>&lt;/blockquote>
 &lt;p>となりますね。&lt;/p>
-&lt;ol>
-&lt;li>
-&lt;p>&lt;strong>Elmアーキテクチャを採用&lt;/strong>:&lt;/p>
-&lt;ul>
-&lt;li>&lt;code>iced&lt;/code>は、関数型言語Elmのアーキテクチャにインスパイアされて設計されている。&lt;/li>
-&lt;li>アプリの状態（State）を明確に管理しやすく、UIイベントもスッキリと書ける。&lt;/li>
-&lt;li>&lt;strong>構成要素&lt;/strong>:
-&lt;ul>
-&lt;li>&lt;strong>Model&lt;/strong>: アプリケーションの状態&lt;/li>
-&lt;li>&lt;strong>Message&lt;/strong>: ユーザーやシステムからのイベント&lt;/li>
-&lt;li>&lt;strong>Update&lt;/strong>: 状態を更新するロジック&lt;/li>
-&lt;li>&lt;strong>View&lt;/strong>: 状態に基づいてUIを描画&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>クロスプラットフォーム対応&lt;/strong>:&lt;/p>
-&lt;ul>
-&lt;li>デスクトップ（Windows、macOS、Linux）とWeb（WebAssembly）で動く。&lt;/li>
-&lt;li>しかも同じコードでね。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>宣言的UI&lt;/strong>:&lt;/p>
-&lt;ul>
-&lt;li>UIを「どう見えるべきか」を宣言的に書くことができる。&lt;/li>
-&lt;li>例えば、ボタンやテキストなどをコードで直感的に記述できるよ。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>非同期対応&lt;/strong>:&lt;/p>
-&lt;ul>
-&lt;li>非同期タスク（&lt;code>async&lt;/code>）に対応しているから、APIリクエストや長時間かかる処理も簡単に扱える。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>プラグイン可能な柔軟性&lt;/strong>:&lt;/p>
-&lt;ul>
-&lt;li>カスタムウィジェットやスタイルを実装できるので、自由度が高い。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ol>
+&lt;h2 id="クロスプラットフォーム">クロスプラットフォーム
+&lt;/h2>&lt;p>デスクトップ（Windows、macOS、Linux）とWeb（WebAssembly）で、同じコードで動作します。&lt;/p>
+&lt;p>また、Rustはクロスコンパイルが可能なので、その点はかなり便利じゃないかな―って思います。&lt;/p>
+&lt;h3 id="宣言的ui">宣言的UI
+&lt;/h3>&lt;p>UIを宣言する形で書く。&lt;br>
+つまり、UIを「どう見えるべきか」を宣言的に、単純に書くことができる。&lt;/p>
+&lt;p>例えば、ボタンやテキストなどをコードで直感的に記述できるよ。&lt;/p>
+&lt;h3 id="非同期対応">非同期対応
+&lt;/h3>&lt;p>アプリケーション全体が非同期タスク（&lt;code>async&lt;/code>）に対応しているので、APIリクエストや長時間かかる処理も簡単に扱える。&lt;/p>
+&lt;p>よかったね、Rustが非同期対応してて。&lt;/p>
+&lt;h3 id="プラグイン可能な柔軟性">プラグイン可能な柔軟性
+&lt;/h3>&lt;p>カスタムウィジェットやスタイルを実装できるので、自由度が高い。&lt;/p>
+&lt;p>ちなみにこれの実装にはちょっとクセが合ったりします。&lt;/p>
 &lt;h2 id="バックエンド">バックエンド
-&lt;/h2>&lt;p>icedはバックエンドに&lt;span class="dead-link">
-wgpu
-&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
-&lt;/span>を採用している。&lt;br>
+&lt;/h2>&lt;p>icedはバックエンドに&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/wgpu/about/" >wgpu&lt;/a>を採用している。&lt;br>
 また、パフォーマンスこそまずまずだが、tiny-skiaにも対応している。&lt;br>
 ↪&lt;span class="dead-link">
 icedのバックエンドの特性
 &lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
 &lt;/span>&lt;/p>
 &lt;h2 id="サンプルコード">サンプルコード
-&lt;/h2>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rust" data-lang="rust">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#[derive(Default)]&lt;/span>
+&lt;/h2>&lt;p>&lt;code>iced&lt;/code>は、関数型言語Elmのアーキテクチャにインスパイアされて設計されています。&lt;/p>
+&lt;p>アプリの状態（State）を明確に管理しやすく、UIイベントもスッキリと書くことができます。&lt;/p>
+&lt;p>&lt;strong>構成要素&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Model&lt;/strong>: アプリケーションの状態&lt;/li>
+&lt;li>&lt;strong>Message&lt;/strong>: ユーザーやシステムからのイベント&lt;/li>
+&lt;li>&lt;strong>Update&lt;/strong>: 状態を更新するロジック&lt;/li>
+&lt;li>&lt;strong>View&lt;/strong>: 状態に基づいてUIを描画&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rust" data-lang="rust">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#[derive(Default)]&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">struct&lt;/span> &lt;span style="color:#a6e22e">Counter&lt;/span> {
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> value: &lt;span style="color:#66d9ef">i32&lt;/span>,
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
@@ -2436,18 +2884,12 @@ icedのバックエンドの特性
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">impl&lt;/span> Counter {
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">pub&lt;/span> &lt;span style="color:#66d9ef">fn&lt;/span> &lt;span style="color:#a6e22e">view&lt;/span>(&lt;span style="color:#f92672">&amp;amp;&lt;/span>self) -&amp;gt; &lt;span style="color:#a6e22e">Column&lt;/span>&lt;span style="color:#f92672">&amp;lt;&lt;/span>Message&lt;span style="color:#f92672">&amp;gt;&lt;/span> {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// We use a column: a simple vertical layout
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#a6e22e">column!&lt;/span>[
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// The increment button. We tell it to produce an
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">// `Increment` message when pressed
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> button(&lt;span style="color:#e6db74">&amp;#34;+&amp;#34;&lt;/span>).on_press(Message::Increment),
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">column!&lt;/span>[
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> button(&lt;span style="color:#e6db74">&amp;#34;+&amp;#34;&lt;/span>).on_press(Message::Increment),
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// We show the value of the counter here
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> text(self.value).size(&lt;span style="color:#ae81ff">50&lt;/span>),
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> text(self.value).size(&lt;span style="color:#ae81ff">50&lt;/span>),
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// The decrement button. We tell it to produce a
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">// `Decrement` message when pressed
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> button(&lt;span style="color:#e6db74">&amp;#34;-&amp;#34;&lt;/span>).on_press(Message::Decrement),
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> button(&lt;span style="color:#e6db74">&amp;#34;-&amp;#34;&lt;/span>).on_press(Message::Decrement),
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ]
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
@@ -2466,7 +2908,7 @@ icedのバックエンドの特性
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">fn&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>() -&amp;gt; &lt;span style="color:#a6e22e">iced&lt;/span>::Result {
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> iced::run(&lt;span style="color:#e6db74">&amp;#34;A cool counter&amp;#34;&lt;/span>, Counter::update, Counter::view)
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>関数&lt;code>view&lt;/code>部分にはマクロと純粋関数を使用している。ここに関数型言語Elmの特徴が出てきていますね。&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>関数&lt;code>view&lt;/code>部分にはマクロと純粋関数を使用しています。ここに関数型言語としての特徴が出てきていますね。&lt;/p>
 &lt;p>ボタンを押したときのイベントを&lt;code>on_press&lt;/code>で割り当て、イベント発生時に&lt;code>update&lt;/code>関数が呼び出されます。&lt;br>
 &lt;code>self.value&lt;/code>を変更すると、&lt;code>view&lt;/code>関数が呼び出されます。&lt;/p>
 &lt;p>そうやってローテーションしていきます。&lt;/p></description></item><item><title>2025年04月09日(水)</title><link>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-09/</link><pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-09/</guid><description>&lt;h2 id="今日の作業">今日の作業
@@ -2475,7 +2917,7 @@ icedのバックエンドの特性
 &lt;ul>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/about/" >JourneyStreetMap&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/about/" >OGSP&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/iced/about/" >iced&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/ui/iced/about/" >iced&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/favorite/stpr/about/" >STPR&lt;/a>&lt;/li>
 &lt;li>&lt;span class="dead-link">
 GC
@@ -2503,17 +2945,22 @@ GC
 &lt;div class="admonition note">
 &lt;div class="admonition-title">Note&lt;/div>
 &lt;div class="admonition-content">
-どれだけ素晴らしいアイデアを思いついても隠して宝の持ち腐れにせず共有するエンジニアの鑑
+どれだけ素晴らしいアイデアを思いついても隠して宝の持ち腐れにせず共有するエンジニアの鑑&lt;br>
 でも公開することにもデメリットはあるよね
 &lt;/div>
 &lt;/div>
-&lt;h2 id="リンク">リンク
+&lt;h2 id="ノートの内容について">ノートの内容について
+&lt;/h2>&lt;p>このセクション内の記事の多くは&lt;a class="link" href="https://www.wikipedia.org" target="_blank" rel="noopener"
+>Wikipedia&lt;/a>を参考に作成しています。また、Wikipediaの表現をそのまま流用している部分もあります。
+しかし、Wikipediaのライセンス上では、文章は&lt;a class="link" href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja" target="_blank" rel="noopener"
+>CC BY-SA 4.0&lt;/a>で公開されているため、コピーすることで著作権違反などには問われません。&lt;/p>
+&lt;p>ただし、クレジットがないのは違反なので、&lt;strong>ここで明確にライセンスを決定します&lt;/strong>。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-plaintext" data-lang="plaintext">&lt;span style="display:flex;">&lt;span>出典: Wikipedia
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>CC BY-SA 4.0に基づいて再配布。
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="リンク">リンク
 &lt;/h2>&lt;ul>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/about/" >ライブラリ&lt;/a>&lt;/li>
-&lt;li>&lt;span class="dead-link">
-プログラミング言語
-&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
-&lt;/span>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/about/" >エンジニアリングに関連する言語&lt;/a>&lt;/li>
 &lt;li>&lt;span class="dead-link">
 プラットフォーム
 &lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
@@ -2528,16 +2975,105 @@ GC
 &lt;/h3>&lt;ul>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/index/" >4月&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/index/" >5月&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>日記</title><link>https://yossy4411.okayugroup.net/excalidraw/about/</link><pubDate>Tue, 08 Apr 2025 16:24:26 +0900</pubDate><guid>https://yossy4411.okayugroup.net/excalidraw/about/</guid><description>&lt;h2 id="管理について">管理について
-&lt;/h2>&lt;p>2025/4/1から&lt;a class="link" href="https://yossy4411.okayugroup.net/about-me/" >yossy4411&lt;/a>が毎日書いています。&lt;/p>
-&lt;p>殆どが今日の作業、あとは今日の体調を書いてます。&lt;/p>
-&lt;p>(*´･∀･)o[ゆっくりしていってね]o(･∀･`*)&lt;/p>
-&lt;h2 id="目次">目次
-&lt;/h2>&lt;h3 id="2025年">2025年
-&lt;/h3>&lt;ul>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/index/" >4月&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/index/" >5月&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>EarthQuake - デスクトップ版地震災害情報アプリ</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/about/</link><pubDate>Tue, 08 Apr 2025 10:33:31 +0900</pubDate><guid>https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/about/</guid><description>&lt;p>
+&lt;/ul></description></item><item><title>クレート</title><link>https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/crate/</link><pubDate>Tue, 08 Apr 2025 15:29:13 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/crate/</guid><description>&lt;h2 id="クレートとは">クレートとは
+&lt;/h2>&lt;p>クレート (Crate)は、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/about/" >Rust&lt;/a>のコードをまとめる基本単位の1つ。Rustのプロジェクトやライブラリのことを指す。&lt;/p>
+&lt;p>コンパイル先の違いによって&lt;a class="link" href="#%e3%83%90%e3%82%a4%e3%83%8a%e3%83%aa%e3%82%af%e3%83%ac%e3%83%bc%e3%83%88" >バイナリクレート&lt;/a>と&lt;a class="link" href="#%e3%83%a9%e3%82%a4%e3%83%96%e3%83%a9%e3%83%aa%e3%82%af%e3%83%ac%e3%83%bc%e3%83%88" >ライブラリクレート&lt;/a>に分けられる。&lt;/p>
+&lt;h2 id="バイナリクレート">バイナリクレート
+&lt;/h2>&lt;p>CLIアプリケーションやGUIアプリケーションなどを含む、実行可能なプログラムを提供するクレートは一般的に『バイナリクレート』と呼ばれる。&lt;/p>
+&lt;p>コンパイル時にバイナリとしてビルドされ、バイナリファイルを実行したときに関数&lt;code>main&lt;/code>が呼び出されるようになっている。&lt;/p>
+&lt;p>デフォルトでは&lt;code>src/main.rs&lt;/code>がバイナリクレートの定義になる。&lt;br>
+また、&lt;code>src/bin/*.rs&lt;/code>がすべてバイナリとして認識される。&lt;/p>
+&lt;pre tabindex="0">&lt;code class="language-rust:" data-lang="rust:">fn main() {
+println!(&amp;#34;Hello, World!&amp;#34;);
+}
+&lt;/code>&lt;/pre>&lt;p>実行すると、CLIで&lt;code>Hello, World!&lt;/code>が出力される。&lt;/p>
+&lt;p>また、都度&lt;code>Cargo.toml&lt;/code>を編集して別のバイナリクレートを同じプロジェクト内に作ることもできる。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">package&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">name&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;mypackage&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">version&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;0.1.0&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">edition&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;2024&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[[&lt;span style="color:#a6e22e">bin&lt;/span>]]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">name&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;run-all&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">path&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;src/run.rs&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="ライブラリクレート">ライブラリクレート
+&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/about/" >ライブラリ&lt;/a>を提供するクレートは、『ライブラリクレート』と呼ばれる。&lt;/p>
+&lt;p>一般的にいくつもの構造体やトレイト、関数などを定義する。&lt;/p>
+&lt;p>デフォルトで&lt;code>src/lib.rs&lt;/code>がライブラリクレートの中心となる。ここでモジュールなどを定義する。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rust" data-lang="rust">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">pub&lt;/span> &lt;span style="color:#66d9ef">mod&lt;/span> client;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">pub&lt;/span> &lt;span style="color:#66d9ef">mod&lt;/span> server;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">pub&lt;/span> &lt;span style="color:#66d9ef">struct&lt;/span> &lt;span style="color:#a6e22e">MyStruct&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;amp;&lt;/span>&lt;span style="color:#66d9ef">str&lt;/span> name,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">impl&lt;/span> MyStruct {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">pub&lt;/span> &lt;span style="color:#66d9ef">fn&lt;/span> &lt;span style="color:#a6e22e">name&lt;/span>(&lt;span style="color:#f92672">&amp;amp;&lt;/span>self) -&amp;gt; &lt;span style="color:#66d9ef">&amp;amp;&lt;/span>&lt;span style="color:#66d9ef">str&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> self.name
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>モジュールごとに&lt;code>mod.rs&lt;/code>を定義して、その中に更にモジュールを定義したりすることもできる。&lt;/p></description></item><item><title>wgpu</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/wgpu/about/</link><pubDate>Tue, 08 Apr 2025 14:49:09 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/libs/wgpu/about/</guid><description>&lt;p>&lt;strong>wgpu&lt;/strong>は&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/platform/graphics/webgpu/about/" >WebGPU&lt;/a>のAPIを&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/about/" >Rust&lt;/a>で実装した&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/" >クレート&lt;/a>である。&lt;/p>
+&lt;p>
+&lt;div class="admonition important">
+&lt;div class="admonition-title">Important&lt;/div>
+&lt;div class="admonition-content">
+ラッパーではなく、WebGPUの設計に則ってRustで実装された、ピュアRustのライブラリである。
+&lt;/div>
+&lt;/div>
+wgpuは、Windows, MacOS, Linux, Web (WASM) の複数プラットフォームで動作する。&lt;/p>
+&lt;p>Rustのメモリ安全性を活かし、GPUのリソースを安全に管理したり、楽に並行処理が可能である。また、直接的に非同期処理をサポートしている。&lt;/p>
+&lt;h3 id="wgslシェーダー">WGSLシェーダー
+&lt;/h3>&lt;p>WebGPUのシェーダーはWGSL (拡張子&lt;code>.wgsl&lt;/code>)で定義する。この構文はRustに非常に似ている。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-wgsl" data-lang="wgsl">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// 頂点シェーダ
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#a6e22e">@vertex&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">fn&lt;/span> vs_main(&lt;span style="color:#a6e22e">@builtin&lt;/span>(vertex_index) vertex_index: u32) -&amp;gt; &lt;span style="color:#a6e22e">@builtin&lt;/span>(position) vec4&lt;span style="color:#f92672">&amp;lt;&lt;/span>f32&lt;span style="color:#f92672">&amp;gt;&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">let&lt;/span> positions &lt;span style="color:#f92672">=&lt;/span> array&lt;span style="color:#f92672">&amp;lt;&lt;/span>vec2&lt;span style="color:#f92672">&amp;lt;&lt;/span>f32&lt;span style="color:#f92672">&amp;gt;&lt;/span>, &lt;span style="color:#ae81ff">3&lt;/span>&lt;span style="color:#f92672">&amp;gt;&lt;/span>(
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> vec2&lt;span style="color:#f92672">&amp;lt;&lt;/span>f32&lt;span style="color:#f92672">&amp;gt;&lt;/span>(&lt;span style="color:#ae81ff">0.0&lt;/span>, &lt;span style="color:#ae81ff">0.5&lt;/span>), &lt;span style="color:#75715e">// 上
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> vec2&lt;span style="color:#f92672">&amp;lt;&lt;/span>f32&lt;span style="color:#f92672">&amp;gt;&lt;/span>(&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">0.5&lt;/span>, &lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">0.5&lt;/span>), &lt;span style="color:#75715e">// 左下
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> vec2&lt;span style="color:#f92672">&amp;lt;&lt;/span>f32&lt;span style="color:#f92672">&amp;gt;&lt;/span>(&lt;span style="color:#ae81ff">0.5&lt;/span>, &lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">0.5&lt;/span>) &lt;span style="color:#75715e">// 右下
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> );
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">let&lt;/span> pos &lt;span style="color:#f92672">=&lt;/span> positions[vertex_index];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> vec4&lt;span style="color:#f92672">&amp;lt;&lt;/span>f32&lt;span style="color:#f92672">&amp;gt;&lt;/span>(pos, &lt;span style="color:#ae81ff">0.0&lt;/span>, &lt;span style="color:#ae81ff">1.0&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// フラグメントシェーダ
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#a6e22e">@fragment&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">fn&lt;/span> fs_main() -&amp;gt; &lt;span style="color:#a6e22e">@location&lt;/span>(&lt;span style="color:#ae81ff">0&lt;/span>) vec4&lt;span style="color:#f92672">&amp;lt;&lt;/span>f32&lt;span style="color:#f92672">&amp;gt;&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> vec4&lt;span style="color:#f92672">&amp;lt;&lt;/span>f32&lt;span style="color:#f92672">&amp;gt;&lt;/span>(&lt;span style="color:#ae81ff">1.0&lt;/span>, &lt;span style="color:#ae81ff">0.0&lt;/span>, &lt;span style="color:#ae81ff">0.0&lt;/span>, &lt;span style="color:#ae81ff">1.0&lt;/span>); &lt;span style="color:#960050;background-color:#1e0010">#&lt;/span>FF0000FF
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>詳しくは別のドキュメントで説明する&amp;hellip;&lt;/p>
+&lt;h2 id="リンク">リンク
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/gfx-rs/wgpu" target="_blank" rel="noopener"
+>GitHub&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://wgpu.rs/" target="_blank" rel="noopener"
+>公式サイト&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>WebGPUについて</title><link>https://yossy4411.okayugroup.net/develop/knowledge/platform/graphics/webgpu/about/</link><pubDate>Tue, 08 Apr 2025 14:35:29 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/platform/graphics/webgpu/about/</guid><description>&lt;h2 id="概要">概要
+&lt;/h2>&lt;p>&lt;strong>WebGPU&lt;/strong>は、グラフィカル処理とGPGPUのための将来的な標準とAPIのためのワーキングネームである。「モダンな3D画像処理と計算機能」を提供することを目的としている。&lt;br>
+Apple, Google, Microsoft, Mozillaを含むさまざまな組織のエンジニアが協力して、&lt;a class="link" href="https://ja.wikipedia.org/wiki/World_Wide_Web_Consortium" title="World Wide Web Consortium"
+target="_blank" rel="noopener"
+>W3C&lt;/a>の&lt;em>GPU for the Web&lt;/em>コミュニティグループで開発される。&lt;/p>
+&lt;p>VulkanやMetal、Direct3Dをラップするような形で、クロスプラットフォームに動作するAPIの提供を行う。&lt;/p>
+&lt;h2 id="実装設計">実装・設計
+&lt;/h2>&lt;p>設計の中心となるヘッダーファイルは&lt;a class="link" href="https://raw.githubusercontent.com/webgpu-native/webgpu-headers/main/webgpu.h" target="_blank" rel="noopener"
+>webgpu.h&lt;/a>で提供されている。これには関数や構造体などの「設計書」のみが定義されており、中身は別のライブラリに存在する。&lt;/p>
+&lt;h3 id="rust">Rust
+&lt;/h3>&lt;p>WebGPUの設計書に基づいて純粋な&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/about/" >Rust&lt;/a>でそれを実装したものが&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/wgpu/about/" >wgpu&lt;/a>だ。主にMozilla FirefoxやRustの&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/ui/gui-library/" >GUIライブラリ&lt;/a>で使用されている。&lt;/p>
+&lt;h2 id="c">C++
+&lt;/h2>&lt;p>WebGPUをC++で実装したものが、&lt;a class="link" href="https://github.com/eliemichel/WebGPU-Cpp" target="_blank" rel="noopener"
+>WebGPU-C++&lt;/a>や&lt;a class="link" href="https://github.com/google/dawn" target="_blank" rel="noopener"
+>Dawn&lt;/a>である。特にDawnはGoogleによって開発されており、Google Chromeに搭載されている。&lt;/p>
+&lt;h2 id="ブラウザの対応">ブラウザの対応
+&lt;/h2>&lt;h3 id="google-chrome">Google Chrome
+&lt;/h3>&lt;p>Google Chromeでは、バージョン113以上で正式にサポートされている。&lt;br>
+同じくMicrosoft Edgeもバージョン113以上で対応している。&lt;/p>
+&lt;h3 id="safari">Safari
+&lt;/h3>&lt;p>SafariはMetalを通してWebGPUをサポートするが、現時点ではプレビュー版でサポートされている。&lt;/p>
+&lt;p>また、フラグで&lt;code>WebGPU = true&lt;/code>を設定することでプレビュー版でなくても使用できる。&lt;/p>
+&lt;h2 id="firefox">Firefox
+&lt;/h2>&lt;p>Mozilla Firefoxは、残念ながらデフォルトではサポートされない。代わりに&lt;code>dom.webgpu.enabled&lt;/code>フラグを有効化することでサポートされる。&lt;/p>
+&lt;p>W3CにMozillaが参加しているので、じきに正式サポートされるはずだ。&lt;/p></description></item><item><title>EarthQuake - デスクトップ版地震災害情報アプリ</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/previous/earthquake/about/</link><pubDate>Tue, 08 Apr 2025 10:33:31 +0900</pubDate><guid>https://yossy4411.okayugroup.net/okayugroup/ogsp/previous/earthquake/about/</guid><description>&lt;p>
 &lt;div class="admonition important">
 &lt;div class="admonition-title">Important&lt;/div>
 &lt;div class="admonition-content">
@@ -2577,16 +3113,10 @@ alt="リリースの中で不安定だけど開発が一区切り着いたとき
 &lt;/h3>&lt;p>これらに情報を書き加えました。&lt;/p>
 &lt;ul>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/about/" >OGSP&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/disaster-prevention/about/" >OGSP Disaster Prevention&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/about/" >EarthQuake.desktop&lt;/a>&lt;/li>
-&lt;li>&lt;span class="dead-link">
-wgpu
-&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
-&lt;/span>&lt;/li>
-&lt;li>&lt;span class="dead-link">
-WebGPU
-&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
-&lt;/span>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/application/disaster-prevention/about/" >OGSP Disaster Prevention&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/previous/earthquake/about/" >EarthQuake.desktop&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/wgpu/about/" >wgpu&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/platform/graphics/webgpu/about/" >WebGPU&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h3 id="ノートのリンクを修正">ノートのリンクを修正
 &lt;/h3>&lt;p>&lt;code>().md&lt;/code>形式のリンクはObsidianで一般的に使用されますが、これはHugoでは使えません。&lt;/p>
@@ -2805,124 +3335,37 @@ alt="Top Langs"
 &lt;/h2>&lt;p>地震計から収集したデータを集める場所がサーバーです。&lt;/p>
 &lt;p>同時に受信システムへのデータ送信も行います。&lt;/p>
 &lt;h2 id="受信システムアプリ開発">受信システム・アプリ開発
-&lt;/h2>&lt;h3 id="earthquake---デスクトップ版地震災害情報アプリ">&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/about/" >EarthQuake&lt;/a> - デスクトップ版地震災害情報アプリ
+&lt;/h2>&lt;h3 id="earthquake---デスクトップ版地震災害情報アプリ">&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/previous/earthquake/about/" >EarthQuake&lt;/a> - デスクトップ版地震災害情報アプリ
 &lt;/h3>&lt;p>パフォーマンスの理由で開発停止&lt;br>
 言語: C#&lt;br>
 GUIフレームワーク: Avalonia + SkiaSharp
 ↪ &lt;a class="link" href="https://github.com/yossy4411/EarthQuake" target="_blank" rel="noopener"
 >GitHub&lt;/a>&lt;/p>
-&lt;h3 id="ogsp-disaster-prevention">&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/disaster-prevention/about/" >OGSP Disaster Prevention&lt;/a>
+&lt;h3 id="ogsp-disaster-prevention">&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/application/disaster-prevention/about/" >OGSP Disaster Prevention&lt;/a>
 &lt;/h3>&lt;p>パフォーマンスを最大化した最新鋭の設計&lt;br>
-言語: &lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/about/" >Rust&lt;/a>
-GUIフレームワーク: &lt;code>iced&lt;/code> (変更の可能性あり) + &lt;code>wgpu&lt;/code> + Skia (&lt;code>skia-safe&lt;/code>)&lt;/p></description></item><item><title>おかゆグループ地震計プロジェクト</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/about/</link><pubDate>Mon, 07 Apr 2025 22:38:56 +0900</pubDate><guid>https://yossy4411.okayugroup.net/okayugroup/ogsp/about/</guid><description>&lt;h2 id="概要">概要
-&lt;/h2>&lt;p>おかゆグループ地震系プロジェクト（Okayu Group Seismometer Project、略称: OGSP）は、オープンソースで地震観測網および災害対策網を構築するプロジェクト。&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Field&lt;/th>
-&lt;th>Value&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>主導&lt;/td>
-&lt;td>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/about/" >おかゆグループ&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>参考&lt;/td>
-&lt;td>&lt;a class="link" href="https://www.jma.go.jp" target="_blank" rel="noopener"
->気象庁&lt;/a>&lt;br>&lt;a class="link" href="https://www.bosai.go.jp" target="_blank" rel="noopener"
->NIED&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>プラットフォーム&lt;/td>
-&lt;td>GitHub (リンクなし)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>予算&lt;/td>
-&lt;td>0円+&lt;a class="link" href="https://yossy4411.okayugroup.net/about-me/" >yossy4411&lt;/a>のお小遣い&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="なぜオープンソース">なぜオープンソース？
-&lt;/h2>&lt;p>私は「防災」は&lt;strong>みんなでつくる&lt;/strong>ものであるべきであって、他人や政府に頼りっきりになるべきではないと思っております。そのためのカギとなる考え方が&lt;strong>オープンソース&lt;/strong>だったわけです。&lt;/p>
-&lt;p>オープンソースは、ソフトウェアを公開された場所に置くことで、使用や改変、協力的な開発ができる開発の方法で、対比されるのが「クローズドソース」です。&lt;br>
-※&amp;ldquo;オープンソース&amp;quot;という言葉が指すものは、考え方だったり開発モデルだったりする。ややこしくてごめんね&lt;/p>
-&lt;h3 id="メリット">メリット
-&lt;/h3>&lt;p>オープンソースにすることで、政府組織外で運営されることによって発生する様々な問題の解消が可能になります。&lt;/p>
-&lt;ul>
-&lt;li>透明性の向上&lt;/li>
-&lt;li>柔軟性の向上&lt;/li>
-&lt;li>互換性の向上&lt;/li>
-&lt;li>バグの削減&lt;/li>
-&lt;li>責任の分散&lt;/li>
-&lt;li>災害への意識の向上&lt;/li>
-&lt;/ul>
-&lt;h3 id="デメリット">デメリット
-&lt;/h3>&lt;p>オープンソースになることによって発生するデメリットもあります。&lt;/p>
-&lt;ul>
-&lt;li>収入源が得られない （開発資金の調達が難しい）&lt;/li>
-&lt;li>ハッキングの対象になりやすい （逆に修正もしやすいが）&lt;/li>
-&lt;li>開発スピードの低下 （公開することで他人からも見やすくする必要があるため）
-これ以外にもデメリットはあると思います。判明次第付け足していきます。&lt;/li>
-&lt;/ul>
-&lt;h2 id="地震計開発">地震計開発
-&lt;/h2>&lt;p>地震計は、加速度データから震度を計測します。&lt;br>
-収集したデータは&lt;a class="link" href="#%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e9%96%8b%e7%99%ba" >サーバー&lt;/a>へ送信されます。&lt;/p>
-&lt;p>現在ではESP32マイコンを使い、開発を進めています。&lt;br>
-言語: C++ (Arduino/PlatformIO)&lt;br>
-↪ &lt;a class="link" href="https://github.com/yossy4411/ogsp-seismometer-esp32" target="_blank" rel="noopener"
->OGSP-Seismometer-ESP32 (GitHub)&lt;/a>&lt;/p>
-&lt;p>また、スマホに内蔵される加速度センサを使って、スマホを地震計にすることで新しく地震計を作製することなく地震観測が可能になるプロジェクトもアイデアとして浮かんでいます。&lt;/p>
-&lt;h2 id="サーバー開発">サーバー開発
-&lt;/h2>&lt;p>地震計から収集したデータを集める場所がサーバーです。&lt;/p>
-&lt;p>同時に受信システムへのデータ送信も行います。&lt;/p>
-&lt;h2 id="受信システムアプリ開発">受信システム・アプリ開発
-&lt;/h2>&lt;h3 id="earthquake---デスクトップ版地震災害情報アプリ">&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/about/" >EarthQuake&lt;/a> - デスクトップ版地震災害情報アプリ
-&lt;/h3>&lt;p>パフォーマンスの理由で開発停止&lt;br>
-言語: C#&lt;br>
-GUIフレームワーク: Avalonia + SkiaSharp
-↪ &lt;a class="link" href="https://github.com/yossy4411/EarthQuake" target="_blank" rel="noopener"
->GitHub&lt;/a>&lt;/p>
-&lt;h3 id="ogsp-disaster-prevention">&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/disaster-prevention/about/" >OGSP Disaster Prevention&lt;/a>
-&lt;/h3>&lt;p>パフォーマンスを最大化した最新鋭の設計&lt;br>
-言語: &lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/about/" >Rust&lt;/a>
-GUIフレームワーク: &lt;code>iced&lt;/code> (変更の可能性あり) + &lt;code>wgpu&lt;/code> + Skia (&lt;code>skia-safe&lt;/code>)&lt;/p></description></item><item><title>OGSP Disaster Prevention</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/disaster-prevention/about/</link><pubDate>Mon, 07 Apr 2025 22:37:43 +0900</pubDate><guid>https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/disaster-prevention/about/</guid><description>&lt;h2 id="特徴">特徴
-&lt;/h2>&lt;p>このプロジェクトの最大の特徴は、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/about/" >Rust&lt;/a>のメモリ安全性&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>と高速性を活用した軽量な動作だと思います。&lt;br>
-前プロジェクトの&lt;span class="dead-link">
-EarthQuake
-&lt;span style="font-size: 1rem">（リンク切れ）&lt;/span>
-&lt;/span>(C#)では、機能を追加していくにつれて動作がどんどん重くなっていき、開発を諦めてしまいました。この動作の重さは&lt;span class="dead-link">
+言語: &lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/about/" >Rust&lt;/a>
+GUIフレームワーク: &lt;code>iced&lt;/code> (変更の可能性あり) + &lt;code>wgpu&lt;/code> + Skia (&lt;code>skia-safe&lt;/code>)&lt;/p></description></item><item><title>OGSP Disaster Prevention</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/application/disaster-prevention/about/</link><pubDate>Mon, 07 Apr 2025 22:37:43 +0900</pubDate><guid>https://yossy4411.okayugroup.net/okayugroup/ogsp/application/disaster-prevention/about/</guid><description>&lt;p>&lt;strong>OGSP Disaster Prevention&lt;/strong>、または&lt;strong>OGSP防災&lt;/strong>は、&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/about/" >OGSP&lt;/a>や気象庁から提供される防災情報を表示するためのデスクトップ (およびモバイル) アプリケーションである。&lt;br>
+また、このアプリケーションは&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/network/about/" >OGSP Disaster Network&lt;/a>のアプリケーション層を担う役割があり、地震計から取得したデータをレンダリングする機能を備える。&lt;/p>
+&lt;h2 id="特徴">特徴
+&lt;/h2>&lt;p>OGSP Disaster Preventionの最大の特徴は、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/about/" >Rust&lt;/a>のメモリ安全性と並列性を活用した、軽量で高速な動作だ。&lt;/p>
+&lt;p>OGSP Disaster Preventionは、C#で構成される&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/previous/earthquake/about/" >EarthQuake&lt;/a>の次期プロジェクトである。前任では、機能を盛りすぎたために、フレームレート的にもバイナリサイズ的にも重くなってしまった。&lt;br>
+ランタイムの重さはほとんどが&lt;span class="dead-link">
 GC
 &lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
-&lt;/span>から来ていると考えられます。&lt;br>
-GCのないRustはC#よりも高速かつ少ないリソースでも動くと考えられます。&lt;/p>
+&lt;/span>に由来するもので、開発者である&lt;a class="link" href="https://yossy4411.okayugroup.net/about-me/" >yossy4411&lt;/a>は&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/about/" >Rust&lt;/a>がこれを解消するカギだと考えた。&lt;/p>
+&lt;p>実際、GCを搭載しないRustは、C#よりも高速で、省リソースで動作することが多い。&lt;/p>
 &lt;h2 id="開発">開発
-&lt;/h2>&lt;p>現在の開発段階は「検討中」です。&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>基礎からまるっきり変わる可能性もあります。&lt;/p>
-&lt;ul>
+&lt;/h2>&lt;h3 id="環境">環境
+&lt;/h3>&lt;ul>
 &lt;li>IDE: RustRover&lt;/li>
 &lt;li>プラットフォーム: GitHub&lt;/li>
 &lt;/ul>
-&lt;h2 id="技術的情報">技術的情報
-&lt;/h2>&lt;p>&lt;strong>依存関係&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>&lt;span class="dead-link">
-wgpu
-&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
-&lt;/span>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/iced/about/" >iced&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;div class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1">
-&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/ownership/" >所有権&lt;/a>システムによって保証されている。&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2">
-&lt;p>詳しくは&lt;a class="link" href="https://yossy4411.okayugroup.net/todo/%e3%82%84%e3%82%8b%e3%81%93%e3%81%a8%e3%83%aa%e3%82%b9%e3%83%88%ef%bc%88%e3%81%99%e3%81%b9%e3%81%a6%ef%bc%89/" >やることリスト（すべて）&lt;/a>をご覧ください。&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/div></description></item><item><title>2025年04月07日(月)</title><link>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-07/</link><pubDate>Mon, 07 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-07/</guid><description>&lt;h2 id="今日の作業">今日の作業
+&lt;h3 id="依存関係">依存関係
+&lt;/h3>&lt;ul>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/wgpu/about/" >wgpu&lt;/a>&lt;/li>
+&lt;li>Vello&lt;/li>
+&lt;li>Xilem&lt;/li>
+&lt;/ul></description></item><item><title>2025年04月07日(月)</title><link>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-07/</link><pubDate>Mon, 07 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-07/</guid><description>&lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;h3 id="short動画制作---we-are-stpr">short動画制作 - We Are STPR
 &lt;/h3>&lt;p>&lt;a class="link" href="https://www.youtube.com/watch?v=1bKc5XGMIbI&amp;amp;t=1476s" target="_blank" rel="noopener"
 >【全員集合】&amp;ldquo;すとふぇす&amp;quot;ドーム5DAYS終了！ライブ会場から緊急配信しますWWWWW【すとぷり/騎士A/AMPTAK/めておら/すにすて】&lt;/a>より切り抜き&lt;br>
@@ -2998,7 +3441,7 @@ publish_branch: gh-pages
 &lt;/ul>
 &lt;h3 id="buy-me-a-coffeeの登録">Buy Me a Coffeeの登録
 &lt;/h3>&lt;p>まず銀行口座が要るらしい。
-親に頼もうトホホギス&lt;/p></description></item><item><title>Rustのコンパイラについて</title><link>https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/compiler/</link><pubDate>Fri, 04 Apr 2025 16:04:15 +0000</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/compiler/</guid><description>&lt;h3 id="概要">概要
+親に頼もうトホホギス&lt;/p></description></item><item><title>Rustのコンパイラについて</title><link>https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/compiler/</link><pubDate>Fri, 04 Apr 2025 16:04:15 +0000</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/compiler/</guid><description>&lt;h3 id="概要">概要
 &lt;/h3>&lt;p>&lt;code>rustc&lt;/code>&lt;/p>
 &lt;ul>
 &lt;li>AOTコンパイル&lt;/li>
@@ -3011,43 +3454,42 @@ publish_branch: gh-pages
 &lt;div class="admonition-content">
 Rustのコンパイラ、疲労困憊ラ
 &lt;/div>
-&lt;/div></description></item><item><title>ライブラリとは</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/about/</link><pubDate>Fri, 04 Apr 2025 17:23:16 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/libs/about/</guid><description>&lt;h2 id="ライブラリとは">ライブラリとは
-&lt;/h2>&lt;p>ソフトウェアの開発の上で機能を拡張するやつだと思っていたら良いと思います。
-知らんけど。&lt;/p>
-&lt;h2 id="目次">目次
+&lt;/div></description></item><item><title>ライブラリとは</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/about/</link><pubDate>Fri, 04 Apr 2025 17:23:16 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/libs/about/</guid><description>&lt;p>&lt;strong>ライブラリ&lt;/strong>（英: library）は、汎用性の高い複数のプログラムを再利用可能な形でひとまとまりにしたものである。実行可能な形式でない場合が多く、ソフトウェア開発の上で機能を拡張するものとして利用される。&lt;/p>
+&lt;p>プログラムの集合ではあるが、その組み込むファイルがソースコードの場合や、オブジェクトコード、リンクライブラリのバイナリで提供される場合など、その方法は様々である。&lt;/p>
+&lt;p>ライブラリをプログラムに紐づけることを、リンクという。リンクの仕方として、動的リンクや静的リンクなどがある。&lt;/p>
+&lt;h2 id="サブセクション">サブセクション
 &lt;/h2>&lt;ul>
-&lt;li>&lt;span class="dead-link">
-wgpu
-&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
-&lt;/span>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/iced/about/" >iced&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/ui/gui-library/" >GUIライブラリ&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="関連項目">関連項目
 &lt;/h2>&lt;ul>
-&lt;li>&lt;span class="dead-link">
-crate
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/" >crate&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Rustの概要</title><link>https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/about/</link><pubDate>Fri, 04 Apr 2025 16:46:51 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/about/</guid><description>&lt;p>&lt;strong>Rust&lt;/strong>は、性能やメモリ安全性を目指して作られた、マルチパラダイムのシステムプログラミング言語である。C系の言語を置き換えることを目標としているが、ポインターなどの概念が存在せず安全に開発を行うことができる。&lt;/p>
+&lt;p>読み方は&lt;strong>ラスト&lt;/strong>。&lt;/p>
+&lt;h2 id="概要">概要
+&lt;/h2>&lt;p>Rustには&lt;strong>ポインターが存在しない&lt;/strong>。その代わり、借用といって、参照を取るシステムによって値を共有することができる。また、値の本体を、変数やメンバーへの代入、関数での引数としての使用を行うときは、その値は移動する。これを譲渡という。&lt;br>
+このシステムによって、&lt;span class="dead-link">
+ガベージコレクション
 &lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
-&lt;/span>&lt;/li>
-&lt;/ul></description></item><item><title>Rustの概要</title><link>https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/about/</link><pubDate>Fri, 04 Apr 2025 16:46:51 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/about/</guid><description>&lt;h2 id="rustの開発状況について">Rustの開発状況について
-&lt;/h2>&lt;ul>
-&lt;li>&lt;a class="link" href="https://github.com/rust-lang/rust" target="_blank" rel="noopener"
->ソースコード (GitHub)&lt;/a>
-Rustはあの&amp;quot;Firefox&amp;quot;を手掛けるMozilla社が開発したプログラミング言語で、高速でメモリの安全性が特徴です。
-これには独自の&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/ownership/" >所有権&lt;/a>というシステムが大きく関わっており、これによって&lt;span class="dead-link">
-GC
-&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
-&lt;/span>なしでメモリの安全性を手に入れています。&lt;/li>
-&lt;/ul>
-&lt;p>所有権を正しく判別し、コンパイル時にエラーを出すために強力な&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/compiler/" >rustc&lt;/a> (rustc)が作られています。&lt;/p>
+&lt;/span>を必要としない安全なメモリ管理ができるのである。&lt;/p>
+&lt;p>Rustでは、ほとんどのエラーを&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/Knowledge/lang/programming/Rust/rustc" >コンパイラ&lt;/a>がキャッチできるように設計されている。そのため、ランタイムエラーは従来の言語よりも少ない。Javaで最も多いとされるNullPointerExceptionのような、Rustでいう参照によって発生するエラーはコンパイルエラーとして扱われる。&lt;/p>
+&lt;p>Rustは、並列・並行処理、非同期処理を標準でサポートする。参照システムは安全に並行処理を行うことができるように設計されている。&lt;/p>
+&lt;h2 id="コード">コード
+&lt;/h2>&lt;p>HelloWorldは以下の通り。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rust" data-lang="rust">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">fn&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">println!&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;Hello, World!&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>そう、とても単純なのである。これはRustの単純な構文と、マクロのおかげである。&lt;/p>
 &lt;h2 id="用語集">用語集
 &lt;/h2>&lt;ul>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/ownership/" >所有権&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/compiler/" >rustc&lt;/a> - Rust compiler&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/" >crate&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/ownership/" >所有権&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/compiler/" >rustc&lt;/a> - Rust compiler&lt;/li>
 &lt;li>&lt;span class="dead-link">
 デリファレンス
 &lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
 &lt;/span>&lt;/li>
-&lt;/ul></description></item><item><title>所有権システム</title><link>https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/ownership/</link><pubDate>Fri, 04 Apr 2025 16:25:59 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/ownership/</guid><description>&lt;h3 id="所有権">所有権
+&lt;/ul></description></item><item><title>所有権システム</title><link>https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/ownership/</link><pubDate>Fri, 04 Apr 2025 16:25:59 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/ownership/</guid><description>&lt;h3 id="所有権">所有権
 &lt;/h3>&lt;p>Rustには&amp;quot;所有権システム&amp;quot;というのがあります。
 これには、ゼロコストのメモリ管理ができるという利点があります。&lt;/p>
 &lt;p>これによりGCが不必要となり、速度が圧倒的に上がります。&lt;/p>
@@ -3085,11 +3527,11 @@ println!関数に渡ったあと、その関数内でスコープを抜けると
 →Anvilファイルフォーマット、NBTデータ&lt;/p>
 &lt;h3 id="2-アプリ画面に表示">2. アプリ画面に表示
 &lt;/h3>&lt;blockquote>
-&lt;p>適当に&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/rust/about/" >Rust&lt;/a>で組んどくかー&lt;/p>&lt;/blockquote>
+&lt;p>適当に&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/about/" >Rust&lt;/a>で組んどくかー&lt;/p>&lt;/blockquote>
 &lt;p>うぇい。&lt;/p>
 &lt;h3 id="3-マップデータを編集">3. マップデータを編集
 &lt;/h3>&lt;p>アプリ画面上で道路とか地点を追加したりします。&lt;/p>
-&lt;p>ここには&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/gui-library/" >GUIライブラリ&lt;/a>を使用するとやりやすいかもしれんね&lt;/p>
+&lt;p>ここには&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/ui/gui-library/" >GUIライブラリ&lt;/a>を使用するとやりやすいかもしれんね&lt;/p>
 &lt;h3 id="4-pmtilesにエクスポート">4. PMTilesにエクスポート
 &lt;/h3>&lt;p>PMTiles形式の１つのファイルにエクスポートすると使いやすいよね〜！&lt;/p>
 &lt;h3 id="5-gsiとして見る">5. GSIとして見る
@@ -3136,9 +3578,8 @@ println!関数に渡ったあと、その関数内でスコープを抜けると
 &lt;h2 id="xのスクショを自動化しようと思った">Xのスクショを自動化しようと思った
 &lt;/h2>&lt;p>いわゆるスクレイピングってやつです。
 Pythonでやるのも難しそうだし、そもそも需要がなさそうだったのでやめました。
-&lt;strong>手動でスクショ撮ってたほうが良い&lt;/strong>です。絶対に。&lt;/p></description></item><item><title/><link>https://yossy4411.okayugroup.net/todo/%E3%82%84%E3%82%8B%E3%81%93%E3%81%A8%E3%83%AA%E3%82%B9%E3%83%88%E3%81%99%E3%81%B9%E3%81%A6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/todo/%E3%82%84%E3%82%8B%E3%81%93%E3%81%A8%E3%83%AA%E3%82%B9%E3%83%88%E3%81%99%E3%81%B9%E3%81%A6/</guid><description>&lt;h2 id="アイデア">アイデア
+&lt;strong>手動でスクショ撮ってたほうが良い&lt;/strong>です。絶対に。&lt;/p></description></item><item><title>TODOリスト（すべて）</title><link>https://yossy4411.okayugroup.net/todo-all/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/todo-all/</guid><description>&lt;h2 id="アイデア">アイデア
 &lt;/h2>&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> 動画編集ソフトを自作&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> 地震計プロジェクトにWeb3を活用&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> ボーカル除去AIを自作&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> オープンソースな政治を目指そうの会&lt;/li>
@@ -3146,7 +3587,8 @@ Pythonでやるのも難しそうだし、そもそも需要がなさそうだ�
 &lt;/ul>
 &lt;h2 id="検討中">検討中
 &lt;/h2>&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> &lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/disaster-prevention/about/" >OGSP Disaster Prevention&lt;/a>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> &lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/application/disaster-prevention/about/" >OGSP Disaster Prevention&lt;/a>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 動画編集ソフトを自作&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> プロジェクト管理を容易にしよう&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> PMTiles.NETにWriteの処理を追加&lt;/li>
 &lt;/ul>
@@ -3161,9 +3603,9 @@ Pythonでやるのも難しそうだし、そもそも需要がなさそうだ�
 ] [WebGPUのOGSP-DPへの利活用
 &lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
 &lt;/span>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Vulkan&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> Web3&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> NFT&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> 動画編集ソフト&lt;/li>
 &lt;/ul>
 &lt;h2 id="修正が必要-">修正が必要 ⏫
 &lt;/h2>&lt;h2 id="やりたいこと">やりたいこと
@@ -3180,16 +3622,22 @@ Pythonでやるのも難しそうだし、そもそも需要がなさそうだ�
 &lt;h2 id="完了開発停止">完了（開発停止）
 &lt;/h2>&lt;p>&lt;strong>完了&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/_index/" >EarthQuake.Desktop&lt;/a>&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/previous/earthquake/_index/" >EarthQuake.Desktop&lt;/a>&lt;/li>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/about/" >JourneyStreetMap&lt;/a> ✅ 2025-04-28&lt;/li>
 &lt;/ul>
 &lt;h2 id="予定なし">予定なし
 &lt;/h2>&lt;hr>
 &lt;h2 id="アーカイブ">アーカイブ
 &lt;/h2>&lt;ul>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/_index/" >EarthQuake.Desktop&lt;/a>&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/earthquake/_index/" >EarthQuake.Desktop&lt;/a>&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/previous/earthquake/_index/" >EarthQuake.Desktop&lt;/a>&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/previous/earthquake/_index/" >EarthQuake.Desktop&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>%% kanban:settings&lt;/p>
 &lt;pre tabindex="0">&lt;code>{&amp;#34;kanban-plugin&amp;#34;:&amp;#34;board&amp;#34;,&amp;#34;list-collapse&amp;#34;:[false,false,false,false,false,false,false,false,false,false,false]}
-&lt;/code>&lt;/pre>&lt;p>%%&lt;/p></description></item></channel></rss>
+&lt;/code>&lt;/pre>&lt;p>%%&lt;/p></description></item><item><title>おかゆグループ</title><link>https://yossy4411.okayugroup.net/excalidraw/drawing-2025-04-19-18.55.31.excalidraw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/excalidraw/drawing-2025-04-19-18.55.31.excalidraw/</guid><description>&lt;p>&lt;a class="link" href="https://okayugroup.com" target="_blank" rel="noopener"
+>おかゆグループ&lt;/a>は、『学生だからできること』をモットーに活動する、同好会のようなものです。&lt;/p>
+&lt;p>私によって創設・管理されていますが、成長させるのは&amp;quot;みんな&amp;quot;です！&lt;/p>
+&lt;p>メンバー２人しかいないから誰か来てくれ〜(´；ω；｀)&lt;/p></description></item><item><title>おかゆグループ</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/design.excalidraw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/okayugroup/ogsp/design.excalidraw/</guid><description>&lt;p>&lt;a class="link" href="https://okayugroup.com" target="_blank" rel="noopener"
+>おかゆグループ&lt;/a>は、『学生だからできること』をモットーに活動する、同好会のようなものです。&lt;/p>
+&lt;p>私によって創設・管理されていますが、成長させるのは&amp;quot;みんな&amp;quot;です！&lt;/p>
+&lt;p>メンバー２人しかいないから誰か来てくれ〜(´；ω；｀)&lt;/p></description></item></channel></rss>

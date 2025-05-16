@@ -1,4 +1,171 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2025年5月 on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/diary/2025-05/</link><description>Recent content in 2025年5月 on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Tue, 13 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/diary/2025-05/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年05月13日(火)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-13/</link><pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-13/</guid><description>&lt;h2 id="今日の体調">今日の体調
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2025年5月 on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/diary/2025-05/</link><description>Recent content in 2025年5月 on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/diary/2025-05/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年05月16日(金)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-16/</link><pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-16/</guid><description>&lt;h2 id="今日の体調">今日の体調
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>体調&lt;/th>
+&lt;th>元気&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>就寝&lt;/td>
+&lt;td>23:40&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>起床&lt;/td>
+&lt;td>6:20&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>朝食&lt;/td>
+&lt;td>6:45&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>天気痛&lt;/td>
+&lt;td>false&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;h3 id="vulkanの勉強">Vulkanの勉強
+&lt;/h3>&lt;p>正直OpenGLとVulanのパフォーマンスの違いが分かっていなかったので、まとめます。&lt;/p>
+&lt;p>skia-safeを通して、可能な限り高頻度に1万個の円を描画します。&lt;br>
+中央値（体感）を抽出するとこんな感じです。&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>経過時間 Vulkan [ms]&lt;/th>
+&lt;th>経過時間 OpenGL [ms]&lt;/th>
+&lt;th>行われた操作&lt;/th>
+&lt;th>操作の働いた場所&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>0&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>開始&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>0.125&lt;/td>
+&lt;td>0.221&lt;/td>
+&lt;td>クリア&lt;/td>
+&lt;td>SKCanvas&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.619&lt;/td>
+&lt;td>2.471&lt;/td>
+&lt;td>タスクの追加&lt;/td>
+&lt;td>SKCanvas&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3.643&lt;/td>
+&lt;td>2.642&lt;/td>
+&lt;td>GPUへの同期&lt;/td>
+&lt;td>Skia → GPU&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3.681&lt;/td>
+&lt;td>9.705&lt;/td>
+&lt;td>レンダリング(注１)&lt;/td>
+&lt;td>GPU&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>(注１): Vulkanでは並列処理でタスクをGPUに渡す操作を行う。&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>なお、Vulkanは低レベルなため、再描画の度にSurfaceを作成する必要があります。その部分は除外しています&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>。&lt;/p>
+&lt;p>OpenGLよりVulkanのほうが最終的なレンダリング時間が少ないように見えますが、これはVulkanが並列処理を扱うことが可能なためです。レンダリングが完了するまで待つようにすると、8msくらいになります。&lt;/p>
+&lt;p>総合的にみればVulkanのほうがOpenGLより速いのですがね。&lt;/p>
+&lt;h3 id="ドキュメントの設置">ドキュメントの設置
+&lt;/h3>&lt;ul>
+&lt;li>&lt;span class="dead-link">
+地震計
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/paradime/" >プログラミングパラダイム&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/platform/graphics/webgpu/about/" >WebGPU&lt;/a>
+この辺りの追加・修正を行いました。&lt;/li>
+&lt;/ul>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>この部分の時間を計測すると0.01msぐらいで、考慮しなくても良いくらいだと思います。&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>2025年05月15日(木)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-15/</link><pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-15/</guid><description>&lt;h2 id="今日の体調">今日の体調
+&lt;/h2>&lt;p>結構寝た気になった&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>体調&lt;/th>
+&lt;th>元気&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>就寝&lt;/td>
+&lt;td>23:30&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>起床&lt;/td>
+&lt;td>6:15&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>朝食&lt;/td>
+&lt;td>6:45&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>天気痛&lt;/td>
+&lt;td>false&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;h3 id="openglとvulkanの勉強">OpenGLとVulkanの勉強
+&lt;/h3>&lt;p>skia-safeのバックエンドにグラフィックライブラリを仕込んでGPUレンダリングができると聞きつけてやってきました。OpenGLは結構簡単に書けるのですが、問題はVulkanです。&lt;/p>
+&lt;p>今日は眠いので明日の俺に託す。&lt;/p>
+&lt;div class="admonition tip">
+&lt;div class="admonition-title">Tip&lt;/div>
+&lt;div class="admonition-content">
+ちなみにVulkanはバルカンって読むらしい&lt;br>
+バルカン半島かな？
+&lt;/div>
+&lt;/div></description></item><item><title>2025年05月14日(水)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-14/</link><pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-14/</guid><description>&lt;h2 id="今日の体調">今日の体調
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>体調&lt;/th>
+&lt;th>元気&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>就寝&lt;/td>
+&lt;td>23:00&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>起床&lt;/td>
+&lt;td>6:30&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>朝食&lt;/td>
+&lt;td>6:50&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>天気痛&lt;/td>
+&lt;td>false&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="長期休みに入るよ">長期休みに入るよ
+&lt;/h2>&lt;p>ついこの前GWだったのに、春季大会の影響で私は木曜から日曜まで4日間休みになります。&lt;/p>
+&lt;p>この4日間でちょっと受験勉強と、動画編集アプリの作成を頑張っていきたいところですね。&lt;/p></description></item><item><title>2025年05月13日(火)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-13/</link><pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-13/</guid><description>&lt;h2 id="今日の体調">今日の体調
 &lt;/h2>&lt;p>春暁だわ&lt;/p>
 &lt;table>
 &lt;thead>
@@ -28,7 +195,10 @@
 &lt;/table>
 &lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;h3 id="地震計にudpを実装したよ">地震計にUDPを実装したよ
-&lt;/h3>&lt;p>通信のライブラリとしてembassy-netとsmoltcpを使ってるんだけど、こいつら&lt;span class="dead-link">
+&lt;/h3>&lt;p>&lt;span class="dead-link">
+地震計
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>には通信のライブラリとしてembassy-netとsmoltcpを使ってるんだけど、こいつら&lt;span class="dead-link">
 IPv4
 &lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
 &lt;/span>のDHCPには対応してた。でも&lt;span class="dead-link">
@@ -64,7 +234,10 @@ IPv6
 &lt;/table>
 &lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;h3 id="地震計の開発">地震計の開発
-&lt;/h3>&lt;p>ついに！Wi-Fi (Networking) の実装まで来ましたよ！UDPしか使うつもり無いですけど。&lt;/p>
+&lt;/h3>&lt;p>ついに！&lt;span class="dead-link">
+地震計
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>にWi-Fi (Networking) を実装するところまで来ましたよ！&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/udp/about/" >UDP&lt;/a>しか使うつもり無いですけど。&lt;/p>
 &lt;p>そして、プログラムのサイズが肥大化してきております。やっぱりWi-Fi関連は重たいですね。&lt;br>
 フラッシュメモリ大きめにしてくれてありがとう。&lt;/p></description></item><item><title>2025年05月11日(日)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-11/</link><pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-11/</guid><description>&lt;h2 id="今日の体調">今日の体調
 &lt;/h2>&lt;table>
@@ -96,6 +269,10 @@ IPv6
 &lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;h3 id="地震計にbleを実装してみる">地震計にBLEを実装してみる
 &lt;/h3>&lt;p>かなり時間がかかりましたが、ちゃんと動きました。BLEって電波弱いんですよ。受信機の近くに置いてないと難しい。&lt;/p>
+&lt;span class="dead-link">
+地震計
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>
 &lt;p>&lt;a class="link" href="https://github.com/okayugroup/ogsp-seismometer-esp32/blob/a9d3e7b1f258393b59954cf9ddbd481d1afc3f57/src/bin/main.rs" target="_blank" rel="noopener"
 >コード&lt;/a>&lt;/p></description></item><item><title>2025年05月10日(土)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-10/</link><pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-10/</guid><description>&lt;h2 id="今日の体調">今日の体調
 &lt;/h2>&lt;p>春はあけぼの&lt;/p>
@@ -128,7 +305,10 @@ IPv6
 &lt;/table>
 &lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;h3 id="地震計の開発">地震計の開発
-&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-09/" >2025-05-09&lt;/a>から引き続き地震計の開発を行ってます&lt;/p>
+&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-09/" >2025-05-09&lt;/a>から引き続き&lt;span class="dead-link">
+地震計
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>の開発を行ってます&lt;/p>
 &lt;p>今日は震度の割り出しまで進みました。明日は送信をできたらいいけど、多分学校のノート整理とかやります。ありがとうございました。&lt;/p></description></item><item><title>2025年05月09日(金)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-09/</link><pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-09/</guid><description>&lt;h2 id="今日の体調">今日の体調
 &lt;/h2>&lt;p>最近寝るの遅すぎ 授業中に寝ようとすんなよ&lt;/p>
 &lt;table>
@@ -291,7 +471,7 @@ IPv6
 &lt;h2 id="石川に居ます">石川に居ます
 &lt;/h2>&lt;p>作業は一旦停止と思いきや、色々とやりたいことをまとめたりしています。&lt;/p>
 &lt;ul>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/gui/disaster-prevention/about/" >OGSP Disaster Prevention&lt;/a>の新しい設計を定義しています。&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/application/disaster-prevention/about/" >OGSP Disaster Prevention&lt;/a>の新しい設計を定義しています。&lt;/li>
 &lt;li>新しい編集ソフト「空織」を設計し始めました。&lt;/li>
 &lt;/ul></description></item><item><title>2025年05月03日(土)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-03/</link><pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-03/</guid><description>&lt;h2 id="今日の体調">今日の体調
 &lt;/h2>&lt;p>朝が早い&lt;/p>
@@ -357,11 +537,14 @@ IPv6
 &lt;/table>
 &lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;h3 id="ogsp-server-nodeとか">OGSP Server Nodeとか
-&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/server/" >OGSP Server Node&lt;/a>にて、ドキュメントを用意するんやで&lt;/p>
+&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/server/server-node-official/" >OGSP Server Node&lt;/a>にて、ドキュメントを用意するんやで&lt;/p>
 &lt;h2 id="メモ">メモ
 &lt;/h2>&lt;p>そういえば、この頃全体的に「〜だ。」の口調でWikiっぽく書いてるんですけど、「〜です。」「〜ます。」とか「〜だよ」でカジュアルに攻めってったほうが良いんかな？と思いまして。&lt;/p>
 &lt;p>まあでも一番書きやすくて、論文とかにするときも使い勝手が良いので「〜だ。」で良いと思うんですけどね。&lt;strong>コメントよろ。&lt;/strong>&lt;/p></description></item><item><title>2025年5月</title><link>https://yossy4411.okayugroup.net/diary/2025-05/</link><pubDate>Thu, 01 May 2025 18:21:27 +0900</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/</guid><description>&lt;h2 id="日記">日記
 &lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-16/" >2025-05-16&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-15/" >2025-05-15&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-14/" >2025-05-14&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-13/" >2025-05-13&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-12/" >2025-05-12&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-11/" >2025-05-11&lt;/a>&lt;/li>

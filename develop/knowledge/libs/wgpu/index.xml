@@ -1,1 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Wgpu on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/wgpu/</link><description>Recent content in Wgpu on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate/><atom:link href="https://yossy4411.okayugroup.net/develop/knowledge/libs/wgpu/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Wgpu on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/wgpu/</link><description>Recent content in Wgpu on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/develop/knowledge/libs/wgpu/index.xml" rel="self" type="application/rss+xml"/><item><title>wgpu</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/wgpu/about/</link><pubDate>Tue, 08 Apr 2025 14:49:09 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/libs/wgpu/about/</guid><description>&lt;p>&lt;strong>wgpu&lt;/strong>は&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/platform/graphics/webgpu/about/" >WebGPU&lt;/a>のAPIを&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/about/" >Rust&lt;/a>で実装した&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/" >クレート&lt;/a>である。&lt;/p>
+&lt;p>
+&lt;div class="admonition important">
+&lt;div class="admonition-title">Important&lt;/div>
+&lt;div class="admonition-content">
+ラッパーではなく、WebGPUの設計に則ってRustで実装された、ピュアRustのライブラリである。
+&lt;/div>
+&lt;/div>
+wgpuは、Windows, MacOS, Linux, Web (WASM) の複数プラットフォームで動作する。&lt;/p>
+&lt;p>Rustのメモリ安全性を活かし、GPUのリソースを安全に管理したり、楽に並行処理が可能である。また、直接的に非同期処理をサポートしている。&lt;/p>
+&lt;h3 id="wgslシェーダー">WGSLシェーダー
+&lt;/h3>&lt;p>WebGPUのシェーダーはWGSL (拡張子&lt;code>.wgsl&lt;/code>)で定義する。この構文はRustに非常に似ている。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-wgsl" data-lang="wgsl">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// 頂点シェーダ
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#a6e22e">@vertex&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">fn&lt;/span> vs_main(&lt;span style="color:#a6e22e">@builtin&lt;/span>(vertex_index) vertex_index: u32) -&amp;gt; &lt;span style="color:#a6e22e">@builtin&lt;/span>(position) vec4&lt;span style="color:#f92672">&amp;lt;&lt;/span>f32&lt;span style="color:#f92672">&amp;gt;&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">let&lt;/span> positions &lt;span style="color:#f92672">=&lt;/span> array&lt;span style="color:#f92672">&amp;lt;&lt;/span>vec2&lt;span style="color:#f92672">&amp;lt;&lt;/span>f32&lt;span style="color:#f92672">&amp;gt;&lt;/span>, &lt;span style="color:#ae81ff">3&lt;/span>&lt;span style="color:#f92672">&amp;gt;&lt;/span>(
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> vec2&lt;span style="color:#f92672">&amp;lt;&lt;/span>f32&lt;span style="color:#f92672">&amp;gt;&lt;/span>(&lt;span style="color:#ae81ff">0.0&lt;/span>, &lt;span style="color:#ae81ff">0.5&lt;/span>), &lt;span style="color:#75715e">// 上
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> vec2&lt;span style="color:#f92672">&amp;lt;&lt;/span>f32&lt;span style="color:#f92672">&amp;gt;&lt;/span>(&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">0.5&lt;/span>, &lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">0.5&lt;/span>), &lt;span style="color:#75715e">// 左下
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> vec2&lt;span style="color:#f92672">&amp;lt;&lt;/span>f32&lt;span style="color:#f92672">&amp;gt;&lt;/span>(&lt;span style="color:#ae81ff">0.5&lt;/span>, &lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">0.5&lt;/span>) &lt;span style="color:#75715e">// 右下
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> );
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">let&lt;/span> pos &lt;span style="color:#f92672">=&lt;/span> positions[vertex_index];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> vec4&lt;span style="color:#f92672">&amp;lt;&lt;/span>f32&lt;span style="color:#f92672">&amp;gt;&lt;/span>(pos, &lt;span style="color:#ae81ff">0.0&lt;/span>, &lt;span style="color:#ae81ff">1.0&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// フラグメントシェーダ
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#a6e22e">@fragment&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">fn&lt;/span> fs_main() -&amp;gt; &lt;span style="color:#a6e22e">@location&lt;/span>(&lt;span style="color:#ae81ff">0&lt;/span>) vec4&lt;span style="color:#f92672">&amp;lt;&lt;/span>f32&lt;span style="color:#f92672">&amp;gt;&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> vec4&lt;span style="color:#f92672">&amp;lt;&lt;/span>f32&lt;span style="color:#f92672">&amp;gt;&lt;/span>(&lt;span style="color:#ae81ff">1.0&lt;/span>, &lt;span style="color:#ae81ff">0.0&lt;/span>, &lt;span style="color:#ae81ff">0.0&lt;/span>, &lt;span style="color:#ae81ff">1.0&lt;/span>); &lt;span style="color:#960050;background-color:#1e0010">#&lt;/span>FF0000FF
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>詳しくは別のドキュメントで説明する&amp;hellip;&lt;/p>
+&lt;h2 id="リンク">リンク
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/gfx-rs/wgpu" target="_blank" rel="noopener"
+>GitHub&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://wgpu.rs/" target="_blank" rel="noopener"
+>公式サイト&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>

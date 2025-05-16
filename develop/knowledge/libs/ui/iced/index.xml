@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>iced on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/ui/iced/</link><description>Recent content in iced on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Wed, 14 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/develop/knowledge/libs/ui/iced/index.xml" rel="self" type="application/rss+xml"/><item><title>Iced</title><link>https://yossy4411.okayugroup.net/develop/knowledge/libs/ui/iced/about/</link><pubDate>Wed, 09 Apr 2025 15:50:19 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/libs/ui/iced/about/</guid><description>&lt;p>&lt;strong>iced&lt;/strong> (&lt;a class="link" href="https://crates.io/crates/iced" target="_blank" rel="noopener"
+>crates.io&lt;/a>, &lt;a class="link" href="https://github.com/iced-rs/iced" target="_blank" rel="noopener"
+>GitHub&lt;/a>)は&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/about/" >Rust&lt;/a>で書かれた&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/ui/gui-library/" >GUIライブラリ&lt;/a>の1つであり、宣言的なUIの定義が特徴である。&lt;/p>
+&lt;h2 id="特徴">特徴
+&lt;/h2>&lt;blockquote>
+&lt;p>A cross-platform GUI library for Rust focused on simplicity and type-safety. Inspired by &lt;a class="link" href="https://elm-lang.org/" target="_blank" rel="noopener"
+>Elm&lt;/a>.&lt;/p>&lt;/blockquote>
+&lt;p>日本語にすると、&lt;/p>
+&lt;blockquote>
+&lt;p>単純性と型安全性に注視した&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/about/" >Rust&lt;/a>のクラスプラットフォームGUIライブラリ。Elmにインスパイアされました。&lt;/p>&lt;/blockquote>
+&lt;p>となりますね。&lt;/p>
+&lt;h2 id="クロスプラットフォーム">クロスプラットフォーム
+&lt;/h2>&lt;p>デスクトップ（Windows、macOS、Linux）とWeb（WebAssembly）で、同じコードで動作します。&lt;/p>
+&lt;p>また、Rustはクロスコンパイルが可能なので、その点はかなり便利じゃないかな―って思います。&lt;/p>
+&lt;h3 id="宣言的ui">宣言的UI
+&lt;/h3>&lt;p>UIを宣言する形で書く。&lt;br>
+つまり、UIを「どう見えるべきか」を宣言的に、単純に書くことができる。&lt;/p>
+&lt;p>例えば、ボタンやテキストなどをコードで直感的に記述できるよ。&lt;/p>
+&lt;h3 id="非同期対応">非同期対応
+&lt;/h3>&lt;p>アプリケーション全体が非同期タスク（&lt;code>async&lt;/code>）に対応しているので、APIリクエストや長時間かかる処理も簡単に扱える。&lt;/p>
+&lt;p>よかったね、Rustが非同期対応してて。&lt;/p>
+&lt;h3 id="プラグイン可能な柔軟性">プラグイン可能な柔軟性
+&lt;/h3>&lt;p>カスタムウィジェットやスタイルを実装できるので、自由度が高い。&lt;/p>
+&lt;p>ちなみにこれの実装にはちょっとクセが合ったりします。&lt;/p>
+&lt;h2 id="バックエンド">バックエンド
+&lt;/h2>&lt;p>icedはバックエンドに&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/wgpu/about/" >wgpu&lt;/a>を採用している。&lt;br>
+また、パフォーマンスこそまずまずだが、tiny-skiaにも対応している。&lt;br>
+↪&lt;span class="dead-link">
+icedのバックエンドの特性
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>&lt;/p>
+&lt;h2 id="サンプルコード">サンプルコード
+&lt;/h2>&lt;p>&lt;code>iced&lt;/code>は、関数型言語Elmのアーキテクチャにインスパイアされて設計されています。&lt;/p>
+&lt;p>アプリの状態（State）を明確に管理しやすく、UIイベントもスッキリと書くことができます。&lt;/p>
+&lt;p>&lt;strong>構成要素&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Model&lt;/strong>: アプリケーションの状態&lt;/li>
+&lt;li>&lt;strong>Message&lt;/strong>: ユーザーやシステムからのイベント&lt;/li>
+&lt;li>&lt;strong>Update&lt;/strong>: 状態を更新するロジック&lt;/li>
+&lt;li>&lt;strong>View&lt;/strong>: 状態に基づいてUIを描画&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rust" data-lang="rust">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#[derive(Default)]&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">struct&lt;/span> &lt;span style="color:#a6e22e">Counter&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> value: &lt;span style="color:#66d9ef">i32&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#[derive(Debug, Clone, Copy)]&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">pub&lt;/span> &lt;span style="color:#66d9ef">enum&lt;/span> &lt;span style="color:#a6e22e">Message&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Increment,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Decrement,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">use&lt;/span> iced::widget::{button, column, text, Column};
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">impl&lt;/span> Counter {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">pub&lt;/span> &lt;span style="color:#66d9ef">fn&lt;/span> &lt;span style="color:#a6e22e">view&lt;/span>(&lt;span style="color:#f92672">&amp;amp;&lt;/span>self) -&amp;gt; &lt;span style="color:#a6e22e">Column&lt;/span>&lt;span style="color:#f92672">&amp;lt;&lt;/span>Message&lt;span style="color:#f92672">&amp;gt;&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">column!&lt;/span>[
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> button(&lt;span style="color:#e6db74">&amp;#34;+&amp;#34;&lt;/span>).on_press(Message::Increment),
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> text(self.value).size(&lt;span style="color:#ae81ff">50&lt;/span>),
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> button(&lt;span style="color:#e6db74">&amp;#34;-&amp;#34;&lt;/span>).on_press(Message::Decrement),
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">pub&lt;/span> &lt;span style="color:#66d9ef">fn&lt;/span> &lt;span style="color:#a6e22e">update&lt;/span>(&lt;span style="color:#f92672">&amp;amp;&lt;/span>&lt;span style="color:#66d9ef">mut&lt;/span> self, message: &lt;span style="color:#a6e22e">Message&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">match&lt;/span> message {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Message::Increment &lt;span style="color:#f92672">=&amp;gt;&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> self.value &lt;span style="color:#f92672">+=&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Message::Decrement &lt;span style="color:#f92672">=&amp;gt;&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> self.value &lt;span style="color:#f92672">-=&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">fn&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>() -&amp;gt; &lt;span style="color:#a6e22e">iced&lt;/span>::Result {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> iced::run(&lt;span style="color:#e6db74">&amp;#34;A cool counter&amp;#34;&lt;/span>, Counter::update, Counter::view)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>関数&lt;code>view&lt;/code>部分にはマクロと純粋関数を使用しています。ここに関数型言語としての特徴が出てきていますね。&lt;/p>
+&lt;p>ボタンを押したときのイベントを&lt;code>on_press&lt;/code>で割り当て、イベント発生時に&lt;code>update&lt;/code>関数が呼び出されます。&lt;br>
+&lt;code>self.value&lt;/code>を変更すると、&lt;code>view&lt;/code>関数が呼び出されます。&lt;/p>
+&lt;p>そうやってローテーションしていきます。&lt;/p></description></item></channel></rss>

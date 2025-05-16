@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OGSP Server Node on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/server/</link><description>Recent content in OGSP Server Node on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Thu, 01 May 2025 21:36:14 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/okayugroup/ogsp/server/index.xml" rel="self" type="application/rss+xml"/><item><title>おかゆグループ地震計プロジェクト サーバーノード</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/server/ogsp-server-node/</link><pubDate>Thu, 01 May 2025 21:36:14 +0900</pubDate><guid>https://yossy4411.okayugroup.net/okayugroup/ogsp/server/ogsp-server-node/</guid><description>&lt;p>&lt;strong>OGSP Server Node&lt;/strong> (&lt;strong>おかゆグループ地震計プロジェクト サーバーノード&lt;/strong>)は、&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/disaster-network/about/" >OGSP Disaster Network&lt;/a>におけるサーバー層のノードを提供するプログラムの総称である。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OGSP Server Node on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/server/</link><description>Recent content in OGSP Server Node on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Thu, 01 May 2025 21:36:14 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/okayugroup/ogsp/server/index.xml" rel="self" type="application/rss+xml"/><item><title>おかゆグループ地震計プロジェクト サーバーノード</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/server/server-node-official/</link><pubDate>Thu, 01 May 2025 21:36:14 +0900</pubDate><guid>https://yossy4411.okayugroup.net/okayugroup/ogsp/server/server-node-official/</guid><description>&lt;p>&lt;strong>OGSP Server Node&lt;/strong> (&lt;strong>おかゆグループ地震計プロジェクト サーバーノード&lt;/strong>)は、&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/network/about/" >OGSP Disaster Network&lt;/a>におけるサーバー層のノードを提供するプログラムの総称である。&lt;/p>
 &lt;p>コードはオープンソースで公開されており、自由に改変できる。&lt;/p>
 &lt;p>なお、このうち公式のプログラムは&lt;strong>OGSP Server Official Node&lt;/strong>と呼ぶ。&lt;/p>
 &lt;h2 id="概要">概要
@@ -19,7 +19,7 @@ P2Pなどの部分は実装予備段階です。これにはコンピュータ�
 &lt;/div>
 ## 設計&lt;/p>
 &lt;h3 id="1-データ収集">1. データ収集
-&lt;/h3>&lt;p>OGSP Server Nodeは、&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/disaster-network/about/" >OGSP Disaster Network&lt;/a>におけるセンサー層からデータを収集する役割を担っており、このセンサーとはUDPで通信を行う。なお、導入の壁を減らすためにポート開放はサーバー側でのみ行い、センサー側のポート開放は必要ない。&lt;/p>
+&lt;/h3>&lt;p>OGSP Server Nodeは、&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/network/about/" >OGSP Disaster Network&lt;/a>におけるセンサー層からデータを収集する役割を担っており、このセンサーとはUDPで通信を行う。なお、導入の壁を減らすためにポート開放はサーバー側でのみ行い、センサー側のポート開放は必要ない。&lt;/p>
 &lt;p>ただし、UDPのみでなおかつポート開放をしない環境では、サーバーがセンサーに通信を行うことはできないため、ここではIPv6のエニーキャストなどの技術を使用して対応する。&lt;/p>
 &lt;h3 id="2-ネットワークコンピューティングを使用した高度な計算">2. ネットワークコンピューティングを使用した高度な計算
 &lt;/h3>&lt;p>OGSP Server NodeはWeb3の実現のためにサーバー同士でP2Pを構築する。このP2Pを用いることで、高度な計算を分担して超並列計算を行うことができる。&lt;/p>
@@ -28,7 +28,7 @@ P2Pなどの部分は実装予備段階です。これにはコンピュータ�
 &lt;/h3>&lt;p>センサーから収集したデータとデータの計算処理の結果は、ブロックチェーンに書き込まれ、定期的にP2Pで&lt;/p>
 &lt;h3 id="4-apiハンドリング">4. APIハンドリング
 &lt;/h3>&lt;p>OGSP Server Nodeは&amp;quot;偏らないデータを簡単に取得できること&amp;quot;を目標とするため、データを取得するための方法としてAPIを提供する。&lt;/p>
-&lt;p>ここには最新技術を取り入れ、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/%223%22/" >HTTP/3&lt;/a>および&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>プロトコルを用いて高速かつ安全な通信を保証する。&lt;/p>
+&lt;p>ここには最新技術を取り入れ、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/3/" >HTTP/3&lt;/a>および&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>プロトコルを用いて高速かつ安全な通信を保証する。&lt;/p>
 &lt;h3 id="注1-コードの改変について">注1: コードの改変について
 &lt;/h3>&lt;p>OGSP Server Nodeのコードはオープンソースであり、GitHubで公開されている。これは自由に改変して公開することのできるMITライセンスなどを実装するつもりであるが、ここで問題がある。&lt;/p>
 &lt;p>悪意のある変更を含むサーバーノードがネットワークに参加することもできてしまうため、これが秩序を壊したりウイルスを仕込む可能性があるということだ。&lt;/p>
@@ -62,7 +62,7 @@ P2Pなどの部分は実装予備段階です。これにはコンピュータ�
 &lt;li>&lt;a class="link" href="https://github.com/libp2p/go-libp2p" target="_blank" rel="noopener"
 >go-libp2p&lt;/a> - libp2pの公式Go実装&lt;/li>
 &lt;li>&lt;a class="link" href="https://github.com/quic-go/quic-go/" target="_blank" rel="noopener"
->quic-go&lt;/a> - &lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>と&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/%223%22/" >HTTP/3&lt;/a>のGo実装&lt;/li>
+>quic-go&lt;/a> - &lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/transport/quic/about/" >QUIC&lt;/a>と&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/3/" >HTTP/3&lt;/a>のGo実装&lt;/li>
 &lt;li>&lt;a class="link" href="https://github.com/labstack/echo" target="_blank" rel="noopener"
 >echo&lt;/a> - 高パフォーマンスのGoサーバーフレームワーク&lt;/li>
 &lt;li>&lt;a class="link" href="https://github.com/NixOS/nix" target="_blank" rel="noopener"
@@ -70,8 +70,8 @@ P2Pなどの部分は実装予備段階です。これにはコンピュータ�
 &lt;/ul>
 &lt;h3 id="github-repository">GitHub Repository
 &lt;/h3>&lt;p>公式のものは、&lt;a class="link" href="https://github.com/okayugroup/ogsp-server-node" target="_blank" rel="noopener"
->GitHub - okayugroup/ogsp-server-node&lt;/a>である。（現在は非公開）&lt;/p>
-&lt;p>また、このリポジトリをフォークして独自のサーバーノードを作成することも許可されている。&lt;/p>
+>GitHub - okayugroup/ogsp-server-node&lt;/a>である。（現時点では非公開）&lt;/p>
+&lt;p>また、このリポジトリをフォークして独自のサーバーノードを作成することも許可する（非公開なためまだ不可能ではあるが）。&lt;/p>
 &lt;h3 id="contribution">Contribution
 &lt;/h3>&lt;p>また、IssueやPRを開いて開発に貢献 (Contribute) することもできる。&lt;/p>
-&lt;p>この辺りのプロジェクトの整理は、容易ができ次第&lt;strong>ナレッジベースツールで公開&lt;/strong>する予定。&lt;/p></description></item></channel></rss>
+&lt;p>この辺りのプロジェクトの整理は、用意ができ次第&lt;strong>ナレッジベースツールで公開&lt;/strong>する予定。&lt;/p></description></item></channel></rss>
