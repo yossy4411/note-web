@@ -18,14 +18,52 @@ slug:
 ## バイナリクレート
 CLIアプリケーションやGUIアプリケーションなどを含む、実行可能なプログラムを提供するクレートは一般的に『バイナリクレート』と呼ばれる。
 
-コンパイル時にバイナリとしてビルドされ、バイナリファイルを実行したときには`main.rs`に含まれる関数`main`が呼び出されるようになっている。
+コンパイル時にバイナリとしてビルドされ、バイナリファイルを実行したときに関数`main`が呼び出されるようになっている。
+
+デフォルトでは`src/main.rs`がバイナリクレートの定義になる。  
+また、`src/bin/*.rs`がすべてバイナリとして認識される。
 
 ```rust: main.rs
 fn main() {
-	println!("Hello World!");
+	println!("Hello, World!");
 }
 ```
 
-実行すると、CLIで`Hello World!`が出力される。
+実行すると、CLIで`Hello, World!`が出力される。
+
+また、都度`Cargo.toml`を編集して別のバイナリクレートを同じプロジェクト内に作ることもできる。
+
+```toml Cargo.toml
+[package]  
+name = "mypackage"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]  
+name = "run-all"
+path = "src/run.rs"
+```
+
 ### ライブラリクレート
-[ライブラリ](../../../libs/ライブラリ.md)（共有可能な関数やデータ構造）を提供するもの。
+[ライブラリ](../../../libs/ライブラリ.md)を提供するクレートは、『ライブラリクレート』と呼ばれる。
+
+一般的にいくつもの構造体やトレイト、関数などを定義する。
+
+デフォルトで`src/lib.rs`がライブラリクレートの中心となる。ここでモジュールなどを定義する。
+
+```rust lib.rs
+pub mod client;
+pub mod server;
+
+pub struct MyStruct {
+	&str name,
+}
+
+impl MyStruct {
+	pub fn name(&self) -> &str {
+		self.name
+	}
+}
+```
+
+モジュールごとに`mod.rs`を定義して、その中に更にモジュールを定義したりすることもできる。
