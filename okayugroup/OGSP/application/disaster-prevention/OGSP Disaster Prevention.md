@@ -4,26 +4,27 @@ description: OGSPのクライアントアプリ
 lead: 
 tags: 
 aliases:
-  - OGSP Disaster Prevention
-  - dp
+  - OGSP防災
 date: 2025-04-07T22:37:43+09:00
-lastmod: 2025-04-09
+lastmod: 2025-05-16
 draft: false
 showContent: true
 slug: about
 ---
+**OGSP Disaster Prevention**、または**OGSP防災**は、[OGSP](../../OGSP.md)や気象庁から提供される防災情報を表示するためのデスクトップ (およびモバイル) アプリケーションである。  
+また、このアプリケーションは[OGSP Disaster Network](../../network/OGSP%20Disaster%20Network.md)のアプリケーション層を担う役割があり、地震計から取得したデータをレンダリングする機能を備える。
 ## 特徴
-このプロジェクトの最大の特徴は、[Rust](../../../../develop/Knowledge/lang/programming/Rust/Rust.md)のメモリ安全性[^1]と高速性を活用した軽量な動作だと思います。  
-前プロジェクトの[EarthQuake](../../previous/EarthQuake/EarthQuake.desktop.md)(C#)では、機能を追加していくにつれて動作がどんどん重くなっていき、開発を諦めてしまいました。この動作の重さは[GC](../../../../develop/Knowledge/lang/programming/ガベージコレクション.md)から来ていると考えられます。  
-GCのないRustはC#よりも高速かつ少ないリソースでも動くと考えられます。
+OGSP Disaster Preventionの最大の特徴は、[Rust](../../../../develop/Knowledge/lang/programming/Rust/Rust.md)のメモリ安全性と並列性を活用した、軽量で高速な動作だ。
+
+OGSP Disaster Preventionは、C#で構成される[EarthQuake](../../previous/EarthQuake/EarthQuake.desktop.md)の次期プロジェクトである。前任では、機能を盛りすぎたために、フレームレート的にもバイナリサイズ的にも重くなってしまった。  
+ランタイムの重さはほとんどが[GC](../../../../develop/Knowledge/lang/programming/ガベージコレクション.md)に由来するもので、開発者である[yossy4411](../../../../私について.md)は[Rust](../../../../develop/Knowledge/lang/programming/Rust/Rust.md)がこれを解消するカギだと考えた。
+
+実際、GCを搭載しないRustは、C#よりも高速で、省リソースで動作することが多い。
 ## 開発
-現在の開発段階は「検討中」です。[^2]基礎からまるっきり変わる可能性もあります。
+### 環境
 - IDE: RustRover
 - プラットフォーム: GitHub
-## 技術的情報
-**依存関係**
+### 依存関係
 - [wgpu](../../../../develop/Knowledge/libs/wgpu/wgpu.md)
-- [iced](../../../../develop/Knowledge/libs/ui/iced/iced.md)
-
-[^1]: [所有権](../../../../develop/Knowledge/lang/programming/Rust/所有権.md)システムによって保証されている。
-[^2]: 詳しくは[やることリスト（すべて）](../../../../やることリスト（すべて）.md)をご覧ください。
+- Vello
+- Xilem
