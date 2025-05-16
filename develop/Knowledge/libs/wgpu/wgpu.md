@@ -8,7 +8,7 @@ tags:
 aliases:
   - wgpu
 date: 2025-04-08T14:49:09+09:00
-lastmod: 2025-04-08T14:49:09+09:00
+lastmod: 2025-05-16
 draft: false
 showContent: false
 slug: about
