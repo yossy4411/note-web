@@ -31,4 +31,4 @@ slug: jsm-is-not-longer-under-develop
 
 [OGSP](../../okayugroup/OGSP/OGSP.md)の開発に加え、[推し活](../../favorite/推し活.md)系のいくつかのプロジェクトを進めていきます。
 
-現在のTODOについては[やることリスト（すべて）](../../TODO/やることリスト（すべて）.md)をご覧ください。
+現在のTODOについては[やることリスト（すべて）](../../やることリスト（すべて）.md)をご覧ください。
