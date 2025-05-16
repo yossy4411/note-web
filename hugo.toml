@@ -11,6 +11,11 @@ copyright = 'yossy4411 (おかゆ)'
     [markup.goldmark]
         [markup.goldmark.renderer]
             unsafe = true
+        [markup.goldmark.extensions.passthrough]
+            enable = true
+            [markup.goldmark.extensions.passthrough.delimiters]
+                block = [['$$', '$$']]
+                inline = [['$', '$']]
 
 [menu]
 [[menu.main]]
@@ -55,3 +60,8 @@ url = "https://www.buymeacoffee.com/yossy4411"
 [menu.main.params]
 icon = "mug-hot"
 newTab = true
+
+
+[params]
+    math = true
+
