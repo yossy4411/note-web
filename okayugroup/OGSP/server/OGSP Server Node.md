@@ -10,7 +10,7 @@ draft: false
 showContent: true
 slug: server-node-official
 ---
-**OGSP Server Node** (**おかゆグループ地震計プロジェクト サーバーノード**)は、[OGSP Disaster Network](../disaster-network/OGSP%20Disaster%20Network.md)におけるサーバー層のノードを提供するプログラムの総称である。
+**OGSP Server Node** (**おかゆグループ地震計プロジェクト サーバーノード**)は、[OGSP Disaster Network](../network/OGSP%20Disaster%20Network.md)におけるサーバー層のノードを提供するプログラムの総称である。
 
 コードはオープンソースで公開されており、自由に改変できる。
 
@@ -27,7 +27,7 @@ slug: server-node-official
 > P2Pなどの部分は実装予備段階です。これにはコンピューターが複数台必要であるため、その予算が確保できていないことが主な理由です。
 ## 設計
 ### 1. データ収集
-OGSP Server Nodeは、[OGSP Disaster Network](../disaster-network/OGSP%20Disaster%20Network.md)におけるセンサー層からデータを収集する役割を担っており、このセンサーとはUDPで通信を行う。なお、導入の壁を減らすためにポート開放はサーバー側でのみ行い、センサー側のポート開放は必要ない。  
+OGSP Server Nodeは、[OGSP Disaster Network](../network/OGSP%20Disaster%20Network.md)におけるセンサー層からデータを収集する役割を担っており、このセンサーとはUDPで通信を行う。なお、導入の壁を減らすためにポート開放はサーバー側でのみ行い、センサー側のポート開放は必要ない。  
 
 ただし、UDPのみでなおかつポート開放をしない環境では、サーバーがセンサーに通信を行うことはできないため、ここではIPv6のエニーキャストなどの技術を使用して対応する。
 ### 2. ネットワークコンピューティングを使用した高度な計算
