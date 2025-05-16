@@ -31,6 +31,6 @@ title = ''
 > [!WARNING]
 > なお、[/develop/knowledge/](/develop/knowledge/)ディレクトリ内に関しては[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)ライセンスをかけています。ご注意ください。
 
-詳しくは[license](license.md)をご覧ください。
+詳しくは[ライセンス](ライセンス.md)をご覧ください。
 ## お問い合わせ
 何か質問や要望があれば、[Twitter](https://twitter.com/yossy4411_dev)までDM、もしくは記事のコメントをご利用ください。
