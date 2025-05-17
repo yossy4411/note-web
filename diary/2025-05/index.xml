@@ -1,4 +1,62 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2025年5月 on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/diary/2025-05/</link><description>Recent content in 2025年5月 on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/diary/2025-05/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年05月16日(金)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-16/</link><pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-16/</guid><description>&lt;h2 id="今日の体調">今日の体調
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2025年5月 on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/diary/2025-05/</link><description>Recent content in 2025年5月 on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Sat, 17 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/diary/2025-05/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年05月17日(土)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-17/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-17/</guid><description>&lt;h2 id="今日の体調">今日の体調
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>体調&lt;/th>
+&lt;th>元気&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>就寝&lt;/td>
+&lt;td>23:20&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>起床&lt;/td>
+&lt;td>6:30&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>朝食&lt;/td>
+&lt;td>6:50&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>天気痛&lt;/td>
+&lt;td>false&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;h3 id="サーバーのosのを入れ替えるよ">サーバーのOSのを入れ替えるよ
+&lt;/h3>&lt;p>実は自宅にサーバーを1つ大きめのやつを置いてるんだけど、今までUbuntuで運用していたのをRocky Linuxに置きかえようと思うんよ。&lt;/p>
+&lt;p>Ubuntuって意外とメモリ消費する。&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>合計&lt;/th>
+&lt;th>使用中&lt;/th>
+&lt;th>空き&lt;/th>
+&lt;th>共有&lt;/th>
+&lt;th>キャッシュ済み&lt;/th>
+&lt;th>使用可能&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>7.6 GB&lt;/td>
+&lt;td>671 MB&lt;/td>
+&lt;td>5.3 GB&lt;/td>
+&lt;td>14 MB&lt;/td>
+&lt;td>1.9 GB&lt;/td>
+&lt;td>7.0GB&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>まあそれでも5.3GBも空きあるんですけどね。&lt;/p>
+&lt;p>さて、Rocky Linuxの紹介といきましょうか。&lt;/p>
+&lt;blockquote>
+&lt;p>Rocky Linuxは、Redhat Enterprise互換のオープンソースLinux。CentOSがローリングリリースになったことへの、安定版の代替として作られた。&lt;/p>
+&lt;p>安定性が非常に高く、10年間のLTSサポートがある。（10年！？）&lt;/p>&lt;/blockquote>
+&lt;p>ということで、&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/server/server-node-official/" >OGSP Server Node&lt;/a>として稼働させるために入れてみようかな、っていう感じです。お試しだよ、お試し。&lt;/p></description></item><item><title>2025年05月16日(金)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-16/</link><pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-16/</guid><description>&lt;h2 id="今日の体調">今日の体調
 &lt;/h2>&lt;table>
 &lt;thead>
 &lt;tr>
@@ -542,6 +600,7 @@ IPv6
 &lt;/h2>&lt;p>そういえば、この頃全体的に「〜だ。」の口調でWikiっぽく書いてるんですけど、「〜です。」「〜ます。」とか「〜だよ」でカジュアルに攻めってったほうが良いんかな？と思いまして。&lt;/p>
 &lt;p>まあでも一番書きやすくて、論文とかにするときも使い勝手が良いので「〜だ。」で良いと思うんですけどね。&lt;strong>コメントよろ。&lt;/strong>&lt;/p></description></item><item><title>2025年5月</title><link>https://yossy4411.okayugroup.net/diary/2025-05/</link><pubDate>Thu, 01 May 2025 18:21:27 +0900</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/</guid><description>&lt;h2 id="日記">日記
 &lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-17/" >2025-05-17&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-16/" >2025-05-16&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-15/" >2025-05-15&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-14/" >2025-05-14&lt;/a>&lt;/li>
