@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2025年5月 on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/diary/2025-05/</link><description>Recent content in 2025年5月 on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Sat, 17 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/diary/2025-05/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年05月17日(土)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-17/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-17/</guid><description>&lt;h2 id="今日の体調">今日の体調
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2025年5月 on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/diary/2025-05/</link><description>Recent content in 2025年5月 on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Sun, 18 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/diary/2025-05/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年05月18日(日)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-18/</link><pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-18/</guid><description>&lt;h2 id="今日の体調">今日の体調
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>体調&lt;/th>
+&lt;th>元気&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>就寝&lt;/td>
+&lt;td>22:00&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>起床&lt;/td>
+&lt;td>6:30&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>朝食&lt;/td>
+&lt;td>6:50&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>天気痛&lt;/td>
+&lt;td>false&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;h3 id="disaster-preventionの開発">Disaster Preventionの開発
+&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/application/disaster-prevention/about/" >OGSP Disaster Prevention&lt;/a>で、Velloのレンダリング結果を渡せるように頑張りました！&lt;/p>
+&lt;p>凄いよ、みてこれ&lt;/p>
+&lt;p>![](/assets/Pasted image 20250518214920.png)&lt;/p>
+&lt;p>ええやろ？ええやろ！？&lt;/p>
+&lt;p>この真ん中の部分、GPUレンダリングなんよ！凄いやろ！？此処までたどり着くのに半日かかったよ。&lt;/p>
+&lt;p>次は、GeoJSONからrkyv通してゼロコピーして、更にここにマップを表示します。お楽しみに。&lt;/p></description></item><item><title>2025年05月17日(土)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-17/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-17/</guid><description>&lt;h2 id="今日の体調">今日の体調
 &lt;/h2>&lt;table>
 &lt;thead>
 &lt;tr>
@@ -600,6 +634,7 @@ IPv6
 &lt;/h2>&lt;p>そういえば、この頃全体的に「〜だ。」の口調でWikiっぽく書いてるんですけど、「〜です。」「〜ます。」とか「〜だよ」でカジュアルに攻めってったほうが良いんかな？と思いまして。&lt;/p>
 &lt;p>まあでも一番書きやすくて、論文とかにするときも使い勝手が良いので「〜だ。」で良いと思うんですけどね。&lt;strong>コメントよろ。&lt;/strong>&lt;/p></description></item><item><title>2025年5月</title><link>https://yossy4411.okayugroup.net/diary/2025-05/</link><pubDate>Thu, 01 May 2025 18:21:27 +0900</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/</guid><description>&lt;h2 id="日記">日記
 &lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-18/" >2025-05-18&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-17/" >2025-05-17&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-16/" >2025-05-16&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-15/" >2025-05-15&lt;/a>&lt;/li>
