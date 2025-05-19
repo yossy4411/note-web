@@ -31,8 +31,8 @@
 &lt;h2 id="今月のまとめ">今月のまとめ
 &lt;/h2>&lt;ul>
 &lt;li>ノートの作成&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/about/" >JSM&lt;/a>の開発&lt;/li>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/jsm-is-not-longer-under-develop/" >JSMの開発停止&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/projects/journeystreetmap/about/" >JSM&lt;/a>の開発&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/projects/journeystreetmap/jsm-is-not-longer-under-develop/" >JSMの開発停止&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="今月のニュース">今月のニュース
 &lt;/h2>&lt;h3 id="国内">国内
@@ -160,12 +160,12 @@
 &lt;/table>
 &lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;h3 id="jsm-開発停止">JSM 開発停止
-&lt;/h3>&lt;p>本日をもちまして、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/about/" >JourneyStreetMap&lt;/a>の開発を一時終了とさせていただきます。理由としては、&lt;/p>
+&lt;/h3>&lt;p>本日をもちまして、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/projects/journeystreetmap/about/" >JourneyStreetMap&lt;/a>の開発を一時終了とさせていただきます。理由としては、&lt;/p>
 &lt;ul>
 &lt;li>タスクがたまりすぎている&lt;/li>
 &lt;li>実現の難しさが露呈されてきた&lt;/li>
 &lt;/ul>
-&lt;p>の２点です。詳しくは&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/jsm-is-not-longer-under-develop/" >JSMの開発停止&lt;/a>をご覧ください。&lt;/p></description></item><item><title>2025年04月25日(金)</title><link>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-25/</link><pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-25/</guid><description>&lt;h2 id="今日の体調">今日の体調
+&lt;p>の２点です。詳しくは&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/projects/journeystreetmap/jsm-is-not-longer-under-develop/" >JSMの開発停止&lt;/a>をご覧ください。&lt;/p></description></item><item><title>2025年04月25日(金)</title><link>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-25/</link><pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-25/</guid><description>&lt;h2 id="今日の体調">今日の体調
 &lt;/h2>&lt;p>元気だけどなんかイライラした&lt;/p>
 &lt;p>うん、なんで？&lt;/p>
 &lt;table>
@@ -196,7 +196,7 @@
 &lt;/table>
 &lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;h2 id="jsm">JSM
-&lt;/h2>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/about/" >JSM&lt;/a>でいくつかの進展がありました。&lt;/p>
+&lt;/h2>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/projects/journeystreetmap/about/" >JSM&lt;/a>でいくつかの進展がありました。&lt;/p>
 &lt;ul>
 &lt;li>日本語入力の対応&lt;/li>
 &lt;li>BevyにDefaultPluginsを使用しない方法を編み出す（軽量化）&lt;/li>
@@ -233,7 +233,7 @@
 &lt;p>なぜなら、私は眠いからです。&lt;/p>
 &lt;p>これを書く頃にはもう10時を回っており、書くための気力が全く沸かないわけです。&lt;/p>
 &lt;ul>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/about/" >JSM&lt;/a>の開発で軽量化を行いました。&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/projects/journeystreetmap/about/" >JSM&lt;/a>の開発で軽量化を行いました。&lt;/li>
 &lt;li>HyprlandをメインPCに導入しました。&lt;/li>
 &lt;/ul></description></item><item><title>2025年04月23日(水)</title><link>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-23/</link><pubDate>Wed, 23 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-23/</guid><description>&lt;h2 id="今日の体調">今日の体調
 &lt;/h2>&lt;table>
@@ -555,7 +555,7 @@
 &lt;p>![](/assets/Pasted image 20250415211001.png)&lt;/p>
 &lt;p>12℃、そりゃ寒いわ&lt;/p>
 &lt;h2 id="今日の作業">今日の作業
-&lt;/h2>&lt;h3 id="jsmの開発">&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/about/" >JSM&lt;/a>の開発
+&lt;/h2>&lt;h3 id="jsmの開発">&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/projects/journeystreetmap/about/" >JSM&lt;/a>の開発
 &lt;/h3>&lt;p>いつもどおり。本当に最近はこれ一強です。なんかマイクラワールドで鉄道を作るらしく、それにぴったりな設計にしたいですよね。（またタスクが増えた）&lt;/p>
 &lt;p>![](/assets/Pasted image 20250415210652.png)&lt;/p>
 &lt;p>どうです？グリッドを調整したんですよ。褒めてくれ。&lt;/p></description></item><item><title>2025年04月14日(月)</title><link>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-14/</link><pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-14/</guid><description>&lt;h2 id="体調">体調
@@ -588,7 +588,7 @@
 &lt;/table>
 &lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;h3 id="journeystreetmapを並行処理にしようとした">JourneyStreetMapを並行処理にしようとした
-&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/about/" >JSM&lt;/a>のマップ読み込みを、tokioによる並行処理にしてみませんか。ということについてです。&lt;/p>
+&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/projects/journeystreetmap/about/" >JSM&lt;/a>のマップ読み込みを、tokioによる並行処理にしてみませんか。ということについてです。&lt;/p>
 &lt;p>その利点は、読み込みの高速化ができる点です。&lt;/p>
 &lt;p>
 &lt;div class="admonition note">
@@ -605,7 +605,7 @@
 &lt;p>バグだらけだし、見づらいし、横線に至っては実装できてない。&lt;br>
 すぐ直せるんだけど、もう眠いしやめます。&lt;/p></description></item><item><title>2025年04月13日(日)</title><link>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-13/</link><pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-13/</guid><description>&lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;h3 id="journeystreetmapのカメラ操作等">JourneyStreetMapのカメラ操作等
-&lt;/h3>&lt;p>いつもどおり&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/about/" >JourneyStreetMap&lt;/a>の開発ですが、マップのパンとズームを実装していきます。&lt;/p>
+&lt;/h3>&lt;p>いつもどおり&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/projects/journeystreetmap/about/" >JourneyStreetMap&lt;/a>の開発ですが、マップのパンとズームを実装していきます。&lt;/p>
 &lt;p>そういうことです。&lt;/p>
 &lt;h3 id="動画制作">動画制作
 &lt;/h3>&lt;p>メインチャンネルのShortsを投稿したい&lt;br>
@@ -678,7 +678,7 @@
 &lt;p>これを解消するために、「スクリプトを作ってすべてのMarkdownファイルを置換する」という方法が考えられます。&lt;/p>
 &lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;h3 id="journeystreetmap">JourneyStreetMap
-&lt;/h3>&lt;p>毎度のこと、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/about/" >JourneyStreetMap&lt;/a>です。&lt;/p>
+&lt;/h3>&lt;p>毎度のこと、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/projects/journeystreetmap/about/" >JourneyStreetMap&lt;/a>です。&lt;/p>
 &lt;p>飽きて途中でやめました(; ;)&lt;/p>
 &lt;h2 id="ノートの不具合を修正">ノートの不具合を修正
 &lt;/h2>&lt;p>ObsidianのMarkdownを普通のMarkdownに書き換えるためのスクリプトを作成。&lt;br>
@@ -712,14 +712,14 @@
 &lt;/h3>&lt;p>&lt;a class="link" href="#%e3%83%8e%e3%83%bc%e3%83%88%e3%81%ae%e4%b8%8d%e5%85%b7%e5%90%88" >ノートの不具合&lt;/a>でも説明した通り、正しいURLが指定されないバグがあります。&lt;br>
 これを修正するために作業を致しました。&lt;/p>
 &lt;p>ファイル名が一致しないファイルにエイリアスを追加しました。&lt;/p></description></item><item><title>2025年04月10日(木)</title><link>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-10/</link><pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-10/</guid><description>&lt;h2 id="今日の作業">今日の作業
-&lt;/h2>&lt;h3 id="journeystreetmapをeguiに移植">&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/about/" >journeystreetmap&lt;/a>をeguiに移植
+&lt;/h2>&lt;h3 id="journeystreetmapをeguiに移植">&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/projects/journeystreetmap/about/" >journeystreetmap&lt;/a>をeguiに移植
 &lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/2025-04-09/" >昨日分かったこと&lt;/a>の制作)なのですが、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/ui/iced/about/" >iced&lt;/a>では少し融通がきかないなというわけでeguiに移植したいと思います。&lt;/p>
 &lt;p>普通に&lt;code>Image&lt;/code>を&lt;code>ui.put&lt;/code>して良いパフォーマンスが得られたら良いんですがね、そう上手くはいかなそうです。&lt;br>
 もし別の方法を考える必要があった場合は、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/wgpu/about/" >wgpu&lt;/a>で直接描画を行うなど、プリミティブなやり方を取ります。&lt;/p></description></item><item><title>2025年04月09日(水)</title><link>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-09/</link><pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-04/2025-04-09/</guid><description>&lt;h2 id="今日の作業">今日の作業
 &lt;/h2>&lt;h3 id="ノート整理">ノート整理
 &lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-04/2025-04-08/" >昨日&lt;/a>の続きです。&lt;/p>
 &lt;ul>
-&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/about/" >JourneyStreetMap&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/projects/journeystreetmap/about/" >JourneyStreetMap&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/about/" >OGSP&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/ui/iced/about/" >iced&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/favorite/stpr/about/" >STPR&lt;/a>&lt;/li>
@@ -729,7 +729,7 @@ GC
 &lt;/span>
 のまとめノートを整理しました。&lt;/li>
 &lt;/ul>
-&lt;h2 id="journeystreetmapの制作">&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/journeystreetmap/about/" >journeystreetmap&lt;/a>の制作
+&lt;h2 id="journeystreetmapの制作">&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/projects/journeystreetmap/about/" >journeystreetmap&lt;/a>の制作
 &lt;/h2>&lt;p>icedのカスタムウィジェットと他のウィジェットをつなげる部分の開発&lt;/p>
 &lt;p>分かったこととしては、&lt;/p>
 &lt;ul>
@@ -873,7 +873,7 @@ publish_branch: gh-pages
 &lt;h2 id="journeystreetmapの開発">JourneyStreetMapの開発
 &lt;/h2>&lt;p>主な変更&lt;/p>
 &lt;ul>
-&lt;li>[[../../../develop/JourneyStreetMap/icedのCanvasとWidgetの使い分け|JourneyMapViewerをCanvasからWidgetに変更]]&lt;/li>
+&lt;li>[[../../develop/projects/JourneyStreetMap/icedのCanvasとWidgetの使い分け|JourneyMapViewerをCanvasからWidgetに変更]]&lt;/li>
 &lt;li>マウスハンドラの追加&lt;/li>
 &lt;/ul>
 &lt;h2 id="xのスクショを自動化しようと思った">Xのスクショを自動化しようと思った

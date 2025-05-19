@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>プログラミング言語 on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/</link><description>Recent content in プログラミング言語 on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Fri, 16 May 2025 13:22:28 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/index.xml" rel="self" type="application/rss+xml"/><item><title>プログラミングパラダイム</title><link>https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/paradime/</link><pubDate>Fri, 16 May 2025 13:22:28 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/paradime/</guid><description>&lt;p>&lt;strong>プログラミングパラダイム&lt;/strong>とは、プログラミングにおける考え方のスタイルのことである。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>プログラミング言語 on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/</link><description>Recent content in プログラミング言語 on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Mon, 19 May 2025 19:40:21 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/index.xml" rel="self" type="application/rss+xml"/><item><title>AOTコンパイル</title><link>https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/ahead-of-time-compile/</link><pubDate>Mon, 19 May 2025 19:40:21 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/ahead-of-time-compile/</guid><description>&lt;p>&lt;strong>AOTコンパイル&lt;/strong> (英: AOT Compile) は、プログラムのコードやILをコンパイル時に機械語へ変換するコンパイルの方法のこと。対義語はJITコンパイルである。&lt;/p>
+&lt;p>AOTは、&lt;strong>Ahead-Of-Time&lt;/strong>の頭文字をとったものであり、事前コンパイルとも呼ばれる。&lt;/p>
+&lt;h2 id="概要">概要
+&lt;/h2>&lt;p>JITコンパイルでは、アプリケーションの実行直前または実行中に、ILを実行環境に合わせた機械語にコンパイルするため、インタプリタ言語よりは高速ではあるが、ILからの実行時コンパイルが挟まるため最初に低速になることが多い。これは、ゲームなどではほとんど問題になることはないが、頻繁に実行と停止が繰り返す、コマンドラインツールなどで問題になりやすい。&lt;/p>
+&lt;p>それに対比して、AOTコンパイルは、比較的性能の高い、開発環境やビルド環境で行われるように、JITコンパイルよりもコンパイルに時間を割くことができる。また、コンパイラに渡すオプションによって最適化レベルを開発者が操作しやすい。&lt;/p>
+&lt;p>しかしながら、AOTコンパイルしたアプリケーションが常にJITコンパイルしたコードよりも高速であるとは限らない。なぜなら、AOTコンパイルは特定のOSなどで共通した命令セットを用いて行われるからだ。一方でJITコンパイル先は実行環境に対してネイティブであるため、AOTよりも根強くコードが実行できる可能性がある。&lt;br>
+例を出すと、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/about/" >Rust&lt;/a>のターゲットアーキテクチャは、Linuxの64ビットCPUに対して&lt;code>x86_64-unknown-linux-gnu&lt;/code>を使用できる。しかし、Linuxでx86_64の中でもDebian系、Arch系、RedHat系などといった種類もあるため、そこに合わせてコンパイルできるというのがJITの１つの魅力だといる。&lt;/p>
+&lt;h2 id="netのaotサポート">.NETのAOTサポート
+&lt;/h2>&lt;p>もともとC#をはじめとした.NETでは、JITコンパイル形式が基本だった。だが、.NET Frameworkでは、アセンブリからネイティブコードを生成できるツール「Ngen.exe」がサポートされていた。しかし、これは主に起動と終了を繰り返す、サーバー向けのものであり、また手軽に利用できるようなものではなかった。&lt;/p>
+&lt;p>そこで、.NET Core 3ではAOTコンパイルの１つとしてReadyToRunがサポートされた。また、.NET 7からはネイティブAOTがサポートされるようになったが、互換性のあるライブラリはまだ限定されている。&lt;/p>
+&lt;h2 id="言語">言語
+&lt;/h2>&lt;p>AOTコンパイルが主に使用される主要な言語は以下。&lt;/p>
+&lt;ul>
+&lt;li>C/C++&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/rust/about/" >Rust&lt;/a>&lt;/li>
+&lt;li>Go&lt;/li>
+&lt;li>D言語&lt;/li>
+&lt;li>Zig&lt;/li>
+&lt;li>Nim&lt;/li>
+&lt;li>Haskell&lt;/li>
+&lt;li>Fortran&lt;/li>
+&lt;/ul>
+&lt;p>一部でAOTコンパイルをサポートする主要な言語は以下。&lt;/p>
+&lt;ul>
+&lt;li>Java&lt;/li>
+&lt;li>.NET C#&lt;/li>
+&lt;li>Python&lt;/li>
+&lt;/ul></description></item><item><title>プログラミングパラダイム</title><link>https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/paradime/</link><pubDate>Fri, 16 May 2025 13:22:28 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/paradime/</guid><description>&lt;p>&lt;strong>プログラミングパラダイム&lt;/strong>とは、プログラミングにおける考え方のスタイルのことである。&lt;/p>
 &lt;h2 id="概要">概要
 &lt;/h2>&lt;p>プログラミングパラダイムは、プログラマーにとってどのようにプログラミングを行うべきかという見方を与えるものである。&lt;/p>
 &lt;p>プログラミングパラダイムでは、推奨されていることや禁じられていることがある程度決まっているが、厳密に定義している書類やウェブサイトは&lt;strong>存在しない&lt;/strong>。そのため、ある意味暗黙的なルールとなっている部分がある。&lt;/p>
