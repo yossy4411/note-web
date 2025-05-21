@@ -1,4 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yossy4411のノート</title><link>https://yossy4411.okayugroup.net/</link><description>Recent content on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Tue, 20 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年05月20日(火)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-20/</link><pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-20/</guid><description>&lt;h2 id="今日の体調">今日の体調
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yossy4411のノート</title><link>https://yossy4411.okayugroup.net/</link><description>Recent content on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Wed, 21 May 2025 16:00:18 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/index.xml" rel="self" type="application/rss+xml"/><item><title>URL</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/url/</link><pubDate>Wed, 21 May 2025 16:00:18 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/url/</guid><description>&lt;p>Uniform Resource Locator (ユニフォーム リソース ロケータ、統一資源位置指定子）、&lt;strong>URL&lt;/strong>とは、インターネット上のリソースの場所を特定するための、形式的な記号の並び。&lt;br>
+&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/web/about/" >World Wide Web&lt;/a>をはじめとした、インターネットアプリケーションに置いて提供されるリソースを、主にその所在を表記することで特定する。&lt;/p>
+&lt;p>URLは、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/uri/" >URI&lt;/a>の一種である。&lt;/p></description></item><item><title>2025年05月21日(水)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-21/</link><pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-21/</guid><description>&lt;h2 id="今日の体調">今日の体調
+&lt;/h2>&lt;p>ねもい パフォーマンス低下中&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>体調&lt;/th>
+&lt;th>元気&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>就寝&lt;/td>
+&lt;td>23:30&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>起床&lt;/td>
+&lt;td>6:30&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>朝食&lt;/td>
+&lt;td>6:50&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>天気痛&lt;/td>
+&lt;td>false&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;h3 id="タブレットにはpostmarketを">タブレットにはpostmarketを
+&lt;/h3>&lt;p>おれのたぶれっと、YouTubeさえ見れれば良いんだよ&lt;/p>
+&lt;p>だからPostmarketOSのPlasma Mobileを使うんだよ&lt;/p>
+&lt;p>なんでArchじゃないのって？めんどいからだよ。特にパーティションとかWi-Fiとかbaseのインストールとか。&lt;/p>
+&lt;h3 id="動画編集ソフトの設計">動画編集ソフトの設計
+&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-20/" >動画編集ソフト、UIライブラリどうする問題&lt;/a>の続き&lt;/p>
+&lt;p>結局、マルチプラットフォームとパフォーマンスを同時に取るためには、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/wgpu/about/" >wgpu&lt;/a>と&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/ui/iced/about/" >iced&lt;/a>の構成がいちばん現実的。CUDAとかVulkanのRustバインドとかも考えたんだけど、それだと高レベルAPIなためにコード全体が十万行ぐらい（冗談抜きで）になって、保守性も開発効率も悪すぎる。&lt;/p>
+&lt;p>ちなみに、&lt;code>iced&lt;/code>のUIフレームワークとしての性能はかなりしっかりしています。そもそもこれ自体&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/wgpu/about/" >wgpu&lt;/a>をデフォルトのバックエンドとして採用していて、テクスチャ（&lt;code>wgpu&lt;/code>でGPUで描画させる場所）の用意が簡単なんですよね。&lt;/p></description></item><item><title>2025年05月20日(火)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-20/</link><pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-20/</guid><description>&lt;h2 id="今日の体調">今日の体調
 &lt;/h2>&lt;table>
 &lt;thead>
 &lt;tr>
@@ -1154,6 +1192,7 @@ P2Pなどの部分は実装予備段階です。これにはコンピュータ�
 &lt;/h2>&lt;p>Web 1.0という用語は、一般的にあまり用いられていない。これは、Web 1.0という単語が、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/web/2/about/" >Web 2.0&lt;/a>の概念ができてから後付けされたからである。&lt;/p>
 &lt;p>Web 2.0が発達してから、それ以前をなんと呼ぶかと議論になったときに決まったのだと思うが、詳しくは知らない。&lt;/p></description></item><item><title>2025年5月</title><link>https://yossy4411.okayugroup.net/diary/2025-05/</link><pubDate>Thu, 01 May 2025 18:21:27 +0900</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/</guid><description>&lt;h2 id="日記">日記
 &lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-21/" >2025-05-21&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-20/" >2025-05-20&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-19/" >2025-05-19&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-18/" >2025-05-18&lt;/a>&lt;/li>
@@ -1995,7 +2034,12 @@ TCPではポート、ソケット、コネクションの概念が導入され�
 TCP/IP
 &lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
 &lt;/span>モデルにおいては、アプリケーション層は4階層のうちの第4層にあたり、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/protocol/about/" >IP&lt;/a>のコンピューターネットワークを介したプロセス間通信に使われる通信プロトコルとインターフェースメソッドを含む。&lt;br>
-アプリケーションが標準化するのは通信のみで、クライアントサーバーモデルまたはP2Pのネットワーキング・モデルにおけるデータ交換の管理などはそれより下のトランスポート層が行う。&lt;/p></description></item><item><title>インターネット・プロトコル</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/protocol/about/</link><pubDate>Sun, 20 Apr 2025 11:08:01 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/protocol/about/</guid><description>&lt;p>インターネット・プロトコルは、パケット交換型ネットワークにおいてホスト間のパケット転送とルーティングを担う基本プロトコルで、IPv4とIPv6が主に利用される。&lt;/p>
+アプリケーションが標準化するのは通信のみで、クライアントサーバーモデルまたはP2Pのネットワーキング・モデルにおけるデータ交換の管理などはそれより下のトランスポート層が行う。&lt;/p></description></item><item><title>URI</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/uri/</link><pubDate>Sun, 20 Apr 2025 16:50:35 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/uri/</guid><description>&lt;p>&lt;strong>Uniform Resource Identifier&lt;/strong> （ユニフォーム リソース アイデンティファイア、統一資源識別子）、&lt;strong>URI&lt;/strong>とは、抽象的または物理的なリソースを識別するためのコンパクトな文字列のことである。また、一定の書式によってリソースを指し示す識別子（Identifier）である。&lt;/p>
+&lt;h2 id="形式">形式
+&lt;/h2>&lt;p>&lt;code>https://example.com&lt;/code>&lt;br>
+これはURIの中では特に&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/url/" >URL&lt;/a>であるが、これは以下のような要素で構成されている。&lt;/p>
+&lt;pre tabindex="0">&lt;code class="language-code" data-lang="code">scheme://[userinfo@]host[:port]/path[?query][#fragment]
+&lt;/code>&lt;/pre>&lt;p>URIのスキームは、一般的には&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/application/http/about/" >HTTP&lt;/a> (&lt;code>http://&lt;/code>, &lt;code>https://&lt;/code>) が使用されるが、他にもFTP (&lt;code>ftp://&lt;/code>)やメール (&lt;code>mailto:&lt;/code>)、ローカルファイル (&lt;code>file://&lt;/code>)などがある。&lt;/p></description></item><item><title>インターネット・プロトコル</title><link>https://yossy4411.okayugroup.net/develop/knowledge/internet/protocol/about/</link><pubDate>Sun, 20 Apr 2025 11:08:01 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/internet/protocol/about/</guid><description>&lt;p>インターネット・プロトコルは、パケット交換型ネットワークにおいてホスト間のパケット転送とルーティングを担う基本プロトコルで、IPv4とIPv6が主に利用される。&lt;/p>
 &lt;h2 id="概要">概要
 &lt;/h2>&lt;p>&lt;strong>インターネット・プロトコル&lt;/strong>（Internet Protocol、略称: IP）は、OSI参照モデルにおけるネットワーク層の通信プロトコルであり、パケット交換型ネットワークにおいて送信元ホストから宛先ホストへのパケットのルーティングと転送を担う。インターネットアーキテクチャの中核を成し、IPv4およびIPv6の2つの主要バージョンが広く利用されている。&lt;/p>
 &lt;h2 id="歴史">歴史
@@ -2073,7 +2117,7 @@ TCP/IP
 &lt;p>これより下ではWorld Wide WebをW3と呼ぶこととする。&lt;/p>
 &lt;h2 id="概要">概要
 &lt;/h2>&lt;p>W3のウェブページの記述にはHTMLやXHTMLなどのハイパーテキストのマークアップ言語が使用される。&lt;/p>
-&lt;p>W3で使われるハイパーテキストというのは、そもそも、ドキュメント内に別のドキュメントのURL（ハイパーリンク）を埋め込むことで、インターネット上の文書同士を相互に参照可能にするシステムである。&lt;br>
+&lt;p>W3で使われるハイパーテキストというのは、そもそも、ドキュメント内に別のドキュメントの&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/url/" >URL&lt;/a>（ハイパーリンク）を埋め込むことで、インターネット上の文書同士を相互に参照可能にするシステムである。&lt;br>
 閲覧者は表示している文書中で、ハイパーリンクがつけられた箇所をクリックしたりしてイベントを発火することでリンク先の文書を表示（ナビゲート）させることができる。&lt;/p>
 &lt;p>情報を提供する側はウェブサーバーを公開し、利用者はウェブブラウザのようなサーバーの情報を閲覧するシステムを利用してアクセスする。&lt;br>
 このアクセスするためのソフトウェアをウェブクライアント、またはWWWクライアントと呼ぶ。&lt;br>
