@@ -31,6 +31,8 @@ slug: about
 
 同時に受信デバイスへのデータ配信と気象庁などの機関からのデータ収集も行う。
 
+↪ [OGSP Server Node](server/OGSP%20Server%20Node.md)
+
 ## 受信システム・アプリ開発
 ### [EarthQuake](previous/EarthQuake/EarthQuake.desktop.md) - デスクトップ版地震災害情報アプリ
 パフォーマンスの理由で開発停止  
