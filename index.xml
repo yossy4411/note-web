@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yossy4411のノート</title><link>https://yossy4411.okayugroup.net/</link><description>Recent content on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Thu, 22 May 2025 21:33:27 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/index.xml" rel="self" type="application/rss+xml"/><item><title>OGSP - オープンソースの理由</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/design.excalidraw/</link><pubDate>Thu, 22 May 2025 21:33:27 +0900</pubDate><guid>https://yossy4411.okayugroup.net/okayugroup/ogsp/design.excalidraw/</guid><description>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/about-me/" >私&lt;/a>は防災は&lt;strong>みんなでつくる&lt;/strong>ものであるべきであって、他人や政府に頼りっきりになるべきではないと思っております。（自助・共助・公助）&lt;br>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yossy4411のノート</title><link>https://yossy4411.okayugroup.net/</link><description>Recent content on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Fri, 23 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年05月23日(金)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-23/</link><pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-23/</guid><description>&lt;h2 id="今日の体調">今日の体調
+&lt;/h2>&lt;p>ばりばり成長痛すぎる&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>体調&lt;/th>
+&lt;th>元気&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>就寝&lt;/td>
+&lt;td>23:00&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>起床&lt;/td>
+&lt;td>6:30&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>朝食&lt;/td>
+&lt;td>6:50&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>天気痛&lt;/td>
+&lt;td>false&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;h3 id="地図を作りたい">地図を作りたい
+&lt;/h3>&lt;p>ああああああああああなんで描画できないんだよおお&lt;/p>
+&lt;p>というわけで、コストが大きすぎると描画できないみたいです。GPUメモリの不足なのか何なのか&amp;hellip;&lt;/p>
+&lt;h2 id="昨日の日記について">昨日の日記について
+&lt;/h2>&lt;p>単純に忘れてる&lt;/p></description></item><item><title>OGSP - オープンソースの理由</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/design.excalidraw/</link><pubDate>Thu, 22 May 2025 21:33:27 +0900</pubDate><guid>https://yossy4411.okayugroup.net/okayugroup/ogsp/design.excalidraw/</guid><description>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/about-me/" >私&lt;/a>は防災は&lt;strong>みんなでつくる&lt;/strong>ものであるべきであって、他人や政府に頼りっきりになるべきではないと思っております。（自助・共助・公助）&lt;br>
 そのためのカギとなる考え方が&lt;strong>オープンソース&lt;/strong>なのです。&lt;/p>
 &lt;p>オープンソースは、ソフトウェアのコードやリソースを公開された場所に置くことで使用や改変、共同開発ができる開発の方法です。&lt;/p>
 &lt;div class="admonition info">
@@ -1242,6 +1275,7 @@ P2Pなどの部分は実装予備段階です。これにはコンピュータ�
 &lt;/h2>&lt;p>Web 1.0という用語は、一般的にあまり用いられていない。これは、Web 1.0という単語が、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/web/2/about/" >Web 2.0&lt;/a>の概念ができてから後付けされたからである。&lt;/p>
 &lt;p>Web 2.0が発達してから、それ以前をなんと呼ぶかと議論になったときに決まったのだと思うが、詳しくは知らない。&lt;/p></description></item><item><title>2025年5月</title><link>https://yossy4411.okayugroup.net/diary/2025-05/</link><pubDate>Thu, 01 May 2025 18:21:27 +0900</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/</guid><description>&lt;h2 id="日記">日記
 &lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-23/" >2025-05-23&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-21/" >2025-05-21&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-20/" >2025-05-20&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-19/" >2025-05-19&lt;/a>&lt;/li>
