@@ -1,4 +1,50 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yossy4411のノート</title><link>https://yossy4411.okayugroup.net/</link><description>Recent content on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Tue, 27 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年05月27日(火)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-27/</link><pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-27/</guid><description>&lt;h2 id="今日の体調">今日の体調
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yossy4411のノート</title><link>https://yossy4411.okayugroup.net/</link><description>Recent content on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Wed, 28 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年05月28日(水)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-28/</link><pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-28/</guid><description>&lt;h2 id="今日の体調">今日の体調
+&lt;/h2>&lt;p>成長痛：左足&lt;br>
+最近成長痛多い、大丈夫かな&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>体調&lt;/th>
+&lt;th>元気&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>就寝&lt;/td>
+&lt;td>23:00&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>起床&lt;/td>
+&lt;td>6:30&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>朝食&lt;/td>
+&lt;td>6:50&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>天気痛&lt;/td>
+&lt;td>false&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;h3 id="マップ作る">マップ作る
+&lt;/h3>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/application/disaster-prevention/about/" >OGSP Disaster Prevention&lt;/a>で、マップを作りました。ズーム処理に此処まで手こずるのかよ、って感じですが。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rust" data-lang="rust">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">let&lt;/span> scale_factor &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">20.0&lt;/span>&lt;span style="color:#66d9ef">f64&lt;/span>.powf(scale_delta);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">if&lt;/span> scale_factor &lt;span style="color:#f92672">!=&lt;/span> &lt;span style="color:#ae81ff">0.0&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// スクロール位置を中心に拡大縮小
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">let&lt;/span> mouse_pos &lt;span style="color:#f92672">=&lt;/span> ctx.local_position(state.position);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">let&lt;/span> affine_before &lt;span style="color:#f92672">=&lt;/span> self.transform.affine_no_flip(ctx.size());
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">let&lt;/span> before_pos &lt;span style="color:#f92672">=&lt;/span> affine_before.inverse() &lt;span style="color:#f92672">*&lt;/span> mouse_pos;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> self.transform.scale &lt;span style="color:#f92672">*=&lt;/span> scale_factor;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">let&lt;/span> affine_after &lt;span style="color:#f92672">=&lt;/span> self.transform.affine_no_flip(ctx.size());
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">let&lt;/span> after_pos &lt;span style="color:#f92672">=&lt;/span> affine_after.inverse() &lt;span style="color:#f92672">*&lt;/span> mouse_pos;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> self.transform.translate &lt;span style="color:#f92672">-=&lt;/span> before_pos.to_vec2() &lt;span style="color:#f92672">-&lt;/span> after_pos.to_vec2();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ctx.request_render();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>まあこんな感じ？&lt;code>inverse()&lt;/code>(逆アフィン)っていうのは、$x$から$y$を求めるものを$y$から$x$を求めるようにしたもの、という感じです。&lt;/p></description></item><item><title>2025年05月27日(火)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-27/</link><pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-27/</guid><description>&lt;h2 id="今日の体調">今日の体調
 &lt;/h2>&lt;p>左腕の成長痛がああ&lt;/p>
 &lt;table>
 &lt;thead>
@@ -1373,6 +1419,7 @@ P2Pなどの部分は実装予備段階です。これにはコンピュータ�
 &lt;/h2>&lt;p>Web 1.0という用語は、一般的にあまり用いられていない。これは、Web 1.0という単語が、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/web/2/about/" >Web 2.0&lt;/a>の概念ができてから後付けされたからである。&lt;/p>
 &lt;p>Web 2.0が発達してから、それ以前をなんと呼ぶかと議論になったときに決まったのだと思うが、詳しくは知らない。&lt;/p></description></item><item><title>2025年5月</title><link>https://yossy4411.okayugroup.net/diary/2025-05/</link><pubDate>Thu, 01 May 2025 18:21:27 +0900</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/</guid><description>&lt;h2 id="日記">日記
 &lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-28/" >2025-05-28&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-27/" >2025-05-27&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-26/" >2025-05-26&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-24/" >2025-05-24&lt;/a>&lt;/li>
