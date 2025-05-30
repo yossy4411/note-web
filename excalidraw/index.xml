@@ -1,4 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Excalidraws on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/excalidraw/</link><description>Recent content in Excalidraws on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><atom:link href="https://yossy4411.okayugroup.net/excalidraw/index.xml" rel="self" type="application/rss+xml"/><item><title>おかゆグループ</title><link>https://yossy4411.okayugroup.net/excalidraw/drawing-2025-04-19-18.55.31.excalidraw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/excalidraw/drawing-2025-04-19-18.55.31.excalidraw/</guid><description>&lt;p>&lt;a class="link" href="https://okayugroup.com" target="_blank" rel="noopener"
->おかゆグループ&lt;/a>は、『学生だからできること』をモットーに活動する、同好会のようなものです。&lt;/p>
-&lt;p>私によって創設・管理されていますが、成長させるのは&amp;quot;みんな&amp;quot;です！&lt;/p>
-&lt;p>メンバー２人しかいないから誰か来てくれ〜(´；ω；｀)&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Excalidraws on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/excalidraw/</link><description>Recent content in Excalidraws on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><atom:link href="https://yossy4411.okayugroup.net/excalidraw/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://yossy4411.okayugroup.net/excalidraw/drawing-2025-04-19-18.55.31.excalidraw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/excalidraw/drawing-2025-04-19-18.55.31.excalidraw/</guid><description>&lt;h1 id="知識の倉庫">知識の倉庫
+&lt;/h1>&lt;p>俺の思ったこと全部置いてる場所&lt;/p>
+&lt;p>
+&lt;div class="admonition note">
+&lt;div class="admonition-title">Note&lt;/div>
+&lt;div class="admonition-content">
+情報の宝箱やー
+&lt;/div>
+&lt;/div>
+&lt;div class="admonition caution">
+&lt;div class="admonition-title">Caution&lt;/div>
+&lt;div class="admonition-content">
+流石にプライバシーとか次の動画のネタとかは載せてません。
+あくまで役立つ情報のまとめとか、頭の中の整理のために使っています。
+&lt;/div>
+&lt;/div>
+&lt;/p>
+&lt;h2 id="hugo統合">Hugo統合
+&lt;/h2>&lt;p>基本的に、Hugo（静的サイトビルダー）として利用できるような形にしたいと思っています。
+したがって、Markdownファイルそれぞれには次のようなテンプレートが貼られています。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>---
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>title: タイトル
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>description: 説明
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>lead: 記事の冒頭 (meta description)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>tags: タグ1, タグ2
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>aliases: エイリアス（リダイレクション）
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>date: YYYY-MM-DD HH:mm:ss 作成日時
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>lastmod: YYYY-MM-DD HH:mm:ss 更新日時
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>draft: true/false ドラフトかどうか
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>showContent: true/false _index.mdで内容まで表示するか
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>---
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">## 内容
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>...
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>

@@ -1,4 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yossy4411のノート</title><link>https://yossy4411.okayugroup.net/</link><description>Recent content on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Thu, 29 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年05月29日(木)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-29/</link><pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-29/</guid><description>&lt;h2 id="今日の体調">今日の体調
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yossy4411のノート</title><link>https://yossy4411.okayugroup.net/</link><description>Recent content on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Fri, 30 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年05月30日(金)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-30/</link><pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-30/</guid><description>&lt;h2 id="今日の体調">今日の体調
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>体調&lt;/th>
+&lt;th>元気&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>就寝&lt;/td>
+&lt;td>22:00&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>起床&lt;/td>
+&lt;td>6:30&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>朝食&lt;/td>
+&lt;td>6:50&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>天気痛&lt;/td>
+&lt;td>false&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;h3 id="そろそろ">そろそろ&amp;hellip;
+&lt;/h3>&lt;p>動画編集ソフトを作り始めないといけません。私のことを待つ40人の登録者のために&amp;hellip;。&lt;/p>
+&lt;h3 id="軽量化">軽量化
+&lt;/h3>&lt;p>軽量化しました。&lt;a class="link" href="https://yossy4411.okayugroup.net/okayugroup/ogsp/application/disaster-prevention/about/" >OGSP Disaster Prevention&lt;/a>の話ですが、簡略化を使えるようにしたってだけです。あと色々マージしました。&lt;/p></description></item><item><title>2025年05月29日(木)</title><link>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-29/</link><pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/2025-05-29/</guid><description>&lt;h2 id="今日の体調">今日の体調
 &lt;/h2>&lt;table>
 &lt;thead>
 &lt;tr>
@@ -203,32 +234,7 @@ $asin$を$atan$にしてたのが間違いでした。&lt;/p></description></ite
 &lt;/h3>&lt;p>ああああああああああなんで描画できないんだよおお&lt;/p>
 &lt;p>というわけで、コストが大きすぎると描画できないみたいです。GPUメモリの不足なのか何なのか&amp;hellip;&lt;/p>
 &lt;h2 id="昨日の日記について">昨日の日記について
-&lt;/h2>&lt;p>単純に忘れてる&lt;/p></description></item><item><title>OGSP - オープンソースの理由</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/design.excalidraw/</link><pubDate>Thu, 22 May 2025 21:33:27 +0900</pubDate><guid>https://yossy4411.okayugroup.net/okayugroup/ogsp/design.excalidraw/</guid><description>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/about-me/" >私&lt;/a>は防災は&lt;strong>みんなでつくる&lt;/strong>ものであるべきであって、他人や政府に頼りっきりになるべきではないと思っております。（自助・共助・公助）&lt;br>
-そのためのカギとなる考え方が&lt;strong>オープンソース&lt;/strong>なのです。&lt;/p>
-&lt;p>オープンソースは、ソフトウェアのコードやリソースを公開された場所に置くことで使用や改変、共同開発ができる開発の方法です。&lt;/p>
-&lt;div class="admonition info">
-&lt;div class="admonition-title">Info&lt;/div>
-&lt;div class="admonition-content">
-オープンソースという言葉が指すものは、考え方だったり開発モデルだったりする。ややこしくてごめんね
-&lt;/div>
-&lt;/div>
-&lt;h3 id="メリット">メリット
-&lt;/h3>&lt;p>オープンソースにすることで、政府組織外で運営されることによって発生する様々な問題の解消が可能になります。&lt;/p>
-&lt;ul>
-&lt;li>透明性の向上&lt;/li>
-&lt;li>柔軟性の向上&lt;/li>
-&lt;li>互換性の向上&lt;/li>
-&lt;li>バグの削減&lt;/li>
-&lt;li>責任の分散&lt;/li>
-&lt;li>災害への意識の向上&lt;/li>
-&lt;/ul>
-&lt;h3 id="デメリット">デメリット
-&lt;/h3>&lt;p>オープンソースになることによって発生するデメリットもあります。&lt;/p>
-&lt;ul>
-&lt;li>収入源が得られない （開発資金の調達が難しい）&lt;/li>
-&lt;li>ハッキングの対象になりやすい （逆に修正もしやすいが）&lt;/li>
-&lt;li>開発スピードの低下 （公開することで他人からも見やすくする必要があるため）&lt;/li>
-&lt;/ul></description></item><item><title>OGSP - オープンソースの理由</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/%E3%81%AA%E3%81%9C%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9%E3%81%AA%E3%81%AE%E3%81%8B/</link><pubDate>Thu, 22 May 2025 21:33:27 +0900</pubDate><guid>https://yossy4411.okayugroup.net/okayugroup/ogsp/%E3%81%AA%E3%81%9C%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9%E3%81%AA%E3%81%AE%E3%81%8B/</guid><description>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/about-me/" >私&lt;/a>は防災は&lt;strong>みんなでつくる&lt;/strong>ものであるべきであって、他人や政府に頼りっきりになるべきではないと思っております。（自助・共助・公助）&lt;br>
+&lt;/h2>&lt;p>単純に忘れてる&lt;/p></description></item><item><title>OGSP - オープンソースの理由</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/%E3%81%AA%E3%81%9C%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9%E3%81%AA%E3%81%AE%E3%81%8B/</link><pubDate>Thu, 22 May 2025 21:33:27 +0900</pubDate><guid>https://yossy4411.okayugroup.net/okayugroup/ogsp/%E3%81%AA%E3%81%9C%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9%E3%81%AA%E3%81%AE%E3%81%8B/</guid><description>&lt;p>&lt;a class="link" href="https://yossy4411.okayugroup.net/about-me/" >私&lt;/a>は防災は&lt;strong>みんなでつくる&lt;/strong>ものであるべきであって、他人や政府に頼りっきりになるべきではないと思っております。（自助・共助・公助）&lt;br>
 そのためのカギとなる考え方が&lt;strong>オープンソース&lt;/strong>なのです。&lt;/p>
 &lt;p>オープンソースは、ソフトウェアのコードやリソースを公開された場所に置くことで使用や改変、共同開発ができる開発の方法です。&lt;/p>
 &lt;div class="admonition info">
@@ -1447,6 +1453,7 @@ P2Pなどの部分は実装予備段階です。これにはコンピュータ�
 &lt;/h2>&lt;p>Web 1.0という用語は、一般的にあまり用いられていない。これは、Web 1.0という単語が、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/internet/web/2/about/" >Web 2.0&lt;/a>の概念ができてから後付けされたからである。&lt;/p>
 &lt;p>Web 2.0が発達してから、それ以前をなんと呼ぶかと議論になったときに決まったのだと思うが、詳しくは知らない。&lt;/p></description></item><item><title>2025年5月</title><link>https://yossy4411.okayugroup.net/diary/2025-05/</link><pubDate>Thu, 01 May 2025 18:21:27 +0900</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-05/</guid><description>&lt;h2 id="日記">日記
 &lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-30/" >2025-05-30&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-29/" >2025-05-29&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-28/" >2025-05-28&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-05/2025-05-27/" >2025-05-27&lt;/a>&lt;/li>
@@ -4037,7 +4044,41 @@ println!関数に渡ったあと、その関数内でスコープを抜けると
 &lt;h2 id="xのスクショを自動化しようと思った">Xのスクショを自動化しようと思った
 &lt;/h2>&lt;p>いわゆるスクレイピングってやつです。
 Pythonでやるのも難しそうだし、そもそも需要がなさそうだったのでやめました。
-&lt;strong>手動でスクショ撮ってたほうが良い&lt;/strong>です。絶対に。&lt;/p></description></item><item><title>TODOリスト（すべて）</title><link>https://yossy4411.okayugroup.net/todo-all/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/todo-all/</guid><description>&lt;h2 id="アイデア">アイデア
+&lt;strong>手動でスクショ撮ってたほうが良い&lt;/strong>です。絶対に。&lt;/p></description></item><item><title/><link>https://yossy4411.okayugroup.net/excalidraw/drawing-2025-04-19-18.55.31.excalidraw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/excalidraw/drawing-2025-04-19-18.55.31.excalidraw/</guid><description>&lt;h1 id="知識の倉庫">知識の倉庫
+&lt;/h1>&lt;p>俺の思ったこと全部置いてる場所&lt;/p>
+&lt;p>
+&lt;div class="admonition note">
+&lt;div class="admonition-title">Note&lt;/div>
+&lt;div class="admonition-content">
+情報の宝箱やー
+&lt;/div>
+&lt;/div>
+&lt;div class="admonition caution">
+&lt;div class="admonition-title">Caution&lt;/div>
+&lt;div class="admonition-content">
+流石にプライバシーとか次の動画のネタとかは載せてません。
+あくまで役立つ情報のまとめとか、頭の中の整理のために使っています。
+&lt;/div>
+&lt;/div>
+&lt;/p>
+&lt;h2 id="hugo統合">Hugo統合
+&lt;/h2>&lt;p>基本的に、Hugo（静的サイトビルダー）として利用できるような形にしたいと思っています。
+したがって、Markdownファイルそれぞれには次のようなテンプレートが貼られています。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>---
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>title: タイトル
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>description: 説明
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>lead: 記事の冒頭 (meta description)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>tags: タグ1, タグ2
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>aliases: エイリアス（リダイレクション）
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>date: YYYY-MM-DD HH:mm:ss 作成日時
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>lastmod: YYYY-MM-DD HH:mm:ss 更新日時
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>draft: true/false ドラフトかどうか
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>showContent: true/false _index.mdで内容まで表示するか
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>---
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">## 内容
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>...
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>TODOリスト（すべて）</title><link>https://yossy4411.okayugroup.net/todo-all/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/todo-all/</guid><description>&lt;h2 id="アイデア">アイデア
 &lt;/h2>&lt;ul>
 &lt;li>&lt;input disabled="" type="checkbox"> 地震計プロジェクトにWeb3を活用&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> ボーカル除去AIを自作&lt;/li>
@@ -4093,7 +4134,6 @@ Pythonでやるのも難しそうだし、そもそも需要がなさそうだ�
 &lt;/ul>
 &lt;p>%% kanban:settings&lt;/p>
 &lt;pre tabindex="0">&lt;code>{&amp;#34;kanban-plugin&amp;#34;:&amp;#34;board&amp;#34;,&amp;#34;list-collapse&amp;#34;:[false,false,false,false,false,false,false,false,false,false,false]}
-&lt;/code>&lt;/pre>&lt;p>%%&lt;/p></description></item><item><title>おかゆグループ</title><link>https://yossy4411.okayugroup.net/excalidraw/drawing-2025-04-19-18.55.31.excalidraw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/excalidraw/drawing-2025-04-19-18.55.31.excalidraw/</guid><description>&lt;p>&lt;a class="link" href="https://okayugroup.com" target="_blank" rel="noopener"
->おかゆグループ&lt;/a>は、『学生だからできること』をモットーに活動する、同好会のようなものです。&lt;/p>
-&lt;p>私によって創設・管理されていますが、成長させるのは&amp;quot;みんな&amp;quot;です！&lt;/p>
-&lt;p>メンバー２人しかいないから誰か来てくれ〜(´；ω；｀)&lt;/p></description></item></channel></rss>
+&lt;/code>&lt;/pre>&lt;p>%%&lt;/p></description></item><item><title>江戸時代</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/design.excalidraw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/okayugroup/ogsp/design.excalidraw/</guid><description>&lt;ul>
+&lt;li>[[江戸時代]]&lt;/li>
+&lt;/ul></description></item></channel></rss>
