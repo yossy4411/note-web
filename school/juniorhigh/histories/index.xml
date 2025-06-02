@@ -28,7 +28,10 @@
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/school/juniorhigh/histories/muromachi/muromachi/" >室町時代&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/school/juniorhigh/histories/azuchi-momoyama/azuchi-momoyama/" >安土桃山時代&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/school/juniorhigh/histories/edo/edo/" >江戸時代&lt;/a>&lt;/li>
-&lt;li>明治時代&lt;/li>
+&lt;li>&lt;span class="dead-link">
+明治時代
+&lt;span style="font-size: 1rem">（リンク先が非公開です）&lt;/span>
+&lt;/span>&lt;/li>
 &lt;li>大正時代&lt;/li>
 &lt;li>昭和時代&lt;/li>
 &lt;li>平成時代&lt;/li>
