@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yossy4411のノート</title><link>https://yossy4411.okayugroup.net/</link><description>Recent content on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Thu, 05 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年06月05日(木)</title><link>https://yossy4411.okayugroup.net/diary/2025-06/2025-06-05/</link><pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-06/2025-06-05/</guid><description>&lt;h2 id="今日の体調">今日の体調
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yossy4411のノート</title><link>https://yossy4411.okayugroup.net/</link><description>Recent content on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Fri, 06 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/index.xml" rel="self" type="application/rss+xml"/><item><title>2025年06月06日(金)</title><link>https://yossy4411.okayugroup.net/diary/2025-06/2025-06-06/</link><pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-06/2025-06-06/</guid><description>&lt;h2 id="今日の体調">今日の体調
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>体調&lt;/th>
+&lt;th>元気&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>就寝&lt;/td>
+&lt;td>22:00&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>起床&lt;/td>
+&lt;td>6:30&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>朝食&lt;/td>
+&lt;td>6:50&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>天気痛&lt;/td>
+&lt;td>false&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="ゲーム買ったよ">ゲーム買ったよ
+&lt;/h2>&lt;p>ADOFAIこと&lt;strong>A Dance of Fire and Ice&lt;/strong>という高難易度リズムゲームです。600円ほどで買えるので、楽しそうだし買ってみたって感じです。
+思ったより難しかった。&lt;/p>
+&lt;h2 id="今日の作業">今日の作業
+&lt;/h2>&lt;h3 id="空織---動画編集ソフト">空織 - 動画編集ソフト
+&lt;/h3>&lt;p>さて、まずは&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/libs/wgpu/about/" >wgpu&lt;/a>でオフスクリーンレンダリングするところから始めましょう。&lt;/p>
+&lt;p>これは実装がすぐにできました（ありがとうAI）。&lt;/p></description></item><item><title>2025年06月05日(木)</title><link>https://yossy4411.okayugroup.net/diary/2025-06/2025-06-05/</link><pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-06/2025-06-05/</guid><description>&lt;h2 id="今日の体調">今日の体調
 &lt;/h2>&lt;table>
 &lt;thead>
 &lt;tr>
@@ -72,6 +105,7 @@
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-06/2025-06-01/" >2025-06-01&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-06/2025-06-02/" >2025-06-02&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-06/2025-06-05/" >2025-06-05&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yossy4411.okayugroup.net/diary/2025-06/2025-06-06/" >2025-06-06&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>2025年06月01日(日)</title><link>https://yossy4411.okayugroup.net/diary/2025-06/2025-06-01/</link><pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/diary/2025-06/2025-06-01/</guid><description>&lt;h2 id="今日の体調">今日の体調
 &lt;/h2>&lt;p>キャンプやばすぎる&lt;/p>
 &lt;table>
