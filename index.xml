@@ -4072,41 +4072,7 @@ println!関数に渡ったあと、その関数内でスコープを抜けると
 &lt;h2 id="xのスクショを自動化しようと思った">Xのスクショを自動化しようと思った
 &lt;/h2>&lt;p>いわゆるスクレイピングってやつです。
 Pythonでやるのも難しそうだし、そもそも需要がなさそうだったのでやめました。
-&lt;strong>手動でスクショ撮ってたほうが良い&lt;/strong>です。絶対に。&lt;/p></description></item><item><title/><link>https://yossy4411.okayugroup.net/excalidraw/drawing-2025-04-19-18.55.31.excalidraw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/excalidraw/drawing-2025-04-19-18.55.31.excalidraw/</guid><description>&lt;h1 id="知識の倉庫">知識の倉庫
-&lt;/h1>&lt;p>俺の思ったこと全部置いてる場所&lt;/p>
-&lt;p>
-&lt;div class="admonition note">
-&lt;div class="admonition-title">Note&lt;/div>
-&lt;div class="admonition-content">
-情報の宝箱やー
-&lt;/div>
-&lt;/div>
-&lt;div class="admonition caution">
-&lt;div class="admonition-title">Caution&lt;/div>
-&lt;div class="admonition-content">
-流石にプライバシーとか次の動画のネタとかは載せてません。
-あくまで役立つ情報のまとめとか、頭の中の整理のために使っています。
-&lt;/div>
-&lt;/div>
-&lt;/p>
-&lt;h2 id="hugo統合">Hugo統合
-&lt;/h2>&lt;p>基本的に、Hugo（静的サイトビルダー）として利用できるような形にしたいと思っています。
-したがって、Markdownファイルそれぞれには次のようなテンプレートが貼られています。&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>---
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>title: タイトル
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>description: 説明
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>lead: 記事の冒頭 (meta description)
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>tags: タグ1, タグ2
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>aliases: エイリアス（リダイレクション）
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>date: YYYY-MM-DD HH:mm:ss 作成日時
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>lastmod: YYYY-MM-DD HH:mm:ss 更新日時
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>draft: true/false ドラフトかどうか
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>showContent: true/false _index.mdで内容まで表示するか
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>---
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">## 内容
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>...
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>TODOリスト（すべて）</title><link>https://yossy4411.okayugroup.net/todo-all/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/todo-all/</guid><description>&lt;h2 id="アイデア">アイデア
+&lt;strong>手動でスクショ撮ってたほうが良い&lt;/strong>です。絶対に。&lt;/p></description></item><item><title>TODOリスト（すべて）</title><link>https://yossy4411.okayugroup.net/todo-all/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/todo-all/</guid><description>&lt;h2 id="アイデア">アイデア
 &lt;/h2>&lt;ul>
 &lt;li>&lt;input disabled="" type="checkbox"> 地震計プロジェクトにWeb3を活用&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> ボーカル除去AIを自作&lt;/li>
@@ -4162,4 +4128,10 @@ Pythonでやるのも難しそうだし、そもそも需要がなさそうだ�
 &lt;/ul>
 &lt;p>%% kanban:settings&lt;/p>
 &lt;pre tabindex="0">&lt;code>{&amp;#34;kanban-plugin&amp;#34;:&amp;#34;board&amp;#34;,&amp;#34;list-collapse&amp;#34;:[false,false,false,false,false,false,false,false,false,false,false]}
-&lt;/code>&lt;/pre>&lt;p>%%&lt;/p></description></item></channel></rss>
+&lt;/code>&lt;/pre>&lt;p>%%&lt;/p></description></item><item><title>おかゆグループ</title><link>https://yossy4411.okayugroup.net/excalidraw/drawing-2025-04-19-18.55.31.excalidraw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/excalidraw/drawing-2025-04-19-18.55.31.excalidraw/</guid><description>&lt;p>&lt;a class="link" href="https://okayugroup.com" target="_blank" rel="noopener"
+>おかゆグループ&lt;/a>は、『学生だからできること』をモットーに活動する、同好会のようなものです。&lt;/p>
+&lt;p>私によって創設・管理されていますが、成長させるのは&amp;quot;みんな&amp;quot;です！&lt;/p>
+&lt;p>メンバー２人しかいないから誰か来てくれ〜(´；ω；｀)&lt;/p></description></item><item><title>おかゆグループ</title><link>https://yossy4411.okayugroup.net/okayugroup/ogsp/design.excalidraw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yossy4411.okayugroup.net/okayugroup/ogsp/design.excalidraw/</guid><description>&lt;p>&lt;a class="link" href="https://okayugroup.com" target="_blank" rel="noopener"
+>おかゆグループ&lt;/a>は、『学生だからできること』をモットーに活動する、同好会のようなものです。&lt;/p>
+&lt;p>私によって創設・管理されていますが、成長させるのは&amp;quot;みんな&amp;quot;です！&lt;/p>
+&lt;p>メンバー２人しかいないから誰か来てくれ〜(´；ω；｀)&lt;/p></description></item></channel></rss>
