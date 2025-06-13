@@ -11,13 +11,13 @@ draft: false
 showContent: true
 slug: about
 ---
-**iced** ([crates.io](https://crates.io/crates/iced), [GitHub](https://github.com/iced-rs/iced))は[Rust](../../../lang/programming/Rust/Rust.md)で書かれた[GUIライブラリ](../GUIライブラリ.md)の1つであり、宣言的なUIの定義が特徴である。
+**iced** ([crates.io](https://crates.io/crates/iced), [GitHub](https://github.com/iced-rs/iced))は[[Rust]]で書かれた[[GUIライブラリ]]の1つであり、宣言的なUIの定義が特徴である。
 ## 特徴
 > A cross-platform GUI library for Rust focused on simplicity and type-safety. Inspired by [Elm](https://elm-lang.org/).
 
 日本語にすると、
 
-> 単純性と型安全性に注視した[Rust](../../../lang/programming/Rust/Rust.md)のクラスプラットフォームGUIライブラリ。Elmにインスパイアされました。
+> 単純性と型安全性に注視した[[Rust]]のクラスプラットフォームGUIライブラリ。Elmにインスパイアされました。
 
 となりますね。
 
@@ -41,9 +41,9 @@ UIを宣言する形で書く。
 
 ちなみにこれの実装にはちょっとクセが合ったりします。
 ## バックエンド
-icedはバックエンドに[wgpu](../../wgpu/wgpu.md)を採用している。  
+icedはバックエンドに[[wgpu]]を採用している。  
 また、パフォーマンスこそまずまずだが、tiny-skiaにも対応している。  
-↪[icedのバックエンドの特性](icedのバックエンドの特性.md)
+↪[[icedのバックエンドの特性]]
 
 ## サンプルコード
 

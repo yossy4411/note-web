@@ -13,7 +13,7 @@ draft: false
 showContent: false
 slug: about
 ---
-**wgpu**は[WebGPU](../../platform/graphics/webgpu/WebGPU.md)のAPIを[Rust](../../lang/programming/Rust/Rust.md)で実装した[クレート](../../lang/programming/Rust/crate.md)である。
+**wgpu**は[[WebGPU]]のAPIを[[Rust]]で実装した[[crate|クレート]]である。
 
 > [!IMPORTANT]
 > ラッパーではなく、WebGPUの設計に則ってRustで実装された、ピュアRustのライブラリである。

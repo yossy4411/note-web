@@ -1,8 +1,8 @@
 {
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "assets",
-  "useMarkdownLinks": true,
-  "newLinkFormat": "relative",
+  "useMarkdownLinks": false,
+  "newLinkFormat": "shortest",
   "pdfExportSettings": {
     "pageSize": "Letter",
     "landscape": false,

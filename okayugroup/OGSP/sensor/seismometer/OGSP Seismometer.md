@@ -12,7 +12,7 @@ draft: true
 showContent: true
 slug: about
 ---
-**OGSP Seismometer**は、[OGSP](../../OGSP.md)の一部である地震計を提供するファームウェアまたはプログラムの名称である。[OGSP Disaster Network](../../network/OGSP%20Disaster%20Network.md)では、センサー層の地象観測群に属する。
+**OGSP Seismometer**は、[[OGSP]]の一部である地震計を提供するファームウェアまたはプログラムの名称である。[[OGSP Disaster Network]]では、センサー層の地象観測群に属する。
 
 ## 設計
 OGSP Seismometerは、地震動そのものや長周期地震動の観測、地震の規模の推定、その他様々な研究用途に使用するための、そのデータ収集とネットワーク側への送信を目的とする、センサー層として動作する。

@@ -14,10 +14,10 @@ slug: uri
 
 ## 形式
 `https://example.com`  
-これはURIの中では特に[URL](URL.md)であるが、これは以下のような要素で構成されている。
+これはURIの中では特に[[URL]]であるが、これは以下のような要素で構成されている。
 
 ```code
 scheme://[userinfo@]host[:port]/path[?query][#fragment]
 ```
 
-URIのスキームは、一般的には[HTTP](application/http/HTTP.md) (`http://`, `https://`) が使用されるが、他にもFTP (`ftp://`)やメール (`mailto:`)、ローカルファイル (`file://`)などがある。
+URIのスキームは、一般的には[[HTTP]] (`http://`, `https://`) が使用されるが、他にもFTP (`ftp://`)やメール (`mailto:`)、ローカルファイル (`file://`)などがある。

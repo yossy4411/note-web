@@ -23,7 +23,7 @@ slug: about
 ## リリース
 正式なリリースは[GitHub](https://github.com/yossy4411/EarthQuake/releases)に、プレリリースバージョンは[おかゆグループ  アーカイブ](https://archive.okayugroup.com/public/EarthQuake/releases/)にて公開されています。  
 とても分かりづらいですが、画像にするならこんな感じ。
-![リリースの中で不安定だけど開発が一区切り着いたときにプレリリースバージョン、機能の追加が終了しリリースの準備ができた段階で正式リリースを出しています。](../../../../assets/EarthQuake-StagedRelease.svg)
+![[../../../../assets/EarthQuake-StagedRelease.svg|リリースの中で不安定だけど開発が一区切り着いたときにプレリリースバージョン、機能の追加が終了しリリースの準備ができた段階で正式リリースを出しています。]]
 ### バージョン履歴
 - [v0.1.1](https://github.com/yossy4411/EarthQuake/releases/tag/v0.1.1) - 2024年12月22日
     マップにPMTilesを使用、バグ修正

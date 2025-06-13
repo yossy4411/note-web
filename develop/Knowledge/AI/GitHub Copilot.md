@@ -11,7 +11,7 @@ showContent: false
 slug:
 ---
 ## 概要
-GitHub CopilotはMicrosoftが開発した、コーディングに特化した[AI](AI.md)。
+GitHub CopilotはMicrosoftが開発した、コーディングに特化した[[AI]]。
 
 GPTなどの大規模LLMと、GitHubに存在する星の数ほどのコードを基にした学習データセットを組み合わせて作成されている。
 

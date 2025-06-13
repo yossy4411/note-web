@@ -11,12 +11,12 @@ title = ''
 何かしらの役に立てれば幸いです。
 
 ## 目次
-- [OGSP](okayugroup/OGSP/OGSP.md)
-- [開発](develop/開発.md) - 開発に関すること
-  - [知識置き場](develop/Knowledge/知識置き場.md) - 知識の整理
-- [日記](diary/日記.md) - 日々の出来事まとめ
-- [学校](school/学校.md) - 学校の勉強内容など
-- [推し活](favorite/推し活.md) - 推しを語りたい
+- [[OGSP]]
+- [[開発]] - 開発に関すること
+  - [[知識置き場]] - 知識の整理
+- [[日記]] - 日々の出来事まとめ
+- [[学校]] - 学校の勉強内容など
+- [[推し活]] - 推しを語りたい
 
 ## GitHub Repo
 このノートはGitHubとObsidianによって、[こちら](https://github.com/yossy4411/note)にて公開されています。  
@@ -28,8 +28,8 @@ title = ''
 ノートの内容はCC0ライセンスで公開されており、自由に利用できます。ただし、画像や商標権はその著作者に帰属しますので、注意してください。  
 
 > [!WARNING]
-> なお、[知識置き場](develop/Knowledge/知識置き場.md)では、Wikipediaのコンテンツを使用しているため[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)ライセンスをかけています。ご注意ください。
+> なお、[[知識置き場]]では、Wikipediaのコンテンツを使用しているため[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)ライセンスをかけています。ご注意ください。
 
-詳しくは[ライセンス](ライセンス.md)をご覧ください。
+詳しくは[[ライセンス]]をご覧ください。
 ## お問い合わせ
 何か質問や要望があれば、[Twitter](https://twitter.com/yossy4411_dev)までDM、もしくは記事のコメントをご利用ください。
