@@ -10,7 +10,7 @@ draft: false
 showContent: true
 slug: server-node-official
 ---
-**OGSP Server Node** (**おかゆグループ地震計プロジェクト サーバーノード**)は、[OGSP Disaster Network](../network/OGSP%20Disaster%20Network.md)におけるサーバー層のノードを提供するプログラムの総称である。
+**OGSP Server Node** (**おかゆグループ地震計プロジェクト サーバーノード**)は、[[OGSP Disaster Network]]におけるサーバー層のノードを提供するプログラムの総称である。
 
 コードはオープンソースで公開されており、自由に改変できる。
 
@@ -27,7 +27,7 @@ slug: server-node-official
 > P2Pなどの部分は実装予備段階です。これにはコンピューターが複数台必要であるため、その予算が確保できていないことが主な理由です。
 ## 設計
 ### 1. データ収集
-OGSP Server Nodeは、[OGSP Disaster Network](../network/OGSP%20Disaster%20Network.md)におけるセンサー層からデータを収集する役割を担っており、このセンサーとはUDPで通信を行う。なお、導入の壁を減らすためにポート開放はサーバー側でのみ行い、センサー側のポート開放は必要ない。  
+OGSP Server Nodeは、[[OGSP Disaster Network]]におけるセンサー層からデータを収集する役割を担っており、このセンサーとはUDPで通信を行う。なお、導入の壁を減らすためにポート開放はサーバー側でのみ行い、センサー側のポート開放は必要ない。  
 
 ただし、UDPのみでなおかつポート開放をしない環境では、サーバーがセンサーに通信を行うことはできないため、ここではIPv6のエニーキャストなどの技術を使用して対応する。
 ### 2. ネットワークコンピューティングを使用した高度な計算
@@ -39,7 +39,7 @@ OGSP Server NodeはWeb3の実現のためにサーバー同士でP2Pを構築す
 ### 4. APIハンドリング
 OGSP Server Nodeは"偏らないデータを簡単に取得できること"を目標とするため、データを取得するための方法としてAPIを提供する。
 
-ここには最新技術を取り入れ、[HTTP/3](../../../develop/Knowledge/internet/application/http/HTTP3.md)および[QUIC](../../../develop/Knowledge/internet/transport/quic/QUIC.md)プロトコルを用いて高速かつ安全な通信を保証する。
+ここには最新技術を取り入れ、[[HTTP3|HTTP/3]]および[[QUIC]]プロトコルを用いて高速かつ安全な通信を保証する。
 ### 注1: コードの改変について
 OGSP Server Nodeのコードはオープンソースであり、GitHubで公開されている。これは自由に改変して公開することのできるMITライセンスなどを実装するつもりであるが、ここで問題がある。
 
@@ -70,7 +70,7 @@ OGSP Server Nodeのコードはオープンソースであり、GitHubで公開�
 
 このようなWeb3ネットワークは、１つの個人や団体が管理するものではなく、参加者全員が所有するもの、と考えるべきである。というのも、Web3は責任や管理の権限を分散するという思想に基づいているためである。
 
-例えば「[おかゆグループ](../../おかゆグループ.md)」に対して予報業務許可が下りた場合でも、おかゆグループが直轄しないサーバーを管理する個人や団体はそれを持っていないため、サーバーの中の予報サービス系の処理は、おかゆグループによるサーバーが独占することとなる。  
+例えば「[[おかゆグループ]]」に対して予報業務許可が下りた場合でも、おかゆグループが直轄しないサーバーを管理する個人や団体はそれを持っていないため、サーバーの中の予報サービス系の処理は、おかゆグループによるサーバーが独占することとなる。  
 これはWeb3の思想に**反する**。
 
 これに対応するためには、最も手っ取り早い方法としては**予報業務をしない**ことである。代わりに、地震計の加速度を直接配信するなどの方法を使う。
@@ -83,7 +83,7 @@ OGSP Server Official Nodeの開発環境は以下のとおりである。
 
 - Go
 - [go-libp2p](https://github.com/libp2p/go-libp2p) - libp2pの公式Go実装
-- [quic-go](https://github.com/quic-go/quic-go/) - [QUIC](../../../develop/Knowledge/internet/transport/quic/QUIC.md)と[HTTP/3](../../../develop/Knowledge/internet/application/http/HTTP3.md)のGo実装
+- [quic-go](https://github.com/quic-go/quic-go/) - [[QUIC]]と[[HTTP3|HTTP/3]]のGo実装
 - [echo](https://github.com/labstack/echo) - 高パフォーマンスのGoサーバーフレームワーク
 - [Nix](https://github.com/NixOS/nix) - 環境ツール
 

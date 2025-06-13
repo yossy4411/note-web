@@ -19,9 +19,9 @@ slug: about
 最近のAIの技術の成長速度は非常に速く、4日ごとにトレンドが入れ替わると言って良い程（私見）です。
 
 ## コーディング
-[GitHub Copilot](GitHub%20Copilot.md)やCursorを使うことで、AIによってコーディングを自動化できる。
+[[GitHub Copilot]]やCursorを使うことで、AIによってコーディングを自動化できる。
 
 便利な反面、これには良くない点もあるかと思う。  
-↪ [AIにコード書かせてる奴ら、それでいいの？](AIにコード書かせてる奴ら、それでいいの？.md)
+↪ [[AIにコード書かせてる奴ら、それでいいの？]]
 
 [^1]: [人工知能 - Wikipedia](https://ja.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD)

@@ -11,16 +11,16 @@ draft: false
 showContent: false
 slug: "3"
 ---
-**HTTP/3** は、[HTTP2](HTTP2.md)に続く[HTTP](HTTP.md)の3つ目のメジャーバージョンであり、最新版である。2022年に RFC 9114 によって正式化された。
+**HTTP/3** は、[[HTTP2]]に続く[[HTTP]]の3つ目のメジャーバージョンであり、最新版である。2022年に RFC 9114 によって正式化された。
 
 ## 概要
-HTTP/3は、RFCドラフト「HTTP over QUIC」をベースとしている。[QUIC](../../transport/quic/QUIC.md)はGoogleによってはじめに開発された、[トランスポート層](../../transport/トランスポート層.md)のプロトコルである。
+HTTP/3は、RFCドラフト「HTTP over QUIC」をベースとしている。[[QUIC]]はGoogleによってはじめに開発された、[[トランスポート層]]のプロトコルである。
 
-もっとも、通信プロトコルの基盤が[TCP](../../transport/tcp/TCP.md)から[UDP](../../transport/udp/UDP.md)ベースの[QUIC](../../transport/quic/QUIC.md)に変化したことが最大の変化である。
+もっとも、通信プロトコルの基盤が[[TCP]]から[[UDP]]ベースの[[QUIC]]に変化したことが最大の変化である。
 
 ## 特徴
 ### QUICプロトコルベース
-HTTP/3は、[TCP/IP](../../TCP-IP.md)接続から進化して、[UDP](../../transport/udp/UDP.md)上に築かれた[QUIC](../../transport/quic/QUIC.md)という新しいプロトコルを使用する。これにより、[0-RTT接続](0-RTT接続.md)が可能である。
+HTTP/3は、[[TCP-IP|TCP/IP]]接続から進化して、[[UDP]]上に築かれた[[QUIC]]という新しいプロトコルを使用する。これにより、[[0-RTT接続]]が可能である。
 
 また、QUICの機能を活かし、再接続なしで接続の再開ができる。
 
@@ -37,9 +37,9 @@ QUICでは暗号化(TLS 1.3)が標準化されていて、通信は常にセキ�
 ## 比較
 (ChatGPTによる生成)
 
-| 項目        | [HTTP1.1](HTTP1.1.md)             | [HTTP/2](HTTP2.md)                | HTTP/3                                                                   |
+| 項目        | [[HTTP1.1]]             | [[HTTP2|HTTP/2]]                | HTTP/3                                                                   |
 | --------- | --------------------------------- | --------------------------------- | ------------------------------------------------------------------------ |
-| 通信方式      | [TCP](../../transport/tcp/TCP.md) | [TCP](../../transport/tcp/TCP.md) | [UDP](../../transport/udp/UDP.md)（+[QUIC](../../transport/quic/QUIC.md)） |
+| 通信方式      | [[TCP]] | [[TCP]] | [[UDP]]（+[[QUIC]]） |
 | マルチプレクシング | ×（順番に処理）                          | ◯（1接続で並列）                         | ◎（独立して並列）                                                                |
 | HOL問題     | ×（がっつり）                           | △（少しあり）                           | ◎（完全解消）                                                                  |
 | 暗号化       | 任意（TLS対応）                         | 任意（TLS推奨）                         | 強制（TLS 1.3内蔵）                                                            |
