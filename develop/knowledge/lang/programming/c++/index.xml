@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>C++ on yossy4411のノート</title><link>https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/c++/</link><description>Recent content in C++ on yossy4411のノート</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>yossy4411 (おかゆ)</copyright><lastBuildDate>Fri, 16 May 2025 15:24:13 +0900</lastBuildDate><atom:link href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/c++/index.xml" rel="self" type="application/rss+xml"/><item><title>C++</title><link>https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/c++/</link><pubDate>Fri, 16 May 2025 15:24:13 +0900</pubDate><guid>https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/c++/</guid><description>&lt;p>&lt;strong>C++&lt;/strong> (&lt;strong>シープラスプラス&lt;/strong>) は、汎用プログラミング言語のひとつである。&lt;br>
-C言語の特徴を継承しつつ、&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/procedural/about/" >手続き型プログラミング&lt;/a>や抽象・&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/object-orient/about/" >オブジェクト指向プログラミング&lt;/a>、ジェネリックプログラミングなどの複数の&lt;a class="link" href="https://yossy4411.okayugroup.net/develop/knowledge/lang/programming/paradime/" >プログラミングパラダイム&lt;/a>が組み合わせられている（マルチパラダイムプログラミングの）言語である。&lt;/p>
-&lt;p>ハードウェアを直接操作するような低水準言語としても、複雑なソフトウェアを開発する高水準言語としても使用できる。&lt;/p>
-&lt;h2 id="概要">概要
-&lt;/h2>&lt;p>C++は歴史を遡るとかなり古い。&lt;/p>
-&lt;p>1979年、C with Classesの開発が開始され、途中大規模ソフトウェアの開発はSimulaが有用だということに気がついた。そのため、その特徴を取り入れつつ、クラスと派生クラス、型付けの強化、インライン関数、デフォルト引数の機能をCに追加したものを、1985年10月に最初の商用リリースした。&lt;/p>
-&lt;p>1983年にはC with ClassesはC++に改名された。&lt;/p>
-&lt;hr>
-&lt;p>あのさー、C++を説明するのはむずくないか？ｗ&lt;/p></description></item></channel></rss>
