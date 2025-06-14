@@ -61,24 +61,15 @@ jobs:
         run: |
           git pull origin main
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          hugo-version: 'latest'
-          extended: true
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.13'
-
-      - name: Convert Obsidian Markdown to Hugo Markdown
-        run: |
-          python replace_markdown.py
+          node-version: '24'
 
       - name: Build
         run: |
-          hugo --minify
+          npm install
+          npm run quartz build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
