@@ -28,3 +28,6 @@ showContent: true/false _index.mdで内容まで表示するか
 ## 内容
 ...
 ```
+
+## Home
+[[_index|Home]]
