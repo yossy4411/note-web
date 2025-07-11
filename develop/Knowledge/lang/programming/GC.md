@@ -5,8 +5,8 @@ lead:
 tags: 
 aliases:
   - GC
-date: 2025-04-09T20:47:42+09:00
-lastmod: 2025-04-09T20:47:42+09:00
+created: 2025-04-09T20:47:42+09:00
+modified: 2025-07-11T09:02:57+09:00
 draft: true
 showContent: false
 slug: gc

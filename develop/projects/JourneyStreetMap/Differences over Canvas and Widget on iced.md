@@ -4,11 +4,13 @@ description:
 lead: 
 tags:
   - グラフィック
-aliases: 
+aliases:
+  - icedのCanvasとWidgetの使い分け
 date: 2025-04-04T08:08:13+09:00
 lastmod: 2025-04-04T08:08:13+09:00
 draft: true
-slug: differ-iced-canvas-widget
+created: 2025-04-03T23:08:13+09:00
+modified: 2025-07-11T08:37:50+09:00
 ---
 ## コイツラはまず何やねん
 これらはどちらも、[[iced]]のカスタムウィジェットを作るためのトレイトです。

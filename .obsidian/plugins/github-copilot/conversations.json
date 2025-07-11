@@ -1,0 +1,29 @@
+{
+  "conversations": [
+    {
+      "id": "1752223841730",
+      "title": "QUICはトランスポート層なのかな",
+      "messages": [
+        {
+          "id": "1752223841730",
+          "content": "QUICはトランスポート層なのかな",
+          "role": "user",
+          "timestamp": 1752223841730
+        },
+        {
+          "id": "chatcmpl-Bs3koYUEdwZHxCA167HKKTb34uKwV",
+          "content": "はい、**QUIC（Quick UDP Internet Connections）はトランスポート層のプロトコル**です。\n\n### 詳細\n- **OSI参照モデル**でいうと、トランスポート層（第4層）に位置します。\n- 従来のトランスポート層プロトコルである**TCP**や**UDP**の代替・拡張として設計されています。\n- QUICはUDP上に実装されており、TCPのようなコネクション管理や信頼性、暗号化（TLS統合）などを提供します。\n\n### まとめ\n- **QUICはトランスポート層プロトコル**です。\n- UDPをベースにして、TCPの機能＋α（暗号化、マルチプレクシングなど）を実現しています。\n\nもしさらに詳しい技術的な説明や、QUICの特徴について知りたい場合は、追加で質問してください！",
+          "role": "assistant",
+          "timestamp": 1752223846909
+        }
+      ],
+      "createdAt": 1752223841730,
+      "updatedAt": 1752223846909,
+      "model": {
+        "label": "GPT-4.1",
+        "value": "gpt-4.1-2025-04-14"
+      }
+    }
+  ],
+  "activeConversationId": "1752223841730"
+}

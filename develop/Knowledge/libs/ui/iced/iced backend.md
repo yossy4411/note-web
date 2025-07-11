@@ -4,11 +4,11 @@ description: icedの描画ライブラリの使い方にクセがある
 lead: 
 tags:
   - グラフィック
-aliases: 
-lastmod: 2025-04-01 21:20:37
-date: 2025-05-14
+aliases:
+  - icedのバックエンド
 draft: true
-slug: iced-backend
+created: 2025-04-03T04:18:58+09:00
+modified: 2025-07-11T09:12:14+09:00
 ---
 ## `tiny-skia`を使うとどうなるか
 `tiny-skia`はSkiaを基にした軽量な[[../../../lang/programming/Rust/_index|Rust]]のライブラリです。

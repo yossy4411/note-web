@@ -3,12 +3,15 @@ title: JSM開発停止
 description: 
 lead: 
 tags: 
-aliases: 
+aliases:
+  - JSMの開発停止
 date: 2025-04-28T20:45:40+09:00
 lastmod: 2025-04-28T20:45:40+09:00
 draft: false
 showContent: false
 slug: jsm-is-not-longer-under-develop
+created: 2025-06-15T07:56:09+09:00
+modified: 2025-07-11T08:35:03+09:00
 ---
 本日([[2025-04-28]])をもちまして、[[JourneyStreetMap|JSM]]の開発を一時的に終了させていただきます。
 

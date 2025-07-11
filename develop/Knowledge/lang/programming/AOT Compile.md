@@ -3,12 +3,12 @@ title: AOTコンパイル
 description: 
 lead: 
 tags: 
-aliases: 
-date: 2025-05-19T19:40:21+09:00
-lastmod: 2025-05-19T19:40:21+09:00
+aliases:
+  - AOTコンパイル
 draft: false
 showContent: false
-slug: ahead-of-time-compile
+created: 2025-06-28T12:47:56+09:00
+modified: 2025-07-11T09:01:57+09:00
 ---
 **AOTコンパイル** (英: AOT Compile) は、プログラムのコードやILをコンパイル時に機械語へ変換するコンパイルの方法のこと。対義語はJITコンパイルである。
 

@@ -3,14 +3,15 @@ title: 型安全性
 description: Rustの型安全性について
 lead: 
 tags: 
-aliases: []
+aliases:
+  - Rustの型安全性
 date: 2025-04-09T21:35:49+09:00
 lastmod: 2025-04-09T21:35:49+09:00
 draft: true
 showContent: false
-slug: type-safe
+created: 2025-04-09T12:35:49+09:00
+modified: 2025-07-11T09:09:44+09:00
 ---
-この記事は執筆途中です。
 ## 静的型付け
 まず、[[Rust]]は強い静的型付け言語である。
 

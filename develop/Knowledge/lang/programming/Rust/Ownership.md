@@ -1,13 +1,13 @@
 ---
 title: 所有権システム
-description: 
+description: 値を保持する場所
 lead: Rustには"所有権システム"というのがあります。これには、ゼロコストのメモリ管理ができるという利点があります。
 tags: 
-aliases: []
-date: 2025-04-04T16:25:59+09:00
-lastmod: 2025-04-04T16:25:59+09:00
+aliases:
+  - 所有権
 draft: false
-slug: ownership
+created: 2025-04-04T07:25:59+09:00
+modified: 2025-07-11T09:08:48+09:00
 ---
 ### 所有権
 Rustには"所有権システム"というのがあります。

@@ -5,11 +5,14 @@ lead:
 tags: 
 aliases:
   - 論理アドレス
+  - IPアドレス
 date: 2025-04-20T11:09:22+09:00
 lastmod: 2025-04-20T11:09:22+09:00
 draft: true
 showContent: false
 slug: ip-addres
+created: 2025-04-20T02:09:22+09:00
+modified: 2025-07-11T08:39:15+09:00
 ---
 **IPアドレス**は、[[IP|インターネット・プロトコル]]上で通信相手を識別するための番号。
 
