@@ -29,7 +29,7 @@ aliases:
 
 ## 勉強・学習中
 
-- [ ] [[WebGPUのOGSP-DPへの利活用]]
+- [ ] [[using-webgpu]]
 - [ ] Vulkan
 - [ ] Web3
 - [ ] NFT

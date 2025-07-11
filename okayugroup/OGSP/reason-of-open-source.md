@@ -3,9 +3,10 @@ title: OGSP - オープンソースの理由
 description: 
 lead: 
 tags: 
-aliases: 
-date: 2025-05-22T21:33:27+09:00
-lastmod: 2025-05-22T21:33:27+09:00
+aliases:
+  - オープンソースの理由
+created: 2025-05-22T21:33:27+09:00
+modified: 2025-05-22T21:33:27+09:00
 draft: false
 showContent: false
 slug:

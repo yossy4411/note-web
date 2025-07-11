@@ -6,11 +6,11 @@ tags:
   - GPU
   - グラフィック
   - Web
-aliases: []
-created: 2025-04-01 18:37:30
-date: 2025-04-01 18:37:30
+aliases:
+  - WebGPUのOGSP-DPへの利活用
+created: 2025-04-03T04:18:58+09:00
+modified: 2025-07-11T08:26:22+09:00
 draft: true
-slug: using-webgpu
 ---
 このドキュメントは[[OGSP Disaster Prevention]]に関連します。
 ## WebGPUについて
