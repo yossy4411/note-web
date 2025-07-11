@@ -9,16 +9,17 @@ date: 2025-05-01T19:27:06+09:00
 lastmod: 2025-05-01T19:27:06+09:00
 draft: true
 showContent: false
-slug: tcp-ip-connection
+created: 2025-05-01T10:27:06+09:00
+modified: 2025-07-11T09:42:20+09:00
 ---
 **インターネット・プロトコル・スイート**（Internet protocol suite）は、[[インターネット]]を含む多くのコンピューターネットワークにおいて、標準的に利用されている通信プロトコルのセットである。
 
-**TCP/IPプロトコル**、あるいは**TCP/IP**([[TCP|Transmission Control Protocol]] / [[IP|Internet Protocol]])とも呼ばれる。
+**TCP/IPプロトコル**、あるいは**TCP/IP**([[develop/Knowledge/internet/transport/tcp/_index|Transmission Control Protocol]] / [[develop/Knowledge/internet/protocol/_index|Internet Protocol]])とも呼ばれる。
 
 ## 概要
 有線、無線などの物理層の違いのほか、イーサネット、モデムによるシリアル通信などの物理層とデータリンク層の違いがあったり、ベンダやOSが異なっていたりしても、TCP/IPに対応している機器同士であれば、相互に通信することが可能となる。プロトコルの仕様は公開されている。
 
-TCP/IPにおけるデータ通信のモデルは、TCP/IPモデル（TCP/IP参照モデル）と呼ばれ、[[アプリケーション層]]、[[トランスポート層]]、インターネット層、リンク層の4層で構成されている。
+TCP/IPにおけるデータ通信のモデルは、TCP/IPモデル（TCP/IP参照モデル）と呼ばれ、[[アプリケーション層]]、[[develop/Knowledge/internet/transport/_index|トランスポート層]]、インターネット層、リンク層の4層で構成されている。
 
 各機器は、下位層プロトコル（リンク層など）と上位層プロトコル（アプリケーション層など）の両方に従って通信を行っている。  
 上位層では理論的に、下位層では物理的にデータを転送する。
@@ -26,15 +27,15 @@ TCP/IPにおけるデータ通信のモデルは、TCP/IPモデル（TCP/IP参�
 そのため、データを転送する際は、上位層のプロトコルに基づくデータの先頭と末尾に、より下位層のプロトコルに基づくヘッダとフッタを付与していく（カプセル化）。この階層的な通信規約の設計をプロトコルスタックと呼ぶことがある。
 
 ## TCPとIPの意味
-### [[IP]]
-- ネットワーク上の住所（[[IPアドレス]]）を決める仕組み。
+### [[develop/Knowledge/internet/protocol/_index|IP]]
+- ネットワーク上の住所（[[IP Address]]）を決める仕組み。
 - どこに送るかを担当する。
 - 中身に左右されず、転送だけを担当している。
 
 このため、IPはインターネット層と呼ばれる。
-### [[TCP]]
+### [[develop/Knowledge/internet/transport/tcp/_index|TCP]]
 - データの中身を順番通りに、崩壊（パケットロス）させずに届ける仕組み。
 - パケットロスがあった場合の再送処理も実装されている。
 
 ## おまけ
-TCP/IPって言うくせに[[UDP]]とかも入ります。ややこしいです。
+TCP/IPって言うくせに[[develop/Knowledge/internet/transport/udp/_index|UDP]]とかも入ります。ややこしいです。

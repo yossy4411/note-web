@@ -9,8 +9,10 @@ lastmod: 2025-05-09T18:26:35+09:00
 draft: false
 showContent: false
 slug: keep-alive
+created: 2025-05-09T09:26:35+09:00
+modified: 2025-07-11T09:30:55+09:00
 ---
-**Keep-Alive**、または**Keep-Alive接続**とは、[[HTTP]]において、[[TCP]]接続を切断させずに持続的に接続を行うことである。
+**Keep-Alive**、または**Keep-Alive接続**とは、[[develop/Knowledge/internet/application/http/_index|HTTP]]において、[[develop/Knowledge/internet/transport/tcp/_index|TCP]]接続を切断させずに持続的に接続を行うことである。
 
 HTTPの仕組みとして、データを転送するときには、ハンドシェイクを行って接続を確立し、そのあとにリクエスト本体を送信する。Keep-Aliveは、その確立された接続を、接続したままにする仕組みである。
 

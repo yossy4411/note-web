@@ -1,0 +1,83 @@
+---
+kanban-plugin: board
+title: TODOリスト（すべて）
+aliases:
+  - やることリスト（すべて）
+---
+
+## アイデア
+
+- [ ] 地震計プロジェクトにWeb3を活用
+- [ ] ボーカル除去AIを自作
+- [ ] オープンソースな政治を目指そうの会
+- [ ] 広告で稼ごう
+
+
+## 検討中
+
+- [ ] [[OGSP Disaster Prevention]]
+- [ ] 動画編集ソフトを自作
+- [ ] プロジェクト管理を容易にしよう
+- [ ] PMTiles.NETにWriteの処理を追加
+
+
+## 調査・視察中
+
+- [ ] もりうさプロジェクト
+- [ ] 地震観測
+
+
+## 勉強・学習中
+
+- [ ] [[using-webgpu]]
+- [ ] Vulkan
+- [ ] Web3
+- [ ] NFT
+
+
+## 修正が必要 ⏫
+
+
+
+## やりたいこと
+
+
+
+## 進行中
+
+- [ ] [[OGSP]] サーバー開発
+
+
+## 一時停止中
+
+- [ ] YouTubeやれ
+
+
+## 完了（修正済み）
+
+**完了**
+
+
+## 完了（開発停止）
+
+**完了**
+- [x] [[../okayugroup/OGSP/previous/EarthQuake/_index|EarthQuake.Desktop]]
+- [x] [[JourneyStreetMap]] ✅ 2025-04-28
+
+
+## 予定なし
+
+
+
+***
+
+## アーカイブ
+
+- [x] [[../okayugroup/OGSP/previous/EarthQuake/_index|EarthQuake.Desktop]]
+- [x] [[../okayugroup/OGSP/previous/EarthQuake/_index|EarthQuake.Desktop]]
+
+%% kanban:settings
+```
+{"kanban-plugin":"board","list-collapse":[false,false,false,false,false,false,false,false,false,false,false]}
+```
+%%
