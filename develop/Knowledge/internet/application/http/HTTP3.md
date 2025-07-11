@@ -10,17 +10,19 @@ lastmod: 2025-04-30T22:52:22+09:00
 draft: false
 showContent: false
 slug: "3"
+created: 2025-04-30T13:52:22+09:00
+modified: 2025-07-11T09:30:38+09:00
 ---
-**HTTP/3** は、[[HTTP2]]に続く[[HTTP]]の3つ目のメジャーバージョンであり、最新版である。2022年に RFC 9114 によって正式化された。
+**HTTP/3** は、[[HTTP2]]に続く[[develop/Knowledge/internet/application/http/_index|HTTP]]の3つ目のメジャーバージョンであり、最新版である。2022年に RFC 9114 によって正式化された。
 
 ## 概要
-HTTP/3は、RFCドラフト「HTTP over QUIC」をベースとしている。[[QUIC]]はGoogleによってはじめに開発された、[[トランスポート層]]のプロトコルである。
+HTTP/3は、RFCドラフト「HTTP over QUIC」をベースとしている。[[develop/Knowledge/internet/transport/quic/_index|QUIC]]はGoogleによってはじめに開発された、[[develop/Knowledge/internet/transport/_index|トランスポート層]]のプロトコルである。
 
-もっとも、通信プロトコルの基盤が[[TCP]]から[[UDP]]ベースの[[QUIC]]に変化したことが最大の変化である。
+もっとも、通信プロトコルの基盤が[[develop/Knowledge/internet/transport/tcp/_index|TCP]]から[[develop/Knowledge/internet/transport/udp/_index|UDP]]ベースの[[develop/Knowledge/internet/transport/quic/_index|QUIC]]に変化したことが最大の変化である。
 
 ## 特徴
 ### QUICプロトコルベース
-HTTP/3は、[[TCP-IP|TCP/IP]]接続から進化して、[[UDP]]上に築かれた[[QUIC]]という新しいプロトコルを使用する。これにより、[[0-RTT接続]]が可能である。
+HTTP/3は、[[TCP-IP|TCP/IP]]接続から進化して、[[develop/Knowledge/internet/transport/udp/_index|UDP]]上に築かれた[[QUIC]]という新しいプロトコルを使用する。これにより、[[0-RTT Connection]]が可能である。
 
 また、QUICの機能を活かし、再接続なしで接続の再開ができる。
 
@@ -37,11 +39,11 @@ QUICでは暗号化(TLS 1.3)が標準化されていて、通信は常にセキ�
 ## 比較
 (ChatGPTによる生成)
 
-| 項目        | [[HTTP1.1]]             | [[HTTP2|HTTP/2]]                | HTTP/3                                                                   |
-| --------- | --------------------------------- | --------------------------------- | ------------------------------------------------------------------------ |
-| 通信方式      | [[TCP]] | [[TCP]] | [[UDP]]（+[[QUIC]]） |
-| マルチプレクシング | ×（順番に処理）                          | ◯（1接続で並列）                         | ◎（独立して並列）                                                                |
-| HOL問題     | ×（がっつり）                           | △（少しあり）                           | ◎（完全解消）                                                                  |
-| 暗号化       | 任意（TLS対応）                         | 任意（TLS推奨）                         | 強制（TLS 1.3内蔵）                                                            |
-| ヘッダ圧縮     | ×                                 | ◯（HPACK）                          | ◯（QPACK）                                                                 |
-| サーバープッシュ  | ×                                 | ◯（あり）                             | △（非推奨傾向）                                                                 |
+| 項目        | [[HTTP1.1]]                                              | [[HTTP2                                                  | HTTP/2]]                                                   | HTTP/3 |
+| --------- | -------------------------------------------------------- | -------------------------------------------------------- | ---------------------------------------------------------- | ------ |
+| 通信方式      | [[develop/Knowledge/internet/transport/tcp/_index\|TCP]] | [[develop/Knowledge/internet/transport/tcp/_index\|TCP]] | [[develop/Knowledge/internet/transport/quic/_index\|QUIC]] |        |
+| マルチプレクシング | ×（順番に処理）                                                 | ◯（1接続で並列）                                                | ◎（独立して並列）                                                  |        |
+| HOL問題     | ×（がっつり）                                                  | △（少しあり）                                                  | ◎（完全解消）                                                    |        |
+| 暗号化       | 任意（TLS対応）                                                | 任意（TLS推奨）                                                | 強制（TLS 1.3内蔵）                                              |        |
+| ヘッダ圧縮     | ×                                                        | ◯（HPACK）                                                 | ◯（QPACK）                                                   |        |
+| サーバープッシュ  | ×                                                        | ◯（あり）                                                    | △（非推奨傾向）                                                   |        |

@@ -7,7 +7,7 @@ aliases:
   - ナレッジ
   - 知識
 created: 2025-04-03T23:21:03+09:00
-modified: 2025-07-11T09:15:59+09:00
+modified: 2025-07-11T11:11:29+09:00
 ---
 > [!IMPORTANT]
 > これを作成する私はあくまでも「中学生」で、プログラミングを専門的にやっている訳ではありません。
@@ -30,8 +30,9 @@ modified: 2025-07-11T09:15:59+09:00
 CC BY-SA 4.0に基づいて再配布。
 ```
 
-## リンク
-- [[ライブラリ]]
-- [[エンジニアリングに関連する言語]]
-- [[プラットフォーム]]
-- [[AI]]
+%%
+- [[develop/Knowledge/libs/_index|ライブラリ]]
+- [[Programming Language|プログラミング言語]]
+- [[develop/Knowledge/platform/_index|プラットフォーム]]
+- [[develop/Knowledge/AI/_index|AI]]
+%%

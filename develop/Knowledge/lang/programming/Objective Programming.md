@@ -8,9 +8,9 @@ aliases:
 draft: false
 showContent: true
 created: 2025-05-14T12:58:46+09:00
-modified: 2025-07-11T09:03:05+09:00
+modified: 2025-07-11T10:23:39+09:00
 ---
-**オブジェクト指向** (オブジェクトしこう、英: object-oriented) とは、プログラミングのために用いられる考え方の1つである。根源的には、既に存在していた[[Programming Paradime]]を説明するためにできた言葉であり、それはGUIとも密接に関係しているものだった。
+**オブジェクト指向** (オブジェクトしこう、英: object-oriented) とは、プログラミングのために用いられる考え方の1つである。根源的には、既に存在していた[[Programming Paradime|プログラミングパラダイム]]を説明するためにできた言葉であり、それはGUIとも密接に関係しているものだった。
 
 このパラダイムを組み込んだプログラミングを**オブジェクト指向プログラミング** (Object-Oriented Programming) と呼び、OOPと略される。
 
@@ -37,11 +37,11 @@ modified: 2025-07-11T09:03:05+09:00
 
 - Python
 - JavaScript
-- [[Rust]]
+- [[develop/Knowledge/lang/programming/Rust/_index|Rust]]
 - Swift
 - Kotlin
 - Scala
-- C++
+- [[develop/Knowledge/lang/programming/C++/_index|C++]]
 - Go
 - PHP
 - TypeScript

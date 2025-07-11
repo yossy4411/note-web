@@ -3,11 +3,11 @@ title: Wgpu
 description: WebGPUのRust実装
 draft: false
 created: 2025-04-08T05:47:08+09:00
-modified: 2025-07-11T09:14:39+09:00
+modified: 2025-07-11T11:08:24+09:00
 aliases:
   - wgpu
 ---
-**wgpu**は[[WebGPU]]のAPIを[[Rust]]で実装した[[crate|クレート]]である。
+**wgpu**は[[develop/Knowledge/platform/graphics/webgpu/_index|WebGPU]]のAPIを[[develop/Knowledge/lang/programming/Rust/_index|Rust]]で実装した[[crate|クレート]]である。
 
 > [!IMPORTANT]
 > ラッパーではなく、WebGPUの設計に則ってRustで実装された、ピュアRustのライブラリである。

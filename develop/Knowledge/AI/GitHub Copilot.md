@@ -9,9 +9,11 @@ lastmod: 2025-04-13T16:00:53+09:00
 draft: false
 showContent: false
 slug:
+created: 2025-04-13T07:00:53+09:00
+modified: 2025-07-11T09:19:43+09:00
 ---
 ## 概要
-GitHub CopilotはMicrosoftが開発した、コーディングに特化した[[AI]]。
+GitHub CopilotはMicrosoftが開発した、コーディングに特化した[[develop/Knowledge/AI/_index|AI]]。
 
 GPTなどの大規模LLMと、GitHubに存在する星の数ほどのコードを基にした学習データセットを組み合わせて作成されている。
 

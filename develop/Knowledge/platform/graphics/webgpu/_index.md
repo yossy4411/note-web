@@ -3,7 +3,7 @@ title: WebGPU
 description: 
 draft: false
 created: 2025-04-08T05:36:36+09:00
-modified: 2025-07-11T09:15:24+09:00
+modified: 2025-07-11T11:09:41+09:00
 aliases:
   - WebGPU
 ---
@@ -16,7 +16,7 @@ VulkanやMetal、Direct3Dをラップするような形で、クロスプラッ�
 ## 実装・設計
 設計の中心となるヘッダーファイルは[webgpu.h](https://raw.githubusercontent.com/webgpu-native/webgpu-headers/main/webgpu.h)で提供されている。これには関数や構造体などの「設計書」のみが定義されており、中身は別のライブラリに存在する。
 ### Rust
-WebGPUの設計書に基づいて純粋な[[Rust]]でそれを実装したものが[[wgpu]]だ。主にMozilla FirefoxやRustの[[GUIライブラリ]]で使用されている。
+WebGPUの設計書に基づいて純粋な[[develop/Knowledge/lang/programming/Rust/_index|Rust]]でそれを実装したものが[[develop/Knowledge/libs/wgpu/_index|wgpu]]だ。主にMozilla FirefoxやRustの[[GUI library|GUIライブラリ]]で使用されている。
 ## C++
 WebGPUをC++で実装したものが、[WebGPU-C++](https://github.com/eliemichel/WebGPU-Cpp)や[Dawn](https://github.com/google/dawn)である。特にDawnはGoogleによって開発されており、Google Chromeに搭載されている。
 ## ブラウザの対応

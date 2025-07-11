@@ -3,7 +3,7 @@ title: egui UIライブラリ
 description: 
 draft: false
 created: 2025-04-10T08:34:51+09:00
-modified: 2025-07-11T09:13:43+09:00
+modified: 2025-07-11T10:51:30+09:00
 aliases:
   - egui
 ---
@@ -12,7 +12,7 @@ aliases:
 
 日本語にすると、
 
-> Webとネイティブアプリケーションとして動作できる、[[Rust]]の使いやすい即時モードの[[GUIライブラリ]]。
+> Webとネイティブアプリケーションとして動作できる、[[develop/Knowledge/lang/programming/Rust/_index|Rust]]の使いやすい即時モードの[[GUIライブラリ]]。
 
 となりますね。
 

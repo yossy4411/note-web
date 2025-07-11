@@ -11,15 +11,15 @@ draft: false
 showContent: false
 slug: how-quic-mutual-connection
 created: 2025-05-09T09:22:33+09:00
-modified: 2025-07-11T08:53:42+09:00
+modified: 2025-07-11T09:36:04+09:00
 ---
 ## 動機
-[[UDP]]を学んでいくと、何故[[TCP]]が相互的に通信ができるのか気になってきませんか？
+[[develop/Knowledge/internet/transport/udp/_index|UDP]]を学んでいくと、何故[[develop/Knowledge/internet/transport/tcp/_index|TCP]]が相互的に通信ができるのか気になってきませんか？
 
-ましてや[[QUIC]]に至っては、[[UDP]]の上に作られたプロトコルのくせに[[Keep-Alive]]が使えるってもう訳わかんなくなってくるんです。
+ましてや[[develop/Knowledge/internet/transport/quic/_index|QUIC]]に至っては、[[develop/Knowledge/internet/transport/udp/_index|UDP]]の上に作られたプロトコルのくせに[[Keep-Alive]]が使えるってもう訳わかんなくなってくるんです。
 
 ## TCPの双方向通信
-[[TCP]]で双方向通信が実現できる理由は、NATの仕組みを理解すればすぐ分かるはずです。
+[[develop/Knowledge/internet/transport/tcp/_index|TCP]]で双方向通信が実現できる理由は、NATの仕組みを理解すればすぐ分かるはずです。
 
 TCPがコネクションを確立すると、NATは、LANとWANの`IPアドレス:ポート`の変換テーブルを作成します。この変換テーブルは、コネクションが切断される（通信が生きていると判定されなくなる）まで残ります。
 
@@ -28,7 +28,7 @@ TCPがコネクションを確立すると、NATは、LANとWANの`IPアドレ�
 ちなみに変換テーブルがコネクションが存在する間に置き換わってしまうと、別の場所にパケットが届くようになってしまいますｗｗ
 
 ## UDPだと...
-[[UDP]]は、その性質上コネクションを確立**しません**（これをデータグラム方式という、UDP = User Datagram Protocol）。  
+[[develop/Knowledge/internet/transport/udp/_index|UDP]]は、その性質上コネクションを確立**しません**（これをデータグラム方式という、UDP = User Datagram Protocol）。  
 そのため、まずまず双方向通信するように設計されていないのです。  
 また、このときのNATの変換テーブルはどのタイミングで削除されるかというと...
 
@@ -41,7 +41,7 @@ TCPがコネクションを確立すると、NATは、LANとWANの`IPアドレ�
 しかもUDPの仕組み上、パケットが正しく届いたかどうかを知ることもできません。
 
 ## それを解決するのがQUICなのだ！
-これを踏まえると、[[QUIC]]では[[HTTP3|HTTP/3]]として[[Keep-Alive]]が使える理由がはっきりしてきます。
+これを踏まえると、[[develop/Knowledge/internet/transport/quic/_index|QUIC]]では[[HTTP3|HTTP/3]]として[[Keep-Alive]]が使える理由がはっきりしてきます。
 
 その理由はズバリ！
 
@@ -58,11 +58,11 @@ TCPがコネクションを確立すると、NATは、LANとWANの`IPアドレ�
 
 そういうのが、QUICです。UDPのダメな点を直してくれています。
 
-[[HTTP]]の標準に合うようにUDPの上に作ったプロトコルがQUICですので、接続を確立することができます。接続を確立したあと、TCPの場合はコネクションが切れたかどうかでNATはテーブルの破棄を行いますが、QUICの場合は定期的にping用のパケットを送ることで、接続を維持します。  
+[[develop/Knowledge/internet/application/http/_index|HTTP]]の標準に合うようにUDPの上に作ったプロトコルがQUICですので、接続を確立することができます。接続を確立したあと、TCPの場合はコネクションが切れたかどうかでNATはテーブルの破棄を行いますが、QUICの場合は定期的にping用のパケットを送ることで、接続を維持します。  
 これでUDPでもNATが壊れないんですね！🤯
 
 ## UDP単体でも双方向通信は一応できる
-[[../protocol/IP.md#パケット構造|IPのパケット構造]]と[[udp/UDP.md#ヘッダ構造|UDPのヘッダ構造]]的に見て、リクエスト元の[[IP Address]]とポートは分かるので、サーバーがそこに対してUDPでデータを投げれば済む話ではある。
+[[develop/Knowledge/internet/protocol/_index#パケット構造|パケット構造]]と[[develop/Knowledge/internet/transport/udp/_index#ヘッダ構造|ヘッダー構造]]的に見て、リクエスト元の[[IP Address]]とポートは分かるので、サーバーがそこに対してUDPでデータを投げれば済む話ではある。
 
 クライアント側に関しては、NATのテーブルが残る限り、LANからWANへの送信パケットはもちろん、WANからLANへの受信パケットも転送できる。そのため、UDPサーバーを送信と同じポートで待機すれば済む。
 

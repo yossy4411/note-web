@@ -8,7 +8,7 @@ aliases:
   - icedのバックエンド
 draft: true
 created: 2025-04-03T04:18:58+09:00
-modified: 2025-07-11T09:12:14+09:00
+modified: 2025-07-11T10:54:32+09:00
 ---
 ## `tiny-skia`を使うとどうなるか
 `tiny-skia`はSkiaを基にした軽量な[[../../../lang/programming/Rust/_index|Rust]]のライブラリです。
@@ -37,7 +37,7 @@ renderer.draw_pixmap(pixmap);
 ```
 
 ## wgpu最強
-やっぱりパフォーマンス的には[[wgpu]]が最強だと思います...w
+やっぱりパフォーマンス的には[[develop/Knowledge/libs/wgpu/_index|wgpu]]が最強だと思います...w
 
 icedはデフォルトでwgpuを使用しています。 
 wgpuを使おうとするとシェーダーの定義などでコード全体が悲しいことになります。抽象化されたメソッドは存在します。書きませんけど。気になったらDMとかください。

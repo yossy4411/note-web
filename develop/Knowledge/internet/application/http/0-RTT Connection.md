@@ -9,9 +9,11 @@ lastmod: 2025-04-30T23:26:44+09:00
 draft: true
 showContent: false
 slug: zero-rtt-connection
+created: 2025-04-30T14:26:44+09:00
+modified: 2025-07-11T09:27:51+09:00
 ---
 
-**0-RTT接続** (**Zero Round-Trip Time Connection**)とは、クライアントがサーバーと以前に通信したことがある場合に限り、再接続時に暗号通信を確立する前からデータを送れる仕組みである。[[QUIC]]およびTLS 1.3でサポートされており、特に再接続の高速化を目的としている。
+**0-RTT接続** (**Zero Round-Trip Time Connection**)とは、クライアントがサーバーと以前に通信したことがある場合に限り、再接続時に暗号通信を確立する前からデータを送れる仕組みである。[[develop/Knowledge/internet/transport/quic/_index|QUIC]]およびTLS 1.3でサポートされており、特に再接続の高速化を目的としている。
 
 ## 仕組み
 通常、クライアントは以下の順番で通信（ハンドシェイク）を行う。

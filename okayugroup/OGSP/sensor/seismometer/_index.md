@@ -6,9 +6,9 @@ aliases:
   - OGSP Seismometer
   - 地震計
 created: 2025-05-16T13:52:27+09:00
-modified: 2025-07-11T08:23:35+09:00
+modified: 2025-07-11T11:13:59+09:00
 ---
-**OGSP Seismometer**は、[[OGSP]]の一部である地震計を提供するファームウェアまたはプログラムの名称である。[[OGSP Disaster Network]]では、センサー層の地象観測群に属する。
+**OGSP Seismometer**は、[[okayugroup/OGSP/_index|OGSP]]の一部である地震計を提供するファームウェアまたはプログラムの名称である。[[okayugroup/OGSP/network/_index|OGSP Disaster Network]]では、センサー層の地象観測群に属する。
 
 ## 設計
 OGSP Seismometerは、地震動そのものや長周期地震動の観測、地震の規模の推定、その他様々な研究用途に使用するための、そのデータ収集とネットワーク側への送信を目的とする、センサー層として動作する。

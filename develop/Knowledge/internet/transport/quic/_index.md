@@ -3,14 +3,14 @@ title: QUIC
 description: 
 draft: false
 created: 2025-04-28T12:39:24+09:00
-modified: 2025-07-11T08:49:09+09:00
+modified: 2025-07-11T09:32:32+09:00
 aliases:
   - QUIC
 ---
-**QUIC** (クイック) は、次世代型の[[トランスポート層]]の通信プロトコルである。
+**QUIC** (クイック) は、次世代型の[[develop/Knowledge/internet/transport/_index|トランスポート層]]の通信プロトコルである。
 
 ## 概要
-QUICは、[[UDP]]を基礎にGoogleのJIM Roskindによって設計された、TLSを用いたセキュリティやUDPに由来する高速性などの面で優れている通信プロトコルである。
+QUICは、[[develop/Knowledge/internet/transport/udp/_index|UDP]]を基礎にGoogleのJIM Roskindによって設計された、TLSを用いたセキュリティやUDPに由来する高速性などの面で優れている通信プロトコルである。
 
 QUICは、エンドポイント間の多重化接続の集合体に対応しており、レイテンシ削減や接続の一時的な切断にも柔軟に対応できる。これらの理由から、[[HTTP3|HTTP/3]]にも採用されている。
 
@@ -19,7 +19,7 @@ QUICは、エンドポイント間の多重化接続の集合体に対応して�
 QUICの接続は、すべてTLS1.3で暗号化されており、この規則を破ることはどんな場合においても**不可能**である。また、接続時にはTLSハンドシェイクを行い、高効率で信頼性の高い通信ができるよう設計されている。
 
 ### UDPベース
-TCPのようなコネクション型であるが、[[UDP]]がベースとなっている。
+TCPのようなコネクション型であるが、[[develop/Knowledge/internet/transport/udp/_index|UDP]]がベースとなっている。
 
 UDPの上に再送処理や順序制御などで、信頼性を築き上げている。
 
@@ -34,7 +34,7 @@ Google, YouTube, Gmail, Facebook, Cloudflare, LINEなどの多数のサービス
 
 2020年には、IETF (Internet Engineering Task Force)により正式な標準仕様として承認された。
 
-なお、[[../../application/http/HTTP.md#HTTP/3|HTTP/3]]はQUICの上で動作する。このHTTP/3は現状、多数のサーバーで採用されている。
+なお、[[HTTP3|HTTP/3]]はQUICの上で動作する。このHTTP/3は現状、多数のサーバーで採用されている。
 
 ## TCPと比較
 

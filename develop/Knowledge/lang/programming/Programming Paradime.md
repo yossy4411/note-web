@@ -12,7 +12,7 @@ draft: false
 showContent: false
 slug: paradime
 created: 2025-05-16T04:22:28+09:00
-modified: 2025-07-11T09:02:41+09:00
+modified: 2025-07-11T10:24:33+09:00
 ---
 **プログラミングパラダイム**とは、プログラミングにおける考え方のスタイルのことである。
 ## 概要
@@ -37,7 +37,7 @@ public class MyObject() {
 
 **主なオブジェクト指向プログラミング言語**
 - Objective-C
-- C++
+- [[develop/Knowledge/lang/programming/C++/_index|C++]]
 - C#
 - Java
 - Python
@@ -100,6 +100,6 @@ console.log(addOne(3)); // 4（xは変わらない）
 - Haskell
 - Elixir
 - JavaScript
-- [[Rust]]
+- [[develop/Knowledge/lang/programming/Rust/_index|Rust]]
 
 詳しくは[[Functional Programming|関数型プログラミング]]を参照。

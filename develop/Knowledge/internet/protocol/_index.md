@@ -3,7 +3,7 @@ title: IP
 description: 
 draft: false
 created: 2025-04-20T12:44:08+09:00
-modified: 2025-07-11T08:39:21+09:00
+modified: 2025-07-11T09:31:26+09:00
 aliases:
   - IP
   - Internet Protocol
@@ -63,7 +63,7 @@ IPパケットは、共通ヘッダ部分とペイロード部分から構成さ
 ## 関連項目
 ### インターネット群
 [[アプリケーション層]]
-- [[HTTP]]
+- [[develop/Knowledge/internet/application/http/_index|HTTP]]
 - SSH
 - DNS
 - SSL
@@ -73,8 +73,9 @@ IPパケットは、共通ヘッダ部分とペイロード部分から構成さ
 - RDP
 
 トランスポート層
-- [[TCP]]
-- [[UDP]]
+- [[develop/Knowledge/internet/transport/tcp/_index|TCP]]
+- [[develop/Knowledge/internet/transport/udp/_index|UDP]]
+- [[develop/Knowledge/internet/transport/quic/_index|QUIC]]
 
 インターネット層
 - **IP**

@@ -8,9 +8,9 @@ aliases:
 draft: false
 showContent: true
 created: 2025-05-16T05:46:01+09:00
-modified: 2025-07-11T09:05:59+09:00
+modified: 2025-07-11T10:23:12+09:00
 ---
-**関数型プログラミング** (英: Functional programming)とは、数学的な意味での『関数』を主に使用する[[Programming Paradime]]である。
+**関数型プログラミング** (英: Functional programming)とは、数学的な意味での『関数』を主に使用する[[Programming Paradime|プログラミングパラダイム]]である。
 
 関数型プログラミングを推奨している言語を、**関数型プログラミング言語** (functional programming language) というが、略して**関数型言語** (functional language)と呼ぶこともある。
 

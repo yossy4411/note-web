@@ -3,12 +3,12 @@ title: ウェブ
 description: 
 draft: false
 created: 2025-04-20T14:06:42+09:00
-modified: 2025-07-11T09:00:19+09:00
+modified: 2025-07-11T09:39:51+09:00
 aliases:
   - World Wide Web
   - Web
 ---
-**World Wide Web**は、[[インターネット]]で提供されるハイパーテキストシステムである。
+**World Wide Web**は、[[develop/Knowledge/internet/_index|インターネット]]で提供されるハイパーテキストシステムである。
 
 これより下ではWorld Wide WebをW3と呼ぶこととする。
 ## 概要
@@ -25,7 +25,7 @@ W3で使われるハイパーテキストというのは、そもそも、ドキ
 
 今ではハイパーテキストだけでなくバイナリを渡すようになっていたり、昔の枠組みを超えるような仕様が出てきたりしていて、アプリケーションの基盤をウェブ化することも行われている。
 
-[[インターネット]]とW3は非常に混同されやすい。詳しくは[[インターネット#インターネットとWebの違い]]を参照。
+[[develop/Knowledge/internet/_index|インターネット]]とW3は非常に混同されやすい。詳しくは[[develop/Knowledge/internet/_index#インターネットとWebの違い|インターネットとWebの違い]]を参照。
 
 ## 名称について
 World Wide Webの名称は、それぞれの単語を次のように展開できる。

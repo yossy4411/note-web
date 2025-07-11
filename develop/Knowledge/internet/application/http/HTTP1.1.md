@@ -10,12 +10,14 @@ lastmod: 2025-04-30T21:17:33+09:00
 draft: false
 showContent: false
 slug: "1.1"
+created: 2025-04-30T12:17:33+09:00
+modified: 2025-07-11T09:29:03+09:00
 ---
-**HTTP/1.1**は、一般的に使用される[[HTTP]]のバージョンの１つである。
+**HTTP/1.1**は、一般的に使用される[[develop/Knowledge/internet/application/http/_index|HTTP]]のバージョンの１つである。
 
-このバージョンでは、[[HTTP.md#HTTP/1.0|HTTP/1.0]]の制限の多くを解決し、効率化と機能性を向上した。
+このバージョンでは、[[develop/Knowledge/internet/application/http/_index#HTTP/1.0|HTTP/1.0]]の制限の多くを解決し、効率化と機能性を向上した。
 ## 特徴
-[[HTTP.md#HTTP/1.0|HTTP/1.0]]からは、以下の変更があった。
+[[develop/Knowledge/internet/application/http/_index#HTTP/1.0|HTTP/1.0]]からは、以下の変更があった。
 
 ### 持続接続
 HTTP/1.0ではリクエストごとにTCP接続を初期化してトランスミッション後にはそれを切断していたが、1.1では[[Keep-Alive]]がデフォルトで有効になった。
