@@ -1,5 +1,5 @@
 ---
-title: yossy4411に関する情報
+title: 顕著なyossy4411に関する情報
 description: 
 lead: 
 tags: 
@@ -7,6 +7,7 @@ aliases:
   - yossy4411
   - "@yossy4411"
   - about
+  - yossy4411について
 date: 2025-04-07T22:50:08+09:00
 lastmod: 2025-04-07T22:50:08+09:00
 draft: false

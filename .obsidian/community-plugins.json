@@ -9,5 +9,6 @@
   "code-styler",
   "obsidian-git",
   "obsidian-text-format",
-  "github-copilot"
+  "github-copilot",
+  "obsidian-linter"
 ]
