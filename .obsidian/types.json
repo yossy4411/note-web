@@ -47,6 +47,8 @@
     "lastmod": "date",
     "date": "date",
     "showContent": "checkbox",
-    "moc": "checkbox"
+    "moc": "checkbox",
+    "created": "date",
+    "modified": "date"
   }
 }

@@ -1,8 +1,6 @@
-+++
-date = '2025-04-05T11:25:18+09:00'
-draft = false
-title = ''
-+++
+---
+created: 2025-04-05T11:25:18+09:00
+---
 
 # yossy4411のノート
 
@@ -30,6 +28,6 @@ title = ''
 > [!WARNING]
 > なお、[[知識置き場]]では、Wikipediaのコンテンツを使用しているため[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)ライセンスをかけています。ご注意ください。
 
-詳しくは[[ライセンス]]をご覧ください。
+詳しくは[[License]]をご覧ください。
 ## お問い合わせ
 何か質問や要望があれば、[Twitter](https://twitter.com/yossy4411_dev)までDM、もしくは記事のコメントをご利用ください。

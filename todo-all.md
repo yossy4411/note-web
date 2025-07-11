@@ -1,7 +1,8 @@
 ---
 kanban-plugin: board
 title: TODOリスト（すべて）
-slug: todo-all
+aliases:
+  - やることリスト（すべて）
 ---
 
 ## アイデア

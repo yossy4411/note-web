@@ -8,8 +8,8 @@ aliases:
   - "@yossy4411"
   - about
   - yossy4411について
-date: 2025-04-07T22:50:08+09:00
-lastmod: 2025-04-07T22:50:08+09:00
+created: 2025-04-07T22:50:08+09:00
+modified: 2025-04-07T22:50:08+09:00
 draft: false
 showContent: false
 slug: about-me

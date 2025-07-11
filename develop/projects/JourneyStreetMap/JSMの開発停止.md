@@ -16,7 +16,7 @@ slug: jsm-is-not-longer-under-develop
 
 ## 理由
 
-今まで、**JourneyStreetMap Project**は私([[私について|@yossy4411]]) の余暇を削って開発してきました。
+今まで、**JourneyStreetMap Project**は私([[about-me|@yossy4411]]) の余暇を削って開発してきました。
 
 このプロジェクトの開発に乗り出した理由から開発を続けられた理由まで、これらは私の『友達とのゲーム体験をもっと楽しいものにしたい』という思いからでした。
 
@@ -31,4 +31,4 @@ slug: jsm-is-not-longer-under-develop
 
 [[OGSP]]の開発に加え、[[推し活]]系のいくつかのプロジェクトを進めていきます。
 
-現在のTODOについては[[やることリスト（すべて）]]をご覧ください。
+現在のTODOについては[[todo-all]]をご覧ください。
