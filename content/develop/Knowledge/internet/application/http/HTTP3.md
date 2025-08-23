@@ -11,7 +11,7 @@ draft: false
 showContent: false
 slug: "3"
 created: 2025-04-30T13:52:22+09:00
-modified: 2025-07-11T09:30:38+09:00
+modified: 2025-08-23T05:29:50+09:00
 ---
 **HTTP/3** は、[[HTTP2]]に続く[[develop/Knowledge/internet/application/http/_index|HTTP]]の3つ目のメジャーバージョンであり、最新版である。2022年に RFC 9114 によって正式化された。
 
@@ -22,7 +22,7 @@ HTTP/3は、RFCドラフト「HTTP over QUIC」をベースとしている。[[d
 
 ## 特徴
 ### QUICプロトコルベース
-HTTP/3は、[[TCP-IP|TCP/IP]]接続から進化して、[[develop/Knowledge/internet/transport/udp/_index|UDP]]上に築かれた[[QUIC]]という新しいプロトコルを使用する。これにより、[[0-RTT Connection]]が可能である。
+HTTP/3は、[[TCP-IP|TCP/IP]]接続から進化して、[[develop/Knowledge/internet/transport/udp/_index|UDP]]上に築かれた[[develop/Knowledge/internet/transport/quic/_index|QUIC]]という新しいプロトコルを使用する。これにより、[[0-RTT Connection]]が可能である。
 
 また、QUICの機能を活かし、再接続なしで接続の再開ができる。
 

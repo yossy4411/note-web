@@ -2,7 +2,7 @@
 title: OGSP Server Node
 description: OGSP Disaster Network サーバー層
 draft: false
-modified: 2025-07-11T11:14:06+09:00
+modified: 2025-08-23T05:29:38+09:00
 created: 2025-05-01T21:36:14+09:00
 lead: OGSP Server Nodeは、OGSP Disaster Networkにおけるサーバー層のノードを提供するプログラムの総称である。
 aliases:
@@ -68,7 +68,7 @@ OGSP Server Nodeのコードはオープンソースであり、GitHubで公開�
 
 このようなWeb3ネットワークは、１つの個人や団体が管理するものではなく、参加者全員が所有するもの、と考えるべきである。というのも、Web3は責任や管理の権限を分散するという思想に基づいているためである。
 
-例えば「[[おかゆグループ]]」に対して予報業務許可が下りた場合でも、おかゆグループが直轄しないサーバーを管理する個人や団体はそれを持っていないため、サーバーの中の予報サービス系の処理は、おかゆグループによるサーバーが独占することとなる。  
+例えば「[[okayugroup/_index|おかゆグループ]]」に対して予報業務許可が下りた場合でも、おかゆグループが直轄しないサーバーを管理する個人や団体はそれを持っていないため、サーバーの中の予報サービス系の処理は、おかゆグループによるサーバーが独占することとなる。  
 これはWeb3の思想に**反する**。
 
 これに対応するためには、最も手っ取り早い方法としては**予報業務をしない**ことである。代わりに、地震計の加速度を直接配信するなどの方法を使う。
@@ -81,7 +81,7 @@ OGSP Server Official Nodeの開発環境は以下のとおりである。
 
 - Go
 - [go-libp2p](https://github.com/libp2p/go-libp2p) - libp2pの公式Go実装
-- [quic-go](https://github.com/quic-go/quic-go/) - [[QUIC]]と[[HTTP3|HTTP/3]]のGo実装
+- [quic-go](https://github.com/quic-go/quic-go/) - [[develop/Knowledge/internet/transport/quic/_index|QUIC]]と[[HTTP3|HTTP/3]]のGo実装
 - [echo](https://github.com/labstack/echo) - 高パフォーマンスのGoサーバーフレームワーク
 - [Nix](https://github.com/NixOS/nix) - 環境ツール
 
