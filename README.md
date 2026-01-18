@@ -1,9 +1,2 @@
-# Note Web
-
-[俺のノート](https://github.com/yossy4411/note) Web版
-
-Hugoで作ってるよ
-
-## 使い方
-
-`hugo server -D`
+# note-web
+このリポジトリは更新されていません。個人的なノートについては、今後は[ホームページ](https://github.com/yossy4411/homepage)に統合され、UIが刷新される予定です。
